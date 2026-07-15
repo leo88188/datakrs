@@ -1,151 +1,187 @@
 {extend name="base" /}
 {block name="main"}
-<div class="container Wauto">
-    <div class="sliderbox">
-        <div class="slider">
-            <div id="slideBox" class="slideBox">
-                <ul id="slider">
-                    {ld:slide name="banner"}
-                    <li class="slide">
-                        <img src="{$item.image}" alt="{$item.title}"/>
-                        <div class="container slide-content text-center">
-                            {$item.content}
-                        </div>
-                    </li>
-                    {/ld:slide}
+<main class="krs-home">
+    <section class="krs-hero">
+        <div class="krs-shell krs-hero-grid">
+            <div class="krs-hero-copy">
+                <span class="krs-eyebrow">AI FDE · 数智化转型 · 数字化营销</span>
+                <h1>把 AI 部署到企业真实业务现场</h1>
+                <p class="krs-lead">克睿斯以 FDE 前沿部署工程师方法，把战略咨询、现场实施、企业信息化系统、驻场顾问和培训课程连接成一个闭环，让 AI 从演示走向生产、采用和复用。</p>
+                <div class="krs-actions">
+                    <a class="krs-btn krs-btn-primary" href="/lianxiwomen.html"><i class="fa fa-phone"></i> 电话咨询</a>
+                    <a class="krs-btn krs-btn-secondary" href="/zaixianliuyan.html"><i class="fa fa-file-text-o"></i> 提交需求</a>
+                </div>
+                <ul class="krs-proof">
+                    <li><strong>FDE</strong><span>现场发现与生产构建</span></li>
+                    <li><strong>AI</strong><span>评测、Agent、RAG、集成</span></li>
+                    <li><strong>ROI</strong><span>报告、指标、采用闭环</span></li>
                 </ul>
             </div>
-        </div>
-    </div>
-    <div class="main w1200">
-        <div class="article w1">
-            <div class="PostBox back2">
-                <article class="post">
-                    <div class="postTitle anim fadeInUp">
-                        <h3><i class="fa fa-quote-left"></i>我们的产品</h3>
-                        <span class="title2">凡是别人做不了的我们都擅长</span> </div>
-                    <div class="PostShow">
-                        <ul>
-                            {ld:list mid='6' limit='4'}
-                            <li class="anim fadeInUp">
-                                <div class="post-img loading">
-                                    <a class="pic float-left" href="{$item.url}" title="{$item.title}" rel="bookmark">
-                                        <div class="msk"></div>
-                                        <i class="fa fa-search"></i>
-                                        <img class="b-lazy" src="{$item.image}" data-src="{$item.image}" alt="{$item.title}" />
-                                    </a>
-                                </div>
-                                <a href="{$item.url}" title="{$item.title}">
-                                    <h4>{$item.title}</h4>
-                                    <i class="h2">{$item.seo_description}</i>
-                                    <div class="pt-2">
-                                        <i class="fa fa-long-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </li>
-                            {/ld:list}
-                        </ul>
-                    </div>
-                </article>
-            </div>
-            <div class="PostBox about">
-                <article class="post">
-                    <div class="postAbout anim fadeInRight">
-                        <div class="postTitle">
-                            <h3><i class="fa fa-quote-left"></i>关于我们</h3>
-                            <span class="title2">专注做擅长的事情</span> </div>
-                        {ld:content cid="125" }
-                        <div class="PostText"> {$content.seo_description} </div>
-                        <div class="more anim fadeInUp"><a href="{$content.url}"><span>查看详情 + </span></a></div>
-                        {/ld:content}
-                    </div>
-                    {ld:slide name="about"}
-                    <div class="aboutImg anim fadeInLeft"
-                        style="background-image:url({$item.image})"></div>
-                    {/ld:slide}
-                </article>
-            </div>
-            <div class="PostBox back1">
-                <article class="post">
-                    <div class="postTitle anim fadeInUp">
-                        <h3><i class="fa fa-quote-left"></i>案例展示</h3>
-                        <span class="title2">精益求精，精雕细琢</span>
-                    </div>
-                    <div class="PostShow">
-                        <ul>
-                            {ld:list cid="145" limit='4'}
-                            <li class="anim fadeInUp case-item">
-                                <div class="post-img loading">
-                                    <a class="pic float-left" href="{$item.url}" title="{$item.title}" rel="bookmark">
-                                    <div class="msk"></div>
-                                    <i class="fa fa-search"></i>
-                                        <img class="b-lazy" src="{$item.image}" data-src="{$item.image}" alt="{$item.title}" /> </a></div>
-                                <h4><a href="{$item.url}" title="{$item.title}">{$item.title|str_cut=18}</a></h4>
-                            </li>
-                            {/ld:list}
-                        </ul>
-                    </div>
-                    {ld:sort cid="145"}
-                    <div class="more anim fadeInUp"><a href="{$item.url}"><span>查看更多 + </span></a></div>
-                    {/ld:sort}
-                </article>
-            </div>
-            <div class="PostBox back3" style="background-image:url(__ADDON__/images/cbg.jpg)">
-                <article class="post team">
-                    <div class="postTitle anim fadeInUp">
-                        <h3><i class="fa fa-quote-left"></i>服务团队</h3>
-                        <span class="title2">打造专业的技术团队</span> </div>
-                    <div class="PicBox">
-                        <div class="ImgBox">
-                            <ul class="slider2">
-                                {ld:list cid="148" limit='4' flag='top'}
-                                <li class="anim fadeInUp">
-                                    <div class="LiBox">
-                                        <a href="{$item.url}" title="{$item.title}" rel="bookmark">
-                                        <div class="post-img loading"><img src="{$item.image}" alt="{$item.title}" />
-                                        </div>
-                                        <div class="post-text"> <span>{$item.title}</span>
-                                            <p>{$item.seo_description}</p>
-                                        </div>
-                                    </a> </div>
-                                </li>
-                                {/ld:list}
-                            </ul>
+            <div class="krs-fde-desk" aria-label="FDE concept desktop">
+                <div class="krs-desk-topbar">
+                    <span></span><span></span><span></span>
+                    <b>FDE Deployment Desk</b>
+                </div>
+                <div class="krs-desk-body">
+                    <div class="krs-desk-panel krs-desk-panel-main">
+                        <div class="krs-panel-title">横向：业务到系统</div>
+                        <div class="krs-flow">
+                            <span>业务目标</span>
+                            <i class="fa fa-long-arrow-right"></i>
+                            <span>数据权限</span>
+                            <i class="fa fa-long-arrow-right"></i>
+                            <span>AI 应用</span>
+                            <i class="fa fa-long-arrow-right"></i>
+                            <span>生产采用</span>
+                        </div>
+                        <div class="krs-metrics">
+                            <div><em>5</em><span>阶段交付</span></div>
+                            <div><em>30d</em><span>试点周期</span></div>
+                            <div><em>4类</em><span>资产沉淀</span></div>
                         </div>
                     </div>
-                </article>
-            </div>
-            <div class="PostBox back2">
-                <article class="post news n1">
-                    <div class="postTitle anim fadeInUp">
-                        <h3><i class="fa fa-quote-left"></i>新闻资讯</h3>
-                        <span class="title2">凡是别人做不了的我们都擅长</span> </div>
-                    <div class="PostNews">
-                        <ul>
-                            {ld:sort cid="128" alias="sort"}
-                                {ld:list cid='$sort["id"]' limit='8'}
-                                <li class="anim fadeInUp">
-                                    <div class="post-img loading">
-                                        <a class="pic" href="{$item.url}" title="{$item.title}" rel="bookmark">
-                                        <div class="msk"></div>
-                                        <i class="fa fa-search"></i>
-                                            <img class="b-lazy" src="{$item.image}"
-                                                data-src="{$item.image}" alt="{$item.title}" /> </a> </div>
-                                    <h4><a href="{$item.url}" title="{$item.title}">{$item.title}</a></h4>
-                                    <span class="time"><i class="fa fa-clock-o"></i> {$item.show_time} </span> <span><i
-                                    class="fa fa-eye fa-fw"></i>{$item.visits}</span>
-                                    <p>{$item.description|str_cut="60"}</p>
-                                </li>
-                                {/ld:list}
-                            {/ld:sort}
-                        </ul>
+                    <div class="krs-desk-panel">
+                        <div class="krs-panel-title">纵向：部署深度</div>
+                        <ol class="krs-depth">
+                            <li>电话咨询与价值诊断</li>
+                            <li>现场调研与基线报告</li>
+                            <li>系统集成与流程重构</li>
+                            <li>驻场顾问与培训移交</li>
+                        </ol>
                     </div>
-                    {ld:sort cid="128"}
-                    <div class="more anim fadeInUp"><a href="{$item.url}"><span>查看更多 + </span></a></div>
-                    {/ld:sort}
+                    <div class="krs-desk-panel krs-signal-panel">
+                        <span>现场信号</span>
+                        <strong>产品化回流</strong>
+                        <small>组件 · Eval · Playbook · 系统能力</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="krs-section krs-services">
+        <div class="krs-shell">
+            <div class="krs-section-head">
+                <span>Core Business</span>
+                <h2>三条主线，服务企业 AI 落地</h2>
+                <p>不是单点工具交付，而是从诊断、部署、系统化到组织采用的完整服务。</p>
+            </div>
+            <div class="krs-service-grid">
+                <article>
+                    <i class="fa fa-sitemap"></i>
+                    <h3>AI FDE 前沿部署</h3>
+                    <p>进入客户真实工作流，完成场景发现、技术定界、架构设计、生产代码、评测上线和采用跟踪。</p>
+                    <ul>
+                        <li>Agent / RAG / MCP / 企业知识库</li>
+                        <li>模型评测、权限边界、回退机制</li>
+                        <li>现场问题回流为可复用资产</li>
+                    </ul>
+                </article>
+                <article>
+                    <i class="fa fa-industry"></i>
+                    <h3>数智化转型</h3>
+                    <p>围绕经营、生产、供应链、客服、财务和协同办公，梳理流程基线并建设企业信息化系统。</p>
+                    <ul>
+                        <li>流程诊断与数字化蓝图</li>
+                        <li>ERP / CRM / OA / 数据中台集成</li>
+                        <li>指标看板与经营分析报告</li>
+                    </ul>
+                </article>
+                <article>
+                    <i class="fa fa-line-chart"></i>
+                    <h3>数字化营销</h3>
+                    <p>把内容、投放、线索、客户旅程和转化数据串起来，形成可复盘、可自动化的增长系统。</p>
+                    <ul>
+                        <li>官网与内容资产重构</li>
+                        <li>线索收集、CRM、营销自动化</li>
+                        <li>数据归因与增长实验报告</li>
+                    </ul>
                 </article>
             </div>
         </div>
-    </div>
-</div>
+    </section>
+
+    <section class="krs-section krs-method">
+        <div class="krs-shell krs-method-grid">
+            <div>
+                <span class="krs-eyebrow">FDE Method</span>
+                <h2>从“做项目”升级为“部署操作系统”</h2>
+                <p>FDE 的价值不是驻场本身，而是把客户现场的复杂约束转化为生产系统、采用结果和可复用能力。</p>
+                <div class="krs-method-note">
+                    <strong>闭环原则</strong>
+                    <span>进入客户 · 理解问题 · 交付结果 · 提炼共性 · 改变产品 · 降低下一次交付成本</span>
+                </div>
+            </div>
+            <div class="krs-axis">
+                <div class="krs-axis-label krs-axis-y">纵向部署深度</div>
+                <div class="krs-axis-label krs-axis-x">横向业务覆盖</div>
+                <div class="krs-axis-grid">
+                    <span>诊断</span><span>原型</span><span>上线</span><span>采用</span>
+                    <span>数据</span><span>权限</span><span>Agent</span><span>流程</span>
+                    <span>评测</span><span>监控</span><span>报告</span><span>复用</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="krs-section krs-delivery">
+        <div class="krs-shell">
+            <div class="krs-section-head">
+                <span>Delivery</span>
+                <h2>灵活组合的交付方式</h2>
+            </div>
+            <div class="krs-delivery-grid">
+                <article><i class="fa fa-phone-square"></i><h3>电话咨询</h3><p>快速判断问题、预算、数据条件和下一步路径。</p></article>
+                <article><i class="fa fa-map-marker"></i><h3>现场实施</h3><p>进入客户现场完成流程梳理、系统集成和上线。</p></article>
+                <article><i class="fa fa-bar-chart"></i><h3>横纵分析报告</h3><p>输出业务基线、ROI 假设、技术路线和风险边界。</p></article>
+                <article><i class="fa fa-cubes"></i><h3>企业信息化系统</h3><p>建设官网、CRM、知识库、业务系统和数据看板。</p></article>
+                <article><i class="fa fa-user-circle"></i><h3>驻场顾问</h3><p>以客户 pod 方式推进采用、培训、复盘和持续迭代。</p></article>
+                <article><i class="fa fa-graduation-cap"></i><h3>培训课程</h3><p>为管理层、业务团队和 IT 团队建立 AI 应用能力。</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="krs-section krs-process">
+        <div class="krs-shell">
+            <div class="krs-section-head">
+                <span>Roadmap</span>
+                <h2>五阶段推进，从诊断到自运营</h2>
+            </div>
+            <div class="krs-process-line">
+                <article><b>01</b><h3>资格筛选</h3><p>确认业务 owner、数据可用性、价值流程与经济性。</p></article>
+                <article><b>02</b><h3>发现与基线</h3><p>记录当前成本、时长、准确率、风险和人工投入。</p></article>
+                <article><b>03</b><h3>原型验证</h3><p>验证最高风险假设，不把 demo 当生产承诺。</p></article>
+                <article><b>04</b><h3>生产上线</h3><p>完成安全、评测、回退、监控、权限和采用计划。</p></article>
+                <article><b>05</b><h3>移交复用</h3><p>沉淀组件、报告、培训材料和客户自运营能力。</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="krs-section krs-scenarios">
+        <div class="krs-shell krs-scenarios-grid">
+            <div class="krs-section-head krs-section-head-left">
+                <span>Scenarios</span>
+                <h2>适合复杂环境和高价值流程</h2>
+                <p>当企业存在遗留系统、权限约束、多部门协同、监管要求和明确业务负责人时，FDE 模式最容易产生复利。</p>
+            </div>
+            <div class="krs-scenario-list">
+                <div><i class="fa fa-cog"></i><strong>工业与制造</strong><span>质量、设备、供应链、生产现场知识</span></div>
+                <div><i class="fa fa-bank"></i><strong>金融与风控</strong><span>客服、合规、投研、运营和审计</span></div>
+                <div><i class="fa fa-building"></i><strong>政企与集团</strong><span>统一平台、数据治理、知识沉淀</span></div>
+                <div><i class="fa fa-users"></i><strong>营销与增长</strong><span>内容资产、线索转化、CRM 自动化</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="krs-cta">
+        <div class="krs-shell krs-cta-box">
+            <div>
+                <span>Start with diagnosis</span>
+                <h2>先做一次 AI FDE 价值诊断</h2>
+                <p>用一次电话或现场访谈，判断你的业务是否适合 AI FDE、数智化系统或数字化营销改版。</p>
+            </div>
+            <a class="krs-btn krs-btn-primary" href="/lianxiwomen.html"><i class="fa fa-calendar-check-o"></i> 预约咨询</a>
+        </div>
+    </section>
+</main>
 {/block}
