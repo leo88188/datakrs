@@ -1,48 +1,31 @@
 {extend name="base" /}
 {block name="main"}
-<div class="container">
-    <div class="main w1200">
-        <div class="article w1">
-            <div class="archive-top">
-                <div class="archive-title">
-                    <h1 itemprop="headline">{$content.title}</h1>
-                    <span></span>
-                </div>
-            </div>
-            <p>
-                {:__('Position')}：<a href="{:addon_url('ldcms/index/index')}">{:__('Home')}</a>
-                {ld:position cid="$category['id']"}
-                / <a href="{$item.url}">{$item.name}</a>
-                {/ld:position}
-            </p>
-            <div class="article-box">
-                <header class="article-top">
-                    <div class="article-mt">
-                        <span>
-                            <i class="fa fa-list-alt"></i>
-                            {ld:sort cid="$category['id']"}<a href="{$item.url}">{$item.name}</a>{/ld:sort}
-                        </span>
-                        <span><i class="fa fa-user"></i>{$content.author}</span>
-                        <span><i class="fa fa-clock-o"></i>{$content.show_time}</span>
-                        <span><i class="fa fa-eye"></i>{$content.visits}</span>
-                    </div>
-                </header>
-                <article class="article-main">
-                    {$content.content}
-                </article>
-            </div>
-            <div class="prev">
-                {:__('Previous')}： {ld:prev} <a href="{$item.url}"> {$item.title} </a> {else /} {:__('No more')}{/ld:prev}
-            </div>
-            <div class="next">
-                {:__('Next')}： {ld:next}<a href="{$item.url}"> {$item.title} </a> {else /} {:__('No more')}{/ld:next}
-            </div>
+<main class="krs-page">
+    <section class="krs-detail-hero">
+        <div class="krs-shell">
+            <span class="krs-eyebrow">Growth Detail</span>
+            <h1>数字化营销增长系统</h1>
+            <p>用 AI 和数据把内容、线索、CRM、私域和归因连接成可复盘的增长闭环。</p>
         </div>
-    </div>
-</div>
-
-
-<script>
-    $('.header').removeClass('opaque').addClass('noOpaque')
-</script>
+    </section>
+    <section class="krs-section">
+        <div class="krs-shell krs-detail-grid">
+            <article class="krs-article">
+                <h2>解决什么问题</h2>
+                <p>很多企业的营销资产分散在官网、广告平台、销售微信、CRM 和社群里，无法判断线索来源、转化质量和内容贡献。克睿斯从数据体检开始，逐步建立增长系统。</p>
+                <h3>核心模块</h3>
+                <ul>
+                    <li>AI 内容生成工厂与品牌话术库</li>
+                    <li>全渠道线索归因和 CRM 跟进机制</li>
+                    <li>私域运营、销售助手和营销风控</li>
+                    <li>月度增长实验、复盘报告和系统迭代</li>
+                </ul>
+            </article>
+            <aside class="krs-detail-aside">
+                <div><h3>增长诊断</h3><p>从内容、渠道、线索、CRM、私域和数据归因六个模块判断最快见效点。</p><a class="krs-btn krs-btn-primary" href="/zaixianliuyan.html">预约诊断</a></div>
+                <div><h3>会员陪跑</h3><p>增长会员适合需要月度复盘、实验设计和系统化运营的企业团队。</p><a href="/fuwutuandui.html">查看服务体系</a></div>
+            </aside>
+        </div>
+    </section>
+</main>
 {/block}

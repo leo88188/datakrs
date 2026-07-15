@@ -1,57 +1,53 @@
 {extend name="base" /}
 {block name="main"}
-<div class="container Wauto">
-    <div class="bnBox cateBn">
-        {ld:slide name="team_banner"}
-        <div class="cateBnImg" style="background-image: url({$item.image})">
-
+<main class="krs-page">
+    <section class="krs-page-hero">
+        <div class="krs-shell krs-page-hero-grid">
+            <div>
+                <span class="krs-eyebrow">Service System</span>
+                <h1>服务体系与交付 Pod</h1>
+                <p>克睿斯不把 FDE 当成单个全能顾问，而是用客户 Pod 组织交付：技术部署、行业策略、平台工程、安全合规和客户成功协同推进。</p>
+            </div>
+            <div class="krs-hero-aside">
+                <strong>Pod 角色</strong>
+                <span>Technical Deployment Lead</span>
+                <span>FDE 工程师</span>
+                <span>行业策略顾问</span>
+                <span>安全与平台工程</span>
+            </div>
         </div>
-        {/ld:slide}
-    </div>
-    <div class="main w1200">
-        <div class="article w1">
-            <div class="archive-top anim fadeInUp">
-                <div class="archive-title">
-                    <h1 itemprop="headline">{$category.name}</h1>
-                    <span></span></div>
-                <div class="archive-description">
-                    <p>{$category.seo_description}</p>
-                </div>
+    </section>
+    <section class="krs-section">
+        <div class="krs-shell">
+            <div class="krs-delivery-grid">
+                <article><i class="fa fa-phone-square"></i><h3>电话咨询</h3><p>30/60/90 分钟分级，判断问题、预算、数据条件和下一步路径。</p></article>
+                <article><i class="fa fa-file-text-o"></i><h3>横纵分析报告</h3><p>输出业务基线、技术路线、ROI 假设、风险边界和阶段闸门。</p></article>
+                <article><i class="fa fa-map-marker"></i><h3>现场实施 FDE</h3><p>进入客户现场完成调研、集成、评测、上线和采用推动。</p></article>
+                <article><i class="fa fa-cubes"></i><h3>企业信息化系统</h3><p>建设知识库、CRM、营销中台、数据台账和经营看板。</p></article>
+                <article><i class="fa fa-user-circle"></i><h3>驻场顾问</h3><p>以月度陪跑方式推进流程改造、组织采用和复盘优化。</p></article>
+                <article><i class="fa fa-graduation-cap"></i><h3>培训课程</h3><p>管理层、业务团队、IT 团队分层培训，建立客户自运营能力。</p></article>
             </div>
-            <div class="subcate anim fadeInUp" data-wow-delay=".3s">
-                <div id="subcate" data-type="category" data-infoid="2">
-                    <ul>
-                        {ld:sort pid="$topid"}
-                        <li class="{if $item['id']==$category['id']}active{/if}"><a
-                        href="{$item.url}">{$item.name}</a></li>
-                        {/ld:sort}
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="post list">
-                <div class="PostShow">
-                    <ul>
-                        {ld:list }
-                        <li data-id="{$item.id}" class="anim fadeInUp">
-                            <div class="post-img loading"> <a class="pic float-left" href="{$item.url}"
-                                title="{$item.title}" rel="bookmark">
-                                <div class="msk"></div>
-                                <i class="fa fa-search"></i>
-                                <img class="b-lazy" src="{$item.image}"
-                                    data-src="{$item.image}" alt="{$item.title}" /> </a> </div>
-                            <h4><a href="{$item.url}" title="{$item.title}">{$item.title}</a></h4>
-                            <i style="margin-bottom: 10px">	{$item.description}</i>
-                        </li>
-                        {/ld:list}
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-
         </div>
-        <div class="text-center">{$pages}</div>
-    </div>
-</div>
+    </section>
+    <section class="krs-section krs-membership">
+        <div class="krs-shell">
+            <div class="krs-section-head"><span>Membership</span><h2>服务与会员如何衔接</h2></div>
+            <div class="krs-lifecycle-grid">
+                <article><b>诊断会员</b><h3>轻量评估</h3><p>电话咨询、报告解读、成熟度评估和需求优先级排序。</p></article>
+                <article><b>增长会员</b><h3>月度陪跑</h3><p>营销增长、CRM、私域、内容资产和数据看板持续优化。</p></article>
+                <article><b>FDE 陪跑会员</b><h3>生产采用</h3><p>现场/远程顾问、生产评测、团队培训和产品化资产沉淀。</p></article>
+            </div>
+        </div>
+    </section>
+    <section class="krs-section" id="ecosystem">
+        <div class="krs-shell">
+            <div class="krs-section-head"><span>Ecosystem</span><h2>合作与生态</h2><p>围绕企业 AI 落地，克睿斯与技术、行业、渠道和培训伙伴形成联合交付能力。</p></div>
+            <div class="krs-solution-grid">
+                <article><i class="fa fa-cloud"></i><h3>云与模型生态</h3><p>对接主流云、模型服务、向量数据库、自动化平台和企业身份体系。</p></article>
+                <article><i class="fa fa-handshake-o"></i><h3>行业专家网络</h3><p>联合制造、金融、政企、营销等领域专家，把行业经验转化为可部署流程。</p></article>
+                <article><i class="fa fa-graduation-cap"></i><h3>培训与认证伙伴</h3><p>共建企业 AI 课程、FDE 工作坊、管理层训练营和内部讲师体系。</p></article>
+            </div>
+        </div>
+    </section>
+</main>
 {/block}

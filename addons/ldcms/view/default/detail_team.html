@@ -1,48 +1,31 @@
 {extend name="base" /}
 {block name="main"}
-<div class="container">
-    <div class="main w1200">
-        <div class="article w1">
-            <div class="archive-top">
-                <div class="archive-title">
-                    <h1 itemprop="headline">{$content.title}</h1>
-                    <span></span>
-                </div>
-            </div>
-            <p>
-                {:__('Position')}：<a href="{:addon_url('ldcms/index/index')}">{:__('Home')}</a>
-                {ld:position cid="$category['id']"}
-                / <a href="{$item.url}">{$item.name}</a>
-                {/ld:position}
-            </p>
-            <div class="article-box">
-                <header class="article-top">
-                    <div class="article-mt">
-                        <span>
-                            <i class="fa fa-list-alt"></i>
-                            {ld:sort cid="$category['id']"}<a href="{$item.url}">{$item.name}</a>{/ld:sort}
-                        </span>
-                        <span><i class="fa fa-user"></i>{$content.author}</span>
-                        <span><i class="fa fa-clock-o"></i>{$content.show_time}</span>
-                        <span><i class="fa fa-eye"></i>{$content.visits}</span>
-                    </div>
-                </header>
-                <article class="article-main">
-                    {$content.content}
-                </article>
-            </div>
-            <div class="prev">
-                {:__('Previous')}： {ld:prev} <a href="{$item.url}"> {$item.title} </a> {else /} {:__('No more')} {/ld:prev}
-            </div>
-            <div class="next">
-                {:__('Next')}： {ld:next}<a href="{$item.url}"> {$item.title} </a> {else /} {:__('No more')}{/ld:next}
-            </div>
+<main class="krs-page">
+    <section class="krs-detail-hero">
+        <div class="krs-shell">
+            <span class="krs-eyebrow">Service Detail</span>
+            <h1>企业中心与交付 Pod</h1>
+            <p>用客户 Pod 组织电话咨询、现场实施、报告、系统建设、驻场顾问和培训课程。</p>
         </div>
-    </div>
-</div>
-
-
-<script>
-    $('.header').removeClass('opaque').addClass('noOpaque')
-</script>
+    </section>
+    <section class="krs-section">
+        <div class="krs-shell krs-detail-grid">
+            <article class="krs-article">
+                <h2>交付组织</h2>
+                <p>每个客户 Pod 围绕一个清晰业务目标运行，由部署负责人、FDE 工程师、行业策略顾问、平台工程和客户成功角色协同推进。</p>
+                <h3>服务方式</h3>
+                <ul>
+                    <li>电话咨询和需求澄清</li>
+                    <li>现场实施和生产上线</li>
+                    <li>横纵分析报告和阶段复盘</li>
+                    <li>企业信息化系统、驻场顾问和培训课程</li>
+                </ul>
+            </article>
+            <aside class="krs-detail-aside">
+                <div><h3>交付 Pod</h3><p>Technical Deployment Lead、FDE、行业策略、安全合规和平台工程协同交付。</p><a class="krs-btn krs-btn-primary" href="/zaixianliuyan.html">配置顾问团队</a></div>
+                <div><h3>培训认证</h3><p>帮助企业内部团队获得 AI 应用、评测、治理和自运营能力。</p><a href="/zaixianliuyan.html">申请培训</a></div>
+            </aside>
+        </div>
+    </section>
+</main>
 {/block}

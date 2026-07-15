@@ -1,57 +1,35 @@
 {extend name="base" /}
 {block name="main"}
-<div class="container Wauto">
-    <div class="bnBox cateBn">
-        {ld:slide name="news_banner"}
-        <div class="cateBnImg" style="background-image: url({$item.image})">
-
+<main class="krs-page">
+    <section class="krs-page-hero">
+        <div class="krs-shell krs-page-hero-grid">
+            <div>
+                <span class="krs-eyebrow">Knowledge Base</span>
+                <h1>AI FDE 知识库与报告</h1>
+                <p>沉淀企业 AI 落地方法、行业报告、数字化营销实验、数据要素实践和会员专属 playbook，帮助管理层做出可执行决策。</p>
+            </div>
+            <div class="krs-hero-aside">
+                <strong>内容资产</strong>
+                <span>行业报告</span>
+                <span>诊断模板</span>
+                <span>评测清单</span>
+                <span>会员课程</span>
+            </div>
         </div>
-        {/ld:slide}
-    </div>
-    <div class="main w1200">
-        <div class="article w1">
-            <div class="archive-top anim fadeInUp">
-                <div class="archive-title">
-                    <h1 itemprop="headline">{$category.name}</h1>
-                    <span></span>
-                </div>
-                <div class="archive-description">
-                    <p>{$category.seo_description}</p>
-                </div>
+    </section>
+    <section class="krs-section">
+        <div class="krs-shell">
+            <div class="krs-knowledge-grid">
+                <article><h3>中国式 FDE：企业 AI 交付层实战指南</h3><p>解释 FDE 如何从岗位变成部署操作系统，以及中国企业如何避开传统驻场陷阱。</p><a href="/zaixianliuyan.html">申请报告</a></article>
+                <article><h3>AI 驱动数字化营销诊断表</h3><p>梳理内容生产、渠道归因、CRM、私域和营销风控六大模块。</p><a href="/zaixianliuyan.html">获取模板</a></article>
+                <article><h3>企业 AI 生产上线检查清单</h3><p>覆盖数据权限、评测、回退、监控、成本、安全和组织采用。</p><a href="/zaixianliuyan.html">预约解读</a></article>
             </div>
-            <div class="subcate anim fadeInUp" data-wow-delay=".3s">
-                <div id="subcate" data-type="category" data-infoid="2">
-                    <ul>
-                        {ld:sort pid="$topid" }<li class="{if $item['id']==$category['id']}active{/if}"><a
-                                href="{$item.url}">{$item.name}</a></li>{/ld:sort}
-                    </ul>
-                </div>
+            <div class="krs-doc-list">
+                <article><span>服务资料</span><h3><a href="/chanpinzhongxin.html">AI FDE 部署服务说明</a></h3><p>适合希望把 AI 应用推进到生产现场的企业，覆盖诊断、原型、上线、评测和移交。</p></article>
+                <article><span>解决方案</span><h3><a href="/anlizhanshi.html">数字化营销增长系统</a></h3><p>从内容、渠道、线索、CRM、私域和归因六个模块建立可复盘增长闭环。</p></article>
+                <article><span>会员体系</span><h3><a href="/zaixianliuyan.html">诊断会员、增长会员与 FDE 陪跑会员</a></h3><p>用会员方式把咨询、报告、培训、顾问和现场实施组合成长期能力建设。</p></article>
             </div>
-            <div class="post news top">
-                <div class="PostNews">
-                    <ul>
-                        {ld:list ext="content,test"}
-                        <li data-id="{$item.id}" class="anim fadeInUp">
-                            <div class="post-img loading">
-                                <a class="pic float-left" href="{$item.url}" title="{$item.title}" rel="bookmark">
-                                    <div class="msk"></div>
-                                    <i class="fa fa-search"></i>
-                                    <img class="b-lazy" src="{$item.image}" data-src="{$item.image}"
-                                        alt="{$item.title}" />
-                                </a>
-                            </div>
-                            <h4><a href="{$item.url}" title="{$item.title}">{$item.title}</a></h4>
-                            <span class="time"><i class="fa fa-clock-o"></i> {$item.show_time} </span> <span><i
-                                    class="fa fa-eye fa-fw"></i>{$item.visits}</span>
-                            <p>{$item.description|str_cut="60"}</p>
-                        </li>
-                        {/ld:list}
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-            <div class="text-center">{$pages}</div>
         </div>
-    </div>
-</div>
+    </section>
+</main>
 {/block}

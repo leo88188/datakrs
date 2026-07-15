@@ -1,57 +1,39 @@
 {extend name="base" /}
 {block name="main"}
-<div class="container Wauto">
-    <div class="bnBox cateBn">
-        {ld:slide name="case_banner"}
-        <div class="cateBnImg" style="background-image: url({$item.image})">
-
+<main class="krs-page">
+    <section class="krs-page-hero">
+        <div class="krs-shell krs-page-hero-grid">
+            <div>
+                <span class="krs-eyebrow">Digital Marketing</span>
+                <h1>数字化营销增长系统</h1>
+                <p>以内容资产、线索转化、CRM、私域运营和营销数据底座为核心，把营销从经验驱动变成数据驱动、AI 协同和可复盘增长。</p>
+            </div>
+            <div class="krs-hero-aside">
+                <strong>增长闭环</strong>
+                <span>内容生产</span>
+                <span>渠道归因</span>
+                <span>销售跟进</span>
+                <span>风控复盘</span>
+            </div>
         </div>
-        {/ld:slide}
-    </div>
-    <div class="main w1200">
-        <div class="article w1">
-            <div class="archive-top anim fadeInUp">
-                <div class="archive-title">
-                    <h1 itemprop="headline">{$category.name}</h1>
-                    <span></span></div>
-                <div class="archive-description">
-                    <p>{$category.seo_description}</p>
-                </div>
+    </section>
+    <section class="krs-section">
+        <div class="krs-shell">
+            <div class="krs-module-list krs-module-list-wide">
+                <div><b>01</b><strong>AI 内容生成工厂</strong><span>品牌调性、平台模板、批量生产和 A/B 测试。</span></div>
+                <div><b>02</b><strong>全渠道营销归因</strong><span>广告、官网、小程序、CRM 与客户旅程统一分析。</span></div>
+                <div><b>03</b><strong>AI Sales Copilot</strong><span>销售话术建议、客户分层、提醒和 CRM 自动写入。</span></div>
+                <div><b>04</b><strong>私域增长引擎</strong><span>企业微信、社群、小程序和智能触达提升 LTV。</span></div>
+                <div><b>05</b><strong>数据要素 × 营销</strong><span>营销数据底座、数据资产台账和外部数据补充。</span></div>
+                <div><b>06</b><strong>营销风控</strong><span>识别投放欺诈、KOL 造假和私域薅羊毛。</span></div>
             </div>
-            <div class="subcate anim fadeInUp" data-wow-delay=".3s">
-                <div id="subcate" data-type="category" data-infoid="2">
-                    <ul>
-                        {ld:sort pid="$topid"}
-                        <li class="{if $item['id']==$category['id']}active{/if}"><a
-                        href="{$item.url}">{$item.name}</a></li>
-                        {/ld:sort}
-
-                    </ul>
-                </div>
-            </div>
-            <div class="post list">
-                <div class="PostShow">
-                    <ul>
-                        {ld:list }
-                        <li data-id="{$item.id}" class="anim fadeInUp case-item">
-                            <div class="post-img loading"> <a class="pic float-left" href="{$item.url}"
-                                title="{$item.title}" rel="bookmark">
-                                <div class="msk"></div>
-                                <i class="fa fa-search"></i>
-                                <img class="b-lazy" src="{$item.image}"
-                                    data-src="{$item.image}" alt="{$item.title}" /> </a> </div>
-                            <h4><a href="{$item.url}" title="{$item.title}">{$item.title}</a></h4>
-                            <i style="margin-bottom: 10px">	{$item.description}</i>
-                        </li>
-                        {/ld:list}
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-
         </div>
-        <div class="text-center">{$pages}</div>
-    </div>
-</div>
-
+    </section>
+    <section class="krs-section krs-cta-lite">
+        <div class="krs-shell krs-cta-box">
+            <div><span>Marketing Diagnosis</span><h2>先做一次营销数据体检</h2><p>梳理线索来源、转化路径、内容资产和 CRM 数据，判断最先自动化的增长场景。</p></div>
+            <a class="krs-btn krs-btn-primary" href="/zaixianliuyan.html">提交诊断需求</a>
+        </div>
+    </section>
+</main>
 {/block}

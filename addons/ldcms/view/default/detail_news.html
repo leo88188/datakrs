@@ -1,48 +1,31 @@
 {extend name="base" /}
 {block name="main"}
-<div class="container">
-    <div class="main w1200">
-        <div class="article w1">
-            <div class="archive-top">
-                <div class="archive-title">
-                    <h1 itemprop="headline">{$content.title}</h1>
-                    <span></span>
-                </div>
-            </div>
-            <p>
-                {:__('Position')}：<a href="{:addon_url('ldcms/index/index')}">{:__('Home')}</a>
-                {ld:position cid="$category['id']"}
-                / <a href="{$item.url}">{$item.name}</a>
-                {/ld:position}
-            </p>
-            <div class="article-box">
-                <header class="article-top">
-                    <div class="article-mt">
-                        <span>
-                            <i class="fa fa-list-alt"></i>
-                            {ld:sort cid="$category['id']"}<a href="{$item.url}">{$item.name}</a>{/ld:sort}
-                        </span>
-                        <span><i class="fa fa-user"></i>{$content.author}</span>
-                        <span><i class="fa fa-clock-o"></i>{$content.show_time}</span>
-                        <span><i class="fa fa-eye"></i>{$content.visits}</span>
-                    </div>
-                </header>
-                <article class="article-main">
-                    {$content.content}
-                </article>
-            </div>
-            <div class="prev">
-                {:__('Previous')}： {ld:prev} <a href="{$item.url}"> {$item.title} </a> {else /} {:__('No more')}{/ld:prev}
-            </div>
-            <div class="next">
-                {:__('Next')}： {ld:next}<a href="{$item.url}"> {$item.title} </a> {else /} {:__('No more')} {/ld:next}
-            </div>
+<main class="krs-page">
+    <section class="krs-detail-hero">
+        <div class="krs-shell">
+            <span class="krs-eyebrow">Knowledge Detail</span>
+            <h1>AI FDE 知识库与报告</h1>
+            <p>把企业 AI 落地经验整理为诊断模板、行业报告、评测清单和培训材料。</p>
         </div>
-    </div>
-</div>
-
-
-<script>
-    $('.header').removeClass('opaque').addClass('noOpaque')
-</script>
+    </section>
+    <section class="krs-section">
+        <div class="krs-shell krs-detail-grid">
+            <article class="krs-article">
+                <h2>知识库内容</h2>
+                <p>克睿斯知识库服务于企业管理层、业务负责人和 IT 团队，帮助团队把 AI 概念转化为可执行路线。</p>
+                <h3>可申请材料</h3>
+                <ul>
+                    <li>AI FDE 价值诊断表</li>
+                    <li>企业 AI 生产上线检查清单</li>
+                    <li>数字化营销数据体检模板</li>
+                    <li>会员专属课程与报告解读</li>
+                </ul>
+            </article>
+            <aside class="krs-detail-aside">
+                <div><h3>报告解读</h3><p>把文章内容转化为企业可执行的场景清单、阶段路线和投入产出判断。</p><a class="krs-btn krs-btn-primary" href="/zaixianliuyan.html">申请解读</a></div>
+                <div><h3>知识库会员</h3><p>订阅报告、模板、课程和诊断材料，建立团队持续学习机制。</p><a href="/zaixianliuyan.html">了解会员</a></div>
+            </aside>
+        </div>
+    </section>
+</main>
 {/block}

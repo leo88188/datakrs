@@ -1,25 +1,48 @@
 {extend name="base" /}
 {block name="main"}
-<div class="container">
-    <div class="main w1200">
-        <div class="article w1">
-            <div class="article-box">
-                <header class="article-top">
-                    <h1 class="article-tit">{$category.name}</h1>
-                </header>
-                {ld:sort pid="$topid"}
-                <li class="{if $item['id']==$category['id']}active{/if}">
-                    <a href="{$item.url}">{$item.name}</a>
-                </li>
-                {/ld:sort}
-                <article class="article-main">
-                    {$content.content}
-                </article>
+<main class="krs-page">
+    <section class="krs-page-hero">
+        <div class="krs-shell krs-page-hero-grid">
+            <div>
+                <span class="krs-eyebrow">Company</span>
+                <h1>了解克睿斯</h1>
+                <p>克睿斯面向企业提供 AI FDE、数智化转型、数字化营销和企业信息化系统交付服务。</p>
+            </div>
+            <div class="krs-hero-aside">
+                <strong>克睿斯方法</strong>
+                <span>AI FDE 现场部署</span>
+                <span>数智化转型蓝图</span>
+                <span>数字化营销增长</span>
+                <span>会员陪跑与培训</span>
             </div>
         </div>
-    </div>
-</div>
-<script>
-    $('.header').removeClass('opaque').addClass('noOpaque')
-</script>
+    </section>
+    <section class="krs-section">
+        <div class="krs-shell krs-detail-grid">
+            <article class="krs-article">
+                <h2>公司定位</h2>
+                <p>克睿斯把 AI 咨询、工程实施、数据治理、业务增长和组织培训组合成一套可落地的服务体系。我们关注的不是单次项目展示，而是企业是否真正上线、采用、复盘和复用。</p>
+                <h3>核心业务</h3>
+                <ul>
+                    <li>AI FDE 前沿部署工程师服务</li>
+                    <li>数智化转型蓝图、系统建设和数据看板</li>
+                    <li>数字化营销增长系统和会员陪跑</li>
+                    <li>电话咨询、现场实施、报告、驻场顾问和培训课程</li>
+                </ul>
+                <div class="krs-inline-system">
+                    <h2>我们交付什么</h2>
+                    <div class="krs-solution-grid">
+                        <article><i class="fa fa-sitemap"></i><h3>AI FDE</h3><p>从开放业务问题到生产上线和采用闭环。</p></article>
+                        <article><i class="fa fa-industry"></i><h3>数智化系统</h3><p>企业知识库、数据台账、CRM、营销中台和经营看板。</p></article>
+                        <article><i class="fa fa-line-chart"></i><h3>数字化营销</h3><p>内容、线索、私域、销售和归因的增长系统。</p></article>
+                    </div>
+                </div>
+            </article>
+            <aside class="krs-detail-aside">
+                <div><h3>服务体系</h3><p>电话咨询、报告、培训、现场实施、驻场顾问、企业信息化系统。</p><a href="/fuwutuandui.html">查看服务体系</a></div>
+                <div><h3>会员体系</h3><p>诊断会员、增长会员、FDE 陪跑会员，覆盖从判断到长期采用。</p><a class="krs-btn krs-btn-primary" href="/zaixianliuyan.html">申请会员</a></div>
+            </aside>
+        </div>
+    </section>
+</main>
 {/block}

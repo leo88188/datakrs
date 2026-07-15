@@ -1,117 +1,43 @@
 {extend name="base" /}
 {block name="main"}
-<style>
-    .tabs-group {
-        position: relative;
-        overflow-y: hidden;
-    }
-    .tabs-group .title {
-        float: left;
-        padding: 10px 0;
-        width: 80px;
-        display: block;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        word-wrap: normal;
-    }
-    .tabs-group .content {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 0 60px;
-    }
-   .tabs-group .content > li {
-        float: left;
-        padding: 5px 12px;
-    }
-    .tabs-group .content > li > a {
-        display: block;
-        padding: 5px 10px;
-        border: none;
-        -webkit-border-radius: 4px;
-        -webkit-background-clip: padding-box;
-        -moz-border-radius: 4px;
-        -moz-background-clip: padding;
-        border-radius: 4px;
-        background-clip: padding-box;
-        color: #333;
-        -webkit-transition: all 0.3s ease;
-        -moz-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-    }
-    .tabs-group .content > li.active > a,
-     .tabs-group .content > li:focus > a,
-   .tabs-group .content > li:hover > a {
-        color: #fff;
-    }
-</style>
-<div class="container Wauto">
-    <div class="bnBox cateBn">
-        {ld:slide name="product_banner"}
-        <div class="cateBnImg" style="background-image: url({$item.image})">
-
+<main class="krs-page">
+    <section class="krs-page-hero">
+        <div class="krs-shell krs-page-hero-grid">
+            <div>
+                <span class="krs-eyebrow">AI FDE</span>
+                <h1>AI 前沿部署服务</h1>
+                <p>以 FDE 前沿部署工程师模式进入客户现场，把模型、数据、权限、业务流程和生产系统连接起来，形成可上线、可评测、可复用的企业 AI 能力。</p>
+            </div>
+            <div class="krs-hero-aside">
+                <strong>四个不可省略动作</strong>
+                <span>嵌入真实工作流</span>
+                <span>构建生产系统</span>
+                <span>负责采用结果</span>
+                <span>回流产品资产</span>
+            </div>
         </div>
-        {/ld:slide}
-    </div>
-    <div class="main w1200">
-        <div class="article w1">
-            <div class="archive-top anim fadeInUp">
-                <div class="archive-title">
-                    <h1 >{$category.name}</h1>
-                    <span></span>
-                </div>
-                <div class="archive-description">
-                    <p>{$category.seo_description}</p>
-                </div>
+    </section>
+    <section class="krs-section">
+        <div class="krs-shell">
+            <div class="krs-solution-grid">
+                <article><i class="fa fa-search"></i><h3>AI 价值诊断</h3><p>识别高价值流程、数据条件、系统边界和投入产出假设，输出是否值得进入 FDE 的判断。</p></article>
+                <article><i class="fa fa-code"></i><h3>生产级 AI 应用</h3><p>构建 RAG、Agent、知识库、MCP 工具调用、权限和审计，完成上线前评测。</p></article>
+                <article><i class="fa fa-shield"></i><h3>评测与治理</h3><p>建立 eval 集、回归测试、人工兜底、成本监控和模型风险控制。</p></article>
+                <article><i class="fa fa-refresh"></i><h3>产品化回流</h3><p>把现场资产归类为删除、客户专属、可复用组件和核心产品能力。</p></article>
             </div>
-            <div class="subcate anim fadeInUp" data-wow-delay=".3s">
-                <div id="subcate" data-type="category" data-infoid="2">
-                    <ul>
-                        {ld:sort pid="$topid"}
-                        <li class="{if $item['id']==$category['id']}active{/if}"><a
-                        href="{$item.url}">{$item.name}</a></li>
-                        {/ld:sort}
-                    </ul>
-                </div>
-                {ld:filter mid="$category['mid']"}
-                <div class="tabs-group">
-                    <div class="title">{$item.title}:</div>
-                    <ul class="content clearfix">
-                        {volist name="$item.content" id="li"}
-                        <li class="{$li.active?'active':''}"><a href="{$li.url}">{$li.title}</a></li>
-                        {/volist}
-                    </ul>
-                </div>
-                {/ld:filter}
-            </div>
-            <div class="post list">
-                <div class="PostShow">
-                    <ul>
-                        {ld:list cid="$category['id']" page="true"}
-                        <li data-id="{$item.id}" class="anim fadeInUp">
-                            <div class="post-img loading"> <a class="pic float-left" href="{$item.url}"
-                                title="{$item.title}" rel="bookmark">
-                                <div class="msk"></div>
-                                <i class="fa fa-search"></i>
-                                <img class="b-lazy" src="{$item.image}"
-                                    data-src="{$item.image}" alt="{$item.title}" /> </a> </div>
-                            <a href="{$item.url}" title="{$item.title}">
-                                <h4>{$item.title}</h4>
-                                <i class="h2">{$item.seo_description}</i>
-                                <div class="pt-2">
-                                    <i class="fa fa-long-arrow-right"></i>
-                                </div>
-                            </a>
-                        </li>
-                        {/ld:list}
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-
         </div>
-        <div class="text-center">{$pages}</div>
-    </div>
-</div>
+    </section>
+    <section class="krs-section krs-process">
+        <div class="krs-shell">
+            <div class="krs-section-head"><span>Roadmap</span><h2>标准交付路径</h2></div>
+            <div class="krs-process-line">
+                <article><b>01</b><h3>资格筛选</h3><p>确认业务 owner、价值流程、数据可用性和经济性。</p></article>
+                <article><b>02</b><h3>发现与基线</h3><p>记录现状成本、准确率、风险和人工投入。</p></article>
+                <article><b>03</b><h3>原型验证</h3><p>验证最高风险假设，避免 demo 直接变承诺。</p></article>
+                <article><b>04</b><h3>生产上线</h3><p>完成安全、评测、回退、监控、权限和 SLA。</p></article>
+                <article><b>05</b><h3>移交复用</h3><p>形成客户自运营能力和可复用交付资产。</p></article>
+            </div>
+        </div>
+    </section>
+</main>
 {/block}

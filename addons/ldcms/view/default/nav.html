@@ -2,10 +2,11 @@
     <div id="navBox" class="header-nav menu" data-type="index">
         <div class="container nav-content">
             <div class="logobox">
-                <h1 class="logo">
-                    <a href="{:addon_url('ldcms/index/index')}" title="{$ld.sitetitle}">
-                        <img class="logoa" src="{$ld.logo1}" alt="{$ld.sitetitle}">
-                        <img class="logob" src="{$ld.logo2}" alt="{$ld.sitetitle}">{$ld.sitetitle}</a>
+                <h1 class="logo krs-logo">
+                    <a href="{:addon_url('ldcms/index/index')}" title="克睿斯 AI FDE">
+                        <span class="krs-logo-mark">KRS</span>
+                        <span class="krs-logo-text">克睿斯 AI</span>
+                    </a>
                 </h1>
             </div>
             <div class="lang">
@@ -21,32 +22,24 @@
                     {/foreach}
                 </ul>
             </div>
-
-
             <div class="sbtn"><i class="fa fa-search"></i></div>
-
             <ul class="navbar">
-                <li {if $topid===0}class="active" {/if}><a href="{:addon_url('ldcms/index/index')}">{:__('Home')}</a>
-                </li>
-                {ld:nav }
-                <li class="{if $topid==$item['id']} active {/if}">
-                    <a href="{$item.url}">{$item.name}</a>
-                    <ul>
-                        {ld:nav pid="$item['id']"}
-                        <li><a href="{$item.url}">{$item.name}</a></li>
-                        {/ld:nav}
-                    </ul>
-                </li>
-                {/ld:nav}
+                <li {if $topid===0}class="active" {/if}><a href="{:addon_url('ldcms/index/index')}">首页</a></li>
+                <li><a href="/chanpinzhongxin.html">产品</a></li>
+                <li><a href="/anlizhanshi.html">解决方案</a></li>
+                <li><a href="/zaixianliuyan.html">会员与定价</a></li>
+                <li><a href="/fuwutuandui.html">企业中心</a></li>
+                <li><a href="/xinwenzhongxin.html">报告案例</a></li>
+                <li><a href="/lianxiwomen.html">客户支持</a></li>
+                <li><a href="/fuwutuandui.html#ecosystem">合作生态</a></li>
+                <li><a href="/guanyuwomen.html">了解克睿斯</a></li>
             </ul>
         </div>
     </div>
     <div class="searchBox">
         <div class="search-pup">
-            <form method="get" name="searchform" class="dropdown search-form"
-                action="{:addon_url('ldcms/search/index')}">
-                <input class="search-input" name="search" style="color: #333"
-                    placeholder="{:__('Please enter keywords')}" type="text">
+            <form method="get" name="searchform" class="dropdown search-form" action="{:addon_url('ldcms/search/index')}">
+                <input class="search-input" name="search" style="color: #333" placeholder="搜索 FDE、会员、营销、转型" type="text">
                 <button><i class="fa fa-search"></i></button>
             </form>
         </div>
@@ -67,5 +60,4 @@
             </ul>
         </div>
     </div>
-
 </header>
