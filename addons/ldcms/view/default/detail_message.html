@@ -20,23 +20,24 @@
     <section class="krs-section">
         <div class="krs-shell krs-member-form-grid">
             <div class="krs-membership-grid krs-membership-grid-vertical">
-                <article><div class="krs-plan-head"><span>诊断会员</span><strong>轻量</strong></div><h3>判断 AI 机会</h3><p>适合第一次梳理 AI 场景、数据条件和投入边界。</p></article>
-                <article class="krs-plan-featured"><div class="krs-plan-head"><span>增长会员</span><strong>推荐</strong></div><h3>月度增长陪跑</h3><p>适合推进数字化营销、CRM、内容和私域增长。</p></article>
-                <article><div class="krs-plan-head"><span>FDE 陪跑会员</span><strong>深度</strong></div><h3>生产系统采用</h3><p>适合已有系统、需要持续实施和组织采用的企业。</p></article>
+                <article><div class="krs-plan-head"><span>诊断会员</span><strong>¥399/月</strong></div><h3>判断 AI 机会</h3><p>每月 1 次 30 分钟咨询、1 份自查表、季度报告。适合先判断哪些业务问题值得做。</p></article>
+                <article class="krs-plan-featured"><div class="krs-plan-head"><span>增长会员</span><strong>¥1,360/月</strong></div><h3>月度增长陪跑</h3><p>每月 1 次 60 分钟复盘、1 份内容/CRM 建议、1 份线索转化复盘。</p></article>
+                <article><div class="krs-plan-head"><span>FDE 陪跑会员</span><strong>¥4,000/月起</strong></div><h3>生产系统采用</h3><p>每月 4 小时远程陪跑、1 个流程原型或评审、1 次上线/评测复盘。</p></article>
+                <article><div class="krs-plan-head"><span>申请流程</span><strong>4 步</strong></div><h3>提交后怎么推进</h3><p>提交问题 → 20 分钟沟通 → 确认服务边界和付款方式 → 开始交付并按约定验收。</p></article>
             </div>
             <div class="krs-form-panel">
                 <h2>提交诊断需求</h2>
-                <p>建议在备注中写明：行业、团队规模、当前系统、数据情况、希望解决的业务指标。</p>
+                <p>建议在备注中写明：公司规模、当前系统、最头疼的经营问题、已有资料、希望先看到的结果。</p>
                 <form action="{:addon_url('ldcms/diyform/message')}" method="post" id="saypl">
                     <ul>
                         <li><input type="text" name="uname" class="text" value="" placeholder="姓名 / 公司（必填）" size="28" tabindex="1" /></li>
-                        <li><input type="text" name="mobile" class="text" value="" placeholder="电话 / 微信（必填）" size="28" tabindex="1" /></li>
+                        <li><input type="text" name="mobile" class="text" value="" placeholder="电话 / 联系方式（必填）" size="28" tabindex="1" /></li>
                         <li style="position: relative;">
                             <input type="text" name="captcha" class="text" value="" placeholder="验证码" size="28" tabindex="2" />
                             <img src="{:captcha_src()}" style="position: absolute;right:0;top:0;margin: 3px;" width="100" height="31" onClick="this.src = '{:captcha_src()}?r=' + Math.random();"/>
                         </li>
                     </ul>
-                    <p class="npt"><textarea name="remark" id="saytext" class="text" cols="50" rows="6" tabindex="5" placeholder="请描述你的需求：AI FDE、数智化系统、数字化营销、会员陪跑、培训课程等"></textarea></p>
+                    <p class="npt"><textarea name="remark" id="saytext" class="text" cols="50" rows="6" tabindex="5" placeholder="例如：销售跟进混乱、客服重复问答、资料不好找、报表靠人工、想做知识库/RAG、Agent 工作流、AI 安全评估、AI 培训课程或数字化营销体检"></textarea></p>
                     <p>{:token()}<input type="submit" tabindex="6" value="提交诊断申请" class="button" /></p>
                 </form>
             </div>
