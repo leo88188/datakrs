@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="Cache-Control" content="no-transform"/>
+  <meta http-equiv="Content-Language" content="zh-CN" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="" type="image/x-icon" />
+  <link rel="shortcut icon" href="" type="image/x-icon" />
+  <meta name="keywords" content="{$ld.seo_keywords}" />
+  <meta name="description" content="{$ld.seo_description} " />
+  <title>{$ld.sitetitle}</title>
+  <link rel="stylesheet" rev="stylesheet" href="__CDN__/assets/css/bootstrap.min.css" type="text/css" media="all"/>
+  <link rel="stylesheet" rev="stylesheet" href="{ld:src src='default/css/style.css'}" type="text/css" media="all"/>
+  <link rel="stylesheet" href="__ADDON__/default/css/font-awesome.min.css?v={$site.version}" media="screen" type="text/css" />
+  <script src="{ld:src src='default/js/jquery-2.2.4.min.js'}" type="text/javascript"></script>
+  <script src="__CDN__/assets/libs/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="{ld:src src='default/js/jquery.bxslider.js'}" type="text/javascript"></script>
+</head>
+<body>
+
+<!--[if lte IE 8]><div id="browse">The browser version you are using is too low，Please<a href="http://browsehappy.com/" target="_blank"><strong> upgrade your browser</strong></a>， to get the best browsing experience！</div><![endif]-->
+{include file="nav" /}
+
+{block name="main"} {/block}
+
+<footer class="footer">
+  <div class="sidebar">
+    <div class="widget widget-tie social anim fadeInLeft">
+      <div class="addBox">
+        <span class="tel"><i class="fa fa-phone-square"></i><a href="tel:{$ld.tel}">{$ld.tel}</a></span>
+        <span class="add">
+        Address：{$ld.address}
+        </span>
+        <span>Mobile：<a href="tel:{$ld.phone}">{$ld.phone}</a></span>
+        <span>Email：<a href="tel:{$ld.email}">{$ld.email}</a></span>
+      </div>
+      <a href="http://wpa.qq.com/msgrd?v=3&uin={$ld.qq}&site=qq&menu=yes" target="_blank" class="socialLink s-qq"
+          rel="nofollow" title=""><i class="fa fa-qq"></i></a>
+      <a class="socialLink s-weixin" href="javascript:void(0)" title="Scan QR code"><i class="fa fa-wechat"></i>
+      <div class="weixin">
+        <div class="img"><img src="{$ld.wechat}" alt="Scan QR code"></div>
+        <p>Scan your phone to add WeChat</p>
+      </div>
+    </a>
+      <a href="mailto:{$ld.email}" target="_blank" class="socialLink s-email" rel="nofollow" title="Email"><i
+          class="fa fa-envelope"></i></a>
+      <a target="_blank" href="#" class="socialLink s-qun" rel="nofollow" title="RSS"><i class="fa fa-rss"></i></a>
+    </div>
+    <div class="link">
+      <span>Links</span>
+      <ul>
+        {ld:link name='link'}
+        <li><a href="{$item.url}" target="{$item.target}">{$item.title}</a></li>
+        {/ld:link}
+      </ul>
+    </div>
+  </div>
+  <div class="footer-text anim fadeInRight" data-wow-offset="0">
+    <p>Copyright © {:date('Y')}
+      <a href="{:addon_url('ldcms/index/index')}">{$ld.copyright}</a>&nbsp;
+      <a href="{:addon_url('ldcms/sitemap/index',[],false)}">Sitemap</a>
+      <a href="https://beian.miit.gov.cn" target="_blank" rel="nofollow">ICP:{$ld.icp}</a>
+    {$ld.script}
+
+  </div>
+</footer>
+<div class="page-bg"></div>
+<div id="backTop">
+  <span class="ft-tel"><i class="fa fa-phone"></i><small class="telTop">{$ld.phone}</small></span>
+  <span class="ft-wx"><i class="fa fa-wechat"></i><small class="weixin"><b class="fa fa-caret-right"></b><img src="{$ld.wechat}" ></small></span>
+  <span class="ft-qq"><a href="http://wpa.qq.com/msgrd?v=3&uin={$ld.qq}&site=qq&menu=yes" target="_blank" class="socialLink s-qq" rel="nofollow"><i class="fa fa-qq"></i></a></span>
+  <span id="gttop" onClick="return false;" title="Back to top"> <i class="fa fa-arrow-up"></i> </span>
+</div>
+<script src="{ld:src src='default/js/lib.js'}"></script>
+<script src="{ld:src src='default/js/function.js'}"></script>
+<script type="text/javascript">
+  (function() {
+    var bLazy = new Blazy({
+      breakpoints: [{
+      }]
+      , success: function(element){
+        setTimeout(function(){
+          var parent = element.parentNode;
+          parent.className = parent.className.replace(/bloadingb/,'');
+        }, 200);
+      }
+    });
+    var wow = new WOW({ boxClass:'anim',offset: 100,mobile: true,live: true});
+    wow.init();
+  })();
+</script>
+</body>
+</html>

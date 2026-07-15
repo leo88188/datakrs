@@ -1,0 +1,67 @@
+<header class="header opaque">
+    <div id="navBox" class="header-nav menu" data-type="index">
+        <div class="container nav-content">
+            <div class="logobox">
+                <h1 class="logo">
+                    <a href="{:addon_url('ldcms/index/index')}" title="{$ld.sitetitle}">
+                        <img class="logoa" src="{$ld.logo1}" alt="{$ld.sitetitle}">
+                        <img class="logob" src="{$ld.logo2}" alt="{$ld.sitetitle}">{$ld.sitetitle}</a>
+                </h1>
+            </div>
+            <div class="lang">
+                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-language"></i> {$ld.langs[$ld.lg]}
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu" style="width: 90px;min-width: 90px">
+                    {foreach $ld.langsurl as $key=>$item}
+                    <li {if $ld.lg==$key} class="active" {/if}>
+                    <a href="{$item.url}">{$item.title}</a>
+                    </li>
+                    {/foreach}
+                </ul>
+            </div>
+            <div class="sbtn"><i class="fa fa-search"></i></div>
+
+            <ul class="navbar">
+                <li {if $topid===0}class="active" {/if}><a href="{:addon_url('ldcms/index/index')}">{:__('Home')}</a>
+                </li>
+                {ld:nav }
+                <li class="{if $topid==$item['id']} active {/if}">
+                    <a href="{$item.url}">{$item.name}</a>
+                    <ul>
+                        {ld:nav pid="$item['id']"}
+                        <li><a href="{$item.url}">{$item.name}</a></li>
+                        {/ld:nav}
+                    </ul>
+                </li>
+                {/ld:nav}
+            </ul>
+        </div>
+    </div>
+    <div class="searchBox">
+        <div class="search-pup">
+            <form method="get" name="searchform" class="dropdown search-form" action="{:addon_url('ldcms/search/index')}">
+                <input class="search-input" name="search" style="color: #333"
+                    placeholder="{:__('Please enter keywords')}" type="text">
+                <button><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <div class="moble">
+        <a class="moble-bars" id="btn-bars"><i class="fa fa-bars nav-btn"></i></a>
+        <div class="mlang">
+            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-language"></i>
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu" style="width: 90px;min-width: 90px">
+                {foreach $ld.langs as $key=>$lang}
+                <li {if ld_get_home_lang()==$key} class="active" {/if}>
+                    <a href="{:addon_url('ldcms/index/index',['lg'=>$key])}">{$lang}</a>
+                </li>
+                {/foreach}
+            </ul>
+        </div>
+    </div>
+</header>

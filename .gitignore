@@ -1,0 +1,15 @@
+/runtime/
+/vendor/
+/public/uploads/
+/.env
+/*.tgz
+/*.tar.gz
+/*.zip
+*.log
+*.pem
+*.key
+*.crt
+*.csr
+/datakrs_code_snapshot.tgz
+/db_inventory.json
+/.DS_Store
