@@ -151,9 +151,10 @@ class Base extends Frontend
         }
         $id = $this->request->param('id');
         $target = '/' . $publicUrlname . (empty($id) ? '' : '/' . $id) . '.html';
-        $query = $this->request->server('QUERY_STRING');
+        $query = $this->request->get();
+        unset($query['s']);
         if (!empty($query)) {
-            $target .= '?' . $query;
+            $target .= '?' . http_build_query($query);
         }
         $this->redirect($target, 301);
     }
