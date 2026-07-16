@@ -6,6 +6,7 @@ namespace addons\ldcms\model;
 
 use addons\ldcms\model\common\Frontend;
 use addons\ldcms\model\Models as ModelsModel;
+use addons\ldcms\utils\UrlAlias;
 use app\admin\model\ldcms\Document as DocumentModel;
 use think\Cache;
 use think\Db;
@@ -32,7 +33,7 @@ class Category extends Frontend
     {
         $vars = [
             ':id' => $data['id'],
-            ':category' => $data['urlname'],
+            ':category' => UrlAlias::toPublic($data['urlname']),
         ];
         if (isset($data['type']) && isset($data['outlink']) && $data['type'] == '1') {
             return $this->getAttr('outlink');

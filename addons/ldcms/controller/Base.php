@@ -6,6 +6,7 @@ namespace addons\ldcms\controller;
 use addons\ldcms\model\Category;
 use addons\ldcms\model\Document;
 use addons\ldcms\model\Langs;
+use addons\ldcms\utils\UrlAlias;
 use app\common\controller\Frontend;
 use think\Config;
 use think\Lang;
@@ -35,7 +36,7 @@ class Base extends Frontend
         $langs = config('ldcms.langs');
 
         /*调用栏目语言与当前语言不一致时，自动切换语言*/
-        $urlname = $this->request->param('category');
+        $urlname = UrlAlias::toCms($this->request->param('category'));
         if (!empty($urlname)) {
             $this->categoryModel = Category::instance();
             $categoryLang = $this->categoryModel->getLangByUrlname($urlname);
@@ -107,7 +108,7 @@ class Base extends Frontend
     /*获取分类信息*/
     protected function getCategoryInfo()
     {
-        $urlname = $this->request->param('category');
+        $urlname = UrlAlias::toCms($this->request->param('category'));
         if (!empty($urlname)) {
             $categoryModel = $this->categoryModel;
             $this->categoryInfo = $categoryModel->getHomeCategoryByUrlname($urlname);

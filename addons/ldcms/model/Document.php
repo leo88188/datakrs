@@ -3,6 +3,7 @@
 namespace addons\ldcms\model;
 
 use addons\ldcms\model\common\Frontend;
+use addons\ldcms\utils\UrlAlias;
 use think\Db;
 use think\Exception;
 use traits\model\SoftDelete;
@@ -49,7 +50,7 @@ class Document extends Frontend
 
         $vars = [
             ':id' => $data['id'],
-            ':category' => $data['curlname'],
+            ':category' => UrlAlias::toPublic($data['curlname']),
         ];
         if (isset($data['outlink']) && !empty($data['outlink'])) {
             return $this->getAttr('outlink');
@@ -73,7 +74,7 @@ class Document extends Frontend
         }
         $vars = [
             ':id' => $data['cid'],
-            ':category' => $data['curlname'],
+            ':category' => UrlAlias::toPublic($data['curlname']),
         ];
         return addon_url('ldcms/lists/index', $vars, true);
     }
