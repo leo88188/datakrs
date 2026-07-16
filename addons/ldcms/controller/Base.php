@@ -36,7 +36,9 @@ class Base extends Frontend
         $langs = config('ldcms.langs');
 
         /*调用栏目语言与当前语言不一致时，自动切换语言*/
-        $urlname = UrlAlias::toCms($this->request->param('category'));
+        $rawUrlname = $this->request->param('category');
+        $urlname = UrlAlias::toCms($rawUrlname);
+        $this->redirectLegacyCategoryUrl($rawUrlname, $urlname);
         if (!empty($urlname)) {
             $this->categoryModel = Category::instance();
             $categoryLang = $this->categoryModel->getLangByUrlname($urlname);
@@ -136,6 +138,24 @@ class Base extends Frontend
                 $this->assign('content', $this->contentInfo);
             }
         }
+    }
+
+    protected function redirectLegacyCategoryUrl($rawUrlname, $cmsUrlname)
+    {
+        if (empty($rawUrlname)) {
+            return;
+        }
+        $publicUrlname = UrlAlias::toPublic($cmsUrlname);
+        if ($rawUrlname === $publicUrlname) {
+            return;
+        }
+        $id = $this->request->param('id');
+        $target = '/' . $publicUrlname . (empty($id) ? '' : '/' . $id) . '.html';
+        $query = $this->request->server('QUERY_STRING');
+        if (!empty($query)) {
+            $target .= '?' . $query;
+        }
+        $this->redirect($target, 301);
     }
     /*验证浏览权限*/
     protected function checkAuth($gid)
