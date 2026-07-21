@@ -5,8 +5,9 @@ namespace addons\ldcms\utils;
 class UrlAlias
 {
     private static $publicToCms = [
+        'services' => 'chanpinzhongxin',
         'products' => 'chanpinzhongxin',
-        'solutions' => 'anlizhanshi',
+        'solutions' => 'chanpinzhongxin',
         'pricing' => 'zaixianliuyan',
         'enterprise' => 'fuwutuandui',
         'resources' => 'xinwenzhongxin',
@@ -23,7 +24,15 @@ class UrlAlias
 
     public static function toPublic($slug)
     {
-        $cmsToPublic = array_flip(self::$publicToCms);
+        $cmsToPublic = [
+            'chanpinzhongxin' => 'services',
+            'anlizhanshi' => 'services',
+            'zaixianliuyan' => 'pricing',
+            'fuwutuandui' => 'enterprise',
+            'xinwenzhongxin' => 'resources',
+            'lianxiwomen' => 'support',
+            'guanyuwomen' => 'about',
+        ];
         $cmsToPublic['fuwutuandui'] = 'enterprise';
         return $cmsToPublic[$slug] ?? $slug;
     }
