@@ -12,11 +12,11 @@
   },
   "assetConfig": {
     "mode": "oss",
-    "ossBucket": "ielts-luocheng",
-    "ossRegion": "cn-shanghai",
-    "assetBase": "https://ielts-luocheng.oss-cn-shanghai.aliyuncs.com/assets",
-    "audioBase": "https://ielts-luocheng.oss-cn-shanghai.aliyuncs.com/assets/audio/",
-    "videoBase": "https://ielts-luocheng.oss-cn-shanghai.aliyuncs.com/assets/videos/"
+    "ossBucket": "engilish",
+    "ossRegion": "cn-guangzhou",
+    "assetBase": "https://engilish.oss-cn-guangzhou.aliyuncs.com/assets",
+    "audioBase": "https://engilish.oss-cn-guangzhou.aliyuncs.com/assets/audio/",
+    "videoBase": "https://engilish.oss-cn-guangzhou.aliyuncs.com/assets/videos/"
   },
   "days": [
     {

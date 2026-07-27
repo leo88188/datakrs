@@ -376,9 +376,9 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--pdf", type=Path, default=DEFAULT_PDF)
     parser.add_argument("--audio-dir", type=Path, default=DEFAULT_AUDIO_DIR)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
-    parser.add_argument("--asset-base", default="https://ielts-luocheng.oss-cn-shanghai.aliyuncs.com/assets")
-    parser.add_argument("--oss-bucket", default="ielts-luocheng")
-    parser.add_argument("--oss-region", default="cn-shanghai")
+    parser.add_argument("--asset-base", default="https://engilish.oss-cn-guangzhou.aliyuncs.com/assets")
+    parser.add_argument("--oss-bucket", default="engilish")
+    parser.add_argument("--oss-region", default="cn-guangzhou")
     return parser.parse_args(argv)
 
 
