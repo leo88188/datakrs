@@ -108,6 +108,19 @@
     return Array.from(groups.entries());
   }
 
+  function speakTerm(term, button) {
+    if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return;
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(term);
+    utterance.lang = "en-US";
+    utterance.rate = 0.86;
+    utterance.pitch = 1;
+    if (button) button.classList.add("playing");
+    utterance.onend = () => button && button.classList.remove("playing");
+    utterance.onerror = () => button && button.classList.remove("playing");
+    window.speechSynthesis.speak(utterance);
+  }
+
   function updateProgress() {
     const done = state.done.size;
     const percent = Math.round((done / 100) * 100);
@@ -167,8 +180,15 @@
                   const notes = (word.notes || []).slice(0, 3);
                   return `
                     <article class="word-card">
-                      <strong>${esc(word.term)}</strong>
-                      ${word.phonetic ? `<em>/${esc(word.phonetic)}/</em>` : ""}
+                      <div class="word-head">
+                        <div>
+                          <strong>${esc(word.term)}</strong>
+                          ${word.phonetic ? `<em>/${esc(word.phonetic)}/</em>` : ""}
+                        </div>
+                        <button class="word-speak" type="button" data-term="${esc(word.term)}" aria-label="播放 ${esc(word.term)} 发音">
+                          <span></span>
+                        </button>
+                      </div>
                       <p>${word.pos ? `<small>${esc(word.pos)}</small> ` : ""}${esc(word.definition)}</p>
                       ${
                         notes.length
@@ -313,6 +333,14 @@
         state.drills[key] = checkbox.checked;
         saveProgress();
       });
+    });
+
+    els.wordGroups.addEventListener("click", (event) => {
+      const button = event.target.closest(".word-speak");
+      if (!button) return;
+      event.preventDefault();
+      event.stopPropagation();
+      speakTerm(button.dataset.term, button);
     });
 
     els.sentenceAudio.addEventListener("ended", () => {
