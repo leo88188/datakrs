@@ -12,6 +12,7 @@
     done: new Set(),
     favorite: new Set(),
     drills: {},
+    voices: [],
   };
 
   const els = {};
@@ -108,9 +109,36 @@
     return Array.from(groups.entries());
   }
 
+  function showToast(message) {
+    let toast = document.querySelector(".app-toast");
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.className = "app-toast";
+      document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    toast.classList.add("show");
+    window.clearTimeout(showToast.timer);
+    showToast.timer = window.setTimeout(() => toast.classList.remove("show"), 2200);
+  }
+
+  function refreshVoices() {
+    if (!("speechSynthesis" in window)) return;
+    state.voices = window.speechSynthesis.getVoices() || [];
+  }
+
+  function pickEnglishVoice() {
+    if (!state.voices.length) refreshVoices();
+    return (
+      state.voices.find((voice) => /^en[-_](US|GB)/i.test(voice.lang)) ||
+      state.voices.find((voice) => /^en/i.test(voice.lang)) ||
+      null
+    );
+  }
+
   function speakTerm(term, button) {
     if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) {
-      window.alert("当前浏览器不支持单词朗读");
+      showToast("当前浏览器不支持单词朗读");
       return;
     }
     window.speechSynthesis.cancel();
@@ -119,11 +147,21 @@
     utterance.rate = 0.82;
     utterance.pitch = 1;
     utterance.volume = 1;
+    const voice = pickEnglishVoice();
+    if (voice) utterance.voice = voice;
     if (button) button.classList.add("playing");
     window.speechSynthesis.resume();
     utterance.onend = () => button && button.classList.remove("playing");
-    utterance.onerror = () => button && button.classList.remove("playing");
-    window.speechSynthesis.speak(utterance);
+    utterance.onerror = () => {
+      if (button) button.classList.remove("playing");
+      showToast("单词发音没有启动，请确认 iPhone 未静音并再点一次");
+    };
+    try {
+      window.speechSynthesis.speak(utterance);
+    } catch (error) {
+      if (button) button.classList.remove("playing");
+      showToast("单词发音不可用，请稍后再试");
+    }
   }
 
   function updateProgress() {
@@ -224,6 +262,7 @@
     els.grammarNote.textContent = sentence.grammar || "当前句子未提取到语法笔记。";
     els.wordSummary.textContent = `核心词 ${sentence.wordStats.core} 个，主题扩展 ${sentence.wordStats.theme} 个。`;
     els.sentenceAudio.src = audioUrl(sentence);
+    els.audioStatus.textContent = "";
     els.sentenceAudio.loop = els.loopAudio.checked;
     els.sentenceAudio.playbackRate = Number(els.playbackRate.value);
     els.markDone.textContent = state.done.has(sentence.id) ? "取消已掌握" : "标记已掌握";
@@ -351,6 +390,25 @@
     els.sentenceAudio.addEventListener("ended", () => {
       if (!els.loopAudio.checked && state.activeId < 100) selectSentence(state.activeId + 1, false);
     });
+
+    els.sentenceAudio.addEventListener("loadstart", () => {
+      els.audioStatus.textContent = "音频准备中...";
+    });
+
+    els.sentenceAudio.addEventListener("canplay", () => {
+      els.audioStatus.textContent = "";
+    });
+
+    els.sentenceAudio.addEventListener("error", () => {
+      const code = els.sentenceAudio.error ? els.sentenceAudio.error.code : 0;
+      const messages = {
+        1: "音频加载已取消",
+        2: "网络中断，音频没有加载成功",
+        3: "音频解码失败",
+        4: "音频地址不可用或权限被拦截",
+      };
+      els.audioStatus.textContent = messages[code] || "音频播放失败，请刷新后重试";
+    });
   }
 
   function cacheElements() {
@@ -369,6 +427,7 @@
       "englishSentence",
       "chineseSentence",
       "sentenceAudio",
+      "audioStatus",
       "prevSentence",
       "nextSentence",
       "loopAudio",
@@ -391,6 +450,10 @@
   async function init() {
     cacheElements();
     loadProgress();
+    refreshVoices();
+    if ("speechSynthesis" in window) {
+      window.speechSynthesis.onvoiceschanged = refreshVoices;
+    }
     bindEvents();
 
     try {

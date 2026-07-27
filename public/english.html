@@ -70,7 +70,8 @@
           <p id="chineseSentence" class="translation"></p>
 
           <div class="player-bar">
-            <audio id="sentenceAudio" controls preload="none"></audio>
+            <audio id="sentenceAudio" controls preload="none" referrerpolicy="strict-origin-when-cross-origin"></audio>
+            <div id="audioStatus" class="audio-status" role="status" aria-live="polite"></div>
             <div class="player-tools">
               <button id="prevSentence" type="button">上一句</button>
               <button id="nextSentence" type="button">下一句</button>
@@ -134,7 +135,7 @@
               <p id="videoRange">Sentence 01-05</p>
             </div>
           </div>
-          <video id="dayVideo" controls preload="metadata" playsinline></video>
+          <video id="dayVideo" controls preload="metadata" playsinline referrerpolicy="strict-origin-when-cross-origin"></video>
         </section>
 
         <section class="checklist-card">
