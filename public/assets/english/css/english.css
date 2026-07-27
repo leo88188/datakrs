@@ -8,7 +8,7 @@ html, body {
   background: #eef3f8;
   color: #172033;
   font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.55;
+  line-height: 1.6;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -73,7 +73,7 @@ button {
 
 .brand strong {
   display: block;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.1;
 }
 
@@ -91,11 +91,11 @@ button {
 
 .ghost-button {
   min-width: 46px;
-  padding: 7px 9px;
+  padding: 8px 10px;
   border-radius: 999px;
   color: #475569;
   background: transparent;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .ghost-button.active {
@@ -254,7 +254,7 @@ button {
 .sentence-preview strong {
   display: -webkit-box;
   color: #172033;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.45;
   overflow: hidden;
   -webkit-line-clamp: 2;
@@ -265,7 +265,7 @@ button {
   display: block;
   margin-top: 4px;
   color: #64748b;
-  font-size: 12px;
+  font-size: 13px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -331,8 +331,8 @@ button {
 #englishSentence {
   margin: 0;
   color: #0f172a;
-  font-size: 22px;
-  line-height: 1.42;
+  font-size: 25px;
+  line-height: 1.44;
   letter-spacing: 0;
 }
 
@@ -343,7 +343,7 @@ button {
   border-radius: 10px;
   color: #334155;
   background: #fff7ed;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .player-bar,
@@ -385,7 +385,7 @@ button {
   padding: 9px 11px;
   color: #172033;
   background: #eef3f8;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .primary-button {
@@ -429,7 +429,7 @@ button {
 .checklist-card h2 {
   margin: 0;
   color: #0f172a;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .note-block p,
@@ -437,7 +437,7 @@ button {
 .video-card p {
   margin: 7px 0 0;
   color: #64748b;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .word-section {
@@ -507,7 +507,7 @@ button {
 }
 
 .word-card {
-  padding: 10px;
+  padding: 12px;
   border-radius: 12px;
   background: #f8fafc;
 }
@@ -516,13 +516,14 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 12px;
 }
 
 .word-card strong {
   display: block;
   color: #0f172a;
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 1.25;
 }
 
 .word-card em {
@@ -530,25 +531,26 @@ button {
   margin-top: 2px;
   color: #64748b;
   font-style: normal;
-  font-size: 12px;
-}
-
-.word-card p {
-  margin: 6px 0 0;
-  color: #334155;
   font-size: 13px;
 }
 
+.word-card p {
+  margin: 8px 0 0;
+  color: #334155;
+  font-size: 15px;
+}
+
 .word-card ul {
-  margin: 7px 0 0;
+  margin: 8px 0 0;
   padding-left: 17px;
   color: #64748b;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .word-speak {
-  width: 34px;
-  height: 34px;
+  position: relative;
+  width: 44px;
+  height: 44px;
   display: grid;
   place-items: center;
   flex: 0 0 auto;
@@ -558,8 +560,8 @@ button {
 }
 
 .word-speak span {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   display: block;
   background: currentColor;
   clip-path: polygon(0 35%, 32% 35%, 62% 12%, 62% 88%, 32% 65%, 0 65%);
@@ -567,9 +569,9 @@ button {
 
 .word-speak::after {
   content: "";
-  width: 7px;
-  height: 12px;
-  margin-left: -5px;
+  width: 8px;
+  height: 14px;
+  margin-left: -6px;
   border: 2px solid currentColor;
   border-left: 0;
   border-radius: 0 999px 999px 0;
@@ -578,6 +580,27 @@ button {
 .word-speak.playing {
   color: #fff;
   background: #f59e0b;
+}
+
+.word-speak.playing::before {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  border: 2px solid rgba(245, 158, 11, .35);
+  animation: speakPulse 1s ease-out infinite;
+}
+
+@keyframes speakPulse {
+  from {
+    transform: scale(.96);
+    opacity: .9;
+  }
+  to {
+    transform: scale(1.22);
+    opacity: 0;
+  }
 }
 
 .media-panel {

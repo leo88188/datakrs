@@ -109,13 +109,18 @@
   }
 
   function speakTerm(term, button) {
-    if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return;
+    if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) {
+      window.alert("当前浏览器不支持单词朗读");
+      return;
+    }
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(term);
     utterance.lang = "en-US";
-    utterance.rate = 0.86;
+    utterance.rate = 0.82;
     utterance.pitch = 1;
+    utterance.volume = 1;
     if (button) button.classList.add("playing");
+    window.speechSynthesis.resume();
     utterance.onend = () => button && button.classList.remove("playing");
     utterance.onerror = () => button && button.classList.remove("playing");
     window.speechSynthesis.speak(utterance);
@@ -185,7 +190,7 @@
                           <strong>${esc(word.term)}</strong>
                           ${word.phonetic ? `<em>/${esc(word.phonetic)}/</em>` : ""}
                         </div>
-                        <button class="word-speak" type="button" data-term="${esc(word.term)}" aria-label="播放 ${esc(word.term)} 发音">
+                        <button class="word-speak" type="button" data-term="${esc(word.term)}" aria-label="播放 ${esc(word.term)} 发音" title="播放发音">
                           <span></span>
                         </button>
                       </div>
