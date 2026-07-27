@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#f8fafc">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="雅思100句">
+  <title>雅思 100 句学习工具 - 克睿斯</title>
+  <meta name="description" content="100句雅思长难句跟读、词汇检索、视频精讲与学习进度管理。">
+  <link rel="stylesheet" href="/assets/english/css/english.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="返回克睿斯首页">
+        <span class="brand-mark">K</span>
+        <span>
+          <strong>雅思 100 句</strong>
+          <small>跟读 · 词汇 · 精讲</small>
+        </span>
+      </a>
+      <nav class="top-actions" aria-label="学习视图">
+        <button class="ghost-button active" data-panel-trigger="learn">学习</button>
+        <button class="ghost-button" data-panel-trigger="words">词库</button>
+        <button class="ghost-button" data-panel-trigger="video">视频</button>
+      </nav>
+    </header>
+
+    <main class="learning-grid">
+      <aside class="sidebar" data-panel="learn">
+        <section class="search-panel">
+          <label for="searchInput">搜索句子、中文或词汇</label>
+          <div class="search-box">
+            <input id="searchInput" type="search" placeholder="例如 debate / 文明 / signal">
+            <button id="clearSearch" type="button" aria-label="清空搜索">×</button>
+          </div>
+        </section>
+
+        <section class="day-strip" aria-label="天数选择">
+          <div class="section-title">
+            <span>19 天计划</span>
+            <strong id="progressText">0 / 100</strong>
+          </div>
+          <div id="dayButtons" class="day-buttons"></div>
+        </section>
+
+        <section class="sentence-list-wrap">
+          <div class="section-title">
+            <span>句子目录</span>
+            <strong id="resultCount">100</strong>
+          </div>
+          <div id="sentenceList" class="sentence-list"></div>
+        </section>
+      </aside>
+
+      <section class="study-panel" aria-live="polite">
+        <div id="loadingState" class="loading-state">正在加载学习数据...</div>
+
+        <article id="studyCard" class="study-card hidden">
+          <div class="sentence-meta">
+            <span id="sentenceBadge">Sentence 01</span>
+            <span id="dayBadge">第01天</span>
+            <span id="wordCountBadge">0 词条</span>
+          </div>
+
+          <h1 id="englishSentence"></h1>
+          <p id="chineseSentence" class="translation"></p>
+
+          <div class="player-bar">
+            <audio id="sentenceAudio" controls preload="none"></audio>
+            <div class="player-tools">
+              <button id="prevSentence" type="button">上一句</button>
+              <button id="nextSentence" type="button">下一句</button>
+              <label class="toggle">
+                <input id="loopAudio" type="checkbox">
+                <span>循环</span>
+              </label>
+              <label class="rate-select">
+                <span>速度</span>
+                <select id="playbackRate">
+                  <option value="0.75">0.75x</option>
+                  <option value="1" selected>1x</option>
+                  <option value="1.25">1.25x</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="progress-actions">
+            <button id="markDone" type="button" class="primary-button">标记已掌握</button>
+            <button id="toggleFavorite" type="button" class="secondary-button">加入重点</button>
+          </div>
+
+          <section class="note-block">
+            <h2>语法拆解</h2>
+            <p id="grammarNote"></p>
+          </section>
+
+          <section class="word-section" data-panel="words">
+            <div class="section-heading">
+              <div>
+                <h2>词汇与主题归纳</h2>
+                <p id="wordSummary">核心词表与主题扩展词完整收录。</p>
+              </div>
+              <div class="segmented" role="tablist" aria-label="词汇筛选">
+                <button class="active" data-word-filter="all" type="button">全部</button>
+                <button data-word-filter="core" type="button">核心</button>
+                <button data-word-filter="theme" type="button">主题</button>
+              </div>
+            </div>
+            <div id="wordGroups" class="word-groups"></div>
+          </section>
+        </article>
+      </section>
+
+      <aside class="media-panel" data-panel="video">
+        <section class="stats-card">
+          <div>
+            <span>学习进度</span>
+            <strong id="progressPercent">0%</strong>
+          </div>
+          <div class="progress-track">
+            <span id="progressBar"></span>
+          </div>
+        </section>
+
+        <section class="video-card">
+          <div class="section-heading compact">
+            <div>
+              <h2 id="videoTitle">第01天精讲</h2>
+              <p id="videoRange">Sentence 01-05</p>
+            </div>
+          </div>
+          <video id="dayVideo" controls preload="metadata" playsinline></video>
+        </section>
+
+        <section class="checklist-card">
+          <h2>本句练习</h2>
+          <label><input type="checkbox" data-drill="listen"> 听一遍原音</label>
+          <label><input type="checkbox" data-drill="shadow"> 跟读三遍</label>
+          <label><input type="checkbox" data-drill="words"> 复述核心词</label>
+          <label><input type="checkbox" data-drill="grammar"> 讲清句子结构</label>
+        </section>
+      </aside>
+    </main>
+  </div>
+
+  <script src="/assets/english/js/english.js" defer></script>
+</body>
+</html>
