@@ -229,7 +229,7 @@
                           ${word.phonetic ? `<em>/${esc(word.phonetic)}/</em>` : ""}
                         </div>
                         <button class="word-speak" type="button" data-term="${esc(word.term)}" aria-label="播放 ${esc(word.term)} 发音" title="播放发音">
-                          <span></span>
+                          <span>play</span>
                         </button>
                       </div>
                       <p>${word.pos ? `<small>${esc(word.pos)}</small> ` : ""}${esc(word.definition)}</p>
