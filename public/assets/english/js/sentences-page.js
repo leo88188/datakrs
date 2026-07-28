@@ -1979,6 +1979,47 @@
     return ["all", ...Array.from(new Set(collectionItems().map((item) => item.tone)))];
   }
 
+  function toneLabel(tone) {
+    const labels = {
+      "深刻": "观点深入",
+      "坚定": "结论有力",
+      "温暖": "表达柔和",
+      "安静": "表达克制",
+      "有趣": "轻松幽默",
+      "轻快": "简短轻快",
+    };
+    return labels[tone] || tone || "表达方式";
+  }
+
+  function listSummary(item) {
+    if (item.kind === "雅思复杂句") return `主题：${item.category} · 句型：${item.pattern || "观点句"} · ${item.grammar || "语法组合"}`;
+    const source = item.author && item.author !== "Datakrs Original" ? ` · 来源：${item.author}` : "";
+    return `类别：${item.category} · 表达：${toneLabel(item.tone)}${source}`;
+  }
+
+  function cardMeta(item, index, total) {
+    if (item.kind === "雅思复杂句") {
+      return [
+        "训练：句型拆解",
+        `主题：${item.category}`,
+        `句型：${item.pattern || "观点句"}`,
+        `${index + 1} / ${total}`,
+      ];
+    }
+    return [
+      item.kind === "名言短句" ? "训练：经典表达" : "训练：金句积累",
+      `类别：${item.category}`,
+      `表达：${toneLabel(item.tone)}`,
+      `${index + 1} / ${total}`,
+    ];
+  }
+
+  function sourceText(item) {
+    if (item.kind === "雅思复杂句") return "练习重点：句型组合、语法拆解、词汇注释";
+    if (item.author === "Datakrs Original") return "来源：原创整理";
+    return `来源：${item.author}`;
+  }
+
   function filteredSentences() {
     const query = state.query.trim().toLowerCase();
     const results = collectionItems().filter((item) => {
@@ -2010,9 +2051,12 @@
     return items.find((item) => item.id === state.activeId) || items[0] || null;
   }
 
-  function renderTabs(container, values, active, attr, allLabel) {
+  function renderTabs(container, values, active, attr, allLabel, labeler) {
     container.innerHTML = values
-      .map((value) => `<button class="vocab-chapter-tab${value === active ? " active" : ""}" type="button" data-${attr}="${esc(value)}">${esc(value === "all" ? allLabel : value)}</button>`)
+      .map((value) => {
+        const label = value === "all" ? allLabel : labeler ? labeler(value) : value;
+        return `<button class="vocab-chapter-tab${value === active ? " active" : ""}" type="button" data-${attr}="${esc(value)}">${esc(label)}</button>`;
+      })
       .join("");
   }
 
@@ -2042,7 +2086,7 @@
           <button class="classic-sentence-row${item.id === state.activeId ? " active" : ""}${state.favorite.has(item.id) ? " favorite" : ""}" type="button" data-sentence-id="${esc(item.id)}">
             <span>${String(index + 1).padStart(3, "0")}</span>
             <strong>${esc(item.english)}</strong>
-            <small>${esc(item.category)} · ${esc(item.tone)} · ${esc(item.author)}</small>
+            <small>${esc(listSummary(item))}</small>
           </button>
         `
       )
@@ -2060,16 +2104,14 @@
     const index = Math.max(0, items.findIndex((entry) => entry.id === item.id));
     const hasPrev = index > 0;
     const hasNext = index < items.length - 1;
+    const meta = cardMeta(item, index, items.length);
     els.card.innerHTML = `
       <div class="classic-card-meta">
-        <span>${esc(item.kind)}</span>
-        <span>${esc(item.category)}</span>
-        <span>${esc(item.tone)}</span>
-        <span>${esc(index + 1)} / ${esc(items.length)}</span>
+        ${meta.map((entry) => `<span>${esc(entry)}</span>`).join("")}
       </div>
       <h1>${renderAnnotatedSentence(item.english)}</h1>
       <p class="classic-card-translation">${esc(item.chinese)}</p>
-      <div class="classic-card-source">${esc(item.author)}</div>
+      <div class="classic-card-source">${esc(sourceText(item))}</div>
       ${renderGrammarCombo(item)}
       <p class="classic-card-note">${esc(item.note)}</p>
       <div class="classic-card-actions">
@@ -2087,7 +2129,7 @@
     renderModes();
     renderTabs(els.patterns, patterns(), state.pattern, "sentence-pattern", "全部句型");
     renderTabs(els.categories, categories(), state.category, "sentence-category", "全部主题");
-    renderTabs(els.tones, tones(), state.tone, "sentence-tone", "全部语气");
+    renderTabs(els.tones, tones(), state.tone, "sentence-tone", "全部表达", toneLabel);
     renderList();
     renderCard();
   }
