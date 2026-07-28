@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "雅思阅读文章训练",
-    "articleCount": 6,
-    "version": "1.0.0",
-    "note": "原创雅思风格阅读材料，用于个人训练；不是考试真题原文。"
+    "articleCount": 41,
+    "version": "1.2.1",
+    "note": "原创雅思风格阅读材料，用于个人训练；不是考试真题原文。支持主题筛选、Band 5/6/7/8-9 难度筛选、段落翻译、关键词解释和题型解析。"
   },
   "articles": [
     {
       "id": "ai-workplace",
       "title": "Artificial Intelligence and the Redesign of Work",
       "topic": "Technology",
-      "level": "Band 6.5-7.5",
+      "level": "Band 7.0-7.5",
       "minutes": 12,
       "summary": "人工智能进入办公室后，真正改变的不是某一个工具，而是任务分配、员工判断和组织流程。",
       "paragraphs": [
@@ -19,12 +19,42 @@
         "However, the shift also creates new risks. If employees accept machine suggestions without questioning them, errors can spread quickly through a business. Researchers therefore argue that AI training should include basic prompt skills, data awareness and rules for human review. The most successful organisations are not necessarily those with the most advanced models, but those that know where human judgement must remain in control."
       ],
       "keywords": [
-        {"term": "delegate", "phonetic": "ˈdelɪɡeɪt", "meaning": "委派，交给别人处理", "note": "delegate tasks to machines"},
-        {"term": "routine", "phonetic": "ruːˈtiːn", "meaning": "常规的，重复性的", "note": "routine work / routine tasks"},
-        {"term": "judgement", "phonetic": "ˈdʒʌdʒmənt", "meaning": "判断力", "note": "human judgement"},
-        {"term": "relevant", "phonetic": "ˈreləvənt", "meaning": "相关的，有用的", "note": "relevant data"},
-        {"term": "suggestion", "phonetic": "səˈdʒestʃən", "meaning": "建议，提示", "note": "machine suggestions"},
-        {"term": "awareness", "phonetic": "əˈweənəs", "meaning": "意识，认知", "note": "data awareness"}
+        {
+          "term": "delegate",
+          "phonetic": "ˈdelɪɡeɪt",
+          "meaning": "委派，交给别人处理",
+          "note": "delegate tasks to machines"
+        },
+        {
+          "term": "routine",
+          "phonetic": "ruːˈtiːn",
+          "meaning": "常规的，重复性的",
+          "note": "routine work / routine tasks"
+        },
+        {
+          "term": "judgement",
+          "phonetic": "ˈdʒʌdʒmənt",
+          "meaning": "判断力",
+          "note": "human judgement"
+        },
+        {
+          "term": "relevant",
+          "phonetic": "ˈreləvənt",
+          "meaning": "相关的，有用的",
+          "note": "relevant data"
+        },
+        {
+          "term": "suggestion",
+          "phonetic": "səˈdʒestʃən",
+          "meaning": "建议，提示",
+          "note": "machine suggestions"
+        },
+        {
+          "term": "awareness",
+          "phonetic": "əˈweənəs",
+          "meaning": "意识，认知",
+          "note": "data awareness"
+        }
       ],
       "questions": [
         {
@@ -38,7 +68,12 @@
           "id": "ai-workplace-q2",
           "type": "Multiple Choice",
           "question": "According to the passage, the marketing assistant's role changes mainly by focusing more on:",
-          "options": ["checking and explaining data", "writing more advertisements", "building AI models", "making invoices"],
+          "options": [
+            "checking and explaining data",
+            "writing more advertisements",
+            "building AI models",
+            "making invoices"
+          ],
           "answer": "checking and explaining data",
           "explanation": "第二段强调 assistant checks whether the data is relevant, explains unusual patterns and recommends a response。"
         },
@@ -49,13 +84,19 @@
           "answer": "data awareness and rules for human review",
           "explanation": "第三段列出 prompt skills, data awareness and rules for human review。"
         }
-      ]
+      ],
+      "translations": [
+        "对许多组织来说，人工智能最初是作为减少重复工作的方式被引入的。软件可以在几秒钟内总结客户邮件、分类发票，或起草标准报告。然而，更深层的变化并不那么显眼。一旦常规任务被交给机器，管理者就必须决定哪些人的能力需要被保护、训练和衡量。",
+        "一些公司通过围绕判断力而不是执行动作来重新设计岗位。例如，营销助理可能不再花半天时间收集活动数据，而是检查数据是否相关、解释异常模式，并建议下一步反应。在这种模式中，AI 不只是替代员工，而是在改变什么才算是好的工作。",
+        "不过，这种转变也带来了新风险。如果员工不加质疑地接受机器建议，错误就可能在企业中迅速扩散。因此研究者认为，AI 培训应包括基础提示词技能、数据意识和人工复核规则。最成功的组织未必拥有最先进的模型，而是清楚哪些地方必须由人类判断保持控制。"
+      ],
+      "bandGroup": "band7"
     },
     {
       "id": "urban-heat",
       "title": "Why Some Cities Feel Hotter Than Their Weather Reports",
       "topic": "Environment",
-      "level": "Band 6.5-7.5",
+      "level": "Band 6.0-6.5",
       "minutes": 11,
       "summary": "城市热岛效应让实际体感温度高于天气预报，原因和建筑材料、树荫、夜间散热有关。",
       "paragraphs": [
@@ -64,12 +105,42 @@
         "Urban planners are testing practical responses. Some cities are planting trees along bus routes and school streets, while others are using reflective materials on roofs and pavements. These measures are relatively simple, but they require careful mapping. A single park may look impressive on a tourist map, yet small patches of shade distributed through daily walking routes can be more useful for residents."
       ],
       "keywords": [
-        {"term": "pedestrian", "phonetic": "pəˈdestriən", "meaning": "行人", "note": "pedestrians can experience"},
-        {"term": "absorb", "phonetic": "əbˈzɔːb", "meaning": "吸收", "note": "absorb solar energy"},
-        {"term": "rural", "phonetic": "ˈrʊərəl", "meaning": "乡村的", "note": "rural areas"},
-        {"term": "ventilated", "phonetic": "ˈventɪleɪtɪd", "meaning": "通风的", "note": "poorly ventilated homes"},
-        {"term": "emissions", "phonetic": "ɪˈmɪʃnz", "meaning": "排放物，排放量", "note": "carbon emissions"},
-        {"term": "reflective", "phonetic": "rɪˈflektɪv", "meaning": "反光的，反射的", "note": "reflective materials"}
+        {
+          "term": "pedestrian",
+          "phonetic": "pəˈdestriən",
+          "meaning": "行人",
+          "note": "pedestrians can experience"
+        },
+        {
+          "term": "absorb",
+          "phonetic": "əbˈzɔːb",
+          "meaning": "吸收",
+          "note": "absorb solar energy"
+        },
+        {
+          "term": "rural",
+          "phonetic": "ˈrʊərəl",
+          "meaning": "乡村的",
+          "note": "rural areas"
+        },
+        {
+          "term": "ventilated",
+          "phonetic": "ˈventɪleɪtɪd",
+          "meaning": "通风的",
+          "note": "poorly ventilated homes"
+        },
+        {
+          "term": "emissions",
+          "phonetic": "ɪˈmɪʃnz",
+          "meaning": "排放物，排放量",
+          "note": "carbon emissions"
+        },
+        {
+          "term": "reflective",
+          "phonetic": "rɪˈflektɪv",
+          "meaning": "反光的，反射的",
+          "note": "reflective materials"
+        }
       ],
       "questions": [
         {
@@ -83,7 +154,12 @@
           "id": "urban-heat-q2",
           "type": "Multiple Choice",
           "question": "Who is mentioned as being especially vulnerable to high night-time temperatures?",
-          "options": ["older people", "tourists", "office managers", "software engineers"],
+          "options": [
+            "older people",
+            "tourists",
+            "office managers",
+            "software engineers"
+          ],
           "answer": "older people",
           "explanation": "第二段列举 older people, outdoor workers and residents in poorly ventilated homes。"
         },
@@ -94,13 +170,19 @@
           "answer": "shade",
           "explanation": "第三段最后一句说 small patches of shade distributed through daily walking routes can be more useful。"
         }
-      ]
+      ],
+      "translations": [
+        "天气预报可能显示两个城市温度相同，但行人的实际感受可能完全不同。密集街道、深色屋顶和宽阔道路会在白天吸收太阳能，并在夜间缓慢释放。这种通常被称为城市热岛效应的现象，会让市中心比附近乡村地区高出几度。",
+        "这个问题不只是让人不舒服，也可能带来危险。夜间高温会阻止人体在炎热白天之后恢复。老年人、户外工作者和住在通风不良房屋中的居民尤其脆弱。此外，空调使用增加会提高用电需求，如果电力供应依赖化石燃料，还可能进一步加剧排放。",
+        "城市规划者正在测试实际应对方法。一些城市在公交路线和学校街道旁植树，另一些城市则在屋顶和路面使用反光材料。这些措施相对简单，但需要仔细制图。一个大型公园在旅游地图上可能很醒目，但分布在日常步行路线中的小片阴影，对居民可能更有用。"
+      ],
+      "bandGroup": "band6"
     },
     {
       "id": "micro-learning",
       "title": "The Rise of Micro-learning in Adult Education",
       "topic": "Education",
-      "level": "Band 6.0-7.0",
+      "level": "Band 5.5-6.0",
       "minutes": 10,
       "summary": "成人学习不一定依赖长课程，短时、高频、任务化的学习更容易进入真实工作和生活。",
       "paragraphs": [
@@ -109,12 +191,42 @@
         "Critics argue that micro-learning can become superficial if it is treated as entertainment. Complex subjects still require deep reading, practice and reflection. For this reason, effective programmes usually combine short lessons with longer projects. The brief lesson opens the door, but the project ensures that understanding becomes usable competence."
       ],
       "keywords": [
-        {"term": "motivation", "phonetic": "ˌməʊtɪˈveɪʃn", "meaning": "动机，积极性", "note": "strong motivation"},
-        {"term": "continuous", "phonetic": "kənˈtɪnjuəs", "meaning": "连续的", "note": "continuous attention"},
-        {"term": "manageable", "phonetic": "ˈmænɪdʒəbl", "meaning": "可管理的，可处理的", "note": "feel manageable"},
-        {"term": "feedback", "phonetic": "ˈfiːdbæk", "meaning": "反馈", "note": "receive feedback"},
-        {"term": "superficial", "phonetic": "ˌsuːpəˈfɪʃl", "meaning": "肤浅的，表面的", "note": "become superficial"},
-        {"term": "competence", "phonetic": "ˈkɒmpɪtəns", "meaning": "能力，胜任力", "note": "usable competence"}
+        {
+          "term": "motivation",
+          "phonetic": "ˌməʊtɪˈveɪʃn",
+          "meaning": "动机，积极性",
+          "note": "strong motivation"
+        },
+        {
+          "term": "continuous",
+          "phonetic": "kənˈtɪnjuəs",
+          "meaning": "连续的",
+          "note": "continuous attention"
+        },
+        {
+          "term": "manageable",
+          "phonetic": "ˈmænɪdʒəbl",
+          "meaning": "可管理的，可处理的",
+          "note": "feel manageable"
+        },
+        {
+          "term": "feedback",
+          "phonetic": "ˈfiːdbæk",
+          "meaning": "反馈",
+          "note": "receive feedback"
+        },
+        {
+          "term": "superficial",
+          "phonetic": "ˌsuːpəˈfɪʃl",
+          "meaning": "肤浅的，表面的",
+          "note": "become superficial"
+        },
+        {
+          "term": "competence",
+          "phonetic": "ˈkɒmpɪtəns",
+          "meaning": "能力，胜任力",
+          "note": "usable competence"
+        }
       ],
       "questions": [
         {
@@ -128,7 +240,12 @@
           "id": "micro-learning-q2",
           "type": "Multiple Choice",
           "question": "Why does micro-learning reduce the psychological cost of starting?",
-          "options": ["The lessons feel small and manageable.", "The courses remove all difficult content.", "Learners do not need feedback.", "It replaces every long project."],
+          "options": [
+            "The lessons feel small and manageable.",
+            "The courses remove all difficult content.",
+            "Learners do not need feedback.",
+            "It replaces every long project."
+          ],
           "answer": "The lessons feel small and manageable.",
           "explanation": "第二段用 ten-minute lesson 与 full statistics course 对比。"
         },
@@ -139,13 +256,19 @@
           "answer": "longer projects",
           "explanation": "第三段说明 effective programmes usually combine short lessons with longer projects。"
         }
-      ]
+      ],
+      "translations": [
+        "成人学习者通常有较强动机，但时间有限。传统课程每周需要连续投入数小时注意力，在工作和家庭责任之外可能很难完成。微学习提供了另一种模式：围绕单一技能、概念或决策展开的短课程。",
+        "这种方法受欢迎，是因为它降低了开始学习的心理成本。例如，一个关于如何比较两张图表的十分钟课程，比完整的统计学课程更容易接受。当课程与真实任务连接时，学习者可以立即应用知识，并从结果中获得反馈。",
+        "批评者认为，如果微学习被当作娱乐，它可能变得肤浅。复杂主题仍然需要深度阅读、练习和反思。因此，有效项目通常把短课程和较长项目结合起来。短课程打开入口，但项目确保理解转化为可使用的能力。"
+      ],
+      "bandGroup": "band5"
     },
     {
       "id": "food-supply",
       "title": "Making Food Supply Chains More Resilient",
       "topic": "Business",
-      "level": "Band 7.0",
+      "level": "Band 7.0-7.5",
       "minutes": 12,
       "summary": "食品供应链的稳定性不只取决于价格，还取决于备选供应商、库存策略和数据透明度。",
       "paragraphs": [
@@ -154,12 +277,42 @@
         "Some analysts suggest that future supply chains will be judged by a broader set of measures. Price will remain important, but decision-makers will also consider reliability, environmental impact and the ability to recover after disruption. A resilient system may look less efficient on paper, yet it can protect both businesses and consumers when conditions change."
       ],
       "keywords": [
-        {"term": "resilient", "phonetic": "rɪˈzɪliənt", "meaning": "有韧性的，能恢复的", "note": "resilient supply chains"},
-        {"term": "fragility", "phonetic": "frəˈdʒɪləti", "meaning": "脆弱性", "note": "hidden fragility"},
-        {"term": "inventory", "phonetic": "ˈɪnvəntri", "meaning": "库存", "note": "inventory levels"},
-        {"term": "visibility", "phonetic": "ˌvɪzəˈbɪləti", "meaning": "可见性，透明度", "note": "visibility across suppliers"},
-        {"term": "shortage", "phonetic": "ˈʃɔːtɪdʒ", "meaning": "短缺", "note": "become a shortage"},
-        {"term": "disruption", "phonetic": "dɪsˈrʌpʃn", "meaning": "中断，扰乱", "note": "recover after disruption"}
+        {
+          "term": "resilient",
+          "phonetic": "rɪˈzɪliənt",
+          "meaning": "有韧性的，能恢复的",
+          "note": "resilient supply chains"
+        },
+        {
+          "term": "fragility",
+          "phonetic": "frəˈdʒɪləti",
+          "meaning": "脆弱性",
+          "note": "hidden fragility"
+        },
+        {
+          "term": "inventory",
+          "phonetic": "ˈɪnvəntri",
+          "meaning": "库存",
+          "note": "inventory levels"
+        },
+        {
+          "term": "visibility",
+          "phonetic": "ˌvɪzəˈbɪləti",
+          "meaning": "可见性，透明度",
+          "note": "visibility across suppliers"
+        },
+        {
+          "term": "shortage",
+          "phonetic": "ˈʃɔːtɪdʒ",
+          "meaning": "短缺",
+          "note": "become a shortage"
+        },
+        {
+          "term": "disruption",
+          "phonetic": "dɪsˈrʌpʃn",
+          "meaning": "中断，扰乱",
+          "note": "recover after disruption"
+        }
       ],
       "questions": [
         {
@@ -173,7 +326,12 @@
           "id": "food-supply-q2",
           "type": "Multiple Choice",
           "question": "According to the passage, digital tracking tools are most useful when companies:",
-          "options": ["share accurate information", "avoid local data", "buy extra stock only", "ignore transport routes"],
+          "options": [
+            "share accurate information",
+            "avoid local data",
+            "buy extra stock only",
+            "ignore transport routes"
+          ],
           "answer": "share accurate information",
           "explanation": "第二段最后一句强调 technology is useful only when organisations share accurate information。"
         },
@@ -184,13 +342,19 @@
           "answer": "reliability / environmental impact / ability to recover after disruption",
           "explanation": "第三段列出 reliability, environmental impact and ability to recover after disruption。"
         }
-      ]
+      ],
+      "translations": [
+        "全球食品系统很高效，但效率也可能制造隐藏的脆弱性。超市通常依赖精确的配送时间表和较低库存水平。在正常情况下，这能减少浪费和仓储成本。然而，在极端天气、港口延误或需求突然变化时，同一套系统可能难以及时响应。",
+        "韧性不只是简单地多买库存。企业需要看清供应商、运输路线和本地需求模式。数字追踪工具可以帮助管理者发现某个地区的小延误何时可能变成其他地方的短缺。不过，只有当组织愿意共享准确信息时，技术才真正有用。",
+        "一些分析人士认为，未来供应链会由更广泛的指标来评价。价格仍然重要，但决策者也会考虑可靠性、环境影响以及中断后的恢复能力。一个有韧性的系统在纸面上可能看起来不那么高效，但在条件变化时，它能保护企业和消费者。"
+      ],
+      "bandGroup": "band7"
     },
     {
       "id": "sleep-health",
       "title": "Sleep, Memory and the Myth of Lost Time",
       "topic": "Health",
-      "level": "Band 6.5",
+      "level": "Band 5.5-6.0",
       "minutes": 10,
       "summary": "睡眠不是学习的敌人，反而参与记忆整理、情绪恢复和长期表现。",
       "paragraphs": [
@@ -199,12 +363,42 @@
         "Sleep also influences emotional control. A tired learner may interpret a difficult passage as evidence of personal failure, while a rested learner is more likely to treat it as a problem to solve. For exam preparation, therefore, sleep should be considered part of the learning system rather than a reward after all work is finished."
       ],
       "keywords": [
-        {"term": "misleading", "phonetic": "ˌmɪsˈliːdɪŋ", "meaning": "误导性的", "note": "scientifically misleading"},
-        {"term": "reorganise", "phonetic": "riˈɔːɡənaɪz", "meaning": "重新组织", "note": "reorganises information"},
-        {"term": "exposure", "phonetic": "ɪkˈspəʊʒə", "meaning": "接触，暴露", "note": "repeated exposure"},
-        {"term": "temporary", "phonetic": "ˈtemprəri", "meaning": "暂时的", "note": "temporary traces"},
-        {"term": "stabilise", "phonetic": "ˈsteɪbəlaɪz", "meaning": "使稳定", "note": "stabilise memories"},
-        {"term": "interpret", "phonetic": "ɪnˈtɜːprət", "meaning": "解释，理解", "note": "interpret a passage"}
+        {
+          "term": "misleading",
+          "phonetic": "ˌmɪsˈliːdɪŋ",
+          "meaning": "误导性的",
+          "note": "scientifically misleading"
+        },
+        {
+          "term": "reorganise",
+          "phonetic": "riˈɔːɡənaɪz",
+          "meaning": "重新组织",
+          "note": "reorganises information"
+        },
+        {
+          "term": "exposure",
+          "phonetic": "ɪkˈspəʊʒə",
+          "meaning": "接触，暴露",
+          "note": "repeated exposure"
+        },
+        {
+          "term": "temporary",
+          "phonetic": "ˈtemprəri",
+          "meaning": "暂时的",
+          "note": "temporary traces"
+        },
+        {
+          "term": "stabilise",
+          "phonetic": "ˈsteɪbəlaɪz",
+          "meaning": "使稳定",
+          "note": "stabilise memories"
+        },
+        {
+          "term": "interpret",
+          "phonetic": "ɪnˈtɜːprət",
+          "meaning": "解释，理解",
+          "note": "interpret a passage"
+        }
       ],
       "questions": [
         {
@@ -225,17 +419,28 @@
           "id": "sleep-health-q3",
           "type": "Multiple Choice",
           "question": "How may a tired learner react to a difficult passage?",
-          "options": ["They may see it as personal failure.", "They will always solve it faster.", "They will ignore all emotion.", "They may remember every detail."],
+          "options": [
+            "They may see it as personal failure.",
+            "They will always solve it faster.",
+            "They will ignore all emotion.",
+            "They may remember every detail."
+          ],
           "answer": "They may see it as personal failure.",
           "explanation": "第三段直接对比 tired learner 与 rested learner。"
         }
-      ]
+      ],
+      "translations": [
+        "学生有时把睡眠描述为从学习中偷走的时间。考试前这种想法可以理解，但从科学角度看具有误导性。睡眠期间，大脑并不是简单关闭；它会重新组织信息，强化重要记忆，并削弱不再有用的细节。",
+        "当学习者背词汇时，这种效果尤其明显。白天的重复接触会形成暂时痕迹，而睡眠帮助这些痕迹稳定下来。学习后充分休息的人，往往比那些注意力下降仍熬夜学习的人记得更多。",
+        "睡眠还影响情绪控制。疲惫的学习者可能把一篇难文章理解为个人失败的证据，而休息充分的学习者更可能把它当作待解决的问题。因此，对备考而言，睡眠应被视为学习系统的一部分，而不是所有工作完成后的奖励。"
+      ],
+      "bandGroup": "band5"
     },
     {
       "id": "citizen-science",
       "title": "Citizen Science and the Value of Ordinary Observations",
       "topic": "Science",
-      "level": "Band 7.0",
+      "level": "Band 7.0-7.5",
       "minutes": 11,
       "summary": "普通人参与科学观察，可以扩大数据覆盖范围，但需要标准化记录来保证质量。",
       "paragraphs": [
@@ -244,12 +449,42 @@
         "Quality control remains essential. Participants need simple instructions about what to record, how to take photographs and when to avoid uncertain claims. Digital platforms can flag unusual entries for review, but they should not discourage participation. The aim is to turn everyday attention into reliable evidence."
       ],
       "keywords": [
-        {"term": "migration", "phonetic": "maɪˈɡreɪʃn", "meaning": "迁徙，迁移", "note": "bird migration"},
-        {"term": "observation", "phonetic": "ˌɒbzəˈveɪʃn", "meaning": "观察，记录", "note": "ordinary observations"},
-        {"term": "distribution", "phonetic": "ˌdɪstrɪˈbjuːʃn", "meaning": "分布", "note": "quantity and distribution"},
-        {"term": "imperfect", "phonetic": "ɪmˈpɜːfɪkt", "meaning": "不完美的", "note": "may be imperfect"},
-        {"term": "evidence", "phonetic": "ˈevɪdəns", "meaning": "证据", "note": "reliable evidence"},
-        {"term": "participation", "phonetic": "pɑːˌtɪsɪˈpeɪʃn", "meaning": "参与", "note": "discourage participation"}
+        {
+          "term": "migration",
+          "phonetic": "maɪˈɡreɪʃn",
+          "meaning": "迁徙，迁移",
+          "note": "bird migration"
+        },
+        {
+          "term": "observation",
+          "phonetic": "ˌɒbzəˈveɪʃn",
+          "meaning": "观察，记录",
+          "note": "ordinary observations"
+        },
+        {
+          "term": "distribution",
+          "phonetic": "ˌdɪstrɪˈbjuːʃn",
+          "meaning": "分布",
+          "note": "quantity and distribution"
+        },
+        {
+          "term": "imperfect",
+          "phonetic": "ɪmˈpɜːfɪkt",
+          "meaning": "不完美的",
+          "note": "may be imperfect"
+        },
+        {
+          "term": "evidence",
+          "phonetic": "ˈevɪdəns",
+          "meaning": "证据",
+          "note": "reliable evidence"
+        },
+        {
+          "term": "participation",
+          "phonetic": "pɑːˌtɪsɪˈpeɪʃn",
+          "meaning": "参与",
+          "note": "discourage participation"
+        }
       ],
       "questions": [
         {
@@ -263,7 +498,12 @@
           "id": "citizen-science-q2",
           "type": "Multiple Choice",
           "question": "What can thousands of records across many locations reveal?",
-          "options": ["patterns", "private opinions", "laboratory chemicals", "exam results"],
+          "options": [
+            "patterns",
+            "private opinions",
+            "laboratory chemicals",
+            "exam results"
+          ],
           "answer": "patterns",
           "explanation": "第二段说 thousands of records across many locations can reveal patterns。"
         },
@@ -273,6 +513,3022 @@
           "question": "What can digital platforms flag for review?",
           "answer": "unusual entries",
           "explanation": "第三段说明 Digital platforms can flag unusual entries for review。"
+        }
+      ],
+      "translations": [
+        "专业科学家不可能同时出现在每个地方。为了研究鸟类迁徙、塑料污染或花期变化，研究者越来越依赖普通人做出的观察。这种被称为公民科学的实践，把数据收集规模扩展到小型研究团队无法单独达到的范围。",
+        "公民科学的价值在于数量和分布。单次观察可能并不完美，但来自许多地点的数千条记录可以揭示模式。例如，徒步者和园丁的报告可能显示某些植物在春季更早开花，为本地气候变化提供证据。",
+        "质量控制仍然必不可少。参与者需要简单说明，知道记录什么、如何拍照，以及何时避免不确定判断。数字平台可以标记异常条目供复核，但不应打击参与积极性。目标是把日常注意力转化为可靠证据。"
+      ],
+      "bandGroup": "band7"
+    },
+    {
+      "id": "renewable-storage",
+      "title": "Storing Renewable Energy for Cloudy and Windless Days",
+      "topic": "Environment",
+      "level": "Band 7.0-7.5",
+      "minutes": 12,
+      "summary": "可再生能源的难点不只是发电，而是如何在无风、阴天和需求高峰时稳定供电。",
+      "paragraphs": [
+        "Solar panels and wind turbines have become familiar symbols of clean energy. Their output, however, depends on weather and time of day. A city may produce more electricity than it needs on a sunny afternoon, but face a shortage in the evening when people return home and switch on appliances.",
+        "Energy storage is one solution to this mismatch. Large batteries can store excess power for several hours, while pumped hydro systems move water uphill and release it later to generate electricity. Researchers are also testing thermal storage, compressed air and hydrogen, each with different costs and technical limits.",
+        "The challenge is not only technological. Regulators must decide how stored electricity should be priced, and communities may resist new infrastructure near their homes. A reliable low-carbon grid will therefore require engineering, planning and public trust rather than a single impressive invention."
+      ],
+      "translations": [
+        "太阳能板和风力涡轮机已经成为清洁能源的常见象征。然而，它们的产出取决于天气和一天中的时间。一个城市在晴朗下午可能发出超过需求的电力，但到了傍晚人们回家并打开电器时，却可能面临短缺。",
+        "能源储存是解决这种错配的一种方法。大型电池可以把多余电力储存数小时，抽水蓄能系统则把水抽到高处，之后释放水流发电。研究者还在测试热储能、压缩空气和氢能，它们各自有不同成本和技术限制。",
+        "挑战不只在技术层面。监管者必须决定储存电力如何定价，社区也可能反对在家附近建设新基础设施。因此，可靠的低碳电网需要工程、规划和公众信任，而不是某个单一的惊人发明。"
+      ],
+      "keywords": [
+        {
+          "term": "turbines",
+          "phonetic": "ˈtɜːbaɪnz",
+          "meaning": "涡轮机，风力机",
+          "note": "wind turbines"
+        },
+        {
+          "term": "output",
+          "phonetic": "ˈaʊtpʊt",
+          "meaning": "产出，输出量",
+          "note": "energy output"
+        },
+        {
+          "term": "appliances",
+          "phonetic": "əˈplaɪənsɪz",
+          "meaning": "家用电器",
+          "note": "switch on appliances"
+        },
+        {
+          "term": "mismatch",
+          "phonetic": "ˌmɪsˈmætʃ",
+          "meaning": "不匹配，错配",
+          "note": "supply-demand mismatch"
+        },
+        {
+          "term": "infrastructure",
+          "phonetic": "ˈɪnfrəstrʌktʃə",
+          "meaning": "基础设施",
+          "note": "new infrastructure"
+        },
+        {
+          "term": "regulators",
+          "phonetic": "ˈreɡjuleɪtəz",
+          "meaning": "监管者",
+          "note": "energy regulators"
+        }
+      ],
+      "questions": [
+        {
+          "id": "renewable-storage-q1",
+          "type": "True / False / Not Given",
+          "question": "Renewable energy output can depend on weather conditions.",
+          "answer": "True",
+          "explanation": "第一段说明太阳能和风能产出取决于 weather and time of day。"
+        },
+        {
+          "id": "renewable-storage-q2",
+          "type": "Multiple Choice",
+          "question": "Which system moves water uphill to store energy?",
+          "options": [
+            "pumped hydro",
+            "compressed air",
+            "thermal storage",
+            "hydrogen"
+          ],
+          "answer": "pumped hydro",
+          "explanation": "第二段说明 pumped hydro systems move water uphill。"
+        },
+        {
+          "id": "renewable-storage-q3",
+          "type": "Short Answer",
+          "question": "Besides engineering and planning, what does a low-carbon grid require?",
+          "answer": "public trust",
+          "explanation": "第三段最后说明需要 engineering, planning and public trust。"
+        }
+      ],
+      "bandGroup": "band7"
+    },
+    {
+      "id": "remote-work-cities",
+      "title": "Remote Work and the Future of City Centres",
+      "topic": "Business",
+      "level": "Band 6.0-6.5",
+      "minutes": 11,
+      "summary": "远程办公改变市中心价值，办公楼、咖啡店、交通和社区服务都需要重新定位。",
+      "paragraphs": [
+        "For decades, city centres were organised around the daily arrival of office workers. Cafes opened early, transport systems were designed for peak-hour crowds, and landlords expected companies to rent large floors in central buildings. Remote work has weakened this predictable rhythm.",
+        "The change does not mean that city centres are becoming irrelevant. Many employees still want face-to-face meetings, training sessions and social contact. What is disappearing is the assumption that every desk must be occupied five days a week. Some companies now use offices as collaboration hubs rather than permanent workstations.",
+        "This shift creates pressure but also opportunity. Empty offices may be converted into housing, clinics or education spaces, although such conversions can be expensive. Cities that adapt successfully will treat the centre as a mixed-use district, not merely as a container for corporate desks."
+      ],
+      "translations": [
+        "几十年来，市中心围绕办公室员工的每日到达来组织。咖啡店早早开门，交通系统为高峰人流设计，房东也期待公司租下中心建筑的大面积楼层。远程办公削弱了这种可预测节奏。",
+        "这种变化并不意味着市中心正在变得无关紧要。许多员工仍然需要面对面会议、培训和社交联系。正在消失的是每张办公桌必须每周五天都被占用的假设。一些公司现在把办公室作为协作中心，而不是永久工位。",
+        "这种转变带来压力，也带来机会。空置办公室可以改造成住房、诊所或教育空间，尽管这类改造可能成本很高。成功适应的城市会把中心区视为混合用途区域，而不只是企业办公桌的容器。"
+      ],
+      "keywords": [
+        {
+          "term": "landlords",
+          "phonetic": "ˈlændlɔːdz",
+          "meaning": "房东，业主",
+          "note": "commercial landlords"
+        },
+        {
+          "term": "predictable",
+          "phonetic": "prɪˈdɪktəbl",
+          "meaning": "可预测的",
+          "note": "predictable rhythm"
+        },
+        {
+          "term": "irrelevant",
+          "phonetic": "ɪˈreləvənt",
+          "meaning": "无关紧要的",
+          "note": "become irrelevant"
+        },
+        {
+          "term": "collaboration",
+          "phonetic": "kəˌlæbəˈreɪʃn",
+          "meaning": "协作",
+          "note": "collaboration hubs"
+        },
+        {
+          "term": "converted",
+          "phonetic": "kənˈvɜːtɪd",
+          "meaning": "被改造，被转换",
+          "note": "converted into housing"
+        },
+        {
+          "term": "mixed-use",
+          "phonetic": "ˌmɪkst ˈjuːs",
+          "meaning": "混合用途的",
+          "note": "mixed-use district"
+        }
+      ],
+      "questions": [
+        {
+          "id": "remote-work-cities-q1",
+          "type": "True / False / Not Given",
+          "question": "Remote work has changed the predictable daily rhythm of city centres.",
+          "answer": "True",
+          "explanation": "第一段最后说明 weakened this predictable rhythm。"
+        },
+        {
+          "id": "remote-work-cities-q2",
+          "type": "Multiple Choice",
+          "question": "What role may offices increasingly play?",
+          "options": [
+            "collaboration hubs",
+            "storage rooms",
+            "train stations",
+            "private homes"
+          ],
+          "answer": "collaboration hubs",
+          "explanation": "第二段说 offices as collaboration hubs。"
+        },
+        {
+          "id": "remote-work-cities-q3",
+          "type": "Short Answer",
+          "question": "What may empty offices be converted into?",
+          "answer": "housing, clinics or education spaces",
+          "explanation": "第三段列出 housing, clinics or education spaces。"
+        }
+      ],
+      "bandGroup": "band6"
+    },
+    {
+      "id": "biodiversity-corridors",
+      "title": "Wildlife Corridors in Fragmented Landscapes",
+      "topic": "Science",
+      "level": "Band 7.0-7.5",
+      "minutes": 12,
+      "summary": "野生动物通道帮助物种穿越被道路、农田和城市切碎的栖息地。",
+      "paragraphs": [
+        "As roads, farms and suburbs expand, natural habitats are often divided into small islands. Animals may have enough food inside one patch, but they cannot easily find mates, escape disease or move when climate conditions change. This isolation can weaken populations over time.",
+        "Wildlife corridors are designed to reconnect these separated spaces. A corridor may be a strip of forest, a riverbank, a bridge over a highway or even a carefully planted line of hedges. Its success depends on whether animals actually feel safe enough to use it.",
+        "Conservationists warn that corridors are not a substitute for protecting large habitats. They are most useful when they connect areas that are already valuable. Monitoring is also necessary because a poorly planned corridor might help invasive species or predators move more easily."
+      ],
+      "translations": [
+        "随着道路、农田和郊区扩张，自然栖息地常被切分成小岛。动物在一个区域内可能有足够食物，但不容易找到配偶、逃离疾病，或在气候条件变化时迁移。这种隔离会随着时间削弱种群。",
+        "野生动物通道旨在重新连接这些分离空间。通道可能是一条林带、一段河岸、一座跨越高速公路的桥，甚至是一排精心种植的树篱。它是否成功，取决于动物是否真的觉得足够安全而愿意使用。",
+        "保护人士提醒，通道不能替代大型栖息地保护。它们在连接已经有价值的区域时最有用。监测也很必要，因为规划不佳的通道可能帮助入侵物种或捕食者更容易移动。"
+      ],
+      "keywords": [
+        {
+          "term": "habitats",
+          "phonetic": "ˈhæbɪtæts",
+          "meaning": "栖息地",
+          "note": "natural habitats"
+        },
+        {
+          "term": "isolation",
+          "phonetic": "ˌaɪsəˈleɪʃn",
+          "meaning": "隔离，孤立",
+          "note": "population isolation"
+        },
+        {
+          "term": "corridors",
+          "phonetic": "ˈkɒrɪdɔːz",
+          "meaning": "通道，走廊",
+          "note": "wildlife corridors"
+        },
+        {
+          "term": "riverbank",
+          "phonetic": "ˈrɪvəbæŋk",
+          "meaning": "河岸",
+          "note": "a riverbank"
+        },
+        {
+          "term": "invasive",
+          "phonetic": "ɪnˈveɪsɪv",
+          "meaning": "入侵的",
+          "note": "invasive species"
+        },
+        {
+          "term": "predators",
+          "phonetic": "ˈpredətəz",
+          "meaning": "捕食者",
+          "note": "predators move"
+        }
+      ],
+      "questions": [
+        {
+          "id": "biodiversity-corridors-q1",
+          "type": "True / False / Not Given",
+          "question": "Fragmented habitats can make it harder for animals to find mates.",
+          "answer": "True",
+          "explanation": "第一段说明 animals cannot easily find mates。"
+        },
+        {
+          "id": "biodiversity-corridors-q2",
+          "type": "Multiple Choice",
+          "question": "Which of the following can be a wildlife corridor?",
+          "options": [
+            "a riverbank",
+            "a shopping receipt",
+            "a weather report",
+            "a private email"
+          ],
+          "answer": "a riverbank",
+          "explanation": "第二段列举 riverbank。"
+        },
+        {
+          "id": "biodiversity-corridors-q3",
+          "type": "Short Answer",
+          "question": "What must corridors not replace?",
+          "answer": "protecting large habitats",
+          "explanation": "第三段说明 corridors are not a substitute for protecting large habitats。"
+        }
+      ],
+      "bandGroup": "band7"
+    },
+    {
+      "id": "digital-museums",
+      "title": "Digital Museums and the Question of Authenticity",
+      "topic": "Culture",
+      "level": "Band 6.0-6.5",
+      "minutes": 11,
+      "summary": "数字博物馆扩大了访问机会，但也引发“真实体验”到底是什么的问题。",
+      "paragraphs": [
+        "Museums increasingly offer digital tours, three-dimensional scans and online exhibitions. These tools allow people who live far away, have limited mobility or cannot afford travel to examine objects that were once accessible only inside a building.",
+        "Supporters argue that digital access can deepen learning. A visitor can zoom into a painting, compare objects from different collections and revisit an exhibition after leaving. Teachers can also use digital materials before a class trip, making the physical visit more meaningful.",
+        "Yet authenticity remains a concern. Seeing a sculpture on a screen is not the same as standing beside it and sensing its scale. Rather than replacing museums, digital tools may work best as extensions: they prepare visitors, widen participation and encourage closer attention to the original object."
+      ],
+      "translations": [
+        "博物馆越来越多地提供数字导览、三维扫描和线上展览。这些工具让住得远、行动不便或负担不起旅行的人，也能观察过去只能在建筑内部接触到的物品。",
+        "支持者认为，数字访问可以加深学习。参观者可以放大一幅画，比较不同馆藏中的物品，并在离开展览后再次回看。教师也可以在班级实地参观前使用数字材料，让实体参观更有意义。",
+        "然而，真实性仍然令人担忧。在屏幕上看雕塑，不等同于站在它旁边感受其尺度。数字工具与其替代博物馆，不如作为延伸：它们帮助参观者预习，扩大参与，并鼓励人们更仔细地关注原物。"
+      ],
+      "keywords": [
+        {
+          "term": "exhibitions",
+          "phonetic": "ˌeksɪˈbɪʃnz",
+          "meaning": "展览",
+          "note": "online exhibitions"
+        },
+        {
+          "term": "mobility",
+          "phonetic": "məʊˈbɪləti",
+          "meaning": "行动能力，流动性",
+          "note": "limited mobility"
+        },
+        {
+          "term": "accessible",
+          "phonetic": "əkˈsesəbl",
+          "meaning": "可接触的，可进入的",
+          "note": "accessible only inside"
+        },
+        {
+          "term": "collections",
+          "phonetic": "kəˈlekʃnz",
+          "meaning": "馆藏，收藏",
+          "note": "different collections"
+        },
+        {
+          "term": "authenticity",
+          "phonetic": "ˌɔːθenˈtɪsəti",
+          "meaning": "真实性",
+          "note": "question of authenticity"
+        },
+        {
+          "term": "extensions",
+          "phonetic": "ɪkˈstenʃnz",
+          "meaning": "延伸，扩展",
+          "note": "digital extensions"
+        }
+      ],
+      "questions": [
+        {
+          "id": "digital-museums-q1",
+          "type": "True / False / Not Given",
+          "question": "Digital museum tools can help people who cannot easily travel.",
+          "answer": "True",
+          "explanation": "第一段提到 live far away, limited mobility, cannot afford travel。"
+        },
+        {
+          "id": "digital-museums-q2",
+          "type": "Multiple Choice",
+          "question": "What can visitors do with a digital painting?",
+          "options": [
+            "zoom into it",
+            "repair its frame",
+            "sell it online",
+            "change its colours permanently"
+          ],
+          "answer": "zoom into it",
+          "explanation": "第二段说明 visitor can zoom into a painting。"
+        },
+        {
+          "id": "digital-museums-q3",
+          "type": "Short Answer",
+          "question": "What concern remains about digital museums?",
+          "answer": "authenticity",
+          "explanation": "第三段第一句指出 authenticity remains a concern。"
+        }
+      ],
+      "bandGroup": "band6"
+    },
+    {
+      "id": "water-reuse",
+      "title": "Reusing Urban Water in a Drier World",
+      "topic": "Environment",
+      "level": "Band 7.0-7.5",
+      "minutes": 12,
+      "summary": "城市再生水可以缓解缺水，但公众信任和用途分级同样关键。",
+      "paragraphs": [
+        "Many growing cities face a difficult water equation: demand is rising while rainfall is becoming less predictable. Building new reservoirs is expensive and may damage ecosystems. As a result, some governments are paying more attention to treated wastewater.",
+        "Reused water does not have to serve every purpose. It can irrigate parks, clean streets, cool industrial equipment or recharge underground aquifers. In places with advanced treatment systems, it may even become part of the drinking water supply, although this requires strict testing and clear communication.",
+        "Public reaction is often the biggest barrier. People may reject reused water because they imagine its previous use rather than its current quality. Successful programmes therefore explain treatment stages openly and start with applications that residents can observe without feeling personally exposed."
+      ],
+      "translations": [
+        "许多不断扩张的城市面临困难的用水方程：需求上升，而降雨变得更难预测。修建新水库成本高，也可能破坏生态系统。因此，一些政府开始更加关注处理后的废水。",
+        "再生水不必用于所有目的。它可以灌溉公园、清洗街道、冷却工业设备，或补给地下含水层。在拥有先进处理系统的地方，它甚至可能成为饮用水供应的一部分，尽管这需要严格检测和清晰沟通。",
+        "公众反应往往是最大障碍。人们可能因为想象它过去的用途，而不是当前质量，拒绝再生水。因此，成功项目会公开解释处理阶段，并从居民能观察但不会感到个人暴露的用途开始。"
+      ],
+      "keywords": [
+        {
+          "term": "reservoirs",
+          "phonetic": "ˈrezəvwɑːz",
+          "meaning": "水库",
+          "note": "build reservoirs"
+        },
+        {
+          "term": "wastewater",
+          "phonetic": "ˈweɪstwɔːtə",
+          "meaning": "废水",
+          "note": "treated wastewater"
+        },
+        {
+          "term": "irrigate",
+          "phonetic": "ˈɪrɪɡeɪt",
+          "meaning": "灌溉",
+          "note": "irrigate parks"
+        },
+        {
+          "term": "aquifers",
+          "phonetic": "ˈækwɪfəz",
+          "meaning": "含水层",
+          "note": "underground aquifers"
+        },
+        {
+          "term": "barrier",
+          "phonetic": "ˈbæriə",
+          "meaning": "障碍",
+          "note": "biggest barrier"
+        },
+        {
+          "term": "treatment",
+          "phonetic": "ˈtriːtmənt",
+          "meaning": "处理，治理",
+          "note": "treatment stages"
+        }
+      ],
+      "questions": [
+        {
+          "id": "water-reuse-q1",
+          "type": "True / False / Not Given",
+          "question": "New reservoirs may harm ecosystems.",
+          "answer": "True",
+          "explanation": "第一段说明 reservoirs may damage ecosystems。"
+        },
+        {
+          "id": "water-reuse-q2",
+          "type": "Multiple Choice",
+          "question": "Which use of reused water is mentioned?",
+          "options": [
+            "irrigating parks",
+            "printing books",
+            "charging phones",
+            "designing clothes"
+          ],
+          "answer": "irrigating parks",
+          "explanation": "第二段列举 irrigate parks。"
+        },
+        {
+          "id": "water-reuse-q3",
+          "type": "Short Answer",
+          "question": "What is often the biggest barrier to reused water?",
+          "answer": "public reaction",
+          "explanation": "第三段第一句说明 Public reaction is often the biggest barrier。"
+        }
+      ],
+      "bandGroup": "band7"
+    },
+    {
+      "id": "ageing-population",
+      "title": "Designing Services for an Ageing Population",
+      "topic": "Society",
+      "level": "Band 6.0-6.5",
+      "minutes": 11,
+      "summary": "人口老龄化要求公共服务从“照护某一群体”转向“让更多人长期独立生活”。",
+      "paragraphs": [
+        "Population ageing is often discussed as a medical problem, but its effects reach transport, housing, technology and employment. A person who remains healthy at seventy may still struggle if buses are difficult to board or online forms are confusing.",
+        "Good design can reduce dependence. Clear signs, benches near public buildings, step-free entrances and readable digital interfaces help older residents complete daily tasks without asking for assistance. These features also benefit parents with children, injured workers and visitors unfamiliar with a city.",
+        "The most effective services are planned with older people rather than merely for them. When users test a service early, designers notice small obstacles that statistics may miss. Age-friendly design is therefore not a narrow welfare issue; it is part of building cities that remain usable for everyone."
+      ],
+      "translations": [
+        "人口老龄化常被作为医疗问题讨论，但它的影响延伸到交通、住房、技术和就业。一个七十岁仍然健康的人，如果公交车难以上车，或线上表格令人困惑，仍可能遇到困难。",
+        "好的设计可以减少依赖。清晰标识、公共建筑附近的长椅、无台阶入口和易读的数字界面，能帮助老年居民不求助也完成日常任务。这些功能也有利于带孩子的父母、受伤工人和不熟悉城市的游客。",
+        "最有效的服务是和老年人一起规划，而不只是替他们规划。当用户早期测试服务时，设计者会发现统计数据可能漏掉的小障碍。因此，适老化设计不是狭窄的福利问题，而是建设人人可用城市的一部分。"
+      ],
+      "keywords": [
+        {
+          "term": "ageing",
+          "phonetic": "ˈeɪdʒɪŋ",
+          "meaning": "老龄化的",
+          "note": "ageing population"
+        },
+        {
+          "term": "confusing",
+          "phonetic": "kənˈfjuːzɪŋ",
+          "meaning": "令人困惑的",
+          "note": "confusing forms"
+        },
+        {
+          "term": "dependence",
+          "phonetic": "dɪˈpendəns",
+          "meaning": "依赖",
+          "note": "reduce dependence"
+        },
+        {
+          "term": "interfaces",
+          "phonetic": "ˈɪntəfeɪsɪz",
+          "meaning": "界面",
+          "note": "digital interfaces"
+        },
+        {
+          "term": "obstacles",
+          "phonetic": "ˈɒbstəklz",
+          "meaning": "障碍",
+          "note": "small obstacles"
+        },
+        {
+          "term": "welfare",
+          "phonetic": "ˈwelfeə",
+          "meaning": "福利",
+          "note": "welfare issue"
+        }
+      ],
+      "questions": [
+        {
+          "id": "ageing-population-q1",
+          "type": "True / False / Not Given",
+          "question": "Ageing affects more than medical services.",
+          "answer": "True",
+          "explanation": "第一段说明影响 reach transport, housing, technology and employment。"
+        },
+        {
+          "id": "ageing-population-q2",
+          "type": "Multiple Choice",
+          "question": "Which design feature is mentioned?",
+          "options": [
+            "step-free entrances",
+            "private helicopters",
+            "hidden signs",
+            "narrow doors"
+          ],
+          "answer": "step-free entrances",
+          "explanation": "第二段列举 step-free entrances。"
+        },
+        {
+          "id": "ageing-population-q3",
+          "type": "Short Answer",
+          "question": "Who should test services early?",
+          "answer": "users / older people",
+          "explanation": "第三段说明 with older people and users test a service early。"
+        }
+      ],
+      "bandGroup": "band6"
+    },
+    {
+      "id": "public-transport-data",
+      "title": "Using Data to Improve Public Transport",
+      "topic": "Technology",
+      "level": "Band 6.0-6.5",
+      "minutes": 10,
+      "summary": "公交数据可以改善班次和拥挤体验，但必须避免只服务已经被看见的人群。",
+      "paragraphs": [
+        "Modern buses and trains generate large amounts of data through ticketing systems, GPS devices and passenger-counting sensors. Transport agencies can use this information to identify crowded routes, late services and stations where transfers take too long.",
+        "Data-driven planning may improve reliability. If planners see that many passengers are waiting after a hospital shift ends, they can adjust the timetable. If a bus is regularly delayed at one intersection, road design or signal timing can be reviewed.",
+        "However, data can also be incomplete. People who pay cash, walk because the bus is too expensive, or avoid travel because routes feel unsafe may not appear clearly in official systems. Good transport planning therefore combines digital evidence with interviews and street-level observation."
+      ],
+      "translations": [
+        "现代公交和火车通过票务系统、GPS 设备和客流传感器产生大量数据。交通机构可以利用这些信息识别拥挤线路、晚点服务，以及换乘时间过长的车站。",
+        "数据驱动规划可能提高可靠性。如果规划者发现许多乘客在医院班次结束后等待，就可以调整时刻表。如果某辆公交经常在一个路口延误，就可以复查道路设计或信号灯时间。",
+        "然而，数据也可能不完整。现金付费者、因为公交太贵而步行的人，或因线路让人感觉不安全而避免出行的人，可能不会清楚出现在官方系统中。因此，好的交通规划会把数字证据与访谈和街面观察结合起来。"
+      ],
+      "keywords": [
+        {
+          "term": "ticketing",
+          "phonetic": "ˈtɪkɪtɪŋ",
+          "meaning": "票务",
+          "note": "ticketing systems"
+        },
+        {
+          "term": "sensors",
+          "phonetic": "ˈsensəz",
+          "meaning": "传感器",
+          "note": "passenger-counting sensors"
+        },
+        {
+          "term": "transfers",
+          "phonetic": "ˈtrænsfɜːz",
+          "meaning": "换乘",
+          "note": "station transfers"
+        },
+        {
+          "term": "reliability",
+          "phonetic": "rɪˌlaɪəˈbɪləti",
+          "meaning": "可靠性",
+          "note": "improve reliability"
+        },
+        {
+          "term": "intersection",
+          "phonetic": "ˌɪntəˈsekʃn",
+          "meaning": "十字路口，交叉点",
+          "note": "one intersection"
+        },
+        {
+          "term": "incomplete",
+          "phonetic": "ˌɪnkəmˈpliːt",
+          "meaning": "不完整的",
+          "note": "data can be incomplete"
+        }
+      ],
+      "questions": [
+        {
+          "id": "public-transport-data-q1",
+          "type": "True / False / Not Given",
+          "question": "Passenger-counting sensors can provide transport data.",
+          "answer": "True",
+          "explanation": "第一段列出 passenger-counting sensors。"
+        },
+        {
+          "id": "public-transport-data-q2",
+          "type": "Multiple Choice",
+          "question": "What can planners adjust after noticing passenger waiting patterns?",
+          "options": [
+            "the timetable",
+            "the weather",
+            "hospital wages",
+            "ticket colour"
+          ],
+          "answer": "the timetable",
+          "explanation": "第二段说明 can adjust the timetable。"
+        },
+        {
+          "id": "public-transport-data-q3",
+          "type": "Short Answer",
+          "question": "What should digital evidence be combined with?",
+          "answer": "interviews and street-level observation",
+          "explanation": "第三段最后说明 combines digital evidence with interviews and street-level observation。"
+        }
+      ],
+      "bandGroup": "band6"
+    },
+    {
+      "id": "language-learning-ai",
+      "title": "AI Tutors and the Limits of Personalised Learning",
+      "topic": "Education",
+      "level": "Band 7.0-7.5",
+      "minutes": 12,
+      "summary": "AI 家教能提供个性化练习，但学习者仍需要目标、反馈和真实输出。",
+      "paragraphs": [
+        "AI tutoring systems can now create exercises, correct grammar and explain mistakes almost instantly. For language learners, this is attractive because practice no longer depends entirely on classroom time or the availability of a teacher.",
+        "Personalisation is the main promise. A system can notice that a learner repeatedly confuses articles, verb tense or academic vocabulary, then offer targeted practice. It can also adjust difficulty so that tasks remain challenging but not discouraging.",
+        "Yet personalised learning is not the same as independent learning. A learner may complete many small exercises without developing the ability to write a coherent essay or hold a real conversation. Human teachers, peers and authentic communication still matter because they create purpose and social pressure."
+      ],
+      "translations": [
+        "AI 辅导系统现在几乎可以即时生成练习、纠正语法并解释错误。对语言学习者来说，这很有吸引力，因为练习不再完全依赖课堂时间或教师是否有空。",
+        "个性化是它的主要承诺。系统可以发现学习者反复混淆冠词、动词时态或学术词汇，然后提供针对性练习。它也可以调整难度，让任务保持有挑战但不至于令人沮丧。",
+        "然而，个性化学习并不等同于独立学习。学习者可能完成许多小练习，却没有发展出写连贯文章或进行真实对话的能力。人类教师、同伴和真实交流仍然重要，因为它们创造目标和社会压力。"
+      ],
+      "keywords": [
+        {
+          "term": "tutoring",
+          "phonetic": "ˈtjuːtərɪŋ",
+          "meaning": "辅导，家教",
+          "note": "AI tutoring systems"
+        },
+        {
+          "term": "instantly",
+          "phonetic": "ˈɪnstəntli",
+          "meaning": "立即地",
+          "note": "explain instantly"
+        },
+        {
+          "term": "availability",
+          "phonetic": "əˌveɪləˈbɪləti",
+          "meaning": "可获得性，空闲情况",
+          "note": "availability of a teacher"
+        },
+        {
+          "term": "targeted",
+          "phonetic": "ˈtɑːɡɪtɪd",
+          "meaning": "有针对性的",
+          "note": "targeted practice"
+        },
+        {
+          "term": "coherent",
+          "phonetic": "kəʊˈhɪərənt",
+          "meaning": "连贯的",
+          "note": "coherent essay"
+        },
+        {
+          "term": "authentic",
+          "phonetic": "ɔːˈθentɪk",
+          "meaning": "真实的",
+          "note": "authentic communication"
+        }
+      ],
+      "questions": [
+        {
+          "id": "language-learning-ai-q1",
+          "type": "True / False / Not Given",
+          "question": "AI tutoring systems can correct grammar quickly.",
+          "answer": "True",
+          "explanation": "第一段说明 correct grammar almost instantly。"
+        },
+        {
+          "id": "language-learning-ai-q2",
+          "type": "Multiple Choice",
+          "question": "What is described as the main promise of AI tutoring?",
+          "options": [
+            "personalisation",
+            "free travel",
+            "longer classrooms",
+            "fewer exercises"
+          ],
+          "answer": "personalisation",
+          "explanation": "第二段第一句说明 Personalisation is the main promise。"
+        },
+        {
+          "id": "language-learning-ai-q3",
+          "type": "Short Answer",
+          "question": "What two abilities may small exercises fail to develop?",
+          "answer": "writing a coherent essay and holding a real conversation",
+          "explanation": "第三段说明 write a coherent essay or hold a real conversation。"
+        }
+      ],
+      "bandGroup": "band7"
+    },
+    {
+      "id": "repair-economy",
+      "title": "The Return of Repair in Consumer Culture",
+      "topic": "Society",
+      "level": "Band 6.0-6.5",
+      "minutes": 11,
+      "summary": "维修文化重新受到关注，因为它同时涉及环保、消费者权利和产品设计。",
+      "paragraphs": [
+        "For much of the last century, consumer culture encouraged replacement. When a phone, jacket or kitchen appliance stopped working, buying a new one often seemed cheaper and easier than repair. This habit has contributed to waste and made people less familiar with how products are made.",
+        "Repair movements are trying to reverse this trend. Community workshops teach residents how to mend clothes, replace screens or diagnose simple mechanical problems. Some governments are also discussing right-to-repair laws that require manufacturers to provide spare parts and repair information.",
+        "The movement is not simply nostalgic. Repair can reduce environmental pressure, but it also changes the relationship between users and objects. A person who understands how a product fails may choose more durable designs and question whether convenience always deserves priority."
+      ],
+      "translations": [
+        "在上个世纪的大部分时间里，消费文化鼓励替换。当手机、夹克或厨房电器坏了，买新的往往看起来比维修更便宜、更容易。这种习惯造成了浪费，也让人们越来越不了解产品是如何制造的。",
+        "维修运动正在试图扭转这一趋势。社区工作坊教居民如何缝补衣服、更换屏幕或诊断简单机械问题。一些政府也在讨论维修权法律，要求制造商提供零部件和维修信息。",
+        "这场运动并不只是怀旧。维修可以减少环境压力，也会改变用户与物品之间的关系。理解产品如何失效的人，可能会选择更耐用的设计，并质疑便利是否总应被优先考虑。"
+      ],
+      "keywords": [
+        {
+          "term": "replacement",
+          "phonetic": "rɪˈpleɪsmənt",
+          "meaning": "替换，更换",
+          "note": "encouraged replacement"
+        },
+        {
+          "term": "appliance",
+          "phonetic": "əˈplaɪəns",
+          "meaning": "家用电器",
+          "note": "kitchen appliance"
+        },
+        {
+          "term": "reverse",
+          "phonetic": "rɪˈvɜːs",
+          "meaning": "逆转",
+          "note": "reverse this trend"
+        },
+        {
+          "term": "diagnose",
+          "phonetic": "ˈdaɪəɡnəʊz",
+          "meaning": "诊断",
+          "note": "diagnose problems"
+        },
+        {
+          "term": "manufacturers",
+          "phonetic": "ˌmænjuˈfæktʃərəz",
+          "meaning": "制造商",
+          "note": "manufacturers provide parts"
+        },
+        {
+          "term": "durable",
+          "phonetic": "ˈdjʊərəbl",
+          "meaning": "耐用的",
+          "note": "durable designs"
+        }
+      ],
+      "questions": [
+        {
+          "id": "repair-economy-q1",
+          "type": "True / False / Not Given",
+          "question": "Replacement has often seemed easier than repair.",
+          "answer": "True",
+          "explanation": "第一段说明 buying a new one often seemed cheaper and easier。"
+        },
+        {
+          "id": "repair-economy-q2",
+          "type": "Multiple Choice",
+          "question": "What may right-to-repair laws require manufacturers to provide?",
+          "options": [
+            "spare parts and repair information",
+            "free holidays",
+            "new advertisements",
+            "private passwords"
+          ],
+          "answer": "spare parts and repair information",
+          "explanation": "第二段说明 provide spare parts and repair information。"
+        },
+        {
+          "id": "repair-economy-q3",
+          "type": "Short Answer",
+          "question": "What kind of designs may informed users choose?",
+          "answer": "more durable designs",
+          "explanation": "第三段说明 choose more durable designs。"
+        }
+      ],
+      "bandGroup": "band6"
+    },
+    {
+      "id": "ocean-noise",
+      "title": "Ocean Noise and Marine Life",
+      "topic": "Science",
+      "level": "Band 7.0-7.5",
+      "minutes": 12,
+      "summary": "海洋噪音会干扰海洋动物寻找食物、导航和交流。",
+      "paragraphs": [
+        "The ocean is often imagined as a silent place, but sound travels through water more efficiently than through air. Whales, dolphins and many fish rely on sound to find food, avoid predators and communicate across long distances.",
+        "Human activity has made parts of the ocean much louder. Shipping engines, underwater construction and sonar can mask biological signals. When important sounds are hidden, animals may change their routes, abandon feeding areas or use extra energy to communicate.",
+        "Reducing ocean noise is possible. Ships can travel more slowly in sensitive areas, propellers can be redesigned, and construction can be scheduled outside breeding seasons. These measures require coordination, but they may protect marine life without stopping all economic activity at sea."
+      ],
+      "translations": [
+        "海洋常被想象成安静之地，但声音在水中比在空气中传播得更有效。鲸、海豚和许多鱼类依靠声音寻找食物、躲避捕食者，并跨越长距离交流。",
+        "人类活动让部分海域变得吵得多。船舶发动机、水下施工和声呐会掩盖生物信号。当重要声音被遮蔽时，动物可能改变路线、放弃觅食区，或消耗额外能量进行交流。",
+        "降低海洋噪音是可能的。船只可以在敏感区域减速，螺旋桨可以重新设计，施工也可以安排在繁殖季之外。这些措施需要协调，但可能在不停止所有海上经济活动的情况下保护海洋生命。"
+      ],
+      "keywords": [
+        {
+          "term": "marine",
+          "phonetic": "məˈriːn",
+          "meaning": "海洋的",
+          "note": "marine life"
+        },
+        {
+          "term": "predators",
+          "phonetic": "ˈpredətəz",
+          "meaning": "捕食者",
+          "note": "avoid predators"
+        },
+        {
+          "term": "sonar",
+          "phonetic": "ˈsəʊnɑː",
+          "meaning": "声呐",
+          "note": "underwater sonar"
+        },
+        {
+          "term": "mask",
+          "phonetic": "mɑːsk",
+          "meaning": "掩盖，遮蔽",
+          "note": "mask signals"
+        },
+        {
+          "term": "propellers",
+          "phonetic": "prəˈpeləz",
+          "meaning": "螺旋桨",
+          "note": "ship propellers"
+        },
+        {
+          "term": "breeding",
+          "phonetic": "ˈbriːdɪŋ",
+          "meaning": "繁殖",
+          "note": "breeding seasons"
+        }
+      ],
+      "questions": [
+        {
+          "id": "ocean-noise-q1",
+          "type": "True / False / Not Given",
+          "question": "Sound travels efficiently through water.",
+          "answer": "True",
+          "explanation": "第一段说明 sound travels through water more efficiently。"
+        },
+        {
+          "id": "ocean-noise-q2",
+          "type": "Multiple Choice",
+          "question": "Which human activity is mentioned as a source of ocean noise?",
+          "options": [
+            "shipping engines",
+            "forest planting",
+            "book printing",
+            "roof painting"
+          ],
+          "answer": "shipping engines",
+          "explanation": "第二段列举 Shipping engines。"
+        },
+        {
+          "id": "ocean-noise-q3",
+          "type": "Short Answer",
+          "question": "When can construction be scheduled to reduce harm?",
+          "answer": "outside breeding seasons",
+          "explanation": "第三段说明 construction can be scheduled outside breeding seasons。"
+        }
+      ],
+      "bandGroup": "band7"
+    },
+    {
+      "id": "green-buildings",
+      "title": "Green Buildings Beyond Energy Labels",
+      "topic": "Environment",
+      "level": "Band 6.0-6.5",
+      "minutes": 11,
+      "summary": "绿色建筑不只是节能标签，也包括通风、材料、维护和居住者行为。",
+      "paragraphs": [
+        "A building may receive a high environmental rating because it uses efficient lighting, insulation and heating systems. These features are important, but they do not guarantee that the building will perform well after people move in.",
+        "Actual performance depends on maintenance and behaviour. Filters must be cleaned, sensors calibrated and windows used appropriately. If occupants do not understand a system, they may override it in ways that increase energy use or reduce indoor air quality.",
+        "For this reason, some architects argue that green design should include training and feedback. Residents need simple information about how the building works, and managers need data that shows whether energy targets are being met. A sustainable building is therefore a continuing relationship, not a finished object."
+      ],
+      "translations": [
+        "一栋建筑可能因为使用高效照明、隔热和供暖系统而获得较高环保评级。这些功能很重要，但并不能保证人们入住后建筑仍然表现良好。",
+        "实际表现取决于维护和行为。过滤器必须清洁，传感器必须校准，窗户也要恰当使用。如果使用者不了解系统，可能会用提高能耗或降低室内空气质量的方式绕过它。",
+        "因此，一些建筑师认为绿色设计应包括培训和反馈。居民需要关于建筑如何运行的简单信息，管理者需要数据显示能源目标是否达成。因此，可持续建筑是一种持续关系，而不是完成后的物件。"
+      ],
+      "keywords": [
+        {
+          "term": "rating",
+          "phonetic": "ˈreɪtɪŋ",
+          "meaning": "评级",
+          "note": "environmental rating"
+        },
+        {
+          "term": "insulation",
+          "phonetic": "ˌɪnsjəˈleɪʃn",
+          "meaning": "隔热，绝缘",
+          "note": "building insulation"
+        },
+        {
+          "term": "maintenance",
+          "phonetic": "ˈmeɪntənəns",
+          "meaning": "维护",
+          "note": "depends on maintenance"
+        },
+        {
+          "term": "calibrated",
+          "phonetic": "ˈkælɪbreɪtɪd",
+          "meaning": "校准的",
+          "note": "sensors calibrated"
+        },
+        {
+          "term": "occupants",
+          "phonetic": "ˈɒkjəpənts",
+          "meaning": "居住者，使用者",
+          "note": "building occupants"
+        },
+        {
+          "term": "sustainable",
+          "phonetic": "səˈsteɪnəbl",
+          "meaning": "可持续的",
+          "note": "sustainable building"
+        }
+      ],
+      "questions": [
+        {
+          "id": "green-buildings-q1",
+          "type": "True / False / Not Given",
+          "question": "A high environmental rating guarantees good performance after people move in.",
+          "answer": "False",
+          "explanation": "第一段说明这些功能 do not guarantee performance。"
+        },
+        {
+          "id": "green-buildings-q2",
+          "type": "Multiple Choice",
+          "question": "What must be calibrated?",
+          "options": [
+            "sensors",
+            "paintings",
+            "benches",
+            "books"
+          ],
+          "answer": "sensors",
+          "explanation": "第二段说明 sensors calibrated。"
+        },
+        {
+          "id": "green-buildings-q3",
+          "type": "Short Answer",
+          "question": "What do residents need about how the building works?",
+          "answer": "simple information",
+          "explanation": "第三段说明 Residents need simple information。"
+        }
+      ],
+      "bandGroup": "band6"
+    },
+    {
+      "id": "agricultural-drones",
+      "title": "Drones and Precision Farming",
+      "topic": "Technology",
+      "level": "Band 6.0-6.5",
+      "minutes": 11,
+      "summary": "农业无人机能帮助农民观察田地差异，但是否有用取决于数据能否转化为行动。",
+      "paragraphs": [
+        "Farmers have always observed their fields, but drones allow them to see patterns that are difficult to notice from the ground. A flight over a farm can reveal dry areas, pest damage or uneven plant growth before the problem spreads widely.",
+        "This information supports precision farming. Instead of applying the same amount of water, fertiliser or pesticide everywhere, farmers can target the areas that need attention. In theory, this reduces waste and protects soil and nearby waterways.",
+        "The benefits are not automatic. Drone images must be interpreted correctly, and small farms may not have the money or technical support to use them well. Training, local advice and affordable services are therefore as important as the aircraft itself."
+      ],
+      "translations": [
+        "农民一直在观察田地，但无人机让他们看到地面上难以注意到的模式。飞越农场的一次飞行，可以在问题广泛扩散前发现干旱区域、虫害或植物生长不均。",
+        "这些信息支持精准农业。农民不必在所有地方施加同样数量的水、肥料或农药，而是可以瞄准需要关注的区域。理论上，这能减少浪费，并保护土壤和附近水道。",
+        "好处并不会自动产生。无人机图像必须被正确解读，小农场也可能没有资金或技术支持来有效使用它们。因此，培训、本地建议和可负担服务与飞行器本身同样重要。"
+      ],
+      "keywords": [
+        {
+          "term": "drones",
+          "phonetic": "drəʊnz",
+          "meaning": "无人机",
+          "note": "agricultural drones"
+        },
+        {
+          "term": "patterns",
+          "phonetic": "ˈpætənz",
+          "meaning": "模式",
+          "note": "see patterns"
+        },
+        {
+          "term": "pest",
+          "phonetic": "pest",
+          "meaning": "害虫",
+          "note": "pest damage"
+        },
+        {
+          "term": "fertiliser",
+          "phonetic": "ˈfɜːtəlaɪzə",
+          "meaning": "肥料",
+          "note": "apply fertiliser"
+        },
+        {
+          "term": "pesticide",
+          "phonetic": "ˈpestɪsaɪd",
+          "meaning": "农药",
+          "note": "apply pesticide"
+        },
+        {
+          "term": "interpreted",
+          "phonetic": "ɪnˈtɜːprətɪd",
+          "meaning": "被解释，被解读",
+          "note": "images interpreted"
+        }
+      ],
+      "questions": [
+        {
+          "id": "agricultural-drones-q1",
+          "type": "True / False / Not Given",
+          "question": "Drones can reveal uneven plant growth.",
+          "answer": "True",
+          "explanation": "第一段列出 uneven plant growth。"
+        },
+        {
+          "id": "agricultural-drones-q2",
+          "type": "Multiple Choice",
+          "question": "Precision farming can reduce waste by targeting:",
+          "options": [
+            "areas that need attention",
+            "every area equally",
+            "city offices",
+            "weather stations"
+          ],
+          "answer": "areas that need attention",
+          "explanation": "第二段说明 target the areas that need attention。"
+        },
+        {
+          "id": "agricultural-drones-q3",
+          "type": "Short Answer",
+          "question": "What must be interpreted correctly?",
+          "answer": "drone images",
+          "explanation": "第三段说明 Drone images must be interpreted correctly。"
+        }
+      ],
+      "bandGroup": "band6"
+    },
+    {
+      "id": "attention-economy",
+      "title": "Attention as a Scarce Resource",
+      "topic": "Psychology",
+      "level": "Band 8.0-9.0",
+      "minutes": 12,
+      "summary": "注意力经济把人的注意力当作稀缺资源，也改变了信息设计和学习习惯。",
+      "paragraphs": [
+        "Digital platforms compete for attention because advertising revenue often depends on time spent looking at a screen. Notifications, endless feeds and recommendation systems are designed to reduce the moment when a user decides to stop.",
+        "This environment affects learning. A student may intend to read a long article but switch tasks whenever a message arrives. Even short interruptions can make complex material feel harder because the learner must repeatedly rebuild context.",
+        "Some researchers suggest treating attention as a limited resource that needs protection. Practical strategies include turning off non-essential alerts, studying in timed blocks and designing apps that respect stopping points. The goal is not to reject technology, but to make attention easier to direct deliberately."
+      ],
+      "translations": [
+        "数字平台争夺注意力，因为广告收入往往取决于人们看屏幕的时间。通知、无限信息流和推荐系统都被设计来减少用户决定停止的时刻。",
+        "这种环境影响学习。学生可能本来打算读一篇长文章，但每当消息到来就切换任务。即使短暂打断也会让复杂材料显得更难，因为学习者必须反复重建上下文。",
+        "一些研究者建议把注意力视为需要保护的有限资源。实际策略包括关闭非必要提醒、按时间块学习，以及设计尊重停止点的应用。目标不是拒绝技术，而是让注意力更容易被有意识地引导。"
+      ],
+      "keywords": [
+        {
+          "term": "scarce",
+          "phonetic": "skeəs",
+          "meaning": "稀缺的",
+          "note": "scarce resource"
+        },
+        {
+          "term": "revenue",
+          "phonetic": "ˈrevənjuː",
+          "meaning": "收入",
+          "note": "advertising revenue"
+        },
+        {
+          "term": "notifications",
+          "phonetic": "ˌnəʊtɪfɪˈkeɪʃnz",
+          "meaning": "通知",
+          "note": "phone notifications"
+        },
+        {
+          "term": "interruptions",
+          "phonetic": "ˌɪntəˈrʌpʃnz",
+          "meaning": "打断",
+          "note": "short interruptions"
+        },
+        {
+          "term": "context",
+          "phonetic": "ˈkɒntekst",
+          "meaning": "上下文，背景",
+          "note": "rebuild context"
+        },
+        {
+          "term": "deliberately",
+          "phonetic": "dɪˈlɪbərətli",
+          "meaning": "有意识地，故意地",
+          "note": "direct deliberately"
+        }
+      ],
+      "questions": [
+        {
+          "id": "attention-economy-q1",
+          "type": "True / False / Not Given",
+          "question": "Advertising revenue can depend on screen time.",
+          "answer": "True",
+          "explanation": "第一段说明 revenue often depends on time spent looking at a screen。"
+        },
+        {
+          "id": "attention-economy-q2",
+          "type": "Multiple Choice",
+          "question": "Why can interruptions make complex material harder?",
+          "options": [
+            "Learners must rebuild context.",
+            "They improve memory instantly.",
+            "They remove all messages.",
+            "They make articles shorter."
+          ],
+          "answer": "Learners must rebuild context.",
+          "explanation": "第二段说明 learner must repeatedly rebuild context。"
+        },
+        {
+          "id": "attention-economy-q3",
+          "type": "Short Answer",
+          "question": "Name one strategy for protecting attention.",
+          "answer": "turning off non-essential alerts / studying in timed blocks / apps that respect stopping points",
+          "explanation": "第三段列出三种策略。"
+        }
+      ],
+      "bandGroup": "band8"
+    },
+    {
+      "id": "medical-screening",
+      "title": "The Promise and Limits of Medical Screening",
+      "topic": "Health",
+      "level": "Band 8.0-9.0",
+      "minutes": 12,
+      "summary": "医学筛查能提前发现风险，但也可能带来误报、焦虑和过度治疗。",
+      "paragraphs": [
+        "Medical screening aims to identify disease before symptoms appear. When a test is accurate and treatment is available, early detection can save lives. This is why screening programmes are used for conditions such as certain cancers, eye disease and high blood pressure.",
+        "Screening also has limits. A false positive result may frighten a healthy person and lead to unnecessary follow-up tests. A false negative result may give false reassurance. Even when a condition is detected, doctors must ask whether treating it immediately will actually improve the patient’s future health.",
+        "For patients, the key is informed decision-making. A useful screening programme explains who is likely to benefit, how reliable the test is and what will happen after a result. More testing is not always better; better understanding is the real protection."
+      ],
+      "translations": [
+        "医学筛查旨在症状出现前识别疾病。当检测准确且有治疗方法时，早期发现可以挽救生命。这就是筛查项目被用于某些癌症、眼病和高血压等情况的原因。",
+        "筛查也有局限。假阳性结果可能吓到健康的人，并导致不必要的后续检查。假阴性结果可能给人错误的安心感。即使发现了某种状况，医生也必须判断立即治疗是否真的会改善患者未来健康。",
+        "对患者来说，关键是知情决策。一个有用的筛查项目会解释谁可能受益、测试有多可靠，以及结果出来后会发生什么。更多检测并不总是更好；更好的理解才是真正的保护。"
+      ],
+      "keywords": [
+        {
+          "term": "screening",
+          "phonetic": "ˈskriːnɪŋ",
+          "meaning": "筛查",
+          "note": "medical screening"
+        },
+        {
+          "term": "symptoms",
+          "phonetic": "ˈsɪmptəmz",
+          "meaning": "症状",
+          "note": "before symptoms appear"
+        },
+        {
+          "term": "detection",
+          "phonetic": "dɪˈtekʃn",
+          "meaning": "发现，检测",
+          "note": "early detection"
+        },
+        {
+          "term": "reassurance",
+          "phonetic": "ˌriːəˈʃʊərəns",
+          "meaning": "安心，保证",
+          "note": "false reassurance"
+        },
+        {
+          "term": "informed",
+          "phonetic": "ɪnˈfɔːmd",
+          "meaning": "知情的，了解情况的",
+          "note": "informed decision-making"
+        },
+        {
+          "term": "reliable",
+          "phonetic": "rɪˈlaɪəbl",
+          "meaning": "可靠的",
+          "note": "reliable test"
+        }
+      ],
+      "questions": [
+        {
+          "id": "medical-screening-q1",
+          "type": "True / False / Not Given",
+          "question": "Screening tries to identify disease before symptoms appear.",
+          "answer": "True",
+          "explanation": "第一段第一句直接说明。"
+        },
+        {
+          "id": "medical-screening-q2",
+          "type": "Multiple Choice",
+          "question": "What may a false positive result lead to?",
+          "options": [
+            "unnecessary follow-up tests",
+            "better sleep",
+            "lower prices",
+            "fewer questions"
+          ],
+          "answer": "unnecessary follow-up tests",
+          "explanation": "第二段说明 false positive may lead to unnecessary follow-up tests。"
+        },
+        {
+          "id": "medical-screening-q3",
+          "type": "Short Answer",
+          "question": "What is described as the real protection?",
+          "answer": "better understanding",
+          "explanation": "第三段最后一句说明 better understanding is the real protection。"
+        }
+      ],
+      "bandGroup": "band8"
+    },
+    {
+      "id": "plastic-packaging",
+      "title": "Rethinking Plastic Packaging",
+      "topic": "Environment",
+      "level": "Band 6.0-6.5",
+      "minutes": 11,
+      "summary": "塑料包装问题不能只靠回收解决，还要重新思考材料、配送和消费者习惯。",
+      "paragraphs": [
+        "Plastic packaging is light, cheap and effective at protecting food and medicine. These advantages explain why it spread so quickly. Yet the same qualities also make plastic waste difficult to manage, especially when products are used for only a few minutes.",
+        "Recycling is helpful but limited. Different plastics must be sorted, cleaned and processed, and contaminated material may be rejected. In many places, the economics of recycling are weak because producing new plastic remains cheaper than using recycled material.",
+        "A broader response includes reducing unnecessary packaging, designing containers for reuse and improving refill systems. Consumers can help, but responsibility should not fall only on individuals. Manufacturers and retailers influence what choices are available in the first place."
+      ],
+      "translations": [
+        "塑料包装轻便、便宜，并且能有效保护食物和药品。这些优点解释了它为何迅速普及。然而，同样的特性也让塑料废弃物难以管理，尤其是当产品只被使用几分钟时。",
+        "回收有帮助，但有限。不同塑料必须被分类、清洗和处理，受污染材料可能被拒收。在许多地方，回收的经济性较弱，因为生产新塑料仍比使用再生材料更便宜。",
+        "更广泛的应对包括减少不必要包装、设计可重复使用容器，以及改善补充装系统。消费者可以帮忙，但责任不应只落在个人身上。制造商和零售商首先影响了有哪些选择可用。"
+      ],
+      "keywords": [
+        {
+          "term": "packaging",
+          "phonetic": "ˈpækɪdʒɪŋ",
+          "meaning": "包装",
+          "note": "plastic packaging"
+        },
+        {
+          "term": "advantages",
+          "phonetic": "ədˈvɑːntɪdʒɪz",
+          "meaning": "优点",
+          "note": "these advantages"
+        },
+        {
+          "term": "contaminated",
+          "phonetic": "kənˈtæmɪneɪtɪd",
+          "meaning": "受污染的",
+          "note": "contaminated material"
+        },
+        {
+          "term": "economics",
+          "phonetic": "ˌiːkəˈnɒmɪks",
+          "meaning": "经济性，经济学",
+          "note": "economics of recycling"
+        },
+        {
+          "term": "containers",
+          "phonetic": "kənˈteɪnəz",
+          "meaning": "容器",
+          "note": "containers for reuse"
+        },
+        {
+          "term": "retailers",
+          "phonetic": "ˈriːteɪləz",
+          "meaning": "零售商",
+          "note": "manufacturers and retailers"
+        }
+      ],
+      "questions": [
+        {
+          "id": "plastic-packaging-q1",
+          "type": "True / False / Not Given",
+          "question": "Plastic packaging can protect food and medicine.",
+          "answer": "True",
+          "explanation": "第一段说明 protecting food and medicine。"
+        },
+        {
+          "id": "plastic-packaging-q2",
+          "type": "Multiple Choice",
+          "question": "Why can recycling be economically weak?",
+          "options": [
+            "new plastic can be cheaper",
+            "sorting is never needed",
+            "plastic is always clean",
+            "retailers disappear"
+          ],
+          "answer": "new plastic can be cheaper",
+          "explanation": "第二段说明 producing new plastic remains cheaper。"
+        },
+        {
+          "id": "plastic-packaging-q3",
+          "type": "Short Answer",
+          "question": "Who influences available choices besides manufacturers?",
+          "answer": "retailers",
+          "explanation": "第三段最后提到 Manufacturers and retailers。"
+        }
+      ],
+      "bandGroup": "band6"
+    },
+    {
+      "id": "school-lunch",
+      "title": "School Lunches and Public Health",
+      "topic": "Health",
+      "level": "Band 5.5-6.0",
+      "minutes": 10,
+      "summary": "学校午餐不仅是餐食供应，也是健康教育、平等和本地采购的交叉点。",
+      "paragraphs": [
+        "A school lunch programme may look like a simple service, but it can influence learning and public health. Children who arrive hungry often find it harder to concentrate, and families with limited income may depend on school meals for reliable nutrition.",
+        "The design of the menu matters. Meals that include vegetables, whole grains and moderate amounts of sugar can shape children’s expectations of everyday food. Some schools also connect lunch with lessons about cooking, farming and waste reduction.",
+        "Cost remains a challenge. Healthier ingredients may be more expensive, and kitchens need staff and equipment to prepare fresh meals. Partnerships with local farms can help, but they require planning so that supply is stable throughout the school year."
+      ],
+      "translations": [
+        "学校午餐项目看起来像简单服务，但它会影响学习和公共健康。饿着肚子到校的孩子通常更难集中注意力，低收入家庭也可能依赖学校餐食获得可靠营养。",
+        "菜单设计很重要。包含蔬菜、全谷物和适量糖分的餐食，可以塑造孩子对日常食物的期待。一些学校还把午餐与烹饪、农业和减少浪费的课程联系起来。",
+        "成本仍然是挑战。更健康的食材可能更贵，厨房也需要员工和设备来准备新鲜餐食。与本地农场合作可以有所帮助，但需要规划，确保整个学年供应稳定。"
+      ],
+      "keywords": [
+        {
+          "term": "concentrate",
+          "phonetic": "ˈkɒnsntreɪt",
+          "meaning": "集中注意力",
+          "note": "harder to concentrate"
+        },
+        {
+          "term": "nutrition",
+          "phonetic": "njuˈtrɪʃn",
+          "meaning": "营养",
+          "note": "reliable nutrition"
+        },
+        {
+          "term": "menu",
+          "phonetic": "ˈmenjuː",
+          "meaning": "菜单",
+          "note": "menu design"
+        },
+        {
+          "term": "moderate",
+          "phonetic": "ˈmɒdərət",
+          "meaning": "适量的，中等的",
+          "note": "moderate sugar"
+        },
+        {
+          "term": "ingredients",
+          "phonetic": "ɪnˈɡriːdiənts",
+          "meaning": "食材，成分",
+          "note": "healthier ingredients"
+        },
+        {
+          "term": "partnerships",
+          "phonetic": "ˈpɑːtnəʃɪps",
+          "meaning": "合作关系",
+          "note": "partnerships with farms"
+        }
+      ],
+      "questions": [
+        {
+          "id": "school-lunch-q1",
+          "type": "True / False / Not Given",
+          "question": "Hunger can make concentration harder for children.",
+          "answer": "True",
+          "explanation": "第一段说明 hungry children find it harder to concentrate。"
+        },
+        {
+          "id": "school-lunch-q2",
+          "type": "Multiple Choice",
+          "question": "What can school lunches be connected with?",
+          "options": [
+            "lessons about cooking",
+            "airport security",
+            "phone repair",
+            "bank loans"
+          ],
+          "answer": "lessons about cooking",
+          "explanation": "第二段说明 lessons about cooking, farming and waste reduction。"
+        },
+        {
+          "id": "school-lunch-q3",
+          "type": "Short Answer",
+          "question": "What must be stable throughout the school year?",
+          "answer": "supply",
+          "explanation": "第三段最后说明 supply is stable。"
+        }
+      ],
+      "bandGroup": "band5"
+    },
+    {
+      "id": "local-tourism",
+      "title": "Local Tourism After Global Travel Disruptions",
+      "topic": "Business",
+      "level": "Band 6.0-6.5",
+      "minutes": 11,
+      "summary": "本地旅游兴起让小城市重新发现附近资源，但也需要避免把社区生活商品化。",
+      "paragraphs": [
+        "When international travel becomes expensive or uncertain, people often explore destinations closer to home. Local tourism can support small businesses, spread visitors beyond famous landmarks and reduce the environmental cost of long-distance flights.",
+        "Smaller towns may benefit if they present ordinary places well: walking routes, local food, workshops, riversides and historical streets. Visitors increasingly look for experiences that feel specific rather than generic. This gives communities a chance to tell their own stories.",
+        "There are risks as well. If every neighbourhood is packaged for visitors, residents may feel that daily life has become a performance. Sustainable local tourism should therefore balance income with respect for ordinary routines and public spaces."
+      ],
+      "translations": [
+        "当国际旅行变得昂贵或不确定时，人们常会探索离家更近的目的地。本地旅游可以支持小企业，把游客分散到著名地标之外，并减少长途飞行的环境成本。",
+        "如果小城镇能很好地呈现普通地点，就可能受益：步行路线、本地食物、手作坊、河岸和历史街道。游客越来越寻找具有特定地方感而非泛泛而谈的体验。这给社区讲述自身故事的机会。",
+        "风险也存在。如果每个社区都被包装给游客，居民可能觉得日常生活变成了表演。因此，可持续本地旅游应在收入与对日常秩序和公共空间的尊重之间取得平衡。"
+      ],
+      "keywords": [
+        {
+          "term": "destinations",
+          "phonetic": "ˌdestɪˈneɪʃnz",
+          "meaning": "目的地",
+          "note": "tourist destinations"
+        },
+        {
+          "term": "landmarks",
+          "phonetic": "ˈlændmɑːks",
+          "meaning": "地标",
+          "note": "famous landmarks"
+        },
+        {
+          "term": "generic",
+          "phonetic": "dʒəˈnerɪk",
+          "meaning": "普通的，缺乏特色的",
+          "note": "specific rather than generic"
+        },
+        {
+          "term": "communities",
+          "phonetic": "kəˈmjuːnətiz",
+          "meaning": "社区",
+          "note": "local communities"
+        },
+        {
+          "term": "packaged",
+          "phonetic": "ˈpækɪdʒd",
+          "meaning": "被包装的",
+          "note": "packaged for visitors"
+        },
+        {
+          "term": "sustainable",
+          "phonetic": "səˈsteɪnəbl",
+          "meaning": "可持续的",
+          "note": "sustainable tourism"
+        }
+      ],
+      "questions": [
+        {
+          "id": "local-tourism-q1",
+          "type": "True / False / Not Given",
+          "question": "Local tourism may reduce the environmental cost of long-distance flights.",
+          "answer": "True",
+          "explanation": "第一段说明 reduce environmental cost of long-distance flights。"
+        },
+        {
+          "id": "local-tourism-q2",
+          "type": "Multiple Choice",
+          "question": "What kind of experiences do visitors increasingly look for?",
+          "options": [
+            "specific experiences",
+            "generic experiences only",
+            "airport delays",
+            "private exams"
+          ],
+          "answer": "specific experiences",
+          "explanation": "第二段说明 specific rather than generic。"
+        },
+        {
+          "id": "local-tourism-q3",
+          "type": "Short Answer",
+          "question": "What should sustainable local tourism respect?",
+          "answer": "ordinary routines and public spaces",
+          "explanation": "第三段说明 respect for ordinary routines and public spaces。"
+        }
+      ],
+      "bandGroup": "band6"
+    },
+    {
+      "id": "workplace-training",
+      "title": "Why Workplace Training Often Fails to Change Behaviour",
+      "topic": "Business",
+      "level": "Band 7.0-7.5",
+      "minutes": 12,
+      "summary": "企业培训失败往往不是内容太少，而是缺少任务场景、管理反馈和后续实践。",
+      "paragraphs": [
+        "Companies spend large amounts of money on training, yet employees often return to old habits within weeks. One reason is that courses are separated from the situations in which people actually make decisions. A slide about communication is easy to understand but hard to remember during a tense meeting.",
+        "Behaviour changes when training is connected to work routines. After learning a method, employees need chances to practise it on real tasks, receive feedback and see managers using the same language. Without these signals, training becomes an event rather than a new standard.",
+        "Measurement is also important. Attendance numbers show who was present, not whether work improved. Better evaluation looks at changes in output, error rates, customer response or team coordination. In this sense, training should be designed as a system of practice, not a one-day lecture."
+      ],
+      "translations": [
+        "企业在培训上投入大量资金，但员工常在几周内回到旧习惯。原因之一是课程与人们实际做决策的场景相分离。一张关于沟通的幻灯片容易理解，但在紧张会议中很难想起来。",
+        "当培训与工作常规连接时，行为才会改变。学习一种方法之后，员工需要机会在真实任务中练习、获得反馈，并看到管理者使用同样语言。没有这些信号，培训就只是一次活动，而不是新标准。",
+        "衡量也很重要。出勤人数只能显示谁在场，不能说明工作是否改善。更好的评估会看产出、错误率、客户反应或团队协同的变化。从这个意义上说，培训应被设计成实践系统，而不是一天讲座。"
+      ],
+      "keywords": [
+        {
+          "term": "habits",
+          "phonetic": "ˈhæbɪts",
+          "meaning": "习惯",
+          "note": "old habits"
+        },
+        {
+          "term": "situations",
+          "phonetic": "ˌsɪtʃuˈeɪʃnz",
+          "meaning": "情境，情况",
+          "note": "decision situations"
+        },
+        {
+          "term": "tense",
+          "phonetic": "tens",
+          "meaning": "紧张的",
+          "note": "tense meeting"
+        },
+        {
+          "term": "routines",
+          "phonetic": "ruːˈtiːnz",
+          "meaning": "常规，惯例",
+          "note": "work routines"
+        },
+        {
+          "term": "attendance",
+          "phonetic": "əˈtendəns",
+          "meaning": "出勤，参加",
+          "note": "attendance numbers"
+        },
+        {
+          "term": "coordination",
+          "phonetic": "kəʊˌɔːdɪˈneɪʃn",
+          "meaning": "协同，协调",
+          "note": "team coordination"
+        }
+      ],
+      "questions": [
+        {
+          "id": "workplace-training-q1",
+          "type": "True / False / Not Given",
+          "question": "Employees may return to old habits after training.",
+          "answer": "True",
+          "explanation": "第一段说明 return to old habits。"
+        },
+        {
+          "id": "workplace-training-q2",
+          "type": "Multiple Choice",
+          "question": "What do employees need after learning a method?",
+          "options": [
+            "practice on real tasks",
+            "fewer managers",
+            "only a certificate",
+            "no feedback"
+          ],
+          "answer": "practice on real tasks",
+          "explanation": "第二段说明 practise it on real tasks。"
+        },
+        {
+          "id": "workplace-training-q3",
+          "type": "Short Answer",
+          "question": "What do attendance numbers fail to show?",
+          "answer": "whether work improved",
+          "explanation": "第三段说明 attendance numbers show who was present, not whether work improved。"
+        }
+      ],
+      "bandGroup": "band7"
+    },
+    {
+      "id": "electric-vehicles",
+      "title": "Electric Vehicles and the Hidden Question of Charging",
+      "topic": "Technology",
+      "level": "Band 6.0-6.5",
+      "minutes": 11,
+      "summary": "电动车普及不仅取决于车价，也取决于充电便利、公寓居民和电网管理。",
+      "paragraphs": [
+        "Electric vehicles are often presented as a cleaner alternative to petrol cars. Falling battery prices and government incentives have made them more attractive, but ownership still depends heavily on charging access.",
+        "Drivers with private parking can often charge at home overnight. The situation is harder for people living in apartments or older neighbourhoods where parking is shared. Public charging stations help, but they must be reliable, easy to find and available at the times drivers actually need them.",
+        "Charging also affects the electricity grid. If many cars charge at the same evening peak, demand may rise sharply. Smart charging systems can shift some demand to quieter hours, but this requires pricing rules and software that drivers trust."
+      ],
+      "translations": [
+        "电动车常被呈现为比汽油车更清洁的替代方案。电池价格下降和政府激励让它们更有吸引力，但拥有电动车仍高度依赖充电条件。",
+        "有私人停车位的司机通常可以在夜间家中充电。对住在公寓或停车共享的老社区的人来说，情况更困难。公共充电站有帮助，但必须可靠、容易找到，并在司机真正需要的时候可用。",
+        "充电也影响电网。如果许多车辆都在傍晚高峰充电，需求可能急剧上升。智能充电系统可以把部分需求转移到较空闲时段，但这需要司机信任的定价规则和软件。"
+      ],
+      "keywords": [
+        {
+          "term": "alternative",
+          "phonetic": "ɔːlˈtɜːnətɪv",
+          "meaning": "替代方案",
+          "note": "cleaner alternative"
+        },
+        {
+          "term": "incentives",
+          "phonetic": "ɪnˈsentɪvz",
+          "meaning": "激励，补贴",
+          "note": "government incentives"
+        },
+        {
+          "term": "ownership",
+          "phonetic": "ˈəʊnəʃɪp",
+          "meaning": "拥有，所有权",
+          "note": "vehicle ownership"
+        },
+        {
+          "term": "apartments",
+          "phonetic": "əˈpɑːtmənts",
+          "meaning": "公寓",
+          "note": "living in apartments"
+        },
+        {
+          "term": "grid",
+          "phonetic": "ɡrɪd",
+          "meaning": "电网",
+          "note": "electricity grid"
+        },
+        {
+          "term": "peak",
+          "phonetic": "piːk",
+          "meaning": "高峰",
+          "note": "evening peak"
+        }
+      ],
+      "questions": [
+        {
+          "id": "electric-vehicles-q1",
+          "type": "True / False / Not Given",
+          "question": "Charging access is important for electric vehicle ownership.",
+          "answer": "True",
+          "explanation": "第一段说明 ownership depends heavily on charging access。"
+        },
+        {
+          "id": "electric-vehicles-q2",
+          "type": "Multiple Choice",
+          "question": "Who may find charging harder?",
+          "options": [
+            "people living in apartments",
+            "drivers with private parking",
+            "battery factories",
+            "software designers only"
+          ],
+          "answer": "people living in apartments",
+          "explanation": "第二段说明 apartment residents face a harder situation。"
+        },
+        {
+          "id": "electric-vehicles-q3",
+          "type": "Short Answer",
+          "question": "What can smart charging shift to quieter hours?",
+          "answer": "some demand",
+          "explanation": "第三段说明 shift some demand to quieter hours。"
+        }
+      ],
+      "bandGroup": "band6"
+    },
+    {
+      "id": "memory-palaces",
+      "title": "Memory Palaces and Modern Study",
+      "topic": "Education",
+      "level": "Band 5.5-6.0",
+      "minutes": 10,
+      "summary": "记忆宫殿是一种古老方法，但在现代学习中仍可帮助组织大量信息。",
+      "paragraphs": [
+        "The memory palace technique asks learners to imagine a familiar place and attach information to locations inside it. A student might place a definition by the front door, an example on the kitchen table and a formula near a window.",
+        "The method works because spatial memory is strong. People often remember routes, rooms and objects more easily than abstract lists. By turning information into a mental journey, learners create extra cues that help recall.",
+        "However, the technique is not suitable for every task. It can help with vocabulary, speeches and ordered facts, but it does not replace understanding. For complex subjects, memory palaces are most useful after the learner has already organised the main ideas."
+      ],
+      "translations": [
+        "记忆宫殿技巧要求学习者想象一个熟悉地点，并把信息附着在其中的位置上。学生可以把一个定义放在前门旁，把例子放在厨房桌上，把公式放在窗边。",
+        "这种方法有效，是因为空间记忆很强。人们通常比抽象列表更容易记住路线、房间和物品。通过把信息变成一次心理旅程，学习者创造出帮助回忆的额外线索。",
+        "不过，这种技巧并不适合所有任务。它可以帮助词汇、演讲和有顺序的事实，但不能替代理解。对复杂学科来说，记忆宫殿在学习者已经组织好主要观点后最有用。"
+      ],
+      "keywords": [
+        {
+          "term": "technique",
+          "phonetic": "tekˈniːk",
+          "meaning": "技巧，方法",
+          "note": "memory technique"
+        },
+        {
+          "term": "definition",
+          "phonetic": "ˌdefɪˈnɪʃn",
+          "meaning": "定义",
+          "note": "place a definition"
+        },
+        {
+          "term": "formula",
+          "phonetic": "ˈfɔːmjələ",
+          "meaning": "公式",
+          "note": "a formula"
+        },
+        {
+          "term": "spatial",
+          "phonetic": "ˈspeɪʃl",
+          "meaning": "空间的",
+          "note": "spatial memory"
+        },
+        {
+          "term": "abstract",
+          "phonetic": "ˈæbstrækt",
+          "meaning": "抽象的",
+          "note": "abstract lists"
+        },
+        {
+          "term": "recall",
+          "phonetic": "rɪˈkɔːl",
+          "meaning": "回忆，记起",
+          "note": "help recall"
+        }
+      ],
+      "questions": [
+        {
+          "id": "memory-palaces-q1",
+          "type": "True / False / Not Given",
+          "question": "The technique uses imagined familiar places.",
+          "answer": "True",
+          "explanation": "第一段说明 imagine a familiar place。"
+        },
+        {
+          "id": "memory-palaces-q2",
+          "type": "Multiple Choice",
+          "question": "Why can the method work well?",
+          "options": [
+            "spatial memory is strong",
+            "all lists are short",
+            "windows speak",
+            "formulas disappear"
+          ],
+          "answer": "spatial memory is strong",
+          "explanation": "第二段第一句说明。"
+        },
+        {
+          "id": "memory-palaces-q3",
+          "type": "Short Answer",
+          "question": "What does the technique not replace?",
+          "answer": "understanding",
+          "explanation": "第三段说明 it does not replace understanding。"
+        }
+      ],
+      "bandGroup": "band5"
+    },
+    {
+      "id": "coral-bleaching",
+      "title": "Coral Bleaching and Reef Recovery",
+      "topic": "Environment",
+      "bandGroup": "band7",
+      "level": "Band 7.0-7.5",
+      "minutes": 12,
+      "summary": "珊瑚白化不是珊瑚立即死亡，而是珊瑚与藻类共生关系受热压力破坏后的危险信号。",
+      "paragraphs": [
+        "Coral reefs support an extraordinary range of marine life, but they are sensitive to changes in water temperature. When the sea becomes too warm for too long, corals may expel the tiny algae that live inside their tissues and provide much of their energy.",
+        "This process is known as coral bleaching because the coral loses its colour and appears pale. Bleached coral is not necessarily dead, but it is weakened. If temperatures return to normal quickly, the algae may come back; if heat stress continues, large areas of reef can die.",
+        "Recovery depends on several factors, including water quality, fishing pressure and the frequency of heatwaves. Local protection cannot stop global warming, but it can give reefs a better chance to survive by reducing other sources of stress."
+      ],
+      "translations": [
+        "珊瑚礁支持着极其丰富的海洋生命，但它们对水温变化很敏感。当海水长时间过热时，珊瑚可能排出生活在其组织内、为其提供大量能量的微小藻类。",
+        "这一过程被称为珊瑚白化，因为珊瑚失去颜色并显得苍白。白化珊瑚不一定已经死亡，但已经变弱。如果温度迅速恢复正常，藻类可能回来；如果热压力持续，大面积珊瑚礁可能死亡。",
+        "恢复取决于多个因素，包括水质、捕捞压力和热浪频率。本地保护无法阻止全球变暖，但可以通过减少其他压力来源，让珊瑚礁拥有更好的生存机会。"
+      ],
+      "keywords": [
+        {
+          "term": "reefs",
+          "phonetic": "riːfs",
+          "meaning": "珊瑚礁，礁",
+          "note": "coral reefs"
+        },
+        {
+          "term": "expel",
+          "phonetic": "ɪkˈspel",
+          "meaning": "排出，驱逐",
+          "note": "expel algae"
+        },
+        {
+          "term": "algae",
+          "phonetic": "ˈælɡiː",
+          "meaning": "藻类",
+          "note": "tiny algae"
+        },
+        {
+          "term": "bleaching",
+          "phonetic": "ˈbliːtʃɪŋ",
+          "meaning": "白化",
+          "note": "coral bleaching"
+        },
+        {
+          "term": "heatwaves",
+          "phonetic": "ˈhiːtweɪvz",
+          "meaning": "热浪",
+          "note": "frequency of heatwaves"
+        },
+        {
+          "term": "stress",
+          "phonetic": "stres",
+          "meaning": "压力",
+          "note": "sources of stress"
+        }
+      ],
+      "questions": [
+        {
+          "id": "coral-bleaching-q1",
+          "type": "True / False / Not Given",
+          "question": "Warm water can cause corals to expel algae.",
+          "answer": "True",
+          "explanation": "第一段说明 corals may expel the tiny algae。"
+        },
+        {
+          "id": "coral-bleaching-q2",
+          "type": "Multiple Choice",
+          "question": "Why is the process called bleaching?",
+          "options": [
+            "The coral appears pale.",
+            "The reef becomes larger.",
+            "Fish disappear immediately.",
+            "The water turns black."
+          ],
+          "answer": "The coral appears pale.",
+          "explanation": "第二段说明 loses its colour and appears pale。"
+        },
+        {
+          "id": "coral-bleaching-q3",
+          "type": "Short Answer",
+          "question": "Name one factor that affects reef recovery.",
+          "answer": "water quality / fishing pressure / frequency of heatwaves",
+          "explanation": "第三段列出三个因素。"
+        }
+      ]
+    },
+    {
+      "id": "open-plan-offices",
+      "title": "Open-plan Offices and the Cost of Noise",
+      "topic": "Business",
+      "bandGroup": "band6",
+      "level": "Band 6.0-6.5",
+      "minutes": 10,
+      "summary": "开放式办公室促进交流的同时，也可能通过噪音和干扰降低深度工作的质量。",
+      "paragraphs": [
+        "Open-plan offices were designed to encourage communication and reduce the physical barriers between teams. In theory, employees can exchange ideas quickly and feel part of a shared workplace.",
+        "In practice, the same space can create constant interruption. Phone calls, informal conversations and movement nearby may make it difficult to concentrate on tasks that require careful thought. Some workers respond by wearing headphones, which can reduce the very collaboration the design was meant to encourage.",
+        "A better approach is to provide different zones for different kinds of work. Teams need meeting areas, quiet rooms and flexible desks rather than a single environment that is expected to serve every purpose. Office design should match the task, not simply follow a fashionable layout."
+      ],
+      "translations": [
+        "开放式办公室旨在鼓励沟通，并减少团队之间的物理隔阂。理论上，员工可以快速交换想法，并感到自己属于共同工作场所。",
+        "在实践中，同一空间可能制造持续打断。电话、非正式谈话和附近走动，会让需要仔细思考的任务难以集中完成。一些员工会戴耳机应对，这反而可能减少这种设计原本想鼓励的协作。",
+        "更好的方法是为不同类型的工作提供不同区域。团队需要会议区、安静房间和灵活工位，而不是期待单一环境服务所有目的。办公室设计应匹配任务，而不是简单追随流行布局。"
+      ],
+      "keywords": [
+        {
+          "term": "barriers",
+          "phonetic": "ˈbæriəz",
+          "meaning": "障碍，隔阂",
+          "note": "physical barriers"
+        },
+        {
+          "term": "interruption",
+          "phonetic": "ˌɪntəˈrʌpʃn",
+          "meaning": "打断",
+          "note": "constant interruption"
+        },
+        {
+          "term": "concentrate",
+          "phonetic": "ˈkɒnsntreɪt",
+          "meaning": "集中注意力",
+          "note": "concentrate on tasks"
+        },
+        {
+          "term": "headphones",
+          "phonetic": "ˈhedfəʊnz",
+          "meaning": "耳机",
+          "note": "wearing headphones"
+        },
+        {
+          "term": "collaboration",
+          "phonetic": "kəˌlæbəˈreɪʃn",
+          "meaning": "协作",
+          "note": "reduce collaboration"
+        },
+        {
+          "term": "layout",
+          "phonetic": "ˈleɪaʊt",
+          "meaning": "布局",
+          "note": "fashionable layout"
+        }
+      ],
+      "questions": [
+        {
+          "id": "open-plan-offices-q1",
+          "type": "True / False / Not Given",
+          "question": "Open-plan offices were intended to encourage communication.",
+          "answer": "True",
+          "explanation": "第一段说明 designed to encourage communication。"
+        },
+        {
+          "id": "open-plan-offices-q2",
+          "type": "Multiple Choice",
+          "question": "What can make careful work difficult?",
+          "options": [
+            "constant interruption",
+            "clear signs",
+            "quiet rooms",
+            "flexible desks"
+          ],
+          "answer": "constant interruption",
+          "explanation": "第二段说明 constant interruption 影响集中。"
+        },
+        {
+          "id": "open-plan-offices-q3",
+          "type": "Short Answer",
+          "question": "What should office design match?",
+          "answer": "the task",
+          "explanation": "第三段最后一句说明 match the task。"
+        }
+      ]
+    },
+    {
+      "id": "traditional-markets",
+      "title": "Traditional Markets in Modern Cities",
+      "topic": "Culture",
+      "bandGroup": "band5",
+      "level": "Band 5.5-6.0",
+      "minutes": 9,
+      "summary": "传统市场在现代城市中不仅卖商品，也承载社交、地方记忆和小商户生计。",
+      "paragraphs": [
+        "Traditional markets are more than places to buy fruit, meat or household goods. In many cities, they are social spaces where residents meet neighbours, exchange news and maintain daily routines.",
+        "Modern supermarkets are often cleaner and more predictable, but they may not offer the same personal relationships. A market seller may know a customer’s family, recommend seasonal food or allow small changes in price and quantity.",
+        "City governments sometimes move markets into new buildings to improve hygiene and traffic. This can be useful, but planners need to protect the informal character that made the market valuable in the first place."
+      ],
+      "translations": [
+        "传统市场不只是购买水果、肉类或家用品的地方。在许多城市，它们也是社交空间，居民在那里见邻居、交换消息并维持日常习惯。",
+        "现代超市通常更干净、更可预测，但未必提供同样的人际关系。市场摊主可能认识顾客家人，推荐当季食物，或在价格和数量上做小调整。",
+        "城市政府有时会把市场迁入新建筑，以改善卫生和交通。这可能有用，但规划者需要保护最初让市场有价值的非正式特征。"
+      ],
+      "keywords": [
+        {
+          "term": "household",
+          "phonetic": "ˈhaʊshəʊld",
+          "meaning": "家庭的，家用的",
+          "note": "household goods"
+        },
+        {
+          "term": "residents",
+          "phonetic": "ˈrezɪdənts",
+          "meaning": "居民",
+          "note": "city residents"
+        },
+        {
+          "term": "predictable",
+          "phonetic": "prɪˈdɪktəbl",
+          "meaning": "可预测的",
+          "note": "more predictable"
+        },
+        {
+          "term": "seasonal",
+          "phonetic": "ˈsiːzənl",
+          "meaning": "季节性的",
+          "note": "seasonal food"
+        },
+        {
+          "term": "hygiene",
+          "phonetic": "ˈhaɪdʒiːn",
+          "meaning": "卫生",
+          "note": "improve hygiene"
+        },
+        {
+          "term": "informal",
+          "phonetic": "ɪnˈfɔːml",
+          "meaning": "非正式的",
+          "note": "informal character"
+        }
+      ],
+      "questions": [
+        {
+          "id": "traditional-markets-q1",
+          "type": "True / False / Not Given",
+          "question": "Traditional markets can be social spaces.",
+          "answer": "True",
+          "explanation": "第一段说明 they are social spaces。"
+        },
+        {
+          "id": "traditional-markets-q2",
+          "type": "Multiple Choice",
+          "question": "What may a market seller recommend?",
+          "options": [
+            "seasonal food",
+            "flight routes",
+            "computer code",
+            "exam certificates"
+          ],
+          "answer": "seasonal food",
+          "explanation": "第二段说明 recommend seasonal food。"
+        },
+        {
+          "id": "traditional-markets-q3",
+          "type": "Short Answer",
+          "question": "What should planners protect?",
+          "answer": "the informal character",
+          "explanation": "第三段说明 protect the informal character。"
+        }
+      ]
+    },
+    {
+      "id": "genetic-databases",
+      "title": "Genetic Databases and Public Trust",
+      "topic": "Science",
+      "bandGroup": "band8",
+      "level": "Band 8.0-9.0",
+      "minutes": 14,
+      "summary": "基因数据库能推动医学研究，但个人隐私、群体代表性和数据治理决定公众是否信任。",
+      "paragraphs": [
+        "Large genetic databases allow researchers to study links between inherited variation and disease. When combined with medical records, they can reveal why some patients respond well to a treatment while others experience serious side effects.",
+        "The scientific value is substantial, but so are the ethical questions. Genetic data can reveal information not only about one person but also about biological relatives. If databases mainly include people from wealthy regions, their findings may also be less useful for under-represented populations.",
+        "Trust depends on governance. Participants need to know who can access the data, whether commercial companies are involved and how withdrawal requests will be handled. Without transparent rules, even a valuable research project may be seen as a threat rather than a public good."
+      ],
+      "translations": [
+        "大型基因数据库让研究者能够研究遗传变异与疾病之间的联系。当它们与医疗记录结合时，可以揭示为什么一些患者对某种治疗反应良好，而另一些患者出现严重副作用。",
+        "科学价值很大，但伦理问题同样重要。基因数据不仅能揭示一个人的信息，也能揭示其生物亲属的信息。如果数据库主要包含富裕地区人群，其发现对代表性不足的人群也可能不那么有用。",
+        "信任取决于治理。参与者需要知道谁可以访问数据、是否涉及商业公司，以及退出请求如何处理。没有透明规则，即使有价值的研究项目也可能被视为威胁，而不是公共利益。"
+      ],
+      "keywords": [
+        {
+          "term": "genetic",
+          "phonetic": "dʒəˈnetɪk",
+          "meaning": "基因的，遗传的",
+          "note": "genetic databases"
+        },
+        {
+          "term": "inherited",
+          "phonetic": "ɪnˈherɪtɪd",
+          "meaning": "遗传的",
+          "note": "inherited variation"
+        },
+        {
+          "term": "substantial",
+          "phonetic": "səbˈstænʃl",
+          "meaning": "大量的，重要的",
+          "note": "substantial value"
+        },
+        {
+          "term": "ethical",
+          "phonetic": "ˈeθɪkl",
+          "meaning": "伦理的",
+          "note": "ethical questions"
+        },
+        {
+          "term": "governance",
+          "phonetic": "ˈɡʌvənəns",
+          "meaning": "治理",
+          "note": "data governance"
+        },
+        {
+          "term": "transparent",
+          "phonetic": "trænsˈpærənt",
+          "meaning": "透明的",
+          "note": "transparent rules"
+        }
+      ],
+      "questions": [
+        {
+          "id": "genetic-databases-q1",
+          "type": "True / False / Not Given",
+          "question": "Genetic databases can be combined with medical records.",
+          "answer": "True",
+          "explanation": "第一段说明 combined with medical records。"
+        },
+        {
+          "id": "genetic-databases-q2",
+          "type": "Multiple Choice",
+          "question": "What can genetic data reveal besides information about one person?",
+          "options": [
+            "information about biological relatives",
+            "weather forecasts",
+            "traffic lights",
+            "school menus"
+          ],
+          "answer": "information about biological relatives",
+          "explanation": "第二段说明 also about biological relatives。"
+        },
+        {
+          "id": "genetic-databases-q3",
+          "type": "Short Answer",
+          "question": "What does trust depend on?",
+          "answer": "governance",
+          "explanation": "第三段第一句说明 Trust depends on governance。"
+        }
+      ]
+    },
+    {
+      "id": "algorithmic-management",
+      "title": "Algorithmic Management and Worker Autonomy",
+      "topic": "Technology",
+      "bandGroup": "band8",
+      "level": "Band 8.0-9.0",
+      "minutes": 14,
+      "summary": "算法管理用数据分配任务和评估表现，但也可能削弱员工自主性和申诉空间。",
+      "paragraphs": [
+        "In some workplaces, algorithms now assign tasks, calculate performance scores and decide which worker receives the next order. This form of management promises efficiency because decisions can be made continuously and based on large amounts of operational data.",
+        "The difficulty is that workers may not understand how the system evaluates them. A driver, warehouse employee or delivery worker might be penalised for delays caused by traffic, equipment failure or unrealistic schedules. When the rules are hidden, it becomes hard to challenge an unfair judgement.",
+        "A balanced approach would make algorithmic decisions explainable and appealable. Automation can support managers, but it should not remove responsibility. If a system shapes a person’s income and working conditions, the person affected needs a meaningful way to question it."
+      ],
+      "translations": [
+        "在一些工作场所，算法现在分配任务、计算绩效分数，并决定哪个员工接收下一单。这种管理形式承诺提高效率，因为决策可以持续进行，并基于大量运营数据。",
+        "困难在于，员工可能不了解系统如何评价自己。司机、仓库员工或配送员可能因为交通、设备故障或不现实排班造成的延误而受罚。当规则被隐藏时，就很难挑战不公平判断。",
+        "平衡的方法是让算法决策可解释、可申诉。自动化可以支持管理者，但不应移除责任。如果一个系统影响某人的收入和工作条件，受影响者需要有实质方式提出质疑。"
+      ],
+      "keywords": [
+        {
+          "term": "algorithms",
+          "phonetic": "ˈælɡərɪðəmz",
+          "meaning": "算法",
+          "note": "algorithms assign tasks"
+        },
+        {
+          "term": "operational",
+          "phonetic": "ˌɒpəˈreɪʃənl",
+          "meaning": "运营的",
+          "note": "operational data"
+        },
+        {
+          "term": "evaluates",
+          "phonetic": "ɪˈvæljueɪts",
+          "meaning": "评估",
+          "note": "system evaluates"
+        },
+        {
+          "term": "penalised",
+          "phonetic": "ˈpenəlaɪzd",
+          "meaning": "被惩罚",
+          "note": "be penalised"
+        },
+        {
+          "term": "appealable",
+          "phonetic": "əˈpiːləbl",
+          "meaning": "可申诉的",
+          "note": "appealable decisions"
+        },
+        {
+          "term": "meaningful",
+          "phonetic": "ˈmiːnɪŋfl",
+          "meaning": "有意义的，实质性的",
+          "note": "meaningful way"
+        }
+      ],
+      "questions": [
+        {
+          "id": "algorithmic-management-q1",
+          "type": "True / False / Not Given",
+          "question": "Algorithms may assign tasks in some workplaces.",
+          "answer": "True",
+          "explanation": "第一段说明 algorithms now assign tasks。"
+        },
+        {
+          "id": "algorithmic-management-q2",
+          "type": "Multiple Choice",
+          "question": "Why may workers find it hard to challenge unfair judgement?",
+          "options": [
+            "the rules are hidden",
+            "the weather is cold",
+            "orders are printed",
+            "traffic never changes"
+          ],
+          "answer": "the rules are hidden",
+          "explanation": "第二段说明 When the rules are hidden。"
+        },
+        {
+          "id": "algorithmic-management-q3",
+          "type": "Short Answer",
+          "question": "What two qualities should algorithmic decisions have?",
+          "answer": "explainable and appealable",
+          "explanation": "第三段说明 explainable and appealable。"
+        }
+      ]
+    },
+    {
+      "id": "urban-farming",
+      "title": "Urban Farming and the Limits of Local Food",
+      "topic": "Cities",
+      "bandGroup": "band6",
+      "level": "Band 6.0-6.5",
+      "minutes": 10,
+      "summary": "城市农业能改善社区参与和食物教育，但不能简单替代区域农业系统。",
+      "paragraphs": [
+        "Rooftop gardens, community farms and vertical growing systems have become popular images of greener cities. They can provide fresh herbs and vegetables, make unused spaces productive and give residents direct experience of food production.",
+        "The educational value may be greater than the amount of food produced. Children who plant vegetables often understand seasons, soil and waste more clearly. Neighbours who work together in a garden may also build stronger local relationships.",
+        "However, urban farming has limits. Land, sunlight, water and labour are expensive in cities, and many crops are more efficiently grown elsewhere. Local food projects should therefore be seen as part of a wider food system, not a complete replacement for farms beyond the city."
+      ],
+      "translations": [
+        "屋顶花园、社区农场和垂直种植系统已经成为绿色城市的流行图景。它们可以提供新鲜香草和蔬菜，让闲置空间产生价值，并让居民直接体验食物生产。",
+        "教育价值可能大于产出的食物数量。种植蔬菜的孩子通常更清楚地理解季节、土壤和废弃物。一起在花园劳动的邻居也可能建立更强的本地关系。",
+        "然而，城市农业有局限。城市中的土地、阳光、水和劳动力都很昂贵，许多作物在其他地方种植效率更高。因此，本地食物项目应被视为更大食物系统的一部分，而不是城外农场的完整替代。"
+      ],
+      "keywords": [
+        {
+          "term": "rooftop",
+          "phonetic": "ˈruːftɒp",
+          "meaning": "屋顶的",
+          "note": "rooftop gardens"
+        },
+        {
+          "term": "vertical",
+          "phonetic": "ˈvɜːtɪkl",
+          "meaning": "垂直的",
+          "note": "vertical growing"
+        },
+        {
+          "term": "productive",
+          "phonetic": "prəˈdʌktɪv",
+          "meaning": "有产出的，高效的",
+          "note": "productive spaces"
+        },
+        {
+          "term": "soil",
+          "phonetic": "sɔɪl",
+          "meaning": "土壤",
+          "note": "seasons and soil"
+        },
+        {
+          "term": "labour",
+          "phonetic": "ˈleɪbə",
+          "meaning": "劳动力",
+          "note": "labour is expensive"
+        },
+        {
+          "term": "replacement",
+          "phonetic": "rɪˈpleɪsmənt",
+          "meaning": "替代物",
+          "note": "complete replacement"
+        }
+      ],
+      "questions": [
+        {
+          "id": "urban-farming-q1",
+          "type": "True / False / Not Given",
+          "question": "Urban farming can use unused spaces productively.",
+          "answer": "True",
+          "explanation": "第一段说明 make unused spaces productive。"
+        },
+        {
+          "id": "urban-farming-q2",
+          "type": "Multiple Choice",
+          "question": "What may be greater than the food produced?",
+          "options": [
+            "educational value",
+            "traffic noise",
+            "office rent",
+            "screen time"
+          ],
+          "answer": "educational value",
+          "explanation": "第二段第一句说明。"
+        },
+        {
+          "id": "urban-farming-q3",
+          "type": "Short Answer",
+          "question": "Urban farming should be seen as part of what?",
+          "answer": "a wider food system",
+          "explanation": "第三段说明 part of a wider food system。"
+        }
+      ]
+    },
+    {
+      "id": "exam-anxiety",
+      "title": "Exam Anxiety and Performance",
+      "topic": "Psychology",
+      "bandGroup": "band5",
+      "level": "Band 5.5-6.0",
+      "minutes": 9,
+      "summary": "考试焦虑并不总是坏事，适度压力可能提升注意力，但过高压力会干扰表现。",
+      "paragraphs": [
+        "Many students feel nervous before an important exam. A small amount of anxiety can be useful because it increases alertness and reminds the learner to prepare carefully.",
+        "Problems begin when anxiety becomes too strong. The student may read questions too quickly, forget familiar information or spend more time worrying than solving problems. Physical signs such as a fast heartbeat can make the fear feel even more real.",
+        "Simple routines can help. Practising under timed conditions, sleeping well and planning what to do in the first five minutes of the exam can reduce uncertainty. The aim is not to remove all pressure, but to keep it at a level that supports attention."
+      ],
+      "translations": [
+        "许多学生在重要考试前会紧张。少量焦虑可能有用，因为它提高警觉性，并提醒学习者认真准备。",
+        "当焦虑过强时，问题就开始了。学生可能读题太快，忘记熟悉信息，或把更多时间花在担忧而不是解决问题上。心跳加快等身体信号会让恐惧显得更真实。",
+        "简单流程可以帮忙。在限时条件下练习、睡好觉，并计划考试前五分钟做什么，都能减少不确定性。目标不是消除所有压力，而是把压力保持在支持注意力的水平。"
+      ],
+      "keywords": [
+        {
+          "term": "anxiety",
+          "phonetic": "æŋˈzaɪəti",
+          "meaning": "焦虑",
+          "note": "exam anxiety"
+        },
+        {
+          "term": "alertness",
+          "phonetic": "əˈlɜːtnəs",
+          "meaning": "警觉性",
+          "note": "increase alertness"
+        },
+        {
+          "term": "familiar",
+          "phonetic": "fəˈmɪliə",
+          "meaning": "熟悉的",
+          "note": "familiar information"
+        },
+        {
+          "term": "heartbeat",
+          "phonetic": "ˈhɑːtbiːt",
+          "meaning": "心跳",
+          "note": "fast heartbeat"
+        },
+        {
+          "term": "uncertainty",
+          "phonetic": "ʌnˈsɜːtnti",
+          "meaning": "不确定性",
+          "note": "reduce uncertainty"
+        },
+        {
+          "term": "pressure",
+          "phonetic": "ˈpreʃə",
+          "meaning": "压力",
+          "note": "remove pressure"
+        }
+      ],
+      "questions": [
+        {
+          "id": "exam-anxiety-q1",
+          "type": "True / False / Not Given",
+          "question": "A small amount of anxiety can be useful.",
+          "answer": "True",
+          "explanation": "第一段说明 can be useful。"
+        },
+        {
+          "id": "exam-anxiety-q2",
+          "type": "Multiple Choice",
+          "question": "What may anxious students do?",
+          "options": [
+            "read questions too quickly",
+            "sleep perfectly",
+            "ignore all worry",
+            "write more slowly always"
+          ],
+          "answer": "read questions too quickly",
+          "explanation": "第二段说明 read questions too quickly。"
+        },
+        {
+          "id": "exam-anxiety-q3",
+          "type": "Short Answer",
+          "question": "What can timed practice reduce?",
+          "answer": "uncertainty",
+          "explanation": "第三段说明 timed practice 等 can reduce uncertainty。"
+        }
+      ]
+    },
+    {
+      "id": "satellite-archaeology",
+      "title": "Satellite Archaeology and Hidden Landscapes",
+      "topic": "Science",
+      "bandGroup": "band8",
+      "level": "Band 8.0-9.0",
+      "minutes": 14,
+      "summary": "卫星考古让研究者发现地表下的古代道路、聚落和灌溉系统，但解释仍需地面证据。",
+      "paragraphs": [
+        "Archaeologists increasingly use satellite images to detect traces of past human activity. Differences in soil moisture, crop growth or surface temperature can indicate buried walls, ancient roads or irrigation channels that are difficult to see from the ground.",
+        "This remote approach allows researchers to study large regions quickly and identify sites before they are damaged by construction or looting. It is especially valuable in areas where political conflict, dense vegetation or extreme climate makes fieldwork difficult.",
+        "Satellite evidence, however, is only the beginning. Images can suggest that something unusual lies beneath the surface, but excavation and local knowledge are needed to understand what it is. The technology expands archaeological vision; it does not replace interpretation."
+      ],
+      "translations": [
+        "考古学家越来越多地使用卫星图像探测过去人类活动的痕迹。土壤湿度、作物生长或地表温度的差异，可能显示埋在地下的墙、古道或灌溉渠，而这些从地面上很难看见。",
+        "这种远程方法让研究者能够快速研究大片区域，并在遗址被建设或盗掘破坏前识别它们。在政治冲突、植被茂密或极端气候让实地工作困难的地区，它尤其有价值。",
+        "然而，卫星证据只是开始。图像可以提示地表下有异常东西，但需要发掘和本地知识来理解那是什么。技术扩展了考古视野，却不能替代解释。"
+      ],
+      "keywords": [
+        {
+          "term": "archaeologists",
+          "phonetic": "ˌɑːkiˈɒlədʒɪsts",
+          "meaning": "考古学家",
+          "note": "satellite archaeologists"
+        },
+        {
+          "term": "moisture",
+          "phonetic": "ˈmɔɪstʃə",
+          "meaning": "湿度，水分",
+          "note": "soil moisture"
+        },
+        {
+          "term": "irrigation",
+          "phonetic": "ˌɪrɪˈɡeɪʃn",
+          "meaning": "灌溉",
+          "note": "irrigation channels"
+        },
+        {
+          "term": "looting",
+          "phonetic": "ˈluːtɪŋ",
+          "meaning": "盗掘，抢劫",
+          "note": "construction or looting"
+        },
+        {
+          "term": "excavation",
+          "phonetic": "ˌekskəˈveɪʃn",
+          "meaning": "发掘",
+          "note": "archaeological excavation"
+        },
+        {
+          "term": "interpretation",
+          "phonetic": "ɪnˌtɜːprəˈteɪʃn",
+          "meaning": "解释，解读",
+          "note": "replace interpretation"
+        }
+      ],
+      "questions": [
+        {
+          "id": "satellite-archaeology-q1",
+          "type": "True / False / Not Given",
+          "question": "Satellite images can show traces of buried structures.",
+          "answer": "True",
+          "explanation": "第一段说明 buried walls, ancient roads, irrigation channels。"
+        },
+        {
+          "id": "satellite-archaeology-q2",
+          "type": "Multiple Choice",
+          "question": "Where is satellite archaeology especially valuable?",
+          "options": [
+            "areas where fieldwork is difficult",
+            "empty classrooms",
+            "modern offices",
+            "shopping websites"
+          ],
+          "answer": "areas where fieldwork is difficult",
+          "explanation": "第二段说明 fieldwork difficult 的地区。"
+        },
+        {
+          "id": "satellite-archaeology-q3",
+          "type": "Short Answer",
+          "question": "What is needed besides images to understand a site?",
+          "answer": "excavation and local knowledge",
+          "explanation": "第三段说明 excavation and local knowledge are needed。"
+        }
+      ]
+    },
+    {
+      "id": "noise-schools",
+      "title": "Classroom Noise and Children’s Learning",
+      "topic": "Education",
+      "bandGroup": "band5",
+      "level": "Band 5.5-6.0",
+      "minutes": 9,
+      "summary": "教室噪音会影响孩子听清指令、保持注意和学习新词。",
+      "paragraphs": [
+        "Children learn a great deal by listening. In a noisy classroom, they may miss parts of the teacher’s explanation or misunderstand instructions. Younger children are especially affected because they are still developing language and attention skills.",
+        "Noise can come from outside traffic, corridors, fans or other students. Even when the sound is not very loud, it may make the teacher’s voice less clear. This is a problem for children with hearing difficulties or those learning in a second language.",
+        "Improvements do not always require expensive technology. Soft materials, better classroom routines and quieter group activities can reduce background noise. Teachers can also check understanding before children begin a task."
+      ],
+      "translations": [
+        "孩子通过倾听学到很多东西。在嘈杂教室中，他们可能漏掉老师解释的一部分，或误解指令。年幼孩子尤其受影响，因为他们的语言和注意力技能仍在发展。",
+        "噪音可能来自外部交通、走廊、风扇或其他学生。即使声音不算很大，也可能让老师的声音不那么清楚。这对有听力困难或用第二语言学习的孩子是个问题。",
+        "改善并不总需要昂贵技术。柔软材料、更好的课堂流程和更安静的小组活动可以减少背景噪音。教师也可以在孩子开始任务前检查理解情况。"
+      ],
+      "keywords": [
+        {
+          "term": "instructions",
+          "phonetic": "ɪnˈstrʌkʃnz",
+          "meaning": "指令，说明",
+          "note": "misunderstand instructions"
+        },
+        {
+          "term": "affected",
+          "phonetic": "əˈfektɪd",
+          "meaning": "受影响的",
+          "note": "especially affected"
+        },
+        {
+          "term": "corridors",
+          "phonetic": "ˈkɒrɪdɔːz",
+          "meaning": "走廊",
+          "note": "school corridors"
+        },
+        {
+          "term": "hearing",
+          "phonetic": "ˈhɪərɪŋ",
+          "meaning": "听力",
+          "note": "hearing difficulties"
+        },
+        {
+          "term": "background",
+          "phonetic": "ˈbækɡraʊnd",
+          "meaning": "背景",
+          "note": "background noise"
+        },
+        {
+          "term": "understanding",
+          "phonetic": "ˌʌndəˈstændɪŋ",
+          "meaning": "理解",
+          "note": "check understanding"
+        }
+      ],
+      "questions": [
+        {
+          "id": "noise-schools-q1",
+          "type": "True / False / Not Given",
+          "question": "Younger children may be especially affected by classroom noise.",
+          "answer": "True",
+          "explanation": "第一段说明 Younger children are especially affected。"
+        },
+        {
+          "id": "noise-schools-q2",
+          "type": "Multiple Choice",
+          "question": "Which source of noise is mentioned?",
+          "options": [
+            "traffic",
+            "deep sea waves",
+            "airport tickets",
+            "online shops"
+          ],
+          "answer": "traffic",
+          "explanation": "第二段列举 outside traffic。"
+        },
+        {
+          "id": "noise-schools-q3",
+          "type": "Short Answer",
+          "question": "What can soft materials reduce?",
+          "answer": "background noise",
+          "explanation": "第三段说明 reduce background noise。"
+        }
+      ]
+    },
+    {
+      "id": "carbon-labels",
+      "title": "Carbon Labels and Consumer Decisions",
+      "topic": "Business",
+      "bandGroup": "band7",
+      "level": "Band 7.0-7.5",
+      "minutes": 12,
+      "summary": "碳标签能让消费者看到产品排放，但数字是否有意义取决于解释方式和比较场景。",
+      "paragraphs": [
+        "Some companies now place carbon labels on food, clothing and household products. These labels estimate the greenhouse gases produced during farming, manufacturing, transport and disposal. The intention is to help consumers compare environmental impact at the point of purchase.",
+        "A number alone may not be very useful. Many shoppers do not know whether two kilograms of carbon dioxide is high or low for a particular product. Labels become more meaningful when they include comparisons, rating systems or explanations of which stage creates most emissions.",
+        "There is also a risk of oversimplification. A product with a low carbon score may still involve water pollution or poor labour conditions. Carbon labels can support better decisions, but they should be part of a broader understanding of sustainability rather than the only measure."
+      ],
+      "translations": [
+        "一些公司现在在食品、服装和家用品上放置碳标签。这些标签估算农业、制造、运输和废弃处理过程中产生的温室气体。目的在于帮助消费者在购买时比较环境影响。",
+        "单独一个数字可能并不很有用。许多购物者不知道对某种产品来说，两公斤二氧化碳算高还是低。当标签包含比较、评级系统或解释哪个阶段产生最多排放时，会更有意义。",
+        "也存在过度简化的风险。碳分数低的产品仍可能涉及水污染或恶劣劳动条件。碳标签可以支持更好决策，但应成为更广泛可持续理解的一部分，而不是唯一指标。"
+      ],
+      "keywords": [
+        {
+          "term": "carbon",
+          "phonetic": "ˈkɑːbən",
+          "meaning": "碳",
+          "note": "carbon labels"
+        },
+        {
+          "term": "greenhouse",
+          "phonetic": "ˈɡriːnhaʊs",
+          "meaning": "温室的",
+          "note": "greenhouse gases"
+        },
+        {
+          "term": "disposal",
+          "phonetic": "dɪˈspəʊzl",
+          "meaning": "处理，处置",
+          "note": "product disposal"
+        },
+        {
+          "term": "comparisons",
+          "phonetic": "kəmˈpærɪsnz",
+          "meaning": "比较",
+          "note": "include comparisons"
+        },
+        {
+          "term": "oversimplification",
+          "phonetic": "ˌəʊvəsɪmplɪfɪˈkeɪʃn",
+          "meaning": "过度简化",
+          "note": "risk of oversimplification"
+        },
+        {
+          "term": "sustainability",
+          "phonetic": "səˌsteɪnəˈbɪləti",
+          "meaning": "可持续性",
+          "note": "broader sustainability"
+        }
+      ],
+      "questions": [
+        {
+          "id": "carbon-labels-q1",
+          "type": "True / False / Not Given",
+          "question": "Carbon labels estimate greenhouse gases from several product stages.",
+          "answer": "True",
+          "explanation": "第一段列出 farming, manufacturing, transport and disposal。"
+        },
+        {
+          "id": "carbon-labels-q2",
+          "type": "Multiple Choice",
+          "question": "When do labels become more meaningful?",
+          "options": [
+            "when they include comparisons",
+            "when they hide emissions",
+            "when they remove ratings",
+            "when they avoid explanation"
+          ],
+          "answer": "when they include comparisons",
+          "explanation": "第二段说明 include comparisons。"
+        },
+        {
+          "id": "carbon-labels-q3",
+          "type": "Short Answer",
+          "question": "What broader concept should carbon labels be part of?",
+          "answer": "sustainability",
+          "explanation": "第三段说明 broader understanding of sustainability。"
+        }
+      ]
+    },
+    {
+      "id": "microplastics",
+      "title": "Microplastics in Everyday Environments",
+      "topic": "Environment",
+      "bandGroup": "band8",
+      "level": "Band 8.0-9.0",
+      "minutes": 14,
+      "summary": "微塑料已进入水、空气和食物链，但科学难题在于测量暴露、判断风险和制定可执行政策。",
+      "paragraphs": [
+        "Microplastics are tiny plastic particles produced when larger items break down or when small plastic beads and fibres are released directly. They have been detected in oceans, rivers, soil, indoor dust and even remote mountain air.",
+        "Their presence does not automatically reveal the level of risk. Scientists must determine how many particles people and animals are exposed to, what chemicals they carry and whether they accumulate in tissues. Measuring these factors is difficult because particles vary in size, shape and composition.",
+        "Policy responses therefore need both caution and precision. Banning unnecessary plastic uses may reduce future pollution, but cleaning existing particles from the environment is far harder. The issue shows how material choices made for convenience can create consequences that last far beyond the product’s useful life."
+      ],
+      "translations": [
+        "微塑料是大型塑料物品分解后产生的微小颗粒，也可能来自直接释放的小塑料珠和纤维。它们已经在海洋、河流、土壤、室内灰尘，甚至偏远山区空气中被检测到。",
+        "它们的存在并不会自动说明风险水平。科学家必须确定人和动物暴露于多少颗粒、这些颗粒携带什么化学物质，以及它们是否在组织中积累。测量这些因素很困难，因为颗粒在大小、形状和组成上各不相同。",
+        "因此，政策回应既需要谨慎，也需要精确。禁止不必要的塑料用途可能减少未来污染，但从环境中清除已有颗粒要困难得多。这个问题说明，为便利而做出的材料选择，会产生远超产品使用寿命的后果。"
+      ],
+      "keywords": [
+        {
+          "term": "particles",
+          "phonetic": "ˈpɑːtɪklz",
+          "meaning": "颗粒",
+          "note": "plastic particles"
+        },
+        {
+          "term": "fibres",
+          "phonetic": "ˈfaɪbəz",
+          "meaning": "纤维",
+          "note": "plastic fibres"
+        },
+        {
+          "term": "detected",
+          "phonetic": "dɪˈtektɪd",
+          "meaning": "被检测到",
+          "note": "detected in oceans"
+        },
+        {
+          "term": "accumulate",
+          "phonetic": "əˈkjuːmjəleɪt",
+          "meaning": "积累",
+          "note": "accumulate in tissues"
+        },
+        {
+          "term": "composition",
+          "phonetic": "ˌkɒmpəˈzɪʃn",
+          "meaning": "组成",
+          "note": "particle composition"
+        },
+        {
+          "term": "precision",
+          "phonetic": "prɪˈsɪʒn",
+          "meaning": "精确，精准",
+          "note": "caution and precision"
+        }
+      ],
+      "questions": [
+        {
+          "id": "microplastics-q1",
+          "type": "True / False / Not Given",
+          "question": "Microplastics have been found in remote mountain air.",
+          "answer": "True",
+          "explanation": "第一段说明 remote mountain air。"
+        },
+        {
+          "id": "microplastics-q2",
+          "type": "Multiple Choice",
+          "question": "Why is measuring risk difficult?",
+          "options": [
+            "particles vary in size, shape and composition",
+            "all particles are identical",
+            "plastic disappears quickly",
+            "soil cannot be studied"
+          ],
+          "answer": "particles vary in size, shape and composition",
+          "explanation": "第二段最后说明。"
+        },
+        {
+          "id": "microplastics-q3",
+          "type": "Short Answer",
+          "question": "What may banning unnecessary plastic uses reduce?",
+          "answer": "future pollution",
+          "explanation": "第三段说明 may reduce future pollution。"
+        }
+      ]
+    },
+    {
+      "id": "peer-learning",
+      "title": "Peer Learning in University Classrooms",
+      "topic": "Education",
+      "bandGroup": "band6",
+      "level": "Band 6.0-6.5",
+      "minutes": 10,
+      "summary": "同伴学习能让学生解释思路、发现误解，但需要清晰任务和责任分配。",
+      "paragraphs": [
+        "Peer learning asks students to learn with and from one another. Instead of listening only to a lecturer, students discuss problems, compare answers and explain their reasoning in small groups.",
+        "The value of this method is that explanation reveals understanding. A student may think they know a concept until they try to teach it to someone else. Questions from classmates can expose gaps that private reading does not show.",
+        "The method can fail if group work is poorly organised. One confident student may dominate while others remain silent. Teachers therefore need clear roles, focused tasks and a way to check individual learning as well as group output."
+      ],
+      "translations": [
+        "同伴学习要求学生彼此一起学习、互相学习。学生不只是听讲师讲课，而是在小组中讨论问题、比较答案并解释自己的推理。",
+        "这种方法的价值在于，解释会暴露理解程度。学生可能以为自己懂了某个概念，直到尝试教给别人。同学的问题可以揭示私人阅读看不出的漏洞。",
+        "如果小组活动组织不佳，这种方法可能失败。一个自信的学生可能主导讨论，而其他人保持沉默。因此，教师需要明确角色、聚焦任务，并检查个人学习和小组产出。"
+      ],
+      "keywords": [
+        {
+          "term": "peer",
+          "phonetic": "pɪə",
+          "meaning": "同伴",
+          "note": "peer learning"
+        },
+        {
+          "term": "lecturer",
+          "phonetic": "ˈlektʃərə",
+          "meaning": "讲师",
+          "note": "listen to a lecturer"
+        },
+        {
+          "term": "reasoning",
+          "phonetic": "ˈriːzənɪŋ",
+          "meaning": "推理",
+          "note": "explain reasoning"
+        },
+        {
+          "term": "concept",
+          "phonetic": "ˈkɒnsept",
+          "meaning": "概念",
+          "note": "know a concept"
+        },
+        {
+          "term": "dominate",
+          "phonetic": "ˈdɒmɪneɪt",
+          "meaning": "主导，支配",
+          "note": "dominate group work"
+        },
+        {
+          "term": "individual",
+          "phonetic": "ˌɪndɪˈvɪdʒuəl",
+          "meaning": "个人的",
+          "note": "individual learning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "peer-learning-q1",
+          "type": "True / False / Not Given",
+          "question": "Peer learning includes students explaining their reasoning.",
+          "answer": "True",
+          "explanation": "第一段说明 explain their reasoning。"
+        },
+        {
+          "id": "peer-learning-q2",
+          "type": "Multiple Choice",
+          "question": "What can questions from classmates expose?",
+          "options": [
+            "gaps in understanding",
+            "new buildings",
+            "higher salaries",
+            "empty rooms"
+          ],
+          "answer": "gaps in understanding",
+          "explanation": "第二段说明 expose gaps。"
+        },
+        {
+          "id": "peer-learning-q3",
+          "type": "Short Answer",
+          "question": "What kind of roles do teachers need to provide?",
+          "answer": "clear roles",
+          "explanation": "第三段说明 clear roles。"
+        }
+      ]
+    },
+    {
+      "id": "rare-earths",
+      "title": "Rare Earth Metals and Clean Technology",
+      "topic": "Technology",
+      "bandGroup": "band8",
+      "level": "Band 8.0-9.0",
+      "minutes": 14,
+      "summary": "稀土金属支撑清洁技术，但开采、加工集中和环境成本让供应链变得复杂。",
+      "paragraphs": [
+        "Rare earth metals are used in many clean technologies, including wind turbines, electric vehicles and efficient lighting. Despite their name, many are not extremely rare in the Earth’s crust, but they are difficult to mine and separate economically.",
+        "Supply chains are vulnerable because processing capacity is concentrated in a small number of countries. If trade relations change or environmental rules tighten, manufacturers may face delays or higher prices. Recycling can help, but the metals are often used in tiny quantities inside complex products.",
+        "The clean energy transition therefore creates a paradox. Technologies designed to reduce emissions may depend on extraction systems that have their own environmental and social impacts. A secure strategy must include better mining standards, recycling research and product designs that use materials more efficiently."
+      ],
+      "translations": [
+        "稀土金属用于许多清洁技术，包括风力涡轮机、电动车和高效照明。尽管名字如此，许多稀土在地壳中并非极其稀少，但经济地开采和分离它们很困难。",
+        "供应链很脆弱，因为加工能力集中在少数国家。如果贸易关系变化或环境规则收紧，制造商可能面临延误或更高价格。回收可以有所帮助，但这些金属常以极少量存在于复杂产品中。",
+        "因此，清洁能源转型产生了一个悖论。旨在减少排放的技术，可能依赖本身具有环境和社会影响的开采系统。安全策略必须包括更好的采矿标准、回收研究，以及更高效使用材料的产品设计。"
+      ],
+      "keywords": [
+        {
+          "term": "rare",
+          "phonetic": "reə",
+          "meaning": "稀有的",
+          "note": "rare earth metals"
+        },
+        {
+          "term": "crust",
+          "phonetic": "krʌst",
+          "meaning": "地壳",
+          "note": "Earth’s crust"
+        },
+        {
+          "term": "processing",
+          "phonetic": "ˈprəʊsesɪŋ",
+          "meaning": "加工，处理",
+          "note": "processing capacity"
+        },
+        {
+          "term": "vulnerable",
+          "phonetic": "ˈvʌlnərəbl",
+          "meaning": "脆弱的",
+          "note": "vulnerable supply chains"
+        },
+        {
+          "term": "paradox",
+          "phonetic": "ˈpærədɒks",
+          "meaning": "悖论",
+          "note": "energy paradox"
+        },
+        {
+          "term": "extraction",
+          "phonetic": "ɪkˈstrækʃn",
+          "meaning": "开采，提取",
+          "note": "extraction systems"
+        }
+      ],
+      "questions": [
+        {
+          "id": "rare-earths-q1",
+          "type": "True / False / Not Given",
+          "question": "Rare earth metals are used in electric vehicles.",
+          "answer": "True",
+          "explanation": "第一段列举 electric vehicles。"
+        },
+        {
+          "id": "rare-earths-q2",
+          "type": "Multiple Choice",
+          "question": "Why are supply chains vulnerable?",
+          "options": [
+            "processing is concentrated in few countries",
+            "metals are never used",
+            "lighting is impossible",
+            "trade never changes"
+          ],
+          "answer": "processing is concentrated in few countries",
+          "explanation": "第二段第一句说明。"
+        },
+        {
+          "id": "rare-earths-q3",
+          "type": "Short Answer",
+          "question": "Name one part of a secure strategy.",
+          "answer": "better mining standards / recycling research / efficient product design",
+          "explanation": "第三段列出三项。"
+        }
+      ]
+    },
+    {
+      "id": "public-libraries",
+      "title": "Public Libraries as Community Infrastructure",
+      "topic": "Society",
+      "bandGroup": "band5",
+      "level": "Band 5.5-6.0",
+      "minutes": 9,
+      "summary": "公共图书馆不仅借书，还提供学习空间、数字服务和社区支持。",
+      "paragraphs": [
+        "Public libraries are sometimes judged by the number of books they lend, but their role is wider. They offer quiet places to study, free internet access and help for people who need to complete forms or search for information.",
+        "Libraries are especially important for people who lack space or technology at home. A student may need a desk after school, while an older resident may need support using an online government service. In this way, libraries reduce everyday inequality.",
+        "To remain useful, libraries must change with local needs. Some provide language classes, job-search workshops or rooms for community groups. The library is not disappearing; it is becoming a flexible form of public infrastructure."
+      ],
+      "translations": [
+        "公共图书馆有时按借出书籍数量来评价，但它们的角色更广。它们提供安静学习空间、免费网络接入，并帮助需要填写表格或搜索信息的人。",
+        "图书馆对家中缺少空间或技术设备的人尤其重要。学生可能放学后需要一张书桌，老年居民可能需要使用线上政府服务的支持。通过这种方式，图书馆减少日常不平等。",
+        "为了保持有用，图书馆必须随本地需求变化。一些图书馆提供语言课程、求职工作坊或社区团体房间。图书馆并没有消失，而是在成为一种灵活的公共基础设施。"
+      ],
+      "keywords": [
+        {
+          "term": "libraries",
+          "phonetic": "ˈlaɪbrəriz",
+          "meaning": "图书馆",
+          "note": "public libraries"
+        },
+        {
+          "term": "access",
+          "phonetic": "ˈækses",
+          "meaning": "接入，使用机会",
+          "note": "internet access"
+        },
+        {
+          "term": "resident",
+          "phonetic": "ˈrezɪdənt",
+          "meaning": "居民",
+          "note": "older resident"
+        },
+        {
+          "term": "inequality",
+          "phonetic": "ˌɪnɪˈkwɒləti",
+          "meaning": "不平等",
+          "note": "reduce inequality"
+        },
+        {
+          "term": "workshops",
+          "phonetic": "ˈwɜːkʃɒps",
+          "meaning": "工作坊",
+          "note": "job-search workshops"
+        },
+        {
+          "term": "flexible",
+          "phonetic": "ˈfleksəbl",
+          "meaning": "灵活的",
+          "note": "flexible infrastructure"
+        }
+      ],
+      "questions": [
+        {
+          "id": "public-libraries-q1",
+          "type": "True / False / Not Given",
+          "question": "Libraries can provide free internet access.",
+          "answer": "True",
+          "explanation": "第一段说明 free internet access。"
+        },
+        {
+          "id": "public-libraries-q2",
+          "type": "Multiple Choice",
+          "question": "Who may need support using online government services?",
+          "options": [
+            "an older resident",
+            "a train station",
+            "a phone battery",
+            "a private garden"
+          ],
+          "answer": "an older resident",
+          "explanation": "第二段说明 older resident。"
+        },
+        {
+          "id": "public-libraries-q3",
+          "type": "Short Answer",
+          "question": "What kind of infrastructure is a modern library becoming?",
+          "answer": "flexible public infrastructure",
+          "explanation": "第三段说明 flexible form of public infrastructure。"
+        }
+      ]
+    },
+    {
+      "id": "antibiotic-resistance",
+      "title": "Antibiotic Resistance and Shared Responsibility",
+      "topic": "Health",
+      "bandGroup": "band8",
+      "level": "Band 8.0-9.0",
+      "minutes": 14,
+      "summary": "抗生素耐药性是医疗、农业、监管和公众行为共同造成的问题，不能只靠新药解决。",
+      "paragraphs": [
+        "Antibiotics transformed medicine by making many bacterial infections treatable. Their success, however, has encouraged overuse in hospitals, farms and communities. When bacteria are repeatedly exposed to antibiotics, resistant strains can survive and spread.",
+        "The consequences are serious because routine surgery, cancer treatment and childbirth all become riskier when infections are harder to control. Developing new drugs is important, but bacteria can eventually adapt to those as well if use remains careless.",
+        "A sustainable response requires shared responsibility. Doctors need accurate diagnosis, farmers need alternatives to routine antibiotic use, and patients need to follow prescriptions correctly. Resistance is not just a scientific problem; it is a coordination problem across society."
+      ],
+      "translations": [
+        "抗生素通过让许多细菌感染变得可治疗，改变了医学。然而，它们的成功也鼓励了医院、农场和社区中的过度使用。当细菌反复接触抗生素时，耐药菌株可以存活并扩散。",
+        "后果很严重，因为当感染更难控制时，常规手术、癌症治疗和分娩都会变得风险更高。开发新药很重要，但如果使用仍然粗心，细菌最终也可能适应这些新药。",
+        "可持续应对需要共同责任。医生需要准确诊断，农民需要替代常规抗生素使用的方法，患者需要正确遵循处方。耐药性不只是科学问题，也是整个社会的协调问题。"
+      ],
+      "keywords": [
+        {
+          "term": "antibiotics",
+          "phonetic": "ˌæntibaɪˈɒtɪks",
+          "meaning": "抗生素",
+          "note": "antibiotic use"
+        },
+        {
+          "term": "bacterial",
+          "phonetic": "bækˈtɪəriəl",
+          "meaning": "细菌的",
+          "note": "bacterial infections"
+        },
+        {
+          "term": "resistant",
+          "phonetic": "rɪˈzɪstənt",
+          "meaning": "耐药的，有抵抗力的",
+          "note": "resistant strains"
+        },
+        {
+          "term": "surgery",
+          "phonetic": "ˈsɜːdʒəri",
+          "meaning": "手术",
+          "note": "routine surgery"
+        },
+        {
+          "term": "diagnosis",
+          "phonetic": "ˌdaɪəɡˈnəʊsɪs",
+          "meaning": "诊断",
+          "note": "accurate diagnosis"
+        },
+        {
+          "term": "prescriptions",
+          "phonetic": "prɪˈskrɪpʃnz",
+          "meaning": "处方",
+          "note": "follow prescriptions"
+        }
+      ],
+      "questions": [
+        {
+          "id": "antibiotic-resistance-q1",
+          "type": "True / False / Not Given",
+          "question": "Overuse of antibiotics can help resistant strains survive.",
+          "answer": "True",
+          "explanation": "第一段说明 resistant strains can survive and spread。"
+        },
+        {
+          "id": "antibiotic-resistance-q2",
+          "type": "Multiple Choice",
+          "question": "What becomes riskier when infections are harder to control?",
+          "options": [
+            "routine surgery",
+            "online shopping",
+            "language classes",
+            "public libraries"
+          ],
+          "answer": "routine surgery",
+          "explanation": "第二段列举 routine surgery。"
+        },
+        {
+          "id": "antibiotic-resistance-q3",
+          "type": "Short Answer",
+          "question": "What kind of problem is resistance across society?",
+          "answer": "a coordination problem",
+          "explanation": "第三段最后说明 coordination problem。"
         }
       ]
     }

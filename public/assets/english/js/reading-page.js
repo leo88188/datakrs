@@ -5,6 +5,7 @@
     data: null,
     activeId: "",
     topic: "all",
+    level: "all",
     query: "",
     fontSize: "normal",
     completed: new Set(),
@@ -25,6 +26,10 @@
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
+  }
+
+  function escapeRegExp(value) {
+    return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
   function showToast(message) {
@@ -80,6 +85,32 @@
     }
   }
 
+  function closeKeywordInfo() {
+    const panel = document.querySelector(".reading-word-popover");
+    if (panel) panel.classList.remove("show");
+  }
+
+  function showKeywordInfo(keyword) {
+    let panel = document.querySelector(".reading-word-popover");
+    if (!panel) {
+      panel = document.createElement("div");
+      panel.className = "reading-word-popover";
+      document.body.appendChild(panel);
+    }
+    panel.innerHTML = `
+      <div class="reading-word-popover-head">
+        <div>
+          <strong>${esc(keyword.term)}</strong>
+          ${keyword.phonetic ? `<em>/${esc(keyword.phonetic)}/</em>` : ""}
+        </div>
+        <button type="button" data-close-keyword>关闭</button>
+      </div>
+      <p>${esc(keyword.meaning)}</p>
+      <small>${esc(keyword.note || "阅读时注意它所在的搭配和句子功能。")}</small>
+    `;
+    panel.classList.add("show");
+  }
+
   function loadProgress() {
     try {
       const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
@@ -107,6 +138,23 @@
     return ["all", ...Array.from(set)];
   }
 
+  function levelLabel(level) {
+    const labels = {
+      all: "全部难度",
+      band5: "Band 5",
+      band6: "Band 6",
+      band7: "Band 7",
+      band8: "Band 8-9",
+    };
+    return labels[level] || level;
+  }
+
+  function levels() {
+    const order = ["band5", "band6", "band7", "band8"];
+    const set = new Set((state.data.articles || []).map((article) => article.bandGroup).filter(Boolean));
+    return ["all", ...order.filter((level) => set.has(level))];
+  }
+
   function activeArticle() {
     return state.data.articles.find((article) => article.id === state.activeId) || state.data.articles[0];
   }
@@ -118,6 +166,7 @@
       article.level,
       article.summary,
       ...article.paragraphs,
+      ...(article.translations || []),
       ...article.keywords.flatMap((item) => [item.term, item.meaning, item.note]),
     ]
       .join(" ")
@@ -128,9 +177,41 @@
     const query = state.query.trim().toLowerCase();
     return state.data.articles.filter((article) => {
       if (state.topic !== "all" && article.topic !== state.topic) return false;
+      if (state.level !== "all" && article.bandGroup !== state.level) return false;
       if (!query) return true;
       return articleHaystack(article).includes(query);
     });
+  }
+
+  function keywordMap(article) {
+    const map = new Map();
+    article.keywords.forEach((keyword) => {
+      map.set(keyword.term.toLowerCase(), keyword);
+    });
+    return map;
+  }
+
+  function renderParagraphText(paragraph, article) {
+    const keywords = article.keywords
+      .map((keyword) => keyword.term)
+      .filter((term) => term && term.length > 2)
+      .sort((a, b) => b.length - a.length);
+    if (!keywords.length) return esc(paragraph);
+    const map = keywordMap(article);
+    const pattern = new RegExp(`\\b(${keywords.map(escapeRegExp).join("|")})\\b`, "gi");
+    let cursor = 0;
+    let html = "";
+    paragraph.replace(pattern, (match, term, offset) => {
+      html += esc(paragraph.slice(cursor, offset));
+      const keyword = map.get(String(term).toLowerCase());
+      html += keyword
+        ? `<button class="reading-inline-word" type="button" data-keyword="${esc(keyword.term)}">${esc(match)}</button>`
+        : esc(match);
+      cursor = offset + match.length;
+      return match;
+    });
+    html += esc(paragraph.slice(cursor));
+    return html;
   }
 
   function renderTopicTabs() {
@@ -139,6 +220,15 @@
         const active = topic === state.topic ? " active" : "";
         const label = topic === "all" ? "全部" : topic;
         return `<button class="vocab-chapter-tab${active}" type="button" data-topic="${esc(topic)}">${esc(label)}</button>`;
+      })
+      .join("");
+  }
+
+  function renderLevelTabs() {
+    els.levelTabs.innerHTML = levels()
+      .map((level) => {
+        const active = level === state.level ? " active" : "";
+        return `<button class="vocab-chapter-tab${active}" type="button" data-level="${esc(level)}">${esc(levelLabel(level))}</button>`;
       })
       .join("");
   }
@@ -156,7 +246,7 @@
           <button class="reading-article-chip${active}${done}" type="button" data-article-id="${esc(article.id)}">
             <span>${String(index + 1).padStart(2, "0")}</span>
             <strong>${esc(article.title)}</strong>
-            <small>${esc(article.topic)} · ${esc(article.minutes)} min</small>
+            <small>${esc(article.topic)} · ${esc(levelLabel(article.bandGroup))} · ${esc(article.minutes)} min</small>
           </button>
         `;
       })
@@ -194,10 +284,17 @@
         ${article.paragraphs
           .map(
             (paragraph, index) => `
-              <p>
-                <span class="reading-para-no">P${index + 1}</span>
-                ${esc(paragraph)}
-              </p>
+              <div class="reading-paragraph-block">
+                <p>
+                  <span class="reading-para-no">P${index + 1}</span>
+                  ${renderParagraphText(paragraph, article)}
+                </p>
+                ${
+                  article.translations && article.translations[index]
+                    ? `<p class="reading-translation">${esc(article.translations[index])}</p>`
+                    : ""
+                }
+              </div>
             `
           )
           .join("")}
@@ -220,6 +317,7 @@
                   <button class="word-speak reading-speak" type="button" data-speak="${esc(keyword.term)}" aria-label="播放 ${esc(keyword.term)} 发音" title="播放发音"><span>play</span></button>
                   <p>${esc(keyword.meaning)}</p>
                   <small>${esc(keyword.note)}</small>
+                  <button class="reading-keyword-detail" type="button" data-keyword="${esc(keyword.term)}">查看解释</button>
                 </article>
               `
             )
@@ -263,6 +361,7 @@
   function render() {
     if (!state.data) return;
     renderTopicTabs();
+    renderLevelTabs();
     renderArticleList();
     renderArticle();
     document.querySelectorAll("[data-font-size]").forEach((button) => {
@@ -289,6 +388,13 @@
       render();
     });
 
+    els.levelTabs.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-level]");
+      if (!button) return;
+      state.level = button.dataset.level;
+      render();
+    });
+
     els.articleList.addEventListener("click", (event) => {
       const button = event.target.closest("[data-article-id]");
       if (!button) return;
@@ -308,7 +414,17 @@
       const speakButton = event.target.closest("[data-speak]");
       if (speakButton) {
         event.preventDefault();
+        event.stopPropagation();
         speak(speakButton.dataset.speak, speakButton);
+        return;
+      }
+
+      const keywordButton = event.target.closest("[data-keyword]");
+      if (keywordButton) {
+        event.preventDefault();
+        const article = activeArticle();
+        const keyword = keywordMap(article).get(keywordButton.dataset.keyword.toLowerCase());
+        if (keyword) showKeywordInfo(keyword);
         return;
       }
 
@@ -328,12 +444,19 @@
       answer.classList.toggle("show");
       answerButton.textContent = answer.classList.contains("show") ? "收起答案" : "查看答案";
     });
+
+    document.addEventListener("click", (event) => {
+      if (event.target.closest("[data-close-keyword]")) {
+        closeKeywordInfo();
+      }
+    });
   }
 
   async function init() {
     els.search = $("readingArticleSearch");
     els.clearSearch = $("readingClearSearch");
     els.topicTabs = $("readingTopicTabs");
+    els.levelTabs = $("readingLevelTabs");
     els.articleList = $("readingArticleList");
     els.article = $("readingArticle");
     loadProgress();

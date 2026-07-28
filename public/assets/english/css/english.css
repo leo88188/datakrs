@@ -1380,6 +1380,10 @@ button {
   margin-top: 10px;
 }
 
+.reading-level-tabs {
+  margin-top: 8px;
+}
+
 .reading-article-list {
   display: grid;
   gap: 8px;
@@ -1508,6 +1512,11 @@ button {
   margin-top: 16px;
 }
 
+.reading-paragraph-block {
+  display: grid;
+  gap: 8px;
+}
+
 .reading-passage p {
   margin: 0;
   color: #172033;
@@ -1530,6 +1539,26 @@ button {
   font-size: 12px;
   font-weight: 800;
   vertical-align: 2px;
+}
+
+.reading-inline-word {
+  display: inline;
+  border-radius: 6px;
+  padding: 1px 3px;
+  color: #1d4ed8;
+  background: #dbeafe;
+  font-weight: 800;
+  line-height: inherit;
+}
+
+.reading-translation {
+  border-left: 3px solid #bae6fd;
+  padding: 8px 10px;
+  border-radius: 0 10px 10px 0;
+  color: #475569;
+  background: #f0f9ff;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
 }
 
 .reading-keywords,
@@ -1596,6 +1625,81 @@ button {
 
 .reading-keyword-card small {
   grid-column: 1 / -1;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.reading-keyword-detail {
+  grid-column: 1 / -1;
+  justify-self: start;
+  border-radius: 999px;
+  padding: 6px 10px;
+  color: #1d4ed8;
+  background: #dbeafe;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.reading-word-popover {
+  position: fixed;
+  left: 10px;
+  right: 10px;
+  bottom: max(12px, env(safe-area-inset-bottom));
+  z-index: 60;
+  max-width: 740px;
+  margin: 0 auto;
+  border: 1px solid #bfdbfe;
+  border-radius: 16px;
+  padding: 13px;
+  background: rgba(255, 255, 255, .98);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, .22);
+  transform: translateY(calc(100% + 24px));
+  transition: transform .2s ease;
+}
+
+.reading-word-popover.show {
+  transform: translateY(0);
+}
+
+.reading-word-popover-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.reading-word-popover-head strong {
+  color: #0f172a;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.reading-word-popover-head em {
+  display: block;
+  margin-top: 2px;
+  color: #64748b;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.reading-word-popover-head button {
+  border-radius: 999px;
+  padding: 6px 10px;
+  color: #475569;
+  background: #eef3f8;
+  font-size: 13px;
+}
+
+.reading-word-popover p {
+  margin: 9px 0 0;
+  color: #172033;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.reading-word-popover small {
+  display: block;
+  margin-top: 5px;
   color: #64748b;
   font-size: 13px;
 }
