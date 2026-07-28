@@ -86,28 +86,48 @@
     return state.data.lists.find((item) => item.list === state.activeList) || state.data.lists[0];
   }
 
+  function setActiveList(list) {
+    const model = state.data && state.data.lists.find((item) => item.list === list);
+    if (!model) return;
+    state.activeList = model.list;
+    state.query = "";
+    els.search.value = "";
+    render();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   function render() {
     if (!state.data) return;
     const data = state.data;
     const currentList = activeList();
     const query = state.query.trim().toLowerCase();
 
-    els.summary.textContent = `${data.meta.listCount} 个 List，${data.meta.wordCount} 个词条，${data.audioTracks.length} 段音频。`;
+    els.summary.textContent = `${data.meta.listCount} 个 List，${data.meta.wordCount} 个词条，按主题分组学习。`;
+    els.listStat.textContent = `L${two(currentList.list)}`;
+    els.wordStat.textContent = `${data.meta.wordCount} 词`;
+    els.audioStat.textContent = `${data.audioTracks.length} 音频`;
+    els.chapter.textContent = currentList.chapterName || "当前 List";
+    els.title.textContent = `List ${two(currentList.list)}`;
+    els.range.textContent = `${currentList.entries.length} 个词条，来自 Chapter ${currentList.chapter || "-"}`;
 
-    els.trackSelect.innerHTML = data.audioTracks
-      .map((track) => `<option value="${esc(track.url)}">${esc(track.title)}</option>`)
-      .join("");
+    if (!els.trackSelect.options.length) {
+      els.trackSelect.innerHTML = data.audioTracks
+        .map((track) => `<option value="${esc(track.url)}">${esc(track.title)}</option>`)
+        .join("");
+    }
     if (!els.audio.src && data.audioTracks[0]) {
       els.audio.src = data.audioTracks[0].url;
       els.trackSelect.value = data.audioTracks[0].url;
     }
 
-    els.listButtons.innerHTML = data.lists
-      .map((item) => {
-        const active = item.list === state.activeList ? " active" : "";
-        return `<button class="vocab-list-button${active}" type="button" data-vocab-list="${item.list}">L${two(item.list)}</button>`;
-      })
-      .join("");
+    if (!els.listSelect.options.length) {
+      els.listSelect.innerHTML = data.lists
+        .map((item) => `<option value="${item.list}">List ${two(item.list)} · ${esc(item.chapterName || "词汇")}</option>`)
+        .join("");
+    }
+    els.listSelect.value = String(currentList.list);
+    els.prev.disabled = currentList.list <= 1;
+    els.next.disabled = currentList.list >= data.meta.listCount;
 
     const words = query
       ? data.words.filter((item) => {
@@ -128,13 +148,16 @@
       ? `搜索结果 ${words.length} 条`
       : `${currentList.chapterName || "词汇"} · List ${currentList.list} · ${words.length} 词`;
 
+    els.resultTitle.textContent = heading;
+    els.visibleCount.textContent = query ? `${Math.min(words.length, 120)} / ${words.length}` : String(words.length);
     els.words.innerHTML = `
-      <div class="vocab-result-heading">${esc(heading)}</div>
       ${words
-        .slice(0, 180)
+        .slice(0, query ? 120 : 80)
+        .map((word, index) => ({ ...word, displayIndex: index + 1 }))
         .map(
           (word) => `
             <article class="vocab-jing-card">
+              <span class="vocab-card-index">${word.displayIndex}</span>
               <div>
                 <strong>${esc(word.word)}</strong>
                 <span>List ${two(word.list)}${word.pos ? ` · ${esc(word.pos)}` : ""}</span>
@@ -145,23 +168,31 @@
           `
         )
         .join("")}
-      ${words.length > 180 ? '<div class="vocab-more">结果较多，建议继续输入关键词缩小范围。</div>' : ""}
+      ${words.length > (query ? 120 : 80) ? '<div class="vocab-more">结果较多，建议继续输入关键词缩小范围。</div>' : ""}
     `;
   }
 
   function bindEvents() {
-    els.listButtons.addEventListener("click", (event) => {
-      const button = event.target.closest("[data-vocab-list]");
-      if (!button) return;
-      state.activeList = Number(button.dataset.vocabList);
-      state.query = "";
-      els.search.value = "";
-      render();
-      document.querySelector(".standalone-vocab-section").scrollIntoView({ behavior: "smooth", block: "start" });
+    els.listSelect.addEventListener("change", () => {
+      setActiveList(Number(els.listSelect.value));
+    });
+
+    els.prev.addEventListener("click", () => {
+      setActiveList(Math.max(1, state.activeList - 1));
+    });
+
+    els.next.addEventListener("click", () => {
+      setActiveList(Math.min(state.data.meta.listCount, state.activeList + 1));
     });
 
     els.search.addEventListener("input", () => {
       state.query = els.search.value;
+      render();
+    });
+
+    els.clearSearch.addEventListener("click", () => {
+      state.query = "";
+      els.search.value = "";
       render();
     });
 
@@ -181,10 +212,21 @@
 
   async function init() {
     els.summary = $("standaloneVocabSummary");
+    els.listStat = $("standaloneVocabListStat");
+    els.wordStat = $("standaloneVocabWordStat");
+    els.audioStat = $("standaloneVocabAudioStat");
+    els.chapter = $("standaloneVocabChapter");
+    els.title = $("standaloneVocabTitle");
+    els.range = $("standaloneVocabRange");
+    els.prev = $("standaloneVocabPrev");
+    els.next = $("standaloneVocabNext");
+    els.listSelect = $("standaloneVocabListSelect");
     els.trackSelect = $("standaloneVocabTrackSelect");
     els.audio = $("standaloneVocabAudio");
     els.search = $("standaloneVocabSearchInput");
-    els.listButtons = $("standaloneVocabListButtons");
+    els.clearSearch = $("standaloneVocabClearSearch");
+    els.resultTitle = $("standaloneVocabResultTitle");
+    els.visibleCount = $("standaloneVocabVisibleCount");
     els.words = $("standaloneVocabWords");
     refreshVoices();
     if ("speechSynthesis" in window) {

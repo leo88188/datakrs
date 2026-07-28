@@ -30,20 +30,49 @@
         <span>56 Lists</span>
         <h1>按主题背词，听音频，随时查。</h1>
         <p id="standaloneVocabSummary">词汇真经数据加载中...</p>
+        <div class="vocab-hero-stats">
+          <strong id="standaloneVocabListStat">L01</strong>
+          <strong id="standaloneVocabWordStat">0 词</strong>
+          <strong id="standaloneVocabAudioStat">0 音频</strong>
+        </div>
       </section>
 
-      <section class="vocab-jing-section standalone-vocab-section">
-        <div class="vocab-jing-player">
-          <label for="standaloneVocabTrackSelect">词汇真经音频</label>
-          <select id="standaloneVocabTrackSelect"></select>
-          <audio id="standaloneVocabAudio" controls preload="none" referrerpolicy="strict-origin-when-cross-origin"></audio>
+      <section class="vocab-workbench">
+        <div class="vocab-current">
+          <span id="standaloneVocabChapter">当前 List</span>
+          <h2 id="standaloneVocabTitle">List 01</h2>
+          <p id="standaloneVocabRange">选择一个 List 开始学习。</p>
+        </div>
+
+        <div class="vocab-list-picker">
+          <button id="standaloneVocabPrev" type="button">上一组</button>
+          <label for="standaloneVocabListSelect">
+            <span>选择 List</span>
+            <select id="standaloneVocabListSelect"></select>
+          </label>
+          <button id="standaloneVocabNext" type="button">下一组</button>
         </div>
 
         <div class="vocab-search">
           <input id="standaloneVocabSearchInput" type="search" placeholder="搜索单词 / 中文释义 / 主题">
+          <button id="standaloneVocabClearSearch" type="button">清空</button>
         </div>
 
-        <div id="standaloneVocabListButtons" class="vocab-list-buttons"></div>
+        <div class="vocab-jing-player standalone-vocab-player">
+          <label for="standaloneVocabTrackSelect">词汇真经音频</label>
+          <select id="standaloneVocabTrackSelect"></select>
+          <audio id="standaloneVocabAudio" controls preload="none" referrerpolicy="strict-origin-when-cross-origin"></audio>
+        </div>
+      </section>
+
+      <section class="vocab-results-panel">
+        <div class="vocab-results-head">
+          <div>
+            <span>词卡</span>
+            <h2 id="standaloneVocabResultTitle">List 01</h2>
+          </div>
+          <strong id="standaloneVocabVisibleCount">0</strong>
+        </div>
         <div id="standaloneVocabWords" class="vocab-jing-words"></div>
       </section>
     </main>

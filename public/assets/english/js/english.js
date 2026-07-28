@@ -263,9 +263,11 @@
       <div class="vocab-result-heading">${esc(heading)}</div>
       ${words
         .slice(0, 160)
+        .map((word, index) => ({ ...word, displayIndex: index + 1 }))
         .map(
           (word) => `
             <article class="vocab-jing-card">
+              <span class="vocab-card-index">${word.displayIndex}</span>
               <div>
                 <strong>${esc(word.word)}</strong>
                 <span>List ${two(word.list)}${word.pos ? ` · ${esc(word.pos)}` : ""}</span>
