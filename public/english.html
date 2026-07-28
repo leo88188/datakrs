@@ -25,6 +25,7 @@
       <nav class="top-actions" aria-label="学习视图">
         <button class="ghost-button active" data-panel-trigger="learn">学习</button>
         <button class="ghost-button" data-panel-trigger="words">词库</button>
+        <button class="ghost-button" data-panel-trigger="jing">真经</button>
         <button class="ghost-button" data-panel-trigger="video">视频</button>
       </nav>
     </header>
@@ -113,6 +114,28 @@
               </div>
             </div>
             <div id="wordGroups" class="word-groups"></div>
+          </section>
+
+          <section class="vocab-jing-section" id="vocabJingSection" data-panel="jing">
+            <div class="section-heading">
+              <div>
+                <h2>雅思词汇真经</h2>
+                <p id="vocabJingSummary">结构化词表加载中...</p>
+              </div>
+            </div>
+
+            <div class="vocab-jing-player">
+              <label for="vocabTrackSelect">词汇真经音频</label>
+              <select id="vocabTrackSelect"></select>
+              <audio id="vocabJingAudio" controls preload="none" referrerpolicy="strict-origin-when-cross-origin"></audio>
+            </div>
+
+            <div class="vocab-search">
+              <input id="vocabSearchInput" type="search" placeholder="搜索词汇真经单词 / 中文释义">
+            </div>
+
+            <div id="vocabListButtons" class="vocab-list-buttons"></div>
+            <div id="vocabJingWords" class="vocab-jing-words"></div>
           </section>
         </article>
       </section>

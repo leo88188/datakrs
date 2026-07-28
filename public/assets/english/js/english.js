@@ -3,10 +3,13 @@
 
   const state = {
     data: null,
+    vocabData: null,
     sentences: [],
     days: [],
     activeId: 1,
     activeDay: 1,
+    activeVocabList: 1,
+    vocabQuery: "",
     query: "",
     wordFilter: "all",
     done: new Set(),
@@ -50,6 +53,11 @@
 
   function activeDay() {
     return state.days.find((item) => item.day === state.activeDay) || state.days[0];
+  }
+
+  function activeVocabList() {
+    if (!state.vocabData) return null;
+    return state.vocabData.lists.find((item) => item.list === state.activeVocabList) || state.vocabData.lists[0];
   }
 
   function loadProgress() {
@@ -170,6 +178,72 @@
     els.progressText.textContent = `${done} / 100`;
     els.progressPercent.textContent = `${percent}%`;
     els.progressBar.style.width = `${percent}%`;
+  }
+
+  function renderVocabJing() {
+    if (!state.vocabData) {
+      els.vocabJingSummary.textContent = "词汇真经数据加载失败，请刷新重试。";
+      return;
+    }
+
+    const data = state.vocabData;
+    const currentList = activeVocabList();
+    const query = state.vocabQuery.trim().toLowerCase();
+    els.vocabJingSummary.textContent = `${data.meta.listCount} 个 List，${data.meta.wordCount} 个词条；PDF 已转为可检索词卡。`;
+
+    els.vocabTrackSelect.innerHTML = data.audioTracks
+      .map((track) => `<option value="${esc(track.url)}">${esc(track.title)}</option>`)
+      .join("");
+    if (!els.vocabJingAudio.src && data.audioTracks[0]) {
+      els.vocabJingAudio.src = data.audioTracks[0].url;
+      els.vocabTrackSelect.value = data.audioTracks[0].url;
+    }
+
+    els.vocabListButtons.innerHTML = data.lists
+      .map((item) => {
+        const active = item.list === state.activeVocabList ? " active" : "";
+        return `<button class="vocab-list-button${active}" type="button" data-vocab-list="${item.list}">L${two(item.list)}</button>`;
+      })
+      .join("");
+
+    const words = query
+      ? data.words.filter((item) => {
+          return (
+            item.word.toLowerCase().includes(query) ||
+            item.definition.toLowerCase().includes(query) ||
+            item.chapterName.includes(state.vocabQuery.trim())
+          );
+        })
+      : currentList.entries.map((item) => ({
+          ...item,
+          list: currentList.list,
+          chapter: currentList.chapter,
+          chapterName: currentList.chapterName,
+        }));
+
+    const heading = query
+      ? `搜索结果 ${words.length} 条`
+      : `${currentList.chapterName || "词汇"} · List ${currentList.list} · ${words.length} 词`;
+
+    els.vocabJingWords.innerHTML = `
+      <div class="vocab-result-heading">${esc(heading)}</div>
+      ${words
+        .slice(0, 160)
+        .map(
+          (word) => `
+            <article class="vocab-jing-card">
+              <div>
+                <strong>${esc(word.word)}</strong>
+                <span>List ${two(word.list)}${word.pos ? ` · ${esc(word.pos)}` : ""}</span>
+              </div>
+              <button class="word-speak vocab-speak" type="button" data-term="${esc(word.word)}" aria-label="播放 ${esc(word.word)} 发音"><span>play</span></button>
+              <p>${esc(word.definition)}</p>
+            </article>
+          `
+        )
+        .join("")}
+      ${words.length > 160 ? '<div class="vocab-more">结果较多，建议继续输入关键词缩小范围。</div>' : ""}
+    `;
   }
 
   function renderDays() {
@@ -362,6 +436,9 @@
         if (button.dataset.panelTrigger === "words") {
           document.querySelector(".word-section").scrollIntoView({ behavior: "smooth", block: "start" });
         }
+        if (button.dataset.panelTrigger === "jing") {
+          document.querySelector(".vocab-jing-section").scrollIntoView({ behavior: "smooth", block: "start" });
+        }
         if (button.dataset.panelTrigger === "video") {
           document.querySelector(".media-panel").classList.add("active-mobile");
           document.querySelector(".media-panel").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -385,6 +462,33 @@
       event.preventDefault();
       event.stopPropagation();
       speakTerm(button.dataset.term, button);
+    });
+
+    els.vocabJingWords.addEventListener("click", (event) => {
+      const button = event.target.closest(".word-speak");
+      if (!button) return;
+      event.preventDefault();
+      event.stopPropagation();
+      speakTerm(button.dataset.term, button);
+    });
+
+    els.vocabListButtons.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-vocab-list]");
+      if (!button) return;
+      state.activeVocabList = Number(button.dataset.vocabList);
+      state.vocabQuery = "";
+      els.vocabSearchInput.value = "";
+      renderVocabJing();
+    });
+
+    els.vocabSearchInput.addEventListener("input", () => {
+      state.vocabQuery = els.vocabSearchInput.value;
+      renderVocabJing();
+    });
+
+    els.vocabTrackSelect.addEventListener("change", () => {
+      els.vocabJingAudio.src = els.vocabTrackSelect.value;
+      els.vocabJingAudio.play().catch(() => {});
     });
 
     els.sentenceAudio.addEventListener("ended", () => {
@@ -437,6 +541,12 @@
       "grammarNote",
       "wordSummary",
       "wordGroups",
+      "vocabJingSummary",
+      "vocabTrackSelect",
+      "vocabJingAudio",
+      "vocabSearchInput",
+      "vocabListButtons",
+      "vocabJingWords",
       "progressPercent",
       "progressBar",
       "videoTitle",
@@ -462,6 +572,15 @@
       state.data = await response.json();
       state.sentences = state.data.sentences;
       state.days = state.data.days;
+      fetch("/assets/english/data/vocab-jing.json", { cache: "no-cache" })
+        .then((res) => (res.ok ? res.json() : Promise.reject(new Error(`HTTP ${res.status}`))))
+        .then((data) => {
+          state.vocabData = data;
+          renderVocabJing();
+        })
+        .catch(() => {
+          els.vocabJingSummary.textContent = "词汇真经数据暂时不可用。";
+        });
       if (!state.sentences.some((item) => item.id === state.activeId)) state.activeId = 1;
       state.activeDay = activeSentence().day;
       els.loadingState.classList.add("hidden");
