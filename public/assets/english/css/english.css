@@ -425,6 +425,16 @@ button {
   font-size: 14px;
 }
 
+.roots-origin {
+  margin: 9px 0 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: #92400e;
+  background: #fff7ed;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
 .roots-examples {
   display: grid;
   gap: 8px;

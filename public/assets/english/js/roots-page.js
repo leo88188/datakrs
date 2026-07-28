@@ -97,6 +97,7 @@
     const haystack = [
       item.morpheme,
       item.meaning,
+      item.originNote,
       item.memoryTip,
       item.typeLabel,
       ...item.examples.flatMap((example) => [example.word, example.meaning, example.phonetic]),
@@ -144,6 +145,7 @@
               </div>
               <h2>${esc(item.morpheme)}</h2>
               <p class="roots-meaning">${esc(item.meaning)}</p>
+              ${item.originNote ? `<p class="roots-origin">${esc(item.originNote)}</p>` : ""}
               <p class="roots-tip">${esc(item.memoryTip)}</p>
               <div class="roots-examples">
                 ${item.examples
