@@ -50,6 +50,31 @@
     return state.data.assetConfig.videoBase + `day${two(day)}.mp4`;
   }
 
+  function setDeferredMedia(media, url) {
+    if (!media || !url) return;
+    if (media.dataset.src === url && !media.getAttribute("src")) return;
+    if (media.dataset.src !== url) {
+      media.pause();
+      media.removeAttribute("src");
+      media.load();
+    }
+    media.dataset.src = url;
+  }
+
+  function loadDeferredMedia(media) {
+    if (!media || media.getAttribute("src") || !media.dataset.src) return;
+    media.src = media.dataset.src;
+    media.load();
+  }
+
+  function bindDeferredMedia(media) {
+    if (!media) return;
+    ["pointerdown", "touchstart", "keydown"].forEach((eventName) => {
+      media.addEventListener(eventName, () => loadDeferredMedia(media), { passive: true });
+    });
+    media.addEventListener("play", () => loadDeferredMedia(media));
+  }
+
   function activeSentence() {
     return state.sentences.find((item) => item.id === state.activeId) || state.sentences[0];
   }
@@ -228,8 +253,8 @@
     els.vocabTrackSelect.innerHTML = data.audioTracks
       .map((track) => `<option value="${esc(track.url)}">${esc(track.title)}</option>`)
       .join("");
-    if (!els.vocabJingAudio.src && data.audioTracks[0]) {
-      els.vocabJingAudio.src = data.audioTracks[0].url;
+    if (!els.vocabJingAudio.dataset.src && data.audioTracks[0]) {
+      setDeferredMedia(els.vocabJingAudio, data.audioTracks[0].url);
       els.vocabTrackSelect.value = data.audioTracks[0].url;
     }
 
@@ -423,7 +448,7 @@
     els.chineseSentence.textContent = sentence.chinese;
     els.grammarNote.textContent = sentence.grammar || "当前句子未提取到语法笔记。";
     els.wordSummary.textContent = `核心词 ${sentence.wordStats.core} 个，主题扩展 ${sentence.wordStats.theme} 个。`;
-    els.sentenceAudio.src = audioUrl(sentence);
+    setDeferredMedia(els.sentenceAudio, audioUrl(sentence));
     els.audioStatus.textContent = "";
     els.sentenceAudio.loop = els.loopAudio.checked;
     els.sentenceAudio.playbackRate = Number(els.playbackRate.value);
@@ -433,7 +458,7 @@
 
     els.videoTitle.textContent = `第${two(day.day)}天精讲`;
     els.videoRange.textContent = day.start && day.end ? `Sentence ${two(day.start)}-${two(day.end)}` : "";
-    els.dayVideo.src = videoUrl(sentence.day);
+    setDeferredMedia(els.dayVideo, videoUrl(sentence.day));
 
     document.querySelectorAll("[data-drill]").forEach((checkbox) => {
       const key = `${sentence.id}:${checkbox.dataset.drill}`;
@@ -454,6 +479,7 @@
     state.activeDay = sentence.day;
     renderStudy();
     if (autoplay) {
+      loadDeferredMedia(els.sentenceAudio);
       els.sentenceAudio.play().catch(() => {});
     }
   }
@@ -536,7 +562,8 @@
           return;
         }
         if (button.dataset.panelTrigger === "reading") {
-          scrollStudyPanelTo(".reading-section");
+          window.location.href = "/english-reading.html";
+          return;
         }
         if (button.dataset.panelTrigger === "video") {
           document.querySelector(".media-panel").classList.add("active-mobile");
@@ -586,8 +613,7 @@
     });
 
     els.vocabTrackSelect.addEventListener("change", () => {
-      els.vocabJingAudio.src = els.vocabTrackSelect.value;
-      els.vocabJingAudio.play().catch(() => {});
+      setDeferredMedia(els.vocabJingAudio, els.vocabTrackSelect.value);
     });
 
     els.readingDayButtons.addEventListener("click", (event) => {
@@ -634,6 +660,10 @@
       };
       els.audioStatus.textContent = messages[code] || "音频播放失败，请刷新后重试";
     });
+
+    bindDeferredMedia(els.sentenceAudio);
+    bindDeferredMedia(els.vocabJingAudio);
+    bindDeferredMedia(els.dayVideo);
   }
 
   function cacheElements() {

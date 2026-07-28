@@ -87,6 +87,30 @@
     return state.data.lists.find((item) => item.list === state.activeList) || state.data.lists[0];
   }
 
+  function setDeferredMedia(media, url) {
+    if (!media || !url) return;
+    if (media.dataset.src !== url) {
+      media.pause();
+      media.removeAttribute("src");
+      media.load();
+    }
+    media.dataset.src = url;
+  }
+
+  function loadDeferredMedia(media) {
+    if (!media || media.getAttribute("src") || !media.dataset.src) return;
+    media.src = media.dataset.src;
+    media.load();
+  }
+
+  function bindDeferredMedia(media) {
+    if (!media) return;
+    ["pointerdown", "touchstart", "keydown"].forEach((eventName) => {
+      media.addEventListener(eventName, () => loadDeferredMedia(media), { passive: true });
+    });
+    media.addEventListener("play", () => loadDeferredMedia(media));
+  }
+
   function chapterKey(list) {
     return String(list.chapter || list.chapterName || "0");
   }
@@ -142,8 +166,8 @@
         .map((track) => `<option value="${esc(track.url)}">${esc(track.title)}</option>`)
         .join("");
     }
-    if (!els.audio.src && data.audioTracks[0]) {
-      els.audio.src = data.audioTracks[0].url;
+    if (!els.audio.dataset.src && data.audioTracks[0]) {
+      setDeferredMedia(els.audio, data.audioTracks[0].url);
       els.trackSelect.value = data.audioTracks[0].url;
     }
 
@@ -251,8 +275,7 @@
     });
 
     els.trackSelect.addEventListener("change", () => {
-      els.audio.src = els.trackSelect.value;
-      els.audio.play().catch(() => {});
+      setDeferredMedia(els.audio, els.trackSelect.value);
     });
 
     els.words.addEventListener("click", (event) => {
@@ -288,6 +311,7 @@
     if ("speechSynthesis" in window) {
       window.speechSynthesis.onvoiceschanged = refreshVoices;
     }
+    bindDeferredMedia(els.audio);
     bindEvents();
 
     try {

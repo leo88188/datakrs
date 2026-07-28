@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "title": "雅思阅读文章训练",
+    "articleCount": 6,
+    "version": "1.0.0",
+    "note": "原创雅思风格阅读材料，用于个人训练；不是考试真题原文。"
+  },
+  "articles": [
+    {
+      "id": "ai-workplace",
+      "title": "Artificial Intelligence and the Redesign of Work",
+      "topic": "Technology",
+      "level": "Band 6.5-7.5",
+      "minutes": 12,
+      "summary": "人工智能进入办公室后，真正改变的不是某一个工具，而是任务分配、员工判断和组织流程。",
+      "paragraphs": [
+        "For many organisations, artificial intelligence was first introduced as a way to reduce repetitive work. Software could summarise customer emails, classify invoices, or draft standard reports in seconds. Yet the deeper change has been less visible. Once routine tasks are delegated to machines, managers must decide which human abilities should be protected, trained and measured.",
+        "Some companies have responded by redesigning jobs around judgement rather than execution. A marketing assistant, for example, may no longer spend half a day collecting campaign data. Instead, the assistant checks whether the data is relevant, explains unusual patterns and recommends a response. In this model, AI does not simply replace a worker; it changes what good work looks like.",
+        "However, the shift also creates new risks. If employees accept machine suggestions without questioning them, errors can spread quickly through a business. Researchers therefore argue that AI training should include basic prompt skills, data awareness and rules for human review. The most successful organisations are not necessarily those with the most advanced models, but those that know where human judgement must remain in control."
+      ],
+      "keywords": [
+        {"term": "delegate", "phonetic": "ˈdelɪɡeɪt", "meaning": "委派，交给别人处理", "note": "delegate tasks to machines"},
+        {"term": "routine", "phonetic": "ruːˈtiːn", "meaning": "常规的，重复性的", "note": "routine work / routine tasks"},
+        {"term": "judgement", "phonetic": "ˈdʒʌdʒmənt", "meaning": "判断力", "note": "human judgement"},
+        {"term": "relevant", "phonetic": "ˈreləvənt", "meaning": "相关的，有用的", "note": "relevant data"},
+        {"term": "suggestion", "phonetic": "səˈdʒestʃən", "meaning": "建议，提示", "note": "machine suggestions"},
+        {"term": "awareness", "phonetic": "əˈweənəs", "meaning": "意识，认知", "note": "data awareness"}
+      ],
+      "questions": [
+        {
+          "id": "ai-workplace-q1",
+          "type": "True / False / Not Given",
+          "question": "AI was first used by many organisations to handle repetitive tasks.",
+          "answer": "True",
+          "explanation": "第一段直接说明 AI was first introduced as a way to reduce repetitive work。"
+        },
+        {
+          "id": "ai-workplace-q2",
+          "type": "Multiple Choice",
+          "question": "According to the passage, the marketing assistant's role changes mainly by focusing more on:",
+          "options": ["checking and explaining data", "writing more advertisements", "building AI models", "making invoices"],
+          "answer": "checking and explaining data",
+          "explanation": "第二段强调 assistant checks whether the data is relevant, explains unusual patterns and recommends a response。"
+        },
+        {
+          "id": "ai-workplace-q3",
+          "type": "Short Answer",
+          "question": "What should AI training include besides prompt skills?",
+          "answer": "data awareness and rules for human review",
+          "explanation": "第三段列出 prompt skills, data awareness and rules for human review。"
+        }
+      ]
+    },
+    {
+      "id": "urban-heat",
+      "title": "Why Some Cities Feel Hotter Than Their Weather Reports",
+      "topic": "Environment",
+      "level": "Band 6.5-7.5",
+      "minutes": 11,
+      "summary": "城市热岛效应让实际体感温度高于天气预报，原因和建筑材料、树荫、夜间散热有关。",
+      "paragraphs": [
+        "A weather report may say that two cities have the same temperature, but pedestrians can experience them very differently. Dense streets, dark roofs and wide roads absorb solar energy during the day and release it slowly at night. This phenomenon, commonly known as the urban heat island effect, can make city centres several degrees warmer than nearby rural areas.",
+        "The problem is not only uncomfortable; it can also be dangerous. High night-time temperatures prevent the human body from recovering after a hot day. Older people, outdoor workers and residents in poorly ventilated homes are particularly vulnerable. In addition, greater use of air conditioning increases electricity demand, which may further intensify emissions if the power supply depends on fossil fuels.",
+        "Urban planners are testing practical responses. Some cities are planting trees along bus routes and school streets, while others are using reflective materials on roofs and pavements. These measures are relatively simple, but they require careful mapping. A single park may look impressive on a tourist map, yet small patches of shade distributed through daily walking routes can be more useful for residents."
+      ],
+      "keywords": [
+        {"term": "pedestrian", "phonetic": "pəˈdestriən", "meaning": "行人", "note": "pedestrians can experience"},
+        {"term": "absorb", "phonetic": "əbˈzɔːb", "meaning": "吸收", "note": "absorb solar energy"},
+        {"term": "rural", "phonetic": "ˈrʊərəl", "meaning": "乡村的", "note": "rural areas"},
+        {"term": "ventilated", "phonetic": "ˈventɪleɪtɪd", "meaning": "通风的", "note": "poorly ventilated homes"},
+        {"term": "emissions", "phonetic": "ɪˈmɪʃnz", "meaning": "排放物，排放量", "note": "carbon emissions"},
+        {"term": "reflective", "phonetic": "rɪˈflektɪv", "meaning": "反光的，反射的", "note": "reflective materials"}
+      ],
+      "questions": [
+        {
+          "id": "urban-heat-q1",
+          "type": "True / False / Not Given",
+          "question": "City centres may be warmer than nearby countryside because urban surfaces store heat.",
+          "answer": "True",
+          "explanation": "第一段说明 dense streets, dark roofs and wide roads absorb solar energy and release it slowly。"
+        },
+        {
+          "id": "urban-heat-q2",
+          "type": "Multiple Choice",
+          "question": "Who is mentioned as being especially vulnerable to high night-time temperatures?",
+          "options": ["older people", "tourists", "office managers", "software engineers"],
+          "answer": "older people",
+          "explanation": "第二段列举 older people, outdoor workers and residents in poorly ventilated homes。"
+        },
+        {
+          "id": "urban-heat-q3",
+          "type": "Summary Completion",
+          "question": "Small patches of _____ on daily routes may help residents more than one impressive park.",
+          "answer": "shade",
+          "explanation": "第三段最后一句说 small patches of shade distributed through daily walking routes can be more useful。"
+        }
+      ]
+    },
+    {
+      "id": "micro-learning",
+      "title": "The Rise of Micro-learning in Adult Education",
+      "topic": "Education",
+      "level": "Band 6.0-7.0",
+      "minutes": 10,
+      "summary": "成人学习不一定依赖长课程，短时、高频、任务化的学习更容易进入真实工作和生活。",
+      "paragraphs": [
+        "Adult learners often have strong motivation but limited time. Traditional courses, which require several hours of continuous attention each week, may be difficult to complete alongside work and family responsibilities. Micro-learning offers a different model: short lessons focused on a single skill, concept or decision.",
+        "The method is popular because it reduces the psychological cost of starting. A ten-minute lesson on how to compare two charts, for instance, feels more manageable than a full statistics course. When lessons are connected to a real task, learners can apply the knowledge immediately and receive feedback from the result.",
+        "Critics argue that micro-learning can become superficial if it is treated as entertainment. Complex subjects still require deep reading, practice and reflection. For this reason, effective programmes usually combine short lessons with longer projects. The brief lesson opens the door, but the project ensures that understanding becomes usable competence."
+      ],
+      "keywords": [
+        {"term": "motivation", "phonetic": "ˌməʊtɪˈveɪʃn", "meaning": "动机，积极性", "note": "strong motivation"},
+        {"term": "continuous", "phonetic": "kənˈtɪnjuəs", "meaning": "连续的", "note": "continuous attention"},
+        {"term": "manageable", "phonetic": "ˈmænɪdʒəbl", "meaning": "可管理的，可处理的", "note": "feel manageable"},
+        {"term": "feedback", "phonetic": "ˈfiːdbæk", "meaning": "反馈", "note": "receive feedback"},
+        {"term": "superficial", "phonetic": "ˌsuːpəˈfɪʃl", "meaning": "肤浅的，表面的", "note": "become superficial"},
+        {"term": "competence", "phonetic": "ˈkɒmpɪtəns", "meaning": "能力，胜任力", "note": "usable competence"}
+      ],
+      "questions": [
+        {
+          "id": "micro-learning-q1",
+          "type": "True / False / Not Given",
+          "question": "Micro-learning usually focuses on one skill, concept or decision at a time.",
+          "answer": "True",
+          "explanation": "第一段最后一句直接说明。"
+        },
+        {
+          "id": "micro-learning-q2",
+          "type": "Multiple Choice",
+          "question": "Why does micro-learning reduce the psychological cost of starting?",
+          "options": ["The lessons feel small and manageable.", "The courses remove all difficult content.", "Learners do not need feedback.", "It replaces every long project."],
+          "answer": "The lessons feel small and manageable.",
+          "explanation": "第二段用 ten-minute lesson 与 full statistics course 对比。"
+        },
+        {
+          "id": "micro-learning-q3",
+          "type": "Short Answer",
+          "question": "What should short lessons be combined with to avoid superficial learning?",
+          "answer": "longer projects",
+          "explanation": "第三段说明 effective programmes usually combine short lessons with longer projects。"
+        }
+      ]
+    },
+    {
+      "id": "food-supply",
+      "title": "Making Food Supply Chains More Resilient",
+      "topic": "Business",
+      "level": "Band 7.0",
+      "minutes": 12,
+      "summary": "食品供应链的稳定性不只取决于价格，还取决于备选供应商、库存策略和数据透明度。",
+      "paragraphs": [
+        "The global food system is efficient, but efficiency can create hidden fragility. Supermarkets often rely on precise delivery schedules and low inventory levels. Under normal conditions, this reduces waste and storage costs. During extreme weather, port delays or sudden changes in demand, however, the same system can struggle to respond.",
+        "Resilience requires more than simply buying extra stock. Companies need visibility across suppliers, transport routes and local demand patterns. Digital tracking tools can help managers notice when a small delay in one region may become a shortage elsewhere. Nevertheless, technology is useful only when organisations are willing to share accurate information.",
+        "Some analysts suggest that future supply chains will be judged by a broader set of measures. Price will remain important, but decision-makers will also consider reliability, environmental impact and the ability to recover after disruption. A resilient system may look less efficient on paper, yet it can protect both businesses and consumers when conditions change."
+      ],
+      "keywords": [
+        {"term": "resilient", "phonetic": "rɪˈzɪliənt", "meaning": "有韧性的，能恢复的", "note": "resilient supply chains"},
+        {"term": "fragility", "phonetic": "frəˈdʒɪləti", "meaning": "脆弱性", "note": "hidden fragility"},
+        {"term": "inventory", "phonetic": "ˈɪnvəntri", "meaning": "库存", "note": "inventory levels"},
+        {"term": "visibility", "phonetic": "ˌvɪzəˈbɪləti", "meaning": "可见性，透明度", "note": "visibility across suppliers"},
+        {"term": "shortage", "phonetic": "ˈʃɔːtɪdʒ", "meaning": "短缺", "note": "become a shortage"},
+        {"term": "disruption", "phonetic": "dɪsˈrʌpʃn", "meaning": "中断，扰乱", "note": "recover after disruption"}
+      ],
+      "questions": [
+        {
+          "id": "food-supply-q1",
+          "type": "True / False / Not Given",
+          "question": "Low inventory levels can reduce waste under normal conditions.",
+          "answer": "True",
+          "explanation": "第一段说明 low inventory levels reduce waste and storage costs。"
+        },
+        {
+          "id": "food-supply-q2",
+          "type": "Multiple Choice",
+          "question": "According to the passage, digital tracking tools are most useful when companies:",
+          "options": ["share accurate information", "avoid local data", "buy extra stock only", "ignore transport routes"],
+          "answer": "share accurate information",
+          "explanation": "第二段最后一句强调 technology is useful only when organisations share accurate information。"
+        },
+        {
+          "id": "food-supply-q3",
+          "type": "Short Answer",
+          "question": "Name one measure besides price that future supply chains may be judged by.",
+          "answer": "reliability / environmental impact / ability to recover after disruption",
+          "explanation": "第三段列出 reliability, environmental impact and ability to recover after disruption。"
+        }
+      ]
+    },
+    {
+      "id": "sleep-health",
+      "title": "Sleep, Memory and the Myth of Lost Time",
+      "topic": "Health",
+      "level": "Band 6.5",
+      "minutes": 10,
+      "summary": "睡眠不是学习的敌人，反而参与记忆整理、情绪恢复和长期表现。",
+      "paragraphs": [
+        "Students sometimes describe sleep as time stolen from study. This belief is understandable before an important examination, but it is scientifically misleading. During sleep, the brain does not simply switch off; it reorganises information, strengthens important memories and weakens details that are no longer useful.",
+        "The effect is especially clear when learners study vocabulary. Repeated exposure during the day creates temporary traces, but sleep helps stabilise them. People who rest properly after learning often remember more than those who continue studying late into the night with declining attention.",
+        "Sleep also influences emotional control. A tired learner may interpret a difficult passage as evidence of personal failure, while a rested learner is more likely to treat it as a problem to solve. For exam preparation, therefore, sleep should be considered part of the learning system rather than a reward after all work is finished."
+      ],
+      "keywords": [
+        {"term": "misleading", "phonetic": "ˌmɪsˈliːdɪŋ", "meaning": "误导性的", "note": "scientifically misleading"},
+        {"term": "reorganise", "phonetic": "riˈɔːɡənaɪz", "meaning": "重新组织", "note": "reorganises information"},
+        {"term": "exposure", "phonetic": "ɪkˈspəʊʒə", "meaning": "接触，暴露", "note": "repeated exposure"},
+        {"term": "temporary", "phonetic": "ˈtemprəri", "meaning": "暂时的", "note": "temporary traces"},
+        {"term": "stabilise", "phonetic": "ˈsteɪbəlaɪz", "meaning": "使稳定", "note": "stabilise memories"},
+        {"term": "interpret", "phonetic": "ɪnˈtɜːprət", "meaning": "解释，理解", "note": "interpret a passage"}
+      ],
+      "questions": [
+        {
+          "id": "sleep-health-q1",
+          "type": "True / False / Not Given",
+          "question": "The passage suggests that the brain remains active during sleep.",
+          "answer": "True",
+          "explanation": "第一段说明 the brain does not simply switch off。"
+        },
+        {
+          "id": "sleep-health-q2",
+          "type": "Summary Completion",
+          "question": "Sleep helps _____ temporary vocabulary traces.",
+          "answer": "stabilise",
+          "explanation": "第二段说 sleep helps stabilise them。"
+        },
+        {
+          "id": "sleep-health-q3",
+          "type": "Multiple Choice",
+          "question": "How may a tired learner react to a difficult passage?",
+          "options": ["They may see it as personal failure.", "They will always solve it faster.", "They will ignore all emotion.", "They may remember every detail."],
+          "answer": "They may see it as personal failure.",
+          "explanation": "第三段直接对比 tired learner 与 rested learner。"
+        }
+      ]
+    },
+    {
+      "id": "citizen-science",
+      "title": "Citizen Science and the Value of Ordinary Observations",
+      "topic": "Science",
+      "level": "Band 7.0",
+      "minutes": 11,
+      "summary": "普通人参与科学观察，可以扩大数据覆盖范围，但需要标准化记录来保证质量。",
+      "paragraphs": [
+        "Professional scientists cannot be everywhere at once. To study bird migration, plastic pollution or changes in flowering seasons, researchers increasingly depend on observations made by ordinary people. This practice, known as citizen science, expands the scale of data collection far beyond what a small research team could achieve alone.",
+        "The value of citizen science lies in quantity and distribution. A single observation may be imperfect, but thousands of records across many locations can reveal patterns. For example, reports from hikers and gardeners may show that certain plants are flowering earlier in spring, providing evidence of local climate change.",
+        "Quality control remains essential. Participants need simple instructions about what to record, how to take photographs and when to avoid uncertain claims. Digital platforms can flag unusual entries for review, but they should not discourage participation. The aim is to turn everyday attention into reliable evidence."
+      ],
+      "keywords": [
+        {"term": "migration", "phonetic": "maɪˈɡreɪʃn", "meaning": "迁徙，迁移", "note": "bird migration"},
+        {"term": "observation", "phonetic": "ˌɒbzəˈveɪʃn", "meaning": "观察，记录", "note": "ordinary observations"},
+        {"term": "distribution", "phonetic": "ˌdɪstrɪˈbjuːʃn", "meaning": "分布", "note": "quantity and distribution"},
+        {"term": "imperfect", "phonetic": "ɪmˈpɜːfɪkt", "meaning": "不完美的", "note": "may be imperfect"},
+        {"term": "evidence", "phonetic": "ˈevɪdəns", "meaning": "证据", "note": "reliable evidence"},
+        {"term": "participation", "phonetic": "pɑːˌtɪsɪˈpeɪʃn", "meaning": "参与", "note": "discourage participation"}
+      ],
+      "questions": [
+        {
+          "id": "citizen-science-q1",
+          "type": "True / False / Not Given",
+          "question": "Citizen science allows researchers to collect data on a larger scale.",
+          "answer": "True",
+          "explanation": "第一段说明 expands the scale of data collection。"
+        },
+        {
+          "id": "citizen-science-q2",
+          "type": "Multiple Choice",
+          "question": "What can thousands of records across many locations reveal?",
+          "options": ["patterns", "private opinions", "laboratory chemicals", "exam results"],
+          "answer": "patterns",
+          "explanation": "第二段说 thousands of records across many locations can reveal patterns。"
+        },
+        {
+          "id": "citizen-science-q3",
+          "type": "Short Answer",
+          "question": "What can digital platforms flag for review?",
+          "answer": "unusual entries",
+          "explanation": "第三段说明 Digital platforms can flag unusual entries for review。"
+        }
+      ]
+    }
+  ]
+}
