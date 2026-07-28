@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "雅思听说读写训练",
+    "version": "1.0.0"
+  },
+  "speaking": [
+    {
+      "part": "Part 1",
+      "topic": "Work and Study",
+      "questions": [
+        "Do you work or are you a student?",
+        "What do you enjoy most about your work or study?",
+        "What skills would you like to improve in the future?"
+      ],
+      "focus": "回答保持 20-30 秒，先直接回答，再补一个具体例子。"
+    },
+    {
+      "part": "Part 2",
+      "topic": "Describe a useful piece of technology",
+      "cue": "Describe a piece of technology that is useful in your daily life. You should say what it is, how you use it, why it is useful, and explain how it has changed your routine.",
+      "focus": "准备 60 秒，说 90-120 秒；按 past-present-impact 组织。"
+    },
+    {
+      "part": "Part 3",
+      "topic": "Technology and Society",
+      "questions": [
+        "How has technology changed the way people learn?",
+        "Do you think automation will create more problems or opportunities?",
+        "Should governments regulate artificial intelligence more strictly?"
+      ],
+      "focus": "回答要有立场、原因、让步和结论，不要只说个人经历。"
+    },
+    {
+      "part": "Part 2",
+      "topic": "Describe a city you would like to visit",
+      "cue": "Describe a city you would like to visit. You should say where it is, what you know about it, what you would do there, and explain why it interests you.",
+      "focus": "加入地点、活动、个人原因和对比，避免只列景点。"
+    },
+    {
+      "part": "Part 3",
+      "topic": "Cities and Quality of Life",
+      "questions": [
+        "What makes a city comfortable to live in?",
+        "How can public transport improve urban life?",
+        "Do large cities offer more advantages than small towns?"
+      ],
+      "focus": "用 infrastructure, affordability, opportunity, environment 组织观点。"
+    }
+  ],
+  "writing": [
+    {
+      "task": "Task 1",
+      "title": "Line chart: public transport use",
+      "prompt": "The line chart shows changes in the percentage of commuters using buses, trains and bicycles in a city from 2000 to 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "minutes": 20,
+      "targetWords": 150,
+      "checklist": ["写 overview", "比较最高/最低", "描述趋势", "不要解释原因"]
+    },
+    {
+      "task": "Task 2",
+      "title": "Technology and education",
+      "prompt": "Some people believe that artificial intelligence will make teachers less important in the future. To what extent do you agree or disagree?",
+      "minutes": 40,
+      "targetWords": 250,
+      "checklist": ["明确立场", "两段主体论证", "每段有例子", "结尾回扣题目"]
+    },
+    {
+      "task": "Task 2",
+      "title": "Cities and public space",
+      "prompt": "Some people think cities should invest more money in public spaces such as parks and libraries rather than roads. Discuss both views and give your own opinion.",
+      "minutes": 40,
+      "targetWords": 250,
+      "checklist": ["双方观点都写", "给出个人立场", "解释公共利益", "避免空泛口号"]
+    },
+    {
+      "task": "Task 1",
+      "title": "Bar chart: household spending",
+      "prompt": "The bar chart compares household spending on housing, transport, food and entertainment in three countries in 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "minutes": 20,
+      "targetWords": 150,
+      "checklist": ["先写总体特征", "按类别比较", "引用数据", "不写个人观点"]
+    }
+  ],
+  "listening": [
+    {
+      "mode": "Dictation",
+      "title": "100 句精听",
+      "steps": ["先听一遍不看文本", "第二遍逐句暂停写下关键词", "第三遍对照原句修正", "最后跟读并录音自检"],
+      "link": "/english.html"
+    },
+    {
+      "mode": "Vocabulary Listening",
+      "title": "词汇真经音频",
+      "steps": ["选择一个 List", "先听英文声音猜词义", "再看词卡确认", "把错词加入当天复习"],
+      "link": "/english-vocab.html"
+    }
+  ],
+  "reading": [
+    {
+      "title": "分级阅读库",
+      "steps": ["Band 5-6 做速度和词汇", "Band 7 做定位和同义替换", "Band 8-9 做观点和逻辑", "每篇只复盘错题和生词"],
+      "link": "/english-reading.html"
+    }
+  ]
+}
