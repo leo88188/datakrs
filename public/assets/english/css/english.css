@@ -16,6 +16,12 @@ body {
   overflow: hidden;
 }
 
+body.vocab-standalone-body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 button, input, select {
   font: inherit;
 }
