@@ -159,6 +159,15 @@
     return state.data.articles.find((article) => article.id === state.activeId) || state.data.articles[0];
   }
 
+  function activeArticlePosition() {
+    const articles = filteredArticles();
+    const index = articles.findIndex((article) => article.id === state.activeId);
+    return {
+      articles,
+      index: index >= 0 ? index : 0,
+    };
+  }
+
   function articleHaystack(article) {
     return [
       article.title,
@@ -263,6 +272,11 @@
       return;
     }
     const completed = state.completed.has(article.id);
+    const position = activeArticlePosition();
+    const currentNo = position.index + 1;
+    const total = position.articles.length;
+    const hasPrev = position.index > 0;
+    const hasNext = position.index >= 0 && position.index < total - 1;
     els.article.classList.toggle("reading-large", state.fontSize === "large");
     els.article.innerHTML = `
       <div class="reading-article-head">
@@ -271,12 +285,15 @@
             <span>${esc(article.topic)}</span>
             <span>${esc(article.level)}</span>
             <span>${esc(article.minutes)} min</span>
+            <span class="reading-progress-pill">${esc(currentNo)} / ${esc(total)}</span>
           </div>
           <h1>${esc(article.title)}</h1>
           <p>${esc(article.summary)}</p>
         </div>
         <div class="reading-article-actions">
           <button class="reading-list-jump" type="button" data-scroll-reading-list>文章目录</button>
+          <button class="reading-nav-button" type="button" data-reading-nav="prev"${hasPrev ? "" : " disabled"}>上一篇</button>
+          <button class="reading-nav-button primary" type="button" data-reading-nav="next"${hasNext ? "" : " disabled"}>下一篇</button>
           <button class="reading-complete-button${completed ? " active" : ""}" type="button" data-complete-article="${esc(article.id)}">
             ${completed ? "已读完" : "标记读完"}
           </button>
@@ -357,6 +374,12 @@
           )
           .join("")}
       </section>
+
+      <nav class="reading-bottom-nav" aria-label="阅读篇章导航">
+        <button type="button" data-reading-nav="prev"${hasPrev ? "" : " disabled"}>上一篇</button>
+        <button type="button" data-scroll-reading-list>文章目录</button>
+        <button type="button" data-reading-nav="next"${hasNext ? "" : " disabled"}>下一篇</button>
+      </nav>
     `;
     saveProgress();
   }
@@ -378,6 +401,19 @@
     window.requestAnimationFrame(() => {
       element.scrollIntoView({ behavior, block: "start" });
     });
+  }
+
+  function switchArticle(direction) {
+    const position = activeArticlePosition();
+    if (!position.articles.length) return;
+    const nextIndex = direction === "prev" ? position.index - 1 : position.index + 1;
+    const nextArticle = position.articles[nextIndex];
+    if (!nextArticle) return;
+    state.activeId = nextArticle.id;
+    render();
+    const activeChip = els.articleList.querySelector(".reading-article-chip.active");
+    if (activeChip) activeChip.scrollIntoView({ block: "nearest" });
+    scrollToElement(els.article);
   }
 
   function bindEvents() {
@@ -425,6 +461,12 @@
       const listButton = event.target.closest("[data-scroll-reading-list]");
       if (listButton) {
         scrollToElement(document.querySelector(".reading-workbench"));
+        return;
+      }
+
+      const navButton = event.target.closest("[data-reading-nav]");
+      if (navButton) {
+        switchArticle(navButton.dataset.readingNav);
         return;
       }
 

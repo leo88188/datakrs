@@ -569,6 +569,10 @@
           window.location.href = "/english-skills.html";
           return;
         }
+        if (button.dataset.panelTrigger === "sentences") {
+          window.location.href = "/english-sentences.html";
+          return;
+        }
         if (button.dataset.panelTrigger === "video") {
           document.querySelector(".media-panel").classList.add("active-mobile");
           document.querySelector(".media-panel").scrollIntoView({ behavior: "smooth", block: "start" });

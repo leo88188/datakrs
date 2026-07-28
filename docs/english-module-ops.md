@@ -11,6 +11,7 @@ The IELTS H5 module is a static frontend under `public/` and is deployed to:
 - `https://www.datakrs.com/english-roots.html`
 - `https://www.datakrs.com/english-reading.html`
 - `https://www.datakrs.com/english-skills.html`
+- `https://www.datakrs.com/english-sentences.html`
 
 The main goal is mobile-first personal IELTS practice. Keep implementation lightweight. Prioritise content, clear interaction, local progress, and avoiding unnecessary OSS traffic.
 
@@ -21,12 +22,14 @@ The main goal is mobile-first personal IELTS practice. Keep implementation light
 - `public/english-roots.html`: roots/prefixes/suffixes module.
 - `public/english-reading.html`: reading article module.
 - `public/english-skills.html`: Listening/Speaking/Reading/Writing practice hub.
+- `public/english-sentences.html`: classic sentence card module.
 - `public/assets/english/css/english.css`: shared styles.
 - `public/assets/english/js/english.js`: main page logic.
 - `public/assets/english/js/vocab-page.js`: vocabulary page logic.
 - `public/assets/english/js/roots-page.js`: roots page logic.
 - `public/assets/english/js/reading-page.js`: reading page logic.
 - `public/assets/english/js/skills-page.js`: four-skill hub logic.
+- `public/assets/english/js/sentences-page.js`: classic sentence page logic and local sentence data generator.
 - `public/assets/english/data/reading-articles.json`: 230 original IELTS-style reading articles. Not real exam text.
 - `public/assets/english/data/skills-practice.json`: four-skill practice prompts and routines.
 
@@ -79,6 +82,7 @@ node --check public/assets/english/js/vocab-page.js
 node --check public/assets/english/js/roots-page.js
 node --check public/assets/english/js/reading-page.js
 node --check public/assets/english/js/skills-page.js
+node --check public/assets/english/js/sentences-page.js
 python3 -c 'import json; d=json.load(open("public/assets/english/data/reading-articles.json", encoding="utf-8")); assert len(d["articles"]) >= 200; assert all(len(a["keywords"]) >= 16 for a in d["articles"])'
 ```
 
@@ -109,6 +113,7 @@ Production smoke test:
   - Speaking has prompt cards, timer, and local browser recording.
   - Reading links to the reading article library.
   - Writing has timed prompts, local draft autosave, word count, and checklist.
+- Classic sentences module: 398 sentence cards with categories, tone filters, search, random card, browser speech synthesis, local favorites and read progress.
 
 ## Next Improvements
 
