@@ -13,3 +13,5 @@
 /datakrs_code_snapshot.tgz
 /db_inventory.json
 /.DS_Store
+__pycache__/
+*.pyc

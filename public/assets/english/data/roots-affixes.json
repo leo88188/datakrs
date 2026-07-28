@@ -1,0 +1,6100 @@
+{
+  "meta": {
+    "title": "雅思英文词根词缀",
+    "rootCount": 100,
+    "prefixCount": 50,
+    "suffixCount": 50,
+    "totalCount": 200,
+    "version": "1.0.0"
+  },
+  "groups": [
+    {
+      "type": "root",
+      "label": "词根",
+      "count": 100,
+      "dailySize": 10
+    },
+    {
+      "type": "prefix",
+      "label": "前缀",
+      "count": 50,
+      "dailySize": 10
+    },
+    {
+      "type": "suffix",
+      "label": "后缀",
+      "count": 50,
+      "dailySize": 10
+    }
+  ],
+  "items": [
+    {
+      "id": "root-001",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "act/ag",
+      "meaning": "做，行动，驱动",
+      "examples": [
+        {
+          "word": "action",
+          "phonetic": "ˈækʃn",
+          "meaning": "行为；动作",
+          "pos": "n."
+        },
+        {
+          "word": "active",
+          "phonetic": "",
+          "meaning": "含有 act/ag，常与“做，行动，驱动”相关",
+          "pos": ""
+        },
+        {
+          "word": "agent",
+          "phonetic": "ˈeɪdʒənt",
+          "meaning": "代理（商）",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "看到 act/ag 先联想到行动和执行。"
+    },
+    {
+      "id": "root-002",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "anim",
+      "meaning": "生命，精神，气息",
+      "examples": [
+        {
+          "word": "animal",
+          "phonetic": "",
+          "meaning": "含有 anim，常与“生命，精神，气息”相关",
+          "pos": ""
+        },
+        {
+          "word": "animate",
+          "phonetic": "ˈænɪmeɪt",
+          "meaning": "活的，有生命的；v. 赋予生命；鼓舞",
+          "pos": "adj."
+        },
+        {
+          "word": "unanimous",
+          "phonetic": "juˈnænɪməs",
+          "meaning": "全体意见一致的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "和 alive 的生命感相关。"
+    },
+    {
+      "id": "root-003",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "ann/enn",
+      "meaning": "年",
+      "examples": [
+        {
+          "word": "annual",
+          "phonetic": "ˈænjuəl",
+          "meaning": "每年的，年度的；n. 年鉴；一年生的植物",
+          "pos": "adj."
+        },
+        {
+          "word": "anniversary",
+          "phonetic": "",
+          "meaning": "含有 ann/enn，常与“年”相关",
+          "pos": ""
+        },
+        {
+          "word": "perennial",
+          "phonetic": "pəˈreniəl",
+          "meaning": "长久的，永远的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "annual report 就是年度报告。"
+    },
+    {
+      "id": "root-004",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "anthrop",
+      "meaning": "人，人类",
+      "examples": [
+        {
+          "word": "anthropology",
+          "phonetic": "ˌænθrəˈpɒlədʒi",
+          "meaning": "人类学",
+          "pos": "n."
+        },
+        {
+          "word": "anthropic",
+          "phonetic": "",
+          "meaning": "含有 anthrop，常与“人，人类”相关",
+          "pos": ""
+        },
+        {
+          "word": "misanthrope",
+          "phonetic": "",
+          "meaning": "含有 anthrop，常与“人，人类”相关",
+          "pos": ""
+        },
+        {
+          "word": "anthropoid",
+          "phonetic": "ˈænθrəpɔɪd",
+          "meaning": "类人猿；adj. 像人类的",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "anthropology 是人类学。"
+    },
+    {
+      "id": "root-005",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "aqu",
+      "meaning": "水",
+      "examples": [
+        {
+          "word": "aquatic",
+          "phonetic": "əˈkwætɪk",
+          "meaning": "水生的，水中的",
+          "pos": "adj."
+        },
+        {
+          "word": "aquarium",
+          "phonetic": "",
+          "meaning": "含有 aqu，常与“水”相关",
+          "pos": ""
+        },
+        {
+          "word": "aqueduct",
+          "phonetic": "",
+          "meaning": "含有 aqu，常与“水”相关",
+          "pos": ""
+        },
+        {
+          "word": "opaque",
+          "phonetic": "əʊˈpeɪk",
+          "meaning": "难懂的，晦涩的；不透明的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "aquarium 是水族馆。"
+    },
+    {
+      "id": "root-006",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "aud",
+      "meaning": "听",
+      "examples": [
+        {
+          "word": "audio",
+          "phonetic": "ˈɔːdiəʊ",
+          "meaning": "音频的；声音的",
+          "pos": "adj."
+        },
+        {
+          "word": "audience",
+          "phonetic": "",
+          "meaning": "含有 aud，常与“听”相关",
+          "pos": ""
+        },
+        {
+          "word": "auditory",
+          "phonetic": "ˈɔːdətri",
+          "meaning": "耳的；听觉的，关于听觉的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "audio 与听觉直接相关。"
+    },
+    {
+      "id": "root-007",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "auto",
+      "meaning": "自己，自动",
+      "examples": [
+        {
+          "word": "automatic",
+          "phonetic": "ˌɔːtəˈmætɪk",
+          "meaning": "自动的；机械的",
+          "pos": "adj."
+        },
+        {
+          "word": "autonomy",
+          "phonetic": "ɔːˈtɒnəmi",
+          "meaning": "自治，自治权",
+          "pos": "n."
+        },
+        {
+          "word": "autobiography",
+          "phonetic": "",
+          "meaning": "含有 auto，常与“自己，自动”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "auto 常表示自己完成。"
+    },
+    {
+      "id": "root-008",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "bio",
+      "meaning": "生命，生物",
+      "examples": [
+        {
+          "word": "biology",
+          "phonetic": "",
+          "meaning": "生物学.biological生物/学的",
+          "pos": "n."
+        },
+        {
+          "word": "biography",
+          "phonetic": "",
+          "meaning": "传记",
+          "pos": "n."
+        },
+        {
+          "word": "biodegradable",
+          "phonetic": "ˌbaɪəʊdɪˈɡreɪdəbl",
+          "meaning": "可降解的",
+          "pos": "adj."
+        },
+        {
+          "word": "biont",
+          "phonetic": "ˈbaɪɒnt",
+          "meaning": "生物",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "bio 是生物和生命。"
+    },
+    {
+      "id": "root-009",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "cap/cept/cip",
+      "meaning": "拿，抓，接受",
+      "examples": [
+        {
+          "word": "capture",
+          "phonetic": "ˈkæptʃə(r)",
+          "meaning": "俘获；夺取或赢得；捕获；n. 战利品",
+          "pos": "v."
+        },
+        {
+          "word": "accept",
+          "phonetic": "",
+          "meaning": "含有 cap/cept/cip，常与“拿，抓，接受”相关",
+          "pos": ""
+        },
+        {
+          "word": "recipient",
+          "phonetic": "",
+          "meaning": "含有 cap/cept/cip，常与“拿，抓，接受”相关",
+          "pos": ""
+        },
+        {
+          "word": "cape",
+          "phonetic": "keɪp",
+          "meaning": "海角，岬",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "accept 是把东西接过来。"
+    },
+    {
+      "id": "root-010",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "ced/ceed/cess",
+      "meaning": "走，前进，退让",
+      "examples": [
+        {
+          "word": "proceed",
+          "phonetic": "",
+          "meaning": "接下来做,继续进行,行进",
+          "pos": "v."
+        },
+        {
+          "word": "access",
+          "phonetic": "ˈækses",
+          "meaning": "接近；进入；通道；vt. 进入；使用",
+          "pos": "n."
+        },
+        {
+          "word": "recede",
+          "phonetic": "",
+          "meaning": "含有 ced/ceed/cess，常与“走，前进，退让”相关",
+          "pos": ""
+        },
+        {
+          "word": "recess",
+          "phonetic": "rɪˈses",
+          "meaning": "休假；休息",
+          "pos": "n./v."
+        }
+      ],
+      "memoryTip": "process 是推进出来的过程。"
+    },
+    {
+      "id": "root-011",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "chron",
+      "meaning": "时间",
+      "examples": [
+        {
+          "word": "chronic",
+          "phonetic": "ˈkrɒnɪk",
+          "meaning": "长期的；（疾病）慢性的",
+          "pos": "adj."
+        },
+        {
+          "word": "chronology",
+          "phonetic": "",
+          "meaning": "年表，事件发生顺序表；年代学",
+          "pos": ""
+        },
+        {
+          "word": "synchronize",
+          "phonetic": "",
+          "meaning": "含有 chron，常与“时间”相关",
+          "pos": ""
+        },
+        {
+          "word": "synchronise",
+          "phonetic": "ˈsɪŋkrənaɪz",
+          "meaning": "同时发生",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "chronology 是时间顺序。"
+    },
+    {
+      "id": "root-012",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "cid/cis",
+      "meaning": "切，杀，决定",
+      "examples": [
+        {
+          "word": "decide",
+          "phonetic": "dɪˈsaɪd",
+          "meaning": "决定；裁决vi. 决定；判决",
+          "pos": "vt."
+        },
+        {
+          "word": "precise",
+          "phonetic": "prɪˈsaɪs",
+          "meaning": "精确的",
+          "pos": "adj."
+        },
+        {
+          "word": "suicide",
+          "phonetic": "ˈsuːɪsaɪd",
+          "meaning": "自杀",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "decide 原意是切断选择。"
+    },
+    {
+      "id": "root-013",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "circ",
+      "meaning": "圆，周围",
+      "examples": [
+        {
+          "word": "circle",
+          "phonetic": "",
+          "meaning": "圆.circular圆/环的.circulate循环,传阅",
+          "pos": "n."
+        },
+        {
+          "word": "circumstance",
+          "phonetic": "",
+          "meaning": "情况；环境；条件；境遇 under/in no circumstances 决不",
+          "pos": "n."
+        },
+        {
+          "word": "circuit",
+          "phonetic": "ˈsɜːkɪt",
+          "meaning": "环行；电路",
+          "pos": "n."
+        },
+        {
+          "word": "circa",
+          "phonetic": "ˈsɜːkə",
+          "meaning": "大约",
+          "pos": "prep."
+        }
+      ],
+      "memoryTip": "circumstance 是围绕着你的情况。"
+    },
+    {
+      "id": "root-014",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "claim/clam",
+      "meaning": "喊，宣称",
+      "examples": [
+        {
+          "word": "claim",
+          "phonetic": "kleɪm",
+          "meaning": "声称；主张；要求；索取；n. 要求；认领；索赔；声称，断言",
+          "pos": "vt."
+        },
+        {
+          "word": "proclaim",
+          "phonetic": "prəˈkleɪm",
+          "meaning": "宣告，声明；显示；赞美",
+          "pos": "v."
+        },
+        {
+          "word": "exclaim",
+          "phonetic": "",
+          "meaning": "含有 claim/clam，常与“喊，宣称”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "exclaim 是喊出来。"
+    },
+    {
+      "id": "root-015",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "cogn/gnos",
+      "meaning": "知道，认识",
+      "examples": [
+        {
+          "word": "cognitive",
+          "phonetic": "ˈkɒɡnətɪv",
+          "meaning": "认知的，认识的",
+          "pos": "adj."
+        },
+        {
+          "word": "recognize",
+          "phonetic": "",
+          "meaning": "含有 cogn/gnos，常与“知道，认识”相关",
+          "pos": ""
+        },
+        {
+          "word": "diagnosis",
+          "phonetic": "",
+          "meaning": "含有 cogn/gnos，常与“知道，认识”相关",
+          "pos": ""
+        },
+        {
+          "word": "diagnose",
+          "phonetic": "ˈdaɪəɡnəʊz",
+          "meaning": "诊断",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "cognitive 是认知的。"
+    },
+    {
+      "id": "root-016",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "corp",
+      "meaning": "身体，实体",
+      "examples": [
+        {
+          "word": "corporate",
+          "phonetic": "ˈkɔːpərət",
+          "meaning": "全体的；公司的；法人的",
+          "pos": "adj."
+        },
+        {
+          "word": "corpse",
+          "phonetic": "",
+          "meaning": "含有 corp，常与“身体，实体”相关",
+          "pos": ""
+        },
+        {
+          "word": "incorporate",
+          "phonetic": "ɪnˈkɔːpəreɪt",
+          "meaning": "包含，吸收；把…合并，纳入；组成公司；adj. 合并的",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "corporate 原意是形成一个身体。"
+    },
+    {
+      "id": "root-017",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "cred",
+      "meaning": "相信，信任",
+      "examples": [
+        {
+          "word": "credit",
+          "phonetic": "ˈkredɪt",
+          "meaning": "信用，信任；记入贷方；把…归于；n. 赊欠；贷款；称赞， 认可；学分",
+          "pos": "v."
+        },
+        {
+          "word": "credible",
+          "phonetic": "ˈkredəbl",
+          "meaning": "可信的，可靠的",
+          "pos": "adj."
+        },
+        {
+          "word": "incredible",
+          "phonetic": "ɪnˈkredəbl",
+          "meaning": "难以置信的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "credible 是可相信的。"
+    },
+    {
+      "id": "root-018",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "cur/curs",
+      "meaning": "跑，流动",
+      "examples": [
+        {
+          "word": "current",
+          "phonetic": "ˈkʌrənt",
+          "meaning": "电流，气流；潮流；adj. 当前的；通用的，流行的",
+          "pos": "n."
+        },
+        {
+          "word": "occur",
+          "phonetic": "əˈkɜː(r)",
+          "meaning": "发生；存在",
+          "pos": "vi."
+        },
+        {
+          "word": "excursion",
+          "phonetic": "ɪkˈskɜːʃn",
+          "meaning": "短途旅行，游览",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "current 有流动和当前之意。"
+    },
+    {
+      "id": "root-019",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "cycl",
+      "meaning": "圆，循环",
+      "examples": [
+        {
+          "word": "cycle",
+          "phonetic": "",
+          "meaning": "周期，自行车",
+          "pos": "n."
+        },
+        {
+          "word": "recycle",
+          "phonetic": "ˌriːˈsaɪkl",
+          "meaning": "回收",
+          "pos": "v."
+        },
+        {
+          "word": "cyclone",
+          "phonetic": "",
+          "meaning": "含有 cycl，常与“圆，循环”相关",
+          "pos": ""
+        },
+        {
+          "word": "anticyclone",
+          "phonetic": "ˌæntiˈsaɪkləʊn",
+          "meaning": "反气旋；高（气）压",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "cycle 是循环。"
+    },
+    {
+      "id": "root-020",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "dem",
+      "meaning": "人民，人群",
+      "examples": [
+        {
+          "word": "democracy",
+          "phonetic": "",
+          "meaning": "民主/制度/民主国家(demo指 people) cracy 指\"统治(to rule)",
+          "pos": "n."
+        },
+        {
+          "word": "demographic",
+          "phonetic": "",
+          "meaning": "人口（学）的/人口统计（学）的",
+          "pos": "adj"
+        },
+        {
+          "word": "epidemic",
+          "phonetic": "ˌepɪˈdemɪk",
+          "meaning": "流行病；adj. 传染性的",
+          "pos": "n."
+        },
+        {
+          "word": "modem",
+          "phonetic": "ˈməʊdem",
+          "meaning": "调制解调器",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "democracy 是人民治理。"
+    },
+    {
+      "id": "root-021",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "dict",
+      "meaning": "说，命令",
+      "examples": [
+        {
+          "word": "dictionary",
+          "phonetic": "",
+          "meaning": "含有 dict，常与“说，命令”相关",
+          "pos": ""
+        },
+        {
+          "word": "predict",
+          "phonetic": "",
+          "meaning": "预测prediction n.预测/言",
+          "pos": "v."
+        },
+        {
+          "word": "dictate",
+          "phonetic": "",
+          "meaning": "让..听写/命令.dictation n.听写",
+          "pos": "v."
+        },
+        {
+          "word": "addict",
+          "phonetic": "ˈædɪkt",
+          "meaning": "对…入迷的人",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "predict 是提前说。"
+    },
+    {
+      "id": "root-022",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "duc/duct",
+      "meaning": "引导，带领",
+      "examples": [
+        {
+          "word": "produce",
+          "phonetic": "prəˈdjuːs",
+          "meaning": "出示；展现；使出现",
+          "pos": "v."
+        },
+        {
+          "word": "conduct",
+          "phonetic": "ˈkɒndʌkt",
+          "meaning": "举止；指导；管理；/kənˈdʌkt/ vt. 指导；管理，实施",
+          "pos": "n."
+        },
+        {
+          "word": "education",
+          "phonetic": "",
+          "meaning": "教育；教育学",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "education 是把能力引出来。"
+    },
+    {
+      "id": "root-023",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "fac/fect/fic",
+      "meaning": "做，制造",
+      "examples": [
+        {
+          "word": "factory",
+          "phonetic": "",
+          "meaning": "含有 fac/fect/fic，常与“做，制造”相关",
+          "pos": ""
+        },
+        {
+          "word": "effect",
+          "phonetic": "ɪˈfekt",
+          "meaning": "作用，影响；结果；效果，效力；vt. 产生，招致",
+          "pos": "n."
+        },
+        {
+          "word": "efficient",
+          "phonetic": "ɪˈfɪʃnt",
+          "meaning": "有效率的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "factory 是做东西的地方。"
+    },
+    {
+      "id": "root-024",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "fer",
+      "meaning": "带来，携带",
+      "examples": [
+        {
+          "word": "transfer",
+          "phonetic": "trænsˈfɜː(r)",
+          "meaning": "转移；调动，转学；转让；换乘；n. 转移，调动；换乘",
+          "pos": "v."
+        },
+        {
+          "word": "refer",
+          "phonetic": "",
+          "meaning": "含有 fer，常与“带来，携带”相关",
+          "pos": ""
+        },
+        {
+          "word": "fertile",
+          "phonetic": "",
+          "meaning": "肥沃，富饶",
+          "pos": "adj."
+        },
+        {
+          "word": "fern",
+          "phonetic": "fɜːn",
+          "meaning": "蕨，蕨类植物",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "transfer 是带着越过去。"
+    },
+    {
+      "id": "root-025",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "fid",
+      "meaning": "信任，忠诚",
+      "examples": [
+        {
+          "word": "confident",
+          "phonetic": "ˈkɒnfɪdənt",
+          "meaning": "肯定的；确信的",
+          "pos": "adj."
+        },
+        {
+          "word": "fidelity",
+          "phonetic": "",
+          "meaning": "含有 fid，常与“信任，忠诚”相关",
+          "pos": ""
+        },
+        {
+          "word": "confide",
+          "phonetic": "kənˈfaɪd",
+          "meaning": "吐露",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "confidence 来自信任。"
+    },
+    {
+      "id": "root-026",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "fin",
+      "meaning": "结束，边界",
+      "examples": [
+        {
+          "word": "final",
+          "phonetic": "",
+          "meaning": "含有 fin，常与“结束，边界”相关",
+          "pos": ""
+        },
+        {
+          "word": "define",
+          "phonetic": "dɪˈfaɪn",
+          "meaning": "下定义；限定；解释",
+          "pos": "v."
+        },
+        {
+          "word": "infinite",
+          "phonetic": "ˈɪnfɪnət",
+          "meaning": "无限的；无穷尽的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "define 是划定边界。"
+    },
+    {
+      "id": "root-027",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "flex/flect",
+      "meaning": "弯曲，转向",
+      "examples": [
+        {
+          "word": "flexible",
+          "phonetic": "",
+          "meaning": "可弯曲的,灵活的 flexibility n.",
+          "pos": "adj"
+        },
+        {
+          "word": "reflect",
+          "phonetic": "rɪˈflekt",
+          "meaning": "反映；反省；反射；深思",
+          "pos": "v."
+        },
+        {
+          "word": "deflect",
+          "phonetic": "",
+          "meaning": "偏斜,偏转,转移deflection偏转n.",
+          "pos": "v."
+        },
+        {
+          "word": "flexibility",
+          "phonetic": "ˌfleksəˈbɪləti",
+          "meaning": "柔韧；柔顺；灵活性；适应性",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "reflect 是光线转回来。"
+    },
+    {
+      "id": "root-028",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "form",
+      "meaning": "形状，形成",
+      "examples": [
+        {
+          "word": "form",
+          "phonetic": "",
+          "meaning": "含有 form，常与“形状，形成”相关",
+          "pos": ""
+        },
+        {
+          "word": "inform",
+          "phonetic": "",
+          "meaning": "含有 form，常与“形状，形成”相关",
+          "pos": ""
+        },
+        {
+          "word": "transform",
+          "phonetic": "trænsˈfɔːm",
+          "meaning": "使改观，改革，改善；变换，把…转换成，使变形",
+          "pos": "v."
+        },
+        {
+          "word": "deform",
+          "phonetic": "dɪˈfɔːm",
+          "meaning": "（使）变形；毁坏形状或外观",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "transform 是改变形态。"
+    },
+    {
+      "id": "root-029",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "fort",
+      "meaning": "强，力量",
+      "examples": [
+        {
+          "word": "force",
+          "phonetic": "fɔːs",
+          "meaning": "强迫；n. 军队；力气；效力",
+          "pos": "v."
+        },
+        {
+          "word": "effort",
+          "phonetic": "ˈefət",
+          "meaning": "努力",
+          "pos": "n."
+        },
+        {
+          "word": "fortify",
+          "phonetic": "ˈfɔːtɪfaɪ",
+          "meaning": "激励；加强",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "fortify 是加强。"
+    },
+    {
+      "id": "root-030",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "fract/frag",
+      "meaning": "破碎",
+      "examples": [
+        {
+          "word": "fraction",
+          "phonetic": "ˈfrækʃn",
+          "meaning": "分数；小部分",
+          "pos": "n."
+        },
+        {
+          "word": "fragment",
+          "phonetic": "ˈfræɡmənt",
+          "meaning": "碎片，小部分",
+          "pos": "n."
+        },
+        {
+          "word": "fragile",
+          "phonetic": "ˈfrædʒaɪl",
+          "meaning": "脆弱的；虚弱的；易碎的，易损的；易受伤害的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "fragment 是碎片。"
+    },
+    {
+      "id": "root-031",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "gen",
+      "meaning": "产生，种类",
+      "examples": [
+        {
+          "word": "generate",
+          "phonetic": "ˈdʒenəreɪt",
+          "meaning": "产生（光、热、电等）；引起",
+          "pos": "vt."
+        },
+        {
+          "word": "gene",
+          "phonetic": "dʒiːn",
+          "meaning": "基因",
+          "pos": "n."
+        },
+        {
+          "word": "general",
+          "phonetic": "ˈdʒenrəl",
+          "meaning": "将军",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "generate 是产生。"
+    },
+    {
+      "id": "root-032",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "geo",
+      "meaning": "地球，土地",
+      "examples": [
+        {
+          "word": "geography",
+          "phonetic": "dʒiˈɒɡrəfi",
+          "meaning": "地理；地形",
+          "pos": "n."
+        },
+        {
+          "word": "geology",
+          "phonetic": "",
+          "meaning": "地质学;地质状况. geological adj.",
+          "pos": "n."
+        },
+        {
+          "word": "geothermal",
+          "phonetic": "",
+          "meaning": "含有 geo，常与“地球，土地”相关",
+          "pos": ""
+        },
+        {
+          "word": "burgeon",
+          "phonetic": "ˈbɜːdʒən",
+          "meaning": "（正式）急速增长（发展）",
+          "pos": "vi."
+        }
+      ],
+      "memoryTip": "geography 是地理。"
+    },
+    {
+      "id": "root-033",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "grad/gress",
+      "meaning": "步，等级，前进",
+      "examples": [
+        {
+          "word": "graduate",
+          "phonetic": "",
+          "meaning": "大学毕业生postgraduate研究生",
+          "pos": "n."
+        },
+        {
+          "word": "progress",
+          "phonetic": "ˈprəʊɡres",
+          "meaning": "进步；进展；前进；/prəˈɡres/ v. 进步；进展；前进",
+          "pos": "n."
+        },
+        {
+          "word": "gradual",
+          "phonetic": "",
+          "meaning": "逐渐/步的,平缓的~growth逐步增长",
+          "pos": ""
+        },
+        {
+          "word": "congress",
+          "phonetic": "ˈkɒŋɡres",
+          "meaning": "（代表）大会；（美国等国的）国会，议会",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "progress 是向前走。"
+    },
+    {
+      "id": "root-034",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "graph",
+      "meaning": "写，画，记录",
+      "examples": [
+        {
+          "word": "graphic",
+          "phonetic": "ˈɡræfɪk",
+          "meaning": "生动的，形象的；绘画的，文字的，图表的",
+          "pos": "adj."
+        },
+        {
+          "word": "photograph",
+          "phonetic": "",
+          "meaning": "含有 graph，常与“写，画，记录”相关",
+          "pos": ""
+        },
+        {
+          "word": "paragraph",
+          "phonetic": "",
+          "meaning": "含有 graph，常与“写，画，记录”相关",
+          "pos": ""
+        },
+        {
+          "word": "geography",
+          "phonetic": "dʒiˈɒɡrəfi",
+          "meaning": "地理；地形",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "graph 关联记录和图。"
+    },
+    {
+      "id": "root-035",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "hab/hibit",
+      "meaning": "持有，居住，习惯",
+      "examples": [
+        {
+          "word": "habit",
+          "phonetic": "",
+          "meaning": "习惯.acquire a~of养成的习惯",
+          "pos": "n."
+        },
+        {
+          "word": "habitat",
+          "phonetic": "ˈhæbɪtæt",
+          "meaning": "栖息地，住处",
+          "pos": "n."
+        },
+        {
+          "word": "exhibit",
+          "phonetic": "ɪɡˈzɪbɪt",
+          "meaning": "陈列，展览；显示",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "habitat 是居住地。"
+    },
+    {
+      "id": "root-036",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "ject",
+      "meaning": "投掷，抛出",
+      "examples": [
+        {
+          "word": "project",
+          "phonetic": "ˈprɒdʒekt",
+          "meaning": "计划，方案；课题，项目；工程；/prəˈdʒekt/ v. （使）伸出；放映，投射，发射；（使）凸出，使伸出；设计，规划",
+          "pos": "n."
+        },
+        {
+          "word": "reject",
+          "phonetic": "",
+          "meaning": "拒绝接受，摒弃",
+          "pos": "v."
+        },
+        {
+          "word": "eject",
+          "phonetic": "iˈdʒekt",
+          "meaning": "喷出",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "reject 是扔回去。"
+    },
+    {
+      "id": "root-037",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "jud/jur",
+      "meaning": "法律，判断",
+      "examples": [
+        {
+          "word": "judge",
+          "phonetic": "",
+          "meaning": "法官，裁判员judgement （ = judgment） n.意见",
+          "pos": "n."
+        },
+        {
+          "word": "jury",
+          "phonetic": "ˈdʒʊəri",
+          "meaning": "陪审团，评判委员会；陪审员",
+          "pos": "n."
+        },
+        {
+          "word": "justice",
+          "phonetic": "",
+          "meaning": "含有 jud/jur，常与“法律，判断”相关",
+          "pos": ""
+        },
+        {
+          "word": "injure",
+          "phonetic": "ˈɪndʒə(r)",
+          "meaning": "伤害，损害，损伤",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "judge 是判断。"
+    },
+    {
+      "id": "root-038",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "junct",
+      "meaning": "连接",
+      "examples": [
+        {
+          "word": "junction",
+          "phonetic": "",
+          "meaning": "含有 junct，常与“连接”相关",
+          "pos": ""
+        },
+        {
+          "word": "conjunction",
+          "phonetic": "",
+          "meaning": "连词；结合. junction n.汇合处",
+          "pos": "n."
+        },
+        {
+          "word": "adjunct",
+          "phonetic": "",
+          "meaning": "含有 junct，常与“连接”相关",
+          "pos": ""
+        },
+        {
+          "word": "juncture",
+          "phonetic": "ˈdʒʌŋktʃə(r)",
+          "meaning": "特定时刻，重要关头",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "junction 是连接点。"
+    },
+    {
+      "id": "root-039",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "labor",
+      "meaning": "劳动，工作",
+      "examples": [
+        {
+          "word": "labor",
+          "phonetic": "",
+          "meaning": "含有 labor，常与“劳动，工作”相关",
+          "pos": ""
+        },
+        {
+          "word": "collaborate",
+          "phonetic": "kəˈlæbəreɪt",
+          "meaning": "合作；勾结，通敌",
+          "pos": "v."
+        },
+        {
+          "word": "elaborate",
+          "phonetic": "ɪˈlæbərət",
+          "meaning": "详尽的；复杂的；精心制作的；/ɪˈlæbəreɪt/ v. 详述，详细制定",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "collaborate 是一起工作。"
+    },
+    {
+      "id": "root-040",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "lat",
+      "meaning": "带，携带，侧面",
+      "examples": [
+        {
+          "word": "translate",
+          "phonetic": "",
+          "meaning": "翻译/转变. translator n.翻译者",
+          "pos": "v."
+        },
+        {
+          "word": "relate",
+          "phonetic": "rɪˈleɪt",
+          "meaning": "有关联；适应，和睦相处；讲述，叙述",
+          "pos": "v."
+        },
+        {
+          "word": "lateral",
+          "phonetic": "ˈlætərəl",
+          "meaning": "侧面的，旁边的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "translate 是把意思带过去。"
+    },
+    {
+      "id": "root-041",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "leg/lect",
+      "meaning": "读，选择，法律",
+      "examples": [
+        {
+          "word": "lecture",
+          "phonetic": "",
+          "meaning": "含有 leg/lect，常与“读，选择，法律”相关",
+          "pos": ""
+        },
+        {
+          "word": "collect",
+          "phonetic": "kəˈlekt",
+          "meaning": "收集；接走；收（税等）；聚集",
+          "pos": "v."
+        },
+        {
+          "word": "legal",
+          "phonetic": "ˈliːɡl",
+          "meaning": "法律的；合法的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "collect 是选到一起。"
+    },
+    {
+      "id": "root-042",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "liber",
+      "meaning": "自由",
+      "examples": [
+        {
+          "word": "liberty",
+          "phonetic": "",
+          "meaning": "含有 liber，常与“自由”相关",
+          "pos": ""
+        },
+        {
+          "word": "liberal",
+          "phonetic": "",
+          "meaning": "含有 liber，常与“自由”相关",
+          "pos": ""
+        },
+        {
+          "word": "liberate",
+          "phonetic": "",
+          "meaning": "含有 liber，常与“自由”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "liberate 是解放。"
+    },
+    {
+      "id": "root-043",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "loc",
+      "meaning": "地方，位置",
+      "examples": [
+        {
+          "word": "local",
+          "phonetic": "ˈləʊkl",
+          "meaning": "当地的；地方的",
+          "pos": "adj."
+        },
+        {
+          "word": "locate",
+          "phonetic": "ləʊˈkeɪt",
+          "meaning": "找到；位于；（使）坐落于；把…设置在",
+          "pos": "vt."
+        },
+        {
+          "word": "allocate",
+          "phonetic": "ˈæləkeɪt",
+          "meaning": "分配；分派",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "locate 是找位置。"
+    },
+    {
+      "id": "root-044",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "log/loqu",
+      "meaning": "说，词，逻辑",
+      "examples": [
+        {
+          "word": "logic",
+          "phonetic": "",
+          "meaning": "逻辑,逻辑学.logical合逻辑的",
+          "pos": "n."
+        },
+        {
+          "word": "dialogue",
+          "phonetic": "ˈdaɪəlɒɡ",
+          "meaning": "对话",
+          "pos": "n."
+        },
+        {
+          "word": "eloquent",
+          "phonetic": "ˈeləkwənt",
+          "meaning": "雄辩的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "dialogue 是相互说。"
+    },
+    {
+      "id": "root-045",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "luc/lum",
+      "meaning": "光",
+      "examples": [
+        {
+          "word": "lucid",
+          "phonetic": "",
+          "meaning": "含有 luc/lum，常与“光”相关",
+          "pos": ""
+        },
+        {
+          "word": "illuminate",
+          "phonetic": "ɪˈluːmɪneɪt",
+          "meaning": "阐明；照亮",
+          "pos": "v."
+        },
+        {
+          "word": "luminous",
+          "phonetic": "",
+          "meaning": "含有 luc/lum，常与“光”相关",
+          "pos": ""
+        },
+        {
+          "word": "lump",
+          "phonetic": "lʌmp",
+          "meaning": "块，肿块；v. 结块；将…归并在一起",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "luminous 是发光的。"
+    },
+    {
+      "id": "root-046",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "magn",
+      "meaning": "大",
+      "examples": [
+        {
+          "word": "magnify",
+          "phonetic": "ˈmæɡnɪfaɪ",
+          "meaning": "放大；扩大",
+          "pos": "vt."
+        },
+        {
+          "word": "magnitude",
+          "phonetic": "ˈmæɡnɪtjuːd",
+          "meaning": "广大，巨大；重要（性）；星球的光亮度",
+          "pos": "n."
+        },
+        {
+          "word": "magnificent",
+          "phonetic": "mæɡˈnɪfɪsnt",
+          "meaning": "壮丽的，宏伟的，华丽的；高尚的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "magnify 是放大。"
+    },
+    {
+      "id": "root-047",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "manu",
+      "meaning": "手",
+      "examples": [
+        {
+          "word": "manual",
+          "phonetic": "ˈmænjuəl",
+          "meaning": "手工的；体力的",
+          "pos": "adj."
+        },
+        {
+          "word": "manufacture",
+          "phonetic": "ˌmænjuˈfæktʃə(r)",
+          "meaning": "（大量）制造，生产；n. 制造（业）",
+          "pos": "vt."
+        },
+        {
+          "word": "manuscript",
+          "phonetic": "",
+          "meaning": "含有 manu，常与“手”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "manual 是手工的。"
+    },
+    {
+      "id": "root-048",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "mar/mer",
+      "meaning": "海",
+      "examples": [
+        {
+          "word": "marine",
+          "phonetic": "məˈriːn",
+          "meaning": "海的；海生的，海中的",
+          "pos": "adj."
+        },
+        {
+          "word": "maritime",
+          "phonetic": "ˈmærɪtaɪm",
+          "meaning": "海的，海事的；海运的",
+          "pos": "adj."
+        },
+        {
+          "word": "submarine",
+          "phonetic": "ˌsʌbməˈriːn",
+          "meaning": "潜水艇；adj. 水下的，海底的",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "marine 是海洋的。"
+    },
+    {
+      "id": "root-049",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "mater/matr",
+      "meaning": "母亲，来源",
+      "examples": [
+        {
+          "word": "maternal",
+          "phonetic": "",
+          "meaning": "含有 mater/matr，常与“母亲，来源”相关",
+          "pos": ""
+        },
+        {
+          "word": "matrix",
+          "phonetic": "",
+          "meaning": "矩阵,铸模《黑客帝国》The Matrix",
+          "pos": "n."
+        },
+        {
+          "word": "maternity",
+          "phonetic": "",
+          "meaning": "含有 mater/matr，常与“母亲，来源”相关",
+          "pos": ""
+        },
+        {
+          "word": "material",
+          "phonetic": "məˈtɪəriəl",
+          "meaning": "材料；素材；adj. 物质的；重要的",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "maternal 是母性的。"
+    },
+    {
+      "id": "root-050",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "medi",
+      "meaning": "中间，调解",
+      "examples": [
+        {
+          "word": "medium",
+          "phonetic": "ˈmiːdiəm",
+          "meaning": "媒介",
+          "pos": "n."
+        },
+        {
+          "word": "mediate",
+          "phonetic": "",
+          "meaning": "斡旋，调解",
+          "pos": "v."
+        },
+        {
+          "word": "intermediate",
+          "phonetic": "",
+          "meaning": "含有 medi，常与“中间，调解”相关",
+          "pos": ""
+        },
+        {
+          "word": "medical",
+          "phonetic": "ˈmedɪkl",
+          "meaning": "医学的，医疗的；内科的；n. 医生，体检",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "mediate 是在中间调停。"
+    },
+    {
+      "id": "root-051",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "mem",
+      "meaning": "记忆",
+      "examples": [
+        {
+          "word": "memory",
+          "phonetic": "",
+          "meaning": "含有 mem，常与“记忆”相关",
+          "pos": ""
+        },
+        {
+          "word": "memorial",
+          "phonetic": "",
+          "meaning": "含有 mem，常与“记忆”相关",
+          "pos": "adj/n."
+        },
+        {
+          "word": "remember",
+          "phonetic": "",
+          "meaning": "含有 mem，常与“记忆”相关",
+          "pos": ""
+        },
+        {
+          "word": "memory-chip",
+          "phonetic": "ˈmemərɪ tʃɪp",
+          "meaning": "内存条",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "memorial 是纪念物。"
+    },
+    {
+      "id": "root-052",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "migr",
+      "meaning": "迁移",
+      "examples": [
+        {
+          "word": "migrate",
+          "phonetic": "maɪˈɡreɪt",
+          "meaning": "（候鸟等）迁徙；移居",
+          "pos": "vi."
+        },
+        {
+          "word": "immigrant",
+          "phonetic": "",
+          "meaning": ".移民",
+          "pos": "n."
+        },
+        {
+          "word": "emigration",
+          "phonetic": "ˌemɪˈɡreɪʃn",
+          "meaning": "移居国外，移民出境",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "migration 是迁徙。"
+    },
+    {
+      "id": "root-053",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "min",
+      "meaning": "小，少",
+      "examples": [
+        {
+          "word": "minimum",
+          "phonetic": "",
+          "meaning": "最小值/限度. minimise使最小化",
+          "pos": "n."
+        },
+        {
+          "word": "minor",
+          "phonetic": "ˈmaɪnə(r)",
+          "meaning": "副修科目",
+          "pos": "n."
+        },
+        {
+          "word": "diminish",
+          "phonetic": "dɪˈmɪnɪʃ",
+          "meaning": "减少；降低",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "minimum 是最小量。"
+    },
+    {
+      "id": "root-054",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "mit/miss",
+      "meaning": "送，放出",
+      "examples": [
+        {
+          "word": "submit",
+          "phonetic": "səbˈmɪt",
+          "meaning": "屈从；提交",
+          "pos": "v."
+        },
+        {
+          "word": "mission",
+          "phonetic": "ˈmɪʃn",
+          "meaning": "使命，任务；代表团，使团；天职",
+          "pos": "n."
+        },
+        {
+          "word": "emit",
+          "phonetic": "iˈmɪt",
+          "meaning": "发出（光、热、声音等），射出，散发，排放；发表",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "submit 是送上去。"
+    },
+    {
+      "id": "root-055",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "mob/mot/mov",
+      "meaning": "移动",
+      "examples": [
+        {
+          "word": "mobile",
+          "phonetic": "ˈməʊbaɪl",
+          "meaning": "移动的",
+          "pos": "adj."
+        },
+        {
+          "word": "motion",
+          "phonetic": "",
+          "meaning": "动作,移动.motiveadj.发动的n动机",
+          "pos": "n."
+        },
+        {
+          "word": "remove",
+          "phonetic": "",
+          "meaning": "含有 mob/mot/mov，常与“移动”相关",
+          "pos": ""
+        },
+        {
+          "word": "moth",
+          "phonetic": "mɒθ",
+          "meaning": "蛾",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "mobile 是可移动的。"
+    },
+    {
+      "id": "root-056",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "morph",
+      "meaning": "形态",
+      "examples": [
+        {
+          "word": "morphology",
+          "phonetic": "mɔːˈfɒlədʒi",
+          "meaning": "形态学",
+          "pos": "n."
+        },
+        {
+          "word": "transform",
+          "phonetic": "trænsˈfɔːm",
+          "meaning": "使改观，改革，改善；变换，把…转换成，使变形",
+          "pos": "v."
+        },
+        {
+          "word": "amorphous",
+          "phonetic": "",
+          "meaning": "含有 morph，常与“形态”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "morphology 是形态学。"
+    },
+    {
+      "id": "root-057",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "nat",
+      "meaning": "出生，自然",
+      "examples": [
+        {
+          "word": "native",
+          "phonetic": "",
+          "meaning": "本土的. 本地人. ~to 原产自..",
+          "pos": "adj/n."
+        },
+        {
+          "word": "nature",
+          "phonetic": "",
+          "meaning": "自然,本质,性质.destroy~破坏自然",
+          "pos": "n."
+        },
+        {
+          "word": "innate",
+          "phonetic": "ɪˈneɪt",
+          "meaning": "天赋的",
+          "pos": "adj."
+        },
+        {
+          "word": "senate",
+          "phonetic": "ˈsenət",
+          "meaning": "参议院",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "native 是出生地的。"
+    },
+    {
+      "id": "root-058",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "nav",
+      "meaning": "船，航行",
+      "examples": [
+        {
+          "word": "navy",
+          "phonetic": "ˈneɪvi",
+          "meaning": "海军",
+          "pos": "n."
+        },
+        {
+          "word": "navigate",
+          "phonetic": "",
+          "meaning": "航行，横渡",
+          "pos": "v."
+        },
+        {
+          "word": "naval",
+          "phonetic": "",
+          "meaning": "海军的",
+          "pos": "adj."
+        },
+        {
+          "word": "navigation",
+          "phonetic": "ˌnævɪˈɡeɪʃn",
+          "meaning": "导航；航行",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "navigate 是航行定位。"
+    },
+    {
+      "id": "root-059",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "neg",
+      "meaning": "否定",
+      "examples": [
+        {
+          "word": "negative",
+          "phonetic": "ˈneɡətɪv",
+          "meaning": "负电的",
+          "pos": "adj."
+        },
+        {
+          "word": "neglect",
+          "phonetic": "nɪˈɡlekt",
+          "meaning": "忽视，疏忽",
+          "pos": "vt./n."
+        },
+        {
+          "word": "negotiate",
+          "phonetic": "nɪˈɡəʊʃieɪt",
+          "meaning": "洽谈，协商；顺利通过",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "negative 是否定的。"
+    },
+    {
+      "id": "root-060",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "nom/nym",
+      "meaning": "名字，名称",
+      "examples": [
+        {
+          "word": "nominate",
+          "phonetic": "ˈnɒmɪneɪt",
+          "meaning": "任命；指派",
+          "pos": "v."
+        },
+        {
+          "word": "anonymous",
+          "phonetic": "",
+          "meaning": "匿名的",
+          "pos": "adj."
+        },
+        {
+          "word": "synonym",
+          "phonetic": "ˈsɪnənɪm",
+          "meaning": "同义词",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "anonymous 是无名的。"
+    },
+    {
+      "id": "root-061",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "nov",
+      "meaning": "新",
+      "examples": [
+        {
+          "word": "novel",
+          "phonetic": "",
+          "meaning": "含有 nov，常与“新”相关",
+          "pos": ""
+        },
+        {
+          "word": "innovate",
+          "phonetic": "",
+          "meaning": "创新/改革.innovationn.创新",
+          "pos": "v."
+        },
+        {
+          "word": "renovate",
+          "phonetic": "",
+          "meaning": "含有 nov，常与“新”相关",
+          "pos": ""
+        },
+        {
+          "word": "novice",
+          "phonetic": "ˈnɒvɪs",
+          "meaning": "新手，初学者",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "innovation 是引入新事物。"
+    },
+    {
+      "id": "root-062",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "numer",
+      "meaning": "数",
+      "examples": [
+        {
+          "word": "number",
+          "phonetic": "",
+          "meaning": "含有 numer，常与“数”相关",
+          "pos": ""
+        },
+        {
+          "word": "numerous",
+          "phonetic": "ˈnjuːmərəs",
+          "meaning": "众多的",
+          "pos": "adj."
+        },
+        {
+          "word": "enumerate",
+          "phonetic": "ɪˈnjuːməreɪt",
+          "meaning": "枚举；计数",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "numerous 是数量多。"
+    },
+    {
+      "id": "root-063",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "omni",
+      "meaning": "全部",
+      "examples": [
+        {
+          "word": "omnivore",
+          "phonetic": "",
+          "meaning": "含有 omni，常与“全部”相关",
+          "pos": ""
+        },
+        {
+          "word": "omnipresent",
+          "phonetic": "",
+          "meaning": "含有 omni，常与“全部”相关",
+          "pos": ""
+        },
+        {
+          "word": "omnibus",
+          "phonetic": "",
+          "meaning": "含有 omni，常与“全部”相关",
+          "pos": ""
+        },
+        {
+          "word": "insomnia",
+          "phonetic": "ɪnˈsɒmniə",
+          "meaning": "失眠",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "omni 表示全。"
+    },
+    {
+      "id": "root-064",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "path",
+      "meaning": "感受，疾病，路径",
+      "examples": [
+        {
+          "word": "empathy",
+          "phonetic": "ˈempəθi",
+          "meaning": "同感；共鸣",
+          "pos": "n."
+        },
+        {
+          "word": "pathology",
+          "phonetic": "pəˈθɒlədʒi",
+          "meaning": "病理学",
+          "pos": "n."
+        },
+        {
+          "word": "sympathy",
+          "phonetic": "ˈsɪmpəθi",
+          "meaning": "同情；（思想感情上的）赞同",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "empathy 是感同身受。"
+    },
+    {
+      "id": "root-065",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "ped",
+      "meaning": "脚，儿童，教育",
+      "examples": [
+        {
+          "word": "pedestrian",
+          "phonetic": "pəˈdestriən",
+          "meaning": "徒步的；n. 行人",
+          "pos": "adj."
+        },
+        {
+          "word": "pedal",
+          "phonetic": "",
+          "meaning": "n•踏板v.踩踏板",
+          "pos": "n/v."
+        },
+        {
+          "word": "pediatric",
+          "phonetic": "",
+          "meaning": "含有 ped，常与“脚，儿童，教育”相关",
+          "pos": ""
+        },
+        {
+          "word": "cramped",
+          "phonetic": "kræmpt",
+          "meaning": "狭窄的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "pedestrian 是步行者。"
+    },
+    {
+      "id": "root-066",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "pel/puls",
+      "meaning": "推，驱动",
+      "examples": [
+        {
+          "word": "compel",
+          "phonetic": "",
+          "meaning": "强迫，迫使",
+          "pos": "v."
+        },
+        {
+          "word": "impulse",
+          "phonetic": "ˈɪmpʌls",
+          "meaning": "冲动，突如其来的念头；刺激，驱使；脉冲；v. 推动",
+          "pos": "n."
+        },
+        {
+          "word": "repel",
+          "phonetic": "rɪˈpel",
+          "meaning": "排斥；击退",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "compel 是推动别人做。"
+    },
+    {
+      "id": "root-067",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "pend/pens",
+      "meaning": "悬挂，称重，支付",
+      "examples": [
+        {
+          "word": "depend",
+          "phonetic": "dɪˈpend",
+          "meaning": "依靠，依赖；信赖，相信；决定于，视…而定",
+          "pos": "v."
+        },
+        {
+          "word": "suspend",
+          "phonetic": "",
+          "meaning": "含有 pend/pens，常与“悬挂，称重，支付”相关",
+          "pos": ""
+        },
+        {
+          "word": "expense",
+          "phonetic": "ɪkˈspens",
+          "meaning": "花费，消费，消耗",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "depend 是挂靠在某物上。"
+    },
+    {
+      "id": "root-068",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "phon",
+      "meaning": "声音",
+      "examples": [
+        {
+          "word": "phone",
+          "phonetic": "",
+          "meaning": "含有 phon，常与“声音”相关",
+          "pos": ""
+        },
+        {
+          "word": "phonetic",
+          "phonetic": "fəˈnetɪk",
+          "meaning": "语音的",
+          "pos": "adj."
+        },
+        {
+          "word": "symphony",
+          "phonetic": "ˈsɪmfəni",
+          "meaning": "交响乐",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "phonetic 是语音的。"
+    },
+    {
+      "id": "root-069",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "photo",
+      "meaning": "光",
+      "examples": [
+        {
+          "word": "photo",
+          "phonetic": "",
+          "meaning": "含有 photo，常与“光”相关",
+          "pos": ""
+        },
+        {
+          "word": "photosynthesis",
+          "phonetic": "ˌfəʊtəʊˈsɪnθəsɪs",
+          "meaning": "光合作用",
+          "pos": "n."
+        },
+        {
+          "word": "photocopy",
+          "phonetic": "",
+          "meaning": "含有 photo，常与“光”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "photosynthesis 是光合作用。"
+    },
+    {
+      "id": "root-070",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "plac",
+      "meaning": "平静，取悦，地方",
+      "examples": [
+        {
+          "word": "place",
+          "phonetic": "",
+          "meaning": "含有 plac，常与“平静，取悦，地方”相关",
+          "pos": ""
+        },
+        {
+          "word": "placid",
+          "phonetic": "",
+          "meaning": "含有 plac，常与“平静，取悦，地方”相关",
+          "pos": ""
+        },
+        {
+          "word": "replace",
+          "phonetic": "",
+          "meaning": "代替，取代",
+          "pos": "v."
+        },
+        {
+          "word": "displace",
+          "phonetic": "dɪsˈpleɪs",
+          "meaning": "取代；使离开原位",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "placid 是平静的。"
+    },
+    {
+      "id": "root-071",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "port",
+      "meaning": "携带，港口",
+      "examples": [
+        {
+          "word": "transport",
+          "phonetic": "trænˈspɔːt",
+          "meaning": "运输；/ˈtrænspɔːt/ n. 运输；运输系统，运载工具",
+          "pos": "v."
+        },
+        {
+          "word": "portable",
+          "phonetic": "ˈpɔːtəbl",
+          "meaning": "轻便的，便于携带的，手提式的",
+          "pos": "adj."
+        },
+        {
+          "word": "import",
+          "phonetic": "",
+          "meaning": "进口; 进口商品 ~duty 进口税",
+          "pos": "v/n"
+        }
+      ],
+      "memoryTip": "portable 是可携带的。"
+    },
+    {
+      "id": "root-072",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "pos/pon",
+      "meaning": "放置",
+      "examples": [
+        {
+          "word": "position",
+          "phonetic": "pəˈzɪʃn",
+          "meaning": "位置，方位；职位，职务；姿势；见解，立场；vt. 安放，安置",
+          "pos": "n."
+        },
+        {
+          "word": "compose",
+          "phonetic": "kəmˈpəʊz",
+          "meaning": "组成，构成；写，创作（乐曲等）；使安定，调谐",
+          "pos": "v."
+        },
+        {
+          "word": "postpone",
+          "phonetic": "",
+          "meaning": "推迟，使延期",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "compose 是放到一起。"
+    },
+    {
+      "id": "root-073",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "prim",
+      "meaning": "第一，主要",
+      "examples": [
+        {
+          "word": "primary",
+          "phonetic": "ˈpraɪməri",
+          "meaning": "初级的；首要的",
+          "pos": "adj."
+        },
+        {
+          "word": "prime",
+          "phonetic": "",
+          "meaning": "含有 prim，常与“第一，主要”相关",
+          "pos": ""
+        },
+        {
+          "word": "primitive",
+          "phonetic": "ˈprɪmətɪv",
+          "meaning": "原始的；简单的，粗糙的；n. 原（始）人，原始事物",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "primary 是首要的。"
+    },
+    {
+      "id": "root-074",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "prob/prov",
+      "meaning": "证明，测试",
+      "examples": [
+        {
+          "word": "prove",
+          "phonetic": "pruːv",
+          "meaning": "证实，证明；结果是",
+          "pos": "v."
+        },
+        {
+          "word": "approve",
+          "phonetic": "əˈpruːv",
+          "meaning": "赞成；批准，同意",
+          "pos": "vt."
+        },
+        {
+          "word": "probable",
+          "phonetic": "ˈprɒbəbl",
+          "meaning": "很可能的，大概的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "prove 是证明。"
+    },
+    {
+      "id": "root-075",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "psych",
+      "meaning": "心理，精神",
+      "examples": [
+        {
+          "word": "psychology",
+          "phonetic": "saɪˈkɒlədʒi",
+          "meaning": "心理学",
+          "pos": "n."
+        },
+        {
+          "word": "psychological",
+          "phonetic": "ˌsaɪkəˈlɒdʒɪkl",
+          "meaning": "心理的；心理学的",
+          "pos": "adj."
+        },
+        {
+          "word": "psychiatry",
+          "phonetic": "saɪˈkaɪətri",
+          "meaning": "精神病学",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "psychology 是心理学。"
+    },
+    {
+      "id": "root-076",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "punct",
+      "meaning": "点，刺",
+      "examples": [
+        {
+          "word": "puncture",
+          "phonetic": "",
+          "meaning": "含有 punct，常与“点，刺”相关",
+          "pos": ""
+        },
+        {
+          "word": "punctual",
+          "phonetic": "ˈpʌŋktʃuəl",
+          "meaning": "准时的",
+          "pos": "adj."
+        },
+        {
+          "word": "punctuation",
+          "phonetic": "",
+          "meaning": "含有 punct，常与“点，刺”相关",
+          "pos": ""
+        },
+        {
+          "word": "acupuncture",
+          "phonetic": "ˈækjupʌŋktʃə(r)",
+          "meaning": "针灸",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "punctual 像点一样准时。"
+    },
+    {
+      "id": "root-077",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "quer/quis/quest",
+      "meaning": "寻找，询问",
+      "examples": [
+        {
+          "word": "query",
+          "phonetic": "ˈkwɪəri",
+          "meaning": "质问，疑问；v. 质疑",
+          "pos": "n."
+        },
+        {
+          "word": "inquiry",
+          "phonetic": "ɪnˈkwaɪəri",
+          "meaning": "调查，审查",
+          "pos": "n."
+        },
+        {
+          "word": "request",
+          "phonetic": "rɪˈkwest",
+          "meaning": "要求，请求",
+          "pos": "v./n."
+        }
+      ],
+      "memoryTip": "question 是询问。"
+    },
+    {
+      "id": "root-078",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "rupt",
+      "meaning": "破裂",
+      "examples": [
+        {
+          "word": "interrupt",
+          "phonetic": "ˌɪntəˈrʌpt",
+          "meaning": "中断，阻碍；打断（话），打扰",
+          "pos": "v."
+        },
+        {
+          "word": "erupt",
+          "phonetic": "ɪˈrʌpt",
+          "meaning": "喷出（熔岩、水、气体、泥浆等）",
+          "pos": "vi."
+        },
+        {
+          "word": "corrupt",
+          "phonetic": "",
+          "meaning": "含有 rupt，常与“破裂”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "interrupt 是打断。"
+    },
+    {
+      "id": "root-079",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "sci",
+      "meaning": "知道，知识",
+      "examples": [
+        {
+          "word": "science",
+          "phonetic": "ˈsaɪəns",
+          "meaning": "科学，自然科学；理科",
+          "pos": "n."
+        },
+        {
+          "word": "conscious",
+          "phonetic": "ˈkɒnʃəs",
+          "meaning": "自觉的；意识到的；神志清醒的",
+          "pos": "adj."
+        },
+        {
+          "word": "omniscient",
+          "phonetic": "",
+          "meaning": "含有 sci，常与“知道，知识”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "science 是系统知识。"
+    },
+    {
+      "id": "root-080",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "scrib/script",
+      "meaning": "写",
+      "examples": [
+        {
+          "word": "describe",
+          "phonetic": "dɪˈskraɪb",
+          "meaning": "描述，描写",
+          "pos": "v."
+        },
+        {
+          "word": "script",
+          "phonetic": "skrɪpt",
+          "meaning": "剧本",
+          "pos": "n."
+        },
+        {
+          "word": "manuscript",
+          "phonetic": "",
+          "meaning": "含有 scrib/script，常与“写”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "describe 是写下来说明。"
+    },
+    {
+      "id": "root-081",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "sect/sec",
+      "meaning": "切，分开",
+      "examples": [
+        {
+          "word": "section",
+          "phonetic": "ˈsekʃn",
+          "meaning": "部分；部门；截面",
+          "pos": "n."
+        },
+        {
+          "word": "sector",
+          "phonetic": "",
+          "meaning": "含有 sect/sec，常与“切，分开”相关",
+          "pos": ""
+        },
+        {
+          "word": "dissect",
+          "phonetic": "dɪˈsekt",
+          "meaning": "详细评论；剖析",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "section 是切出来的一部分。"
+    },
+    {
+      "id": "root-082",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "sens/sent",
+      "meaning": "感觉，观点",
+      "examples": [
+        {
+          "word": "sense",
+          "phonetic": "sens",
+          "meaning": "意义；含义；理解…的方式；看待…的角度",
+          "pos": "n."
+        },
+        {
+          "word": "sensitive",
+          "phonetic": "ˈsensətɪv",
+          "meaning": "敏感的，灵敏的",
+          "pos": "adj."
+        },
+        {
+          "word": "consent",
+          "phonetic": "",
+          "meaning": "含有 sens/sent，常与“感觉，观点”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "sensitive 是有感觉的。"
+    },
+    {
+      "id": "root-083",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "sequ/sec",
+      "meaning": "跟随，连续",
+      "examples": [
+        {
+          "word": "sequence",
+          "phonetic": "ˈsiːkwəns",
+          "meaning": "序列；连续",
+          "pos": "n."
+        },
+        {
+          "word": "consequence",
+          "phonetic": "ˈkɒnsɪkwəns",
+          "meaning": "结果；影响；重要意义",
+          "pos": "n."
+        },
+        {
+          "word": "subsequent",
+          "phonetic": "ˈsʌbsɪkwənt",
+          "meaning": "随后的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "subsequent 是随后发生。"
+    },
+    {
+      "id": "root-084",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "serv",
+      "meaning": "服务，保存",
+      "examples": [
+        {
+          "word": "service",
+          "phonetic": "ˈsɜːvɪs",
+          "meaning": "服务；公共服务（系统）；保养，检修；v. 维修，保养",
+          "pos": "n."
+        },
+        {
+          "word": "preserve",
+          "phonetic": "prɪˈzɜːv",
+          "meaning": "保护；保存；腌渍",
+          "pos": "v."
+        },
+        {
+          "word": "conservation",
+          "phonetic": "",
+          "meaning": "(对环境)保护.conversation交谈",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "preserve 是保存。"
+    },
+    {
+      "id": "root-085",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "sign",
+      "meaning": "标记，信号",
+      "examples": [
+        {
+          "word": "signal",
+          "phonetic": "ˈsɪɡnəl",
+          "meaning": "信号；暗号；标志；v. （向…）发信号；标志着",
+          "pos": "n."
+        },
+        {
+          "word": "design",
+          "phonetic": "",
+          "meaning": "设计/计划；设计",
+          "pos": "n/v."
+        },
+        {
+          "word": "significant",
+          "phonetic": "",
+          "meaning": "有意义的，重要的",
+          "pos": "adj."
+        },
+        {
+          "word": "assign",
+          "phonetic": "əˈsaɪn",
+          "meaning": "指派，分配；指定",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "significant 是有标记意义的。"
+    },
+    {
+      "id": "root-086",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "simil/simul",
+      "meaning": "相同，相似",
+      "examples": [
+        {
+          "word": "similar",
+          "phonetic": "ˈsɪmələ(r)",
+          "meaning": "相像的；相仿的；类似的",
+          "pos": "adj."
+        },
+        {
+          "word": "simulate",
+          "phonetic": "ˈsɪmjuleɪt",
+          "meaning": "模拟",
+          "pos": "v."
+        },
+        {
+          "word": "simultaneous",
+          "phonetic": "",
+          "meaning": "含有 simil/simul，常与“相同，相似”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "simulate 是模仿相似状态。"
+    },
+    {
+      "id": "root-087",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "sol",
+      "meaning": "太阳，单独",
+      "examples": [
+        {
+          "word": "solar",
+          "phonetic": "ˈsəʊlə(r)",
+          "meaning": "太阳的；太阳能的",
+          "pos": "adj."
+        },
+        {
+          "word": "solo",
+          "phonetic": "ˈsəʊləʊ",
+          "meaning": "独奏（曲），独唱（曲）；adj. 独奏的，单独的",
+          "pos": "n."
+        },
+        {
+          "word": "solitary",
+          "phonetic": "ˈsɒlətri",
+          "meaning": "单个的；单独的；孤独的；独居的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "solar 是太阳的。"
+    },
+    {
+      "id": "root-088",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "spec/spic",
+      "meaning": "看",
+      "examples": [
+        {
+          "word": "spectator",
+          "phonetic": "spekˈteɪtə(r)",
+          "meaning": "观众；旁观者，目击者",
+          "pos": "n."
+        },
+        {
+          "word": "inspect",
+          "phonetic": "ɪnˈspekt",
+          "meaning": "检查，检阅",
+          "pos": "vt."
+        },
+        {
+          "word": "perspective",
+          "phonetic": "pəˈspektɪv",
+          "meaning": "（判断事物的）角度，方法；透视法",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "inspect 是向里看。"
+    },
+    {
+      "id": "root-089",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "spir",
+      "meaning": "呼吸，精神",
+      "examples": [
+        {
+          "word": "spirit",
+          "phonetic": "",
+          "meaning": "精神/心灵spiritualadj.精神上的",
+          "pos": "n."
+        },
+        {
+          "word": "inspire",
+          "phonetic": "ɪnˈspaɪə(r)",
+          "meaning": "鼓舞，激起；给…以灵感",
+          "pos": "v."
+        },
+        {
+          "word": "respiration",
+          "phonetic": "ˌrespəˈreɪʃn",
+          "meaning": "呼吸作用",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "inspire 原意是吸入气息。"
+    },
+    {
+      "id": "root-090",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "sta/stat/stit",
+      "meaning": "站立，状态",
+      "examples": [
+        {
+          "word": "stable",
+          "phonetic": "ˈsteɪbl",
+          "meaning": "稳定的；镇静的，稳重的",
+          "pos": "adj."
+        },
+        {
+          "word": "status",
+          "phonetic": "",
+          "meaning": "地位，身份[ˈsteɪtəs]",
+          "pos": "n."
+        },
+        {
+          "word": "institution",
+          "phonetic": "ˌɪnstɪˈtjuːʃn",
+          "meaning": "公共机构，协会，学校；制度，惯例",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "stable 是站得住。"
+    },
+    {
+      "id": "root-091",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "struct",
+      "meaning": "建造",
+      "examples": [
+        {
+          "word": "structure",
+          "phonetic": "ˈstrʌktʃə(r)",
+          "meaning": "结构；构造；建筑物；vt. 建造",
+          "pos": "n."
+        },
+        {
+          "word": "construct",
+          "phonetic": "kənˈstrʌkt",
+          "meaning": "建造；构思，构筑；创立；/ˈkɒnstrʌkt/ n. 构想，观念；结构",
+          "pos": "vt."
+        },
+        {
+          "word": "infrastructure",
+          "phonetic": "ˈɪnfrəstrʌktʃə(r)",
+          "meaning": "基础结构，基础设施",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "construct 是建造。"
+    },
+    {
+      "id": "root-092",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "tang/tact",
+      "meaning": "触摸",
+      "examples": [
+        {
+          "word": "tangible",
+          "phonetic": "",
+          "meaning": "含有 tang/tact，常与“触摸”相关",
+          "pos": ""
+        },
+        {
+          "word": "contact",
+          "phonetic": "ˈkɒntækt",
+          "meaning": "（使）接触，联系",
+          "pos": "vt./n."
+        },
+        {
+          "word": "intact",
+          "phonetic": "",
+          "meaning": "含有 tang/tact，常与“触摸”相关",
+          "pos": ""
+        },
+        {
+          "word": "tactic",
+          "phonetic": "ˈtæktɪk",
+          "meaning": "战略，策略",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "tangible 是可触摸的。"
+    },
+    {
+      "id": "root-093",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "temp",
+      "meaning": "时间，节奏",
+      "examples": [
+        {
+          "word": "temporary",
+          "phonetic": "ˈtemprəri",
+          "meaning": "临时的",
+          "pos": "adj."
+        },
+        {
+          "word": "contemporary",
+          "phonetic": "kənˈtempr(ə)ri",
+          "meaning": "当代的，同时代的",
+          "pos": "adj."
+        },
+        {
+          "word": "tempo",
+          "phonetic": "ˈtempəʊ",
+          "meaning": "（音乐的）节奏",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "temporary 是有时间限制。"
+    },
+    {
+      "id": "root-094",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "ten/tain",
+      "meaning": "握住，保持",
+      "examples": [
+        {
+          "word": "contain",
+          "phonetic": "kənˈteɪn",
+          "meaning": "包含，容纳；等于；遏制",
+          "pos": "v."
+        },
+        {
+          "word": "retain",
+          "phonetic": "rɪˈteɪn",
+          "meaning": "保留；保持",
+          "pos": "vt."
+        },
+        {
+          "word": "maintain",
+          "phonetic": "meɪnˈteɪn",
+          "meaning": "维持，保持；维修，保养；坚持，主张；赡养，负担",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "retain 是保留住。"
+    },
+    {
+      "id": "root-095",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "tend/tens/tent",
+      "meaning": "伸展，趋向",
+      "examples": [
+        {
+          "word": "extend",
+          "phonetic": "ɪkˈstend",
+          "meaning": "延长；扩大",
+          "pos": "v."
+        },
+        {
+          "word": "intense",
+          "phonetic": "ɪnˈtens",
+          "meaning": "非常的；强烈的",
+          "pos": "adj."
+        },
+        {
+          "word": "tendency",
+          "phonetic": "ˈtendənsi",
+          "meaning": "倾向，趋向",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "tendency 是倾向。"
+    },
+    {
+      "id": "root-096",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "terr",
+      "meaning": "土地，恐惧",
+      "examples": [
+        {
+          "word": "territory",
+          "phonetic": "ˈterətri",
+          "meaning": "领土；领域，范围",
+          "pos": "n."
+        },
+        {
+          "word": "terrain",
+          "phonetic": "",
+          "meaning": "地形；a~feature地形特征",
+          "pos": "n."
+        },
+        {
+          "word": "terror",
+          "phonetic": "ˈterə(r)",
+          "meaning": "恐怖",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "territory 是土地范围。"
+    },
+    {
+      "id": "root-097",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "therm",
+      "meaning": "热",
+      "examples": [
+        {
+          "word": "thermal",
+          "phonetic": "ˈθɜːml",
+          "meaning": "热的，热量的；n. 热气流",
+          "pos": "adj."
+        },
+        {
+          "word": "thermometer",
+          "phonetic": "θəˈmɒmɪtə(r)",
+          "meaning": "温度计",
+          "pos": "n."
+        },
+        {
+          "word": "geothermal",
+          "phonetic": "",
+          "meaning": "含有 therm，常与“热”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "thermometer 是温度计。"
+    },
+    {
+      "id": "root-098",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "tract",
+      "meaning": "拉，引",
+      "examples": [
+        {
+          "word": "attract",
+          "phonetic": "əˈtrækt",
+          "meaning": "吸引，引起（注意等）",
+          "pos": "v."
+        },
+        {
+          "word": "contract",
+          "phonetic": "kənˈtrækt",
+          "meaning": "感染",
+          "pos": "v."
+        },
+        {
+          "word": "extract",
+          "phonetic": "ɪkˈstrækt",
+          "meaning": "取出；提取；/ˈekstrækt/ n. 摘录；提出物",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "extract 是拉出来。"
+    },
+    {
+      "id": "root-099",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "urb",
+      "meaning": "城市",
+      "examples": [
+        {
+          "word": "urban",
+          "phonetic": "ˈɜːbən",
+          "meaning": "都市的；住在都市的",
+          "pos": "adj."
+        },
+        {
+          "word": "suburb",
+          "phonetic": "ˈsʌbɜːb",
+          "meaning": "郊区",
+          "pos": "n."
+        },
+        {
+          "word": "urbanization",
+          "phonetic": "",
+          "meaning": "含有 urb，常与“城市”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "urbanization 是城市化。"
+    },
+    {
+      "id": "root-100",
+      "type": "root",
+      "typeLabel": "词根",
+      "morpheme": "vac",
+      "meaning": "空",
+      "examples": [
+        {
+          "word": "vacant",
+          "phonetic": "ˈveɪkənt",
+          "meaning": "未占用的，空的",
+          "pos": "adj."
+        },
+        {
+          "word": "vacuum",
+          "phonetic": "ˈvækjuəm",
+          "meaning": "真空；真空吸尘器；v. 用吸尘器清扫",
+          "pos": "n."
+        },
+        {
+          "word": "evacuate",
+          "phonetic": "ɪˈvækjueɪt",
+          "meaning": "疏散；撤离",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "vacuum 是真空。"
+    },
+    {
+      "id": "prefix-001",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "a-/an-",
+      "meaning": "无，不，非",
+      "examples": [
+        {
+          "word": "asymmetry",
+          "phonetic": "",
+          "meaning": "含有 a-/an-，常与“无，不，非”相关",
+          "pos": ""
+        },
+        {
+          "word": "anonymous",
+          "phonetic": "",
+          "meaning": "匿名的",
+          "pos": "adj."
+        },
+        {
+          "word": "atypical",
+          "phonetic": "",
+          "meaning": "含有 a-/an-，常与“无，不，非”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "用于表示缺失或否定。"
+    },
+    {
+      "id": "prefix-002",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "ab-",
+      "meaning": "离开，偏离",
+      "examples": [
+        {
+          "word": "absent",
+          "phonetic": "",
+          "meaning": "不在场/缺席/心不在焉的 be absent from 不在 （某处）",
+          "pos": "adj."
+        },
+        {
+          "word": "abnormal",
+          "phonetic": "",
+          "meaning": "不正常的;变态 normal正常",
+          "pos": "adj."
+        },
+        {
+          "word": "abstract",
+          "phonetic": "",
+          "meaning": "摘要;抽象的;提取. abstracted出神的 v. abstraction n.抽象 ~sth. from sth.",
+          "pos": "n/adj/"
+        }
+      ],
+      "memoryTip": "abnormal 是偏离正常。"
+    },
+    {
+      "id": "prefix-003",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "ad-",
+      "meaning": "向，靠近，加强",
+      "examples": [
+        {
+          "word": "adapt",
+          "phonetic": "əˈdæpt",
+          "meaning": "（使）适合，适应；改编",
+          "pos": "v."
+        },
+        {
+          "word": "advance",
+          "phonetic": "ədˈvɑːns",
+          "meaning": "预先的；先行的；v. 前进；取得进展；预付；n. 前进；求爱；预付（款等）",
+          "pos": "adj."
+        },
+        {
+          "word": "allocate",
+          "phonetic": "ˈæləkeɪt",
+          "meaning": "分配；分派",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "ad 常因后面字母变化成 ac/af/al。"
+    },
+    {
+      "id": "prefix-004",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "ambi-",
+      "meaning": "两边，双重",
+      "examples": [
+        {
+          "word": "ambiguous",
+          "phonetic": "æmˈbɪɡjuəs",
+          "meaning": "含糊其辞的；意向不明的",
+          "pos": "adj."
+        },
+        {
+          "word": "ambivalent",
+          "phonetic": "",
+          "meaning": "含有 ambi-，常与“两边，双重”相关",
+          "pos": ""
+        },
+        {
+          "word": "ambidextrous",
+          "phonetic": "",
+          "meaning": "含有 ambi-，常与“两边，双重”相关",
+          "pos": ""
+        },
+        {
+          "word": "ambition",
+          "phonetic": "æmˈbɪʃn",
+          "meaning": "雄心，野心",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "ambiguous 是两边都能解释。"
+    },
+    {
+      "id": "prefix-005",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "ante-",
+      "meaning": "在前，先于",
+      "examples": [
+        {
+          "word": "antecedent",
+          "phonetic": "ˌæntɪˈsiːdnt",
+          "meaning": "先辈",
+          "pos": "n."
+        },
+        {
+          "word": "antenatal",
+          "phonetic": "",
+          "meaning": "含有 ante-，常与“在前，先于”相关",
+          "pos": ""
+        },
+        {
+          "word": "antebellum",
+          "phonetic": "",
+          "meaning": "含有 ante-，常与“在前，先于”相关",
+          "pos": ""
+        },
+        {
+          "word": "antenna",
+          "phonetic": "ænˈtenə",
+          "meaning": "触角；触须",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "ante 表示时间上在前。"
+    },
+    {
+      "id": "prefix-006",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "anti-",
+      "meaning": "反对，抵抗",
+      "examples": [
+        {
+          "word": "antibiotic",
+          "phonetic": "ˌæntibaɪˈɒtɪk",
+          "meaning": "抗生素；adj. 抗菌的",
+          "pos": "n."
+        },
+        {
+          "word": "antisocial",
+          "phonetic": "",
+          "meaning": "含有 anti-，常与“反对，抵抗”相关",
+          "pos": ""
+        },
+        {
+          "word": "antibody",
+          "phonetic": "ˈæntibɒdi",
+          "meaning": "抗体",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "anti 常表示反。"
+    },
+    {
+      "id": "prefix-007",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "auto-",
+      "meaning": "自己，自动",
+      "examples": [
+        {
+          "word": "autonomy",
+          "phonetic": "ɔːˈtɒnəmi",
+          "meaning": "自治，自治权",
+          "pos": "n."
+        },
+        {
+          "word": "autonomous",
+          "phonetic": "",
+          "meaning": "含有 auto-，常与“自己，自动”相关",
+          "pos": ""
+        },
+        {
+          "word": "autobiography",
+          "phonetic": "",
+          "meaning": "含有 auto-，常与“自己，自动”相关",
+          "pos": ""
+        },
+        {
+          "word": "autocrat",
+          "phonetic": "ˈɔːtəkræt",
+          "meaning": "独裁者",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "auto 是自己完成。"
+    },
+    {
+      "id": "prefix-008",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "be-",
+      "meaning": "使成为，覆盖，加强",
+      "examples": [
+        {
+          "word": "befriend",
+          "phonetic": "",
+          "meaning": "含有 be-，常与“使成为，覆盖，加强”相关",
+          "pos": ""
+        },
+        {
+          "word": "belittle",
+          "phonetic": "",
+          "meaning": "含有 be-，常与“使成为，覆盖，加强”相关",
+          "pos": ""
+        },
+        {
+          "word": "besiege",
+          "phonetic": "bɪˈsiːdʒ",
+          "meaning": "围困，包围；烦扰",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "befriend 是使成为朋友。"
+    },
+    {
+      "id": "prefix-009",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "bi-",
+      "meaning": "二，双",
+      "examples": [
+        {
+          "word": "bilingual",
+          "phonetic": "ˌbaɪˈlɪŋɡwəl",
+          "meaning": "会说两种语言的",
+          "pos": "adj."
+        },
+        {
+          "word": "bilateral",
+          "phonetic": "",
+          "meaning": "双方/边的.~negotiations双边谈判",
+          "pos": ""
+        },
+        {
+          "word": "biodiversity",
+          "phonetic": "",
+          "meaning": "含有 bi-，常与“二，双”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "bilingual 是双语。"
+    },
+    {
+      "id": "prefix-010",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "circum-",
+      "meaning": "环绕，周围",
+      "examples": [
+        {
+          "word": "circumstance",
+          "phonetic": "",
+          "meaning": "情况；环境；条件；境遇 under/in no circumstances 决不",
+          "pos": "n."
+        },
+        {
+          "word": "circumference",
+          "phonetic": "səˈkʌmfərəns",
+          "meaning": "圆周",
+          "pos": "n."
+        },
+        {
+          "word": "circumscribe",
+          "phonetic": "ˈsɜːkəmskraɪb",
+          "meaning": "在…周围画线；限制",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "circum 表示绕一圈。"
+    },
+    {
+      "id": "prefix-011",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "co-/com-/con-",
+      "meaning": "共同，一起，加强",
+      "examples": [
+        {
+          "word": "cooperate",
+          "phonetic": "",
+          "meaning": "合作/协作. cooperation n.合作",
+          "pos": "v."
+        },
+        {
+          "word": "combine",
+          "phonetic": "kəmˈbaɪn",
+          "meaning": "联合，结合",
+          "pos": "v."
+        },
+        {
+          "word": "connect",
+          "phonetic": "kəˈnekt",
+          "meaning": "连接，衔接；联合；关联，联系；给…接通电话",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "con 会随后面字母变体。"
+    },
+    {
+      "id": "prefix-012",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "contra-/counter-",
+      "meaning": "相反，对抗",
+      "examples": [
+        {
+          "word": "contradict",
+          "phonetic": "ˌkɒntrəˈdɪkt",
+          "meaning": "反驳；与…发生矛盾",
+          "pos": "vt."
+        },
+        {
+          "word": "counteract",
+          "phonetic": "",
+          "meaning": "含有 contra-/counter-，常与“相反，对抗”相关",
+          "pos": ""
+        },
+        {
+          "word": "counterpart",
+          "phonetic": "ˈkaʊntəpɑːt",
+          "meaning": "与对方地位相当的人；配对物",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "counteract 是反作用。"
+    },
+    {
+      "id": "prefix-013",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "de-",
+      "meaning": "向下，去掉，反向",
+      "examples": [
+        {
+          "word": "decline",
+          "phonetic": "dɪˈklaɪn",
+          "meaning": "斜面，倾斜",
+          "pos": "n."
+        },
+        {
+          "word": "devalue",
+          "phonetic": "ˌdiːˈvæljuː",
+          "meaning": "使…贬值",
+          "pos": "v."
+        },
+        {
+          "word": "decode",
+          "phonetic": "ˌdiːˈkəʊd",
+          "meaning": "解码",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "decode 是去掉编码。"
+    },
+    {
+      "id": "prefix-014",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "dia-",
+      "meaning": "穿过，横跨",
+      "examples": [
+        {
+          "word": "diameter",
+          "phonetic": "daɪˈæmɪtə(r)",
+          "meaning": "直径",
+          "pos": "n."
+        },
+        {
+          "word": "diagnosis",
+          "phonetic": "",
+          "meaning": "含有 dia-，常与“穿过，横跨”相关",
+          "pos": ""
+        },
+        {
+          "word": "dialogue",
+          "phonetic": "ˈdaɪəlɒɡ",
+          "meaning": "对话",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "dialogue 是话语穿过双方。"
+    },
+    {
+      "id": "prefix-015",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "dis-",
+      "meaning": "分开，否定，反向",
+      "examples": [
+        {
+          "word": "disagree",
+          "phonetic": "",
+          "meaning": "有分歧. agreeable adj.愉快的",
+          "pos": "v."
+        },
+        {
+          "word": "disperse",
+          "phonetic": "",
+          "meaning": "含有 dis-，常与“分开，否定，反向”相关",
+          "pos": ""
+        },
+        {
+          "word": "displace",
+          "phonetic": "dɪsˈpleɪs",
+          "meaning": "取代；使离开原位",
+          "pos": "vt."
+        },
+        {
+          "word": "disc",
+          "phonetic": "dɪsk",
+          "meaning": "唱片",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "disagree 是不同意。"
+    },
+    {
+      "id": "prefix-016",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "en-/em-",
+      "meaning": "使进入，使成为",
+      "examples": [
+        {
+          "word": "enable",
+          "phonetic": "ɪˈneɪbl",
+          "meaning": "使能够，使成为可能",
+          "pos": "v."
+        },
+        {
+          "word": "enrich",
+          "phonetic": "",
+          "meaning": "使富有/充实enrichment丰富/充实n.",
+          "pos": "v."
+        },
+        {
+          "word": "empower",
+          "phonetic": "",
+          "meaning": "含有 en-/em-，常与“使进入，使成为”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "enable 是使能够。"
+    },
+    {
+      "id": "prefix-017",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "ex-/e-",
+      "meaning": "向外，前任",
+      "examples": [
+        {
+          "word": "export",
+          "phonetic": "",
+          "meaning": "出口 ;出口商品. bulk~大宗出口商品",
+          "pos": "v/n"
+        },
+        {
+          "word": "exclude",
+          "phonetic": "ɪkˈskluːd",
+          "meaning": "把…排斥在外；将（某物）排除，不包括",
+          "pos": "v."
+        },
+        {
+          "word": "emit",
+          "phonetic": "iˈmɪt",
+          "meaning": "发出（光、热、声音等），射出，散发，排放；发表",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "export 是向外运。"
+    },
+    {
+      "id": "prefix-018",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "extra-",
+      "meaning": "以外，额外",
+      "examples": [
+        {
+          "word": "extraordinary",
+          "phonetic": "",
+          "meaning": "含有 extra-，常与“以外，额外”相关",
+          "pos": ""
+        },
+        {
+          "word": "extracurricular",
+          "phonetic": "ˌekstrəkəˈrɪkjələ(r)",
+          "meaning": "课外的，业余的",
+          "pos": "adj."
+        },
+        {
+          "word": "extract",
+          "phonetic": "ɪkˈstrækt",
+          "meaning": "取出；提取；/ˈekstrækt/ n. 摘录；提出物",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "extraordinary 是超出普通。"
+    },
+    {
+      "id": "prefix-019",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "fore-",
+      "meaning": "预先，在前",
+      "examples": [
+        {
+          "word": "forecast",
+          "phonetic": "ˈfɔːkɑːst",
+          "meaning": "预报；预测；预想",
+          "pos": "v./n."
+        },
+        {
+          "word": "foresee",
+          "phonetic": "fɔːˈsiː",
+          "meaning": "预见，预知",
+          "pos": "vt."
+        },
+        {
+          "word": "forehead",
+          "phonetic": "",
+          "meaning": "额",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "forecast 是预先说。"
+    },
+    {
+      "id": "prefix-020",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "hyper-",
+      "meaning": "过度，超高",
+      "examples": [
+        {
+          "word": "hyperactive",
+          "phonetic": "",
+          "meaning": "含有 hyper-，常与“过度，超高”相关",
+          "pos": ""
+        },
+        {
+          "word": "hypertension",
+          "phonetic": "ˌhaɪpəˈtenʃn",
+          "meaning": "高血压",
+          "pos": "n."
+        },
+        {
+          "word": "hypercritical",
+          "phonetic": "",
+          "meaning": "含有 hyper-，常与“过度，超高”相关",
+          "pos": ""
+        },
+        {
+          "word": "hyperbola",
+          "phonetic": "haɪˈpɜːbələ",
+          "meaning": "双曲线",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "hypertension 是高血压。"
+    },
+    {
+      "id": "prefix-021",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "hypo-",
+      "meaning": "不足，低下",
+      "examples": [
+        {
+          "word": "hypothesis",
+          "phonetic": "",
+          "meaning": "含有 hypo-，常与“不足，低下”相关",
+          "pos": ""
+        },
+        {
+          "word": "hypothermia",
+          "phonetic": "",
+          "meaning": "含有 hypo-，常与“不足，低下”相关",
+          "pos": ""
+        },
+        {
+          "word": "hypoglycemia",
+          "phonetic": "",
+          "meaning": "含有 hypo-，常与“不足，低下”相关",
+          "pos": ""
+        },
+        {
+          "word": "hypotension",
+          "phonetic": "ˌhaɪpəʊˈtenʃən",
+          "meaning": "低血压",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "hypo 常表示低。"
+    },
+    {
+      "id": "prefix-022",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "in-/im-/il-/ir-",
+      "meaning": "不，非",
+      "examples": [
+        {
+          "word": "invisible",
+          "phonetic": "ɪnˈvɪzəbl",
+          "meaning": "肉眼看不见的",
+          "pos": "adj."
+        },
+        {
+          "word": "impossible",
+          "phonetic": "ɪmˈpɒsəbl",
+          "meaning": "不可能的，办不到的",
+          "pos": "adj."
+        },
+        {
+          "word": "irregular",
+          "phonetic": "",
+          "meaning": "不规则的",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "否定前缀，会因后面字母变形。"
+    },
+    {
+      "id": "prefix-023",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "in-/im-",
+      "meaning": "进入，向内",
+      "examples": [
+        {
+          "word": "import",
+          "phonetic": "",
+          "meaning": "进口; 进口商品 ~duty 进口税",
+          "pos": "v/n"
+        },
+        {
+          "word": "input",
+          "phonetic": "ˈɪnpʊt",
+          "meaning": "投入，输入；输入的数据；vt. 把…输入计算机",
+          "pos": "n."
+        },
+        {
+          "word": "involve",
+          "phonetic": "ɪnˈvɒlv",
+          "meaning": "使卷入，使参于，牵涉，陷入，连累；包含，含有",
+          "pos": "vt."
+        }
+      ],
+      "memoryTip": "import 是向内带入。"
+    },
+    {
+      "id": "prefix-024",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "inter-",
+      "meaning": "之间，相互",
+      "examples": [
+        {
+          "word": "international",
+          "phonetic": "",
+          "meaning": "含有 inter-，常与“之间，相互”相关",
+          "pos": ""
+        },
+        {
+          "word": "interaction",
+          "phonetic": "ˌɪntərˈækʃn",
+          "meaning": "相互作用，相互影响",
+          "pos": "n."
+        },
+        {
+          "word": "intermediate",
+          "phonetic": "",
+          "meaning": "含有 inter-，常与“之间，相互”相关",
+          "pos": ""
+        },
+        {
+          "word": "interact",
+          "phonetic": "ˌɪntərˈækt",
+          "meaning": "相互作用；相互影响",
+          "pos": "vi."
+        }
+      ],
+      "memoryTip": "interaction 是相互作用。"
+    },
+    {
+      "id": "prefix-025",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "intra-",
+      "meaning": "内部",
+      "examples": [
+        {
+          "word": "intranet",
+          "phonetic": "",
+          "meaning": "含有 intra-，常与“内部”相关",
+          "pos": ""
+        },
+        {
+          "word": "intracellular",
+          "phonetic": "",
+          "meaning": "含有 intra-，常与“内部”相关",
+          "pos": ""
+        },
+        {
+          "word": "intrapersonal",
+          "phonetic": "",
+          "meaning": "含有 intra-，常与“内部”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "intra 是在内部。"
+    },
+    {
+      "id": "prefix-026",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "intro-",
+      "meaning": "向内，引入",
+      "examples": [
+        {
+          "word": "introduce",
+          "phonetic": "ˌɪntrəˈdjuːs",
+          "meaning": "介绍；引进；提出",
+          "pos": "v."
+        },
+        {
+          "word": "introvert",
+          "phonetic": "",
+          "meaning": "含有 intro-，常与“向内，引入”相关",
+          "pos": ""
+        },
+        {
+          "word": "introspection",
+          "phonetic": "ˌɪntrəˈspekʃn",
+          "meaning": "内省，反省",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "introvert 是向内转。"
+    },
+    {
+      "id": "prefix-027",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "mal-",
+      "meaning": "坏，错误",
+      "examples": [
+        {
+          "word": "malfunction",
+          "phonetic": "",
+          "meaning": "发生故障",
+          "pos": "v"
+        },
+        {
+          "word": "malnutrition",
+          "phonetic": "",
+          "meaning": "含有 mal-，常与“坏，错误”相关",
+          "pos": ""
+        },
+        {
+          "word": "malpractice",
+          "phonetic": "",
+          "meaning": "含有 mal-，常与“坏，错误”相关",
+          "pos": ""
+        },
+        {
+          "word": "malice",
+          "phonetic": "ˈmælɪs",
+          "meaning": "恶意；预谋",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "malnutrition 是营养不良。"
+    },
+    {
+      "id": "prefix-028",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "micro-",
+      "meaning": "微小",
+      "examples": [
+        {
+          "word": "microscope",
+          "phonetic": "ˈmaɪkrəskəʊp",
+          "meaning": "显微镜",
+          "pos": "n."
+        },
+        {
+          "word": "microbe",
+          "phonetic": "ˈmaɪkrəʊb",
+          "meaning": "细菌，微生物",
+          "pos": "n."
+        },
+        {
+          "word": "microeconomics",
+          "phonetic": "maɪkrəʊiːkənɒmɪks",
+          "meaning": "微观经济学",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "microeconomics 是微观经济学。"
+    },
+    {
+      "id": "prefix-029",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "macro-",
+      "meaning": "巨大，宏观",
+      "examples": [
+        {
+          "word": "macrocosm",
+          "phonetic": "",
+          "meaning": "含有 macro-，常与“巨大，宏观”相关",
+          "pos": ""
+        },
+        {
+          "word": "macroeconomics",
+          "phonetic": "ˌmækrəʊˌiːkəˈnɒmɪks",
+          "meaning": "宏观经济学",
+          "pos": "n."
+        },
+        {
+          "word": "macroscopic",
+          "phonetic": "",
+          "meaning": "含有 macro-，常与“巨大，宏观”相关",
+          "pos": ""
+        },
+        {
+          "word": "macro-control",
+          "phonetic": "ˈmækrəʊkənˈtrəʊl",
+          "meaning": "宏观调控",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "macro 是宏观。"
+    },
+    {
+      "id": "prefix-030",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "mis-",
+      "meaning": "错误，坏",
+      "examples": [
+        {
+          "word": "misunderstand",
+          "phonetic": "",
+          "meaning": "含有 mis-，常与“错误，坏”相关",
+          "pos": ""
+        },
+        {
+          "word": "mislead",
+          "phonetic": "",
+          "meaning": "误导，欺骗，使误入歧途",
+          "pos": "v."
+        },
+        {
+          "word": "misuse",
+          "phonetic": "",
+          "meaning": "含有 mis-，常与“错误，坏”相关",
+          "pos": ""
+        },
+        {
+          "word": "mist",
+          "phonetic": "mɪst",
+          "meaning": "薄雾",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "mislead 是误导。"
+    },
+    {
+      "id": "prefix-031",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "mono-",
+      "meaning": "单一",
+      "examples": [
+        {
+          "word": "monolingual",
+          "phonetic": "",
+          "meaning": "含有 mono-，常与“单一”相关",
+          "pos": ""
+        },
+        {
+          "word": "monopoly",
+          "phonetic": "məˈnɒpəli",
+          "meaning": "垄断；垄断商品",
+          "pos": "n."
+        },
+        {
+          "word": "monotone",
+          "phonetic": "",
+          "meaning": "含有 mono-，常与“单一”相关",
+          "pos": ""
+        },
+        {
+          "word": "monolith",
+          "phonetic": "ˈmɒnəlɪθ",
+          "meaning": "独块巨石",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "monopoly 是独占。"
+    },
+    {
+      "id": "prefix-032",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "multi-",
+      "meaning": "多",
+      "examples": [
+        {
+          "word": "multicultural",
+          "phonetic": "",
+          "meaning": "含有 multi-，常与“多”相关",
+          "pos": ""
+        },
+        {
+          "word": "multiple",
+          "phonetic": "",
+          "meaning": "倍数；多样的，数量多的",
+          "pos": "n/adj."
+        },
+        {
+          "word": "multinational",
+          "phonetic": "",
+          "meaning": "含有 multi-，常与“多”相关",
+          "pos": ""
+        },
+        {
+          "word": "multiply",
+          "phonetic": "ˈmʌltɪplaɪ",
+          "meaning": "繁殖",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "multicultural 是多元文化。"
+    },
+    {
+      "id": "prefix-033",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "non-",
+      "meaning": "不，非",
+      "examples": [
+        {
+          "word": "nonprofit",
+          "phonetic": "",
+          "meaning": "含有 non-，常与“不，非”相关",
+          "pos": ""
+        },
+        {
+          "word": "nonverbal",
+          "phonetic": "",
+          "meaning": "含有 non-，常与“不，非”相关",
+          "pos": ""
+        },
+        {
+          "word": "nonexistent",
+          "phonetic": "",
+          "meaning": "含有 non-，常与“不，非”相关",
+          "pos": ""
+        },
+        {
+          "word": "nonsuit",
+          "phonetic": "nɒnˈsuːt",
+          "meaning": "诉讼驳回",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "nonprofit 是非营利。"
+    },
+    {
+      "id": "prefix-034",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "omni-",
+      "meaning": "全，所有",
+      "examples": [
+        {
+          "word": "omnivore",
+          "phonetic": "",
+          "meaning": "含有 omni-，常与“全，所有”相关",
+          "pos": ""
+        },
+        {
+          "word": "omnipresent",
+          "phonetic": "",
+          "meaning": "含有 omni-，常与“全，所有”相关",
+          "pos": ""
+        },
+        {
+          "word": "omniscient",
+          "phonetic": "",
+          "meaning": "含有 omni-，常与“全，所有”相关",
+          "pos": ""
+        },
+        {
+          "word": "omnivorous",
+          "phonetic": "ɒmˈnɪvərəs",
+          "meaning": "杂食的，涉猎广泛的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "omnivore 是杂食动物。"
+    },
+    {
+      "id": "prefix-035",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "over-",
+      "meaning": "过度，在上",
+      "examples": [
+        {
+          "word": "overuse",
+          "phonetic": "",
+          "meaning": "含有 over-，常与“过度，在上”相关",
+          "pos": ""
+        },
+        {
+          "word": "overestimate",
+          "phonetic": "",
+          "meaning": ".高估",
+          "pos": "v."
+        },
+        {
+          "word": "overlook",
+          "phonetic": "ˌəʊvəˈlʊk",
+          "meaning": "忽略；俯瞰",
+          "pos": "v."
+        },
+        {
+          "word": "overall",
+          "phonetic": "ˌəʊvərˈɔːl",
+          "meaning": "全面的；全部的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "overestimate 是高估。"
+    },
+    {
+      "id": "prefix-036",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "pan-",
+      "meaning": "全，泛",
+      "examples": [
+        {
+          "word": "pandemic",
+          "phonetic": "",
+          "meaning": "含有 pan-，常与“全，泛”相关",
+          "pos": ""
+        },
+        {
+          "word": "panorama",
+          "phonetic": "ˌpænəˈrɑːmə",
+          "meaning": "全景",
+          "pos": "n."
+        },
+        {
+          "word": "pan-African",
+          "phonetic": "",
+          "meaning": "含有 pan-，常与“全，泛”相关",
+          "pos": ""
+        },
+        {
+          "word": "panic",
+          "phonetic": "ˈpænɪk",
+          "meaning": "恐慌",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "pandemic 是广泛流行。"
+    },
+    {
+      "id": "prefix-037",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "per-",
+      "meaning": "贯穿，完全",
+      "examples": [
+        {
+          "word": "persist",
+          "phonetic": "",
+          "meaning": "坚持不懈.persistence n. persistent adj",
+          "pos": "v."
+        },
+        {
+          "word": "permanent",
+          "phonetic": "ˈpɜːmənənt",
+          "meaning": "永久的",
+          "pos": "adj."
+        },
+        {
+          "word": "permeate",
+          "phonetic": "ˈpɜːmieɪt",
+          "meaning": "扩散，弥漫；渗透",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "permeate 是渗透贯穿。"
+    },
+    {
+      "id": "prefix-038",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "peri-",
+      "meaning": "周围",
+      "examples": [
+        {
+          "word": "perimeter",
+          "phonetic": "pəˈrɪmɪtə(r)",
+          "meaning": "周长，周界",
+          "pos": "n."
+        },
+        {
+          "word": "periphery",
+          "phonetic": "",
+          "meaning": "外围/边缘",
+          "pos": "n."
+        },
+        {
+          "word": "periodontal",
+          "phonetic": "",
+          "meaning": "含有 peri-，常与“周围”相关",
+          "pos": ""
+        },
+        {
+          "word": "perish",
+          "phonetic": "ˈperɪʃ",
+          "meaning": "死亡；丧生",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "perimeter 是周长。"
+    },
+    {
+      "id": "prefix-039",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "poly-",
+      "meaning": "多",
+      "examples": [
+        {
+          "word": "polytechnic",
+          "phonetic": "",
+          "meaning": "有关多种工艺的n.理工学院",
+          "pos": "adj/n."
+        },
+        {
+          "word": "polygon",
+          "phonetic": "ˈpɒliˌɡɒn",
+          "meaning": "多边形",
+          "pos": "n."
+        },
+        {
+          "word": "polyglot",
+          "phonetic": "",
+          "meaning": "含有 poly-，常与“多”相关",
+          "pos": ""
+        },
+        {
+          "word": "polyp",
+          "phonetic": "ˈpɒlɪp",
+          "meaning": "（水螅型）珊瑚虫",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "polyglot 是会多种语言的人。"
+    },
+    {
+      "id": "prefix-040",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "post-",
+      "meaning": "之后",
+      "examples": [
+        {
+          "word": "postwar",
+          "phonetic": "",
+          "meaning": "含有 post-，常与“之后”相关",
+          "pos": ""
+        },
+        {
+          "word": "postgraduate",
+          "phonetic": "",
+          "meaning": "含有 post-，常与“之后”相关",
+          "pos": ""
+        },
+        {
+          "word": "postpone",
+          "phonetic": "",
+          "meaning": "推迟，使延期",
+          "pos": "v."
+        },
+        {
+          "word": "poster",
+          "phonetic": "ˈpəʊstə(r)",
+          "meaning": "海报",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "postgraduate 是本科后。"
+    },
+    {
+      "id": "prefix-041",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "pre-",
+      "meaning": "之前，预先",
+      "examples": [
+        {
+          "word": "predict",
+          "phonetic": "",
+          "meaning": "预测prediction n.预测/言",
+          "pos": "v."
+        },
+        {
+          "word": "preview",
+          "phonetic": "ˈpriːvjuː",
+          "meaning": "预映，预演",
+          "pos": "n./v."
+        },
+        {
+          "word": "prevent",
+          "phonetic": "prɪˈvent",
+          "meaning": "阻止，妨碍",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "predict 是预先说。"
+    },
+    {
+      "id": "prefix-042",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "pro-",
+      "meaning": "向前，支持，代表",
+      "examples": [
+        {
+          "word": "progress",
+          "phonetic": "ˈprəʊɡres",
+          "meaning": "进步；进展；前进；/prəˈɡres/ v. 进步；进展；前进",
+          "pos": "n."
+        },
+        {
+          "word": "promote",
+          "phonetic": "prəˈməʊt",
+          "meaning": "促进；提升；宣传",
+          "pos": "v."
+        },
+        {
+          "word": "proponent",
+          "phonetic": "",
+          "meaning": "拥护者，支持者",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "proponent 是支持者。"
+    },
+    {
+      "id": "prefix-043",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "re-",
+      "meaning": "再次，回来",
+      "examples": [
+        {
+          "word": "rebuild",
+          "phonetic": "ˌriːˈbɪld",
+          "meaning": "重建，重新组装",
+          "pos": "vt."
+        },
+        {
+          "word": "return",
+          "phonetic": "",
+          "meaning": "含有 re-，常与“再次，回来”相关",
+          "pos": ""
+        },
+        {
+          "word": "Review",
+          "phonetic": "",
+          "meaning": "________________________",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "review 是再看。"
+    },
+    {
+      "id": "prefix-044",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "retro-",
+      "meaning": "向后，复古",
+      "examples": [
+        {
+          "word": "retrospect",
+          "phonetic": "",
+          "meaning": "含有 retro-，常与“向后，复古”相关",
+          "pos": ""
+        },
+        {
+          "word": "retroactive",
+          "phonetic": "",
+          "meaning": "含有 retro-，常与“向后，复古”相关",
+          "pos": ""
+        },
+        {
+          "word": "retrofit",
+          "phonetic": "",
+          "meaning": "含有 retro-，常与“向后，复古”相关",
+          "pos": ""
+        },
+        {
+          "word": "retrospection",
+          "phonetic": "ˌretrəˈspekʃn",
+          "meaning": "回顾，反省",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "retrospect 是回顾。"
+    },
+    {
+      "id": "prefix-045",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "semi-",
+      "meaning": "半，部分",
+      "examples": [
+        {
+          "word": "semiconductor",
+          "phonetic": "",
+          "meaning": "含有 semi-，常与“半，部分”相关",
+          "pos": ""
+        },
+        {
+          "word": "semifinal",
+          "phonetic": "",
+          "meaning": "含有 semi-，常与“半，部分”相关",
+          "pos": ""
+        },
+        {
+          "word": "semiannual",
+          "phonetic": "",
+          "meaning": "含有 semi-，常与“半，部分”相关",
+          "pos": ""
+        },
+        {
+          "word": "semi-automatic",
+          "phonetic": "ˈsemi ˌɔːtəˈmætɪk",
+          "meaning": "半自动化的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "semiannual 是半年一次。"
+    },
+    {
+      "id": "prefix-046",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "sub-",
+      "meaning": "在下，次级",
+      "examples": [
+        {
+          "word": "subway",
+          "phonetic": "",
+          "meaning": "［英］地下通道；［美］地铁",
+          "pos": "n."
+        },
+        {
+          "word": "substandard",
+          "phonetic": "",
+          "meaning": "含有 sub-，常与“在下，次级”相关",
+          "pos": ""
+        },
+        {
+          "word": "submarine",
+          "phonetic": "ˌsʌbməˈriːn",
+          "meaning": "潜水艇；adj. 水下的，海底的",
+          "pos": "n."
+        },
+        {
+          "word": "submit",
+          "phonetic": "səbˈmɪt",
+          "meaning": "屈从；提交",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "submarine 是水下船。"
+    },
+    {
+      "id": "prefix-047",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "super-/sur-",
+      "meaning": "在上，超过",
+      "examples": [
+        {
+          "word": "superior",
+          "phonetic": "suːˈpɪəriə(r)",
+          "meaning": "上级的；优于…的；优秀的；n. 上级",
+          "pos": "adj."
+        },
+        {
+          "word": "surpass",
+          "phonetic": "",
+          "meaning": "含有 super-/sur-，常与“在上，超过”相关",
+          "pos": ""
+        },
+        {
+          "word": "surface",
+          "phonetic": "ˈsɜːfɪs",
+          "meaning": "表面，面；外表，外观；v. 浮出水面；浮现，显露",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "surpass 是超过。"
+    },
+    {
+      "id": "prefix-048",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "trans-",
+      "meaning": "穿过，转移",
+      "examples": [
+        {
+          "word": "transport",
+          "phonetic": "trænˈspɔːt",
+          "meaning": "运输；/ˈtrænspɔːt/ n. 运输；运输系统，运载工具",
+          "pos": "v."
+        },
+        {
+          "word": "transform",
+          "phonetic": "trænsˈfɔːm",
+          "meaning": "使改观，改革，改善；变换，把…转换成，使变形",
+          "pos": "v."
+        },
+        {
+          "word": "transnational",
+          "phonetic": "ˌtrænzˈnæʃnəl",
+          "meaning": "跨国的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "transform 是跨形态改变。"
+    },
+    {
+      "id": "prefix-049",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "tri-",
+      "meaning": "三",
+      "examples": [
+        {
+          "word": "triangle",
+          "phonetic": "ˈtraɪæŋɡl",
+          "meaning": "三角（形）",
+          "pos": "n."
+        },
+        {
+          "word": "trilingual",
+          "phonetic": "",
+          "meaning": "含有 tri-，常与“三”相关",
+          "pos": ""
+        },
+        {
+          "word": "tripod",
+          "phonetic": "",
+          "meaning": "含有 tri-，常与“三”相关",
+          "pos": ""
+        },
+        {
+          "word": "trip",
+          "phonetic": "trɪp",
+          "meaning": "旅行",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "triangle 是三角形。"
+    },
+    {
+      "id": "prefix-050",
+      "type": "prefix",
+      "typeLabel": "前缀",
+      "morpheme": "ultra-",
+      "meaning": "超越，极端",
+      "examples": [
+        {
+          "word": "ultraviolet",
+          "phonetic": "ˌʌltrəˈvaɪələt",
+          "meaning": "紫外线的",
+          "pos": "adj."
+        },
+        {
+          "word": "ultramodern",
+          "phonetic": "",
+          "meaning": "含有 ultra-，常与“超越，极端”相关",
+          "pos": ""
+        },
+        {
+          "word": "ultra-low",
+          "phonetic": "",
+          "meaning": "含有 ultra-，常与“超越，极端”相关",
+          "pos": ""
+        },
+        {
+          "word": "ultrasound",
+          "phonetic": "ˈʌltrəsaʊnd",
+          "meaning": "超声（波）",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "ultraviolet 是紫外的。"
+    },
+    {
+      "id": "suffix-001",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-able/-ible",
+      "meaning": "能够……的，值得……的",
+      "examples": [
+        {
+          "word": "valuable",
+          "phonetic": "ˈvæljuəbl",
+          "meaning": "贵重的，有价值的；n. 贵重物品",
+          "pos": "adj."
+        },
+        {
+          "word": "visible",
+          "phonetic": "ˈvɪzəbl",
+          "meaning": "可见的；有形的；显而易见的",
+          "pos": "adj."
+        },
+        {
+          "word": "sustainable",
+          "phonetic": "",
+          "meaning": "可持续的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "形容词后缀，常表示可行性。"
+    },
+    {
+      "id": "suffix-002",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-acy",
+      "meaning": "性质，状态，制度",
+      "examples": [
+        {
+          "word": "accuracy",
+          "phonetic": "ˈækjərəsi",
+          "meaning": "正确度；精确性",
+          "pos": "n."
+        },
+        {
+          "word": "democracy",
+          "phonetic": "",
+          "meaning": "民主/制度/民主国家(demo指 people) cracy 指\"统治(to rule)",
+          "pos": "n."
+        },
+        {
+          "word": "privacy",
+          "phonetic": "",
+          "meaning": "含有 -acy，常与“性质，状态，制度”相关",
+          "pos": ""
+        },
+        {
+          "word": "legacy",
+          "phonetic": "ˈleɡəsi",
+          "meaning": "遗产；遗赠",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "常把形容或制度变成名词。"
+    },
+    {
+      "id": "suffix-003",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-age",
+      "meaning": "集合，状态，费用",
+      "examples": [
+        {
+          "word": "shortage",
+          "phonetic": "",
+          "meaning": "含有 -age，常与“集合，状态，费用”相关",
+          "pos": ""
+        },
+        {
+          "word": "coverage",
+          "phonetic": "ˈkʌvərɪdʒ",
+          "meaning": "新闻报道；覆盖范围",
+          "pos": "n."
+        },
+        {
+          "word": "storage",
+          "phonetic": "",
+          "meaning": "含有 -age，常与“集合，状态，费用”相关",
+          "pos": ""
+        },
+        {
+          "word": "rage",
+          "phonetic": "reɪdʒ",
+          "meaning": "（火灾、疾病）迅速蔓延，快速扩散，肆虐",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "shortage 是短缺状态。"
+    },
+    {
+      "id": "suffix-004",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-al",
+      "meaning": "……的；行为",
+      "examples": [
+        {
+          "word": "natural",
+          "phonetic": "ˈnætʃrəl",
+          "meaning": "自然的",
+          "pos": "adj."
+        },
+        {
+          "word": "approval",
+          "phonetic": "",
+          "meaning": "含有 -al，常与“……的；行为”相关",
+          "pos": ""
+        },
+        {
+          "word": "arrival",
+          "phonetic": "",
+          "meaning": "含有 -al，常与“……的；行为”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "既可形容词也可名词。"
+    },
+    {
+      "id": "suffix-005",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ance/-ence",
+      "meaning": "状态，性质，行为",
+      "examples": [
+        {
+          "word": "importance",
+          "phonetic": "ɪmˈpɔːtns",
+          "meaning": "重要性",
+          "pos": "n."
+        },
+        {
+          "word": "evidence",
+          "phonetic": "ˈevɪdəns",
+          "meaning": "根据，证据；形迹，迹象",
+          "pos": "n."
+        },
+        {
+          "word": "resistance",
+          "phonetic": "",
+          "meaning": "含有 -ance/-ence，常与“状态，性质，行为”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "常接动词形成抽象名词。"
+    },
+    {
+      "id": "suffix-006",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ant/-ent",
+      "meaning": "……的人/物；……的",
+      "examples": [
+        {
+          "word": "assistant",
+          "phonetic": "",
+          "meaning": "助手，助理. TA主教",
+          "pos": "n."
+        },
+        {
+          "word": "dependent",
+          "phonetic": "dɪˈpendənt",
+          "meaning": "依赖的；取决于…的",
+          "pos": "adj."
+        },
+        {
+          "word": "significant",
+          "phonetic": "",
+          "meaning": "有意义的，重要的",
+          "pos": "adj."
+        },
+        {
+          "word": "ant",
+          "phonetic": "ænt",
+          "meaning": "蚂蚁",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "可作名词也可作形容词。"
+    },
+    {
+      "id": "suffix-007",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ary",
+      "meaning": "与……有关的；场所",
+      "examples": [
+        {
+          "word": "temporary",
+          "phonetic": "ˈtemprəri",
+          "meaning": "临时的",
+          "pos": "adj."
+        },
+        {
+          "word": "library",
+          "phonetic": "",
+          "meaning": "图书馆.librarian图书馆管理员",
+          "pos": "n"
+        },
+        {
+          "word": "voluntary",
+          "phonetic": "",
+          "meaning": "含有 -ary，常与“与……有关的；场所”相关",
+          "pos": ""
+        },
+        {
+          "word": "vary",
+          "phonetic": "ˈveəri",
+          "meaning": "改变；（使）多样化；变化；不同",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "temporary 是暂时的。"
+    },
+    {
+      "id": "suffix-008",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ate",
+      "meaning": "使成为；具有",
+      "examples": [
+        {
+          "word": "activate",
+          "phonetic": "",
+          "meaning": "含有 -ate，常与“使成为；具有”相关",
+          "pos": ""
+        },
+        {
+          "word": "graduate",
+          "phonetic": "",
+          "meaning": "大学毕业生postgraduate研究生",
+          "pos": "n."
+        },
+        {
+          "word": "dominate",
+          "phonetic": "ˈdɒmɪneɪt",
+          "meaning": "支配，统治；耸立于",
+          "pos": "v."
+        },
+        {
+          "word": "rate",
+          "phonetic": "reɪt",
+          "meaning": "速率，比率；等级；价格，费用；v. 估价；评级，评价",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "常作动词后缀。"
+    },
+    {
+      "id": "suffix-009",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ation/-tion/-sion",
+      "meaning": "行为，过程，结果",
+      "examples": [
+        {
+          "word": "education",
+          "phonetic": "",
+          "meaning": "教育；教育学",
+          "pos": "n."
+        },
+        {
+          "word": "decision",
+          "phonetic": "dɪˈsɪʒn",
+          "meaning": "决定，抉择",
+          "pos": "n."
+        },
+        {
+          "word": "pollution",
+          "phonetic": "pəˈluːʃn",
+          "meaning": "污染",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "雅思高频抽象名词后缀。"
+    },
+    {
+      "id": "suffix-010",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ative",
+      "meaning": "有……倾向的",
+      "examples": [
+        {
+          "word": "creative",
+          "phonetic": "kriˈeɪtɪv",
+          "meaning": "创造性的，有创造力的",
+          "pos": "adj."
+        },
+        {
+          "word": "informative",
+          "phonetic": "",
+          "meaning": "含有 -ative，常与“有……倾向的”相关",
+          "pos": ""
+        },
+        {
+          "word": "representative",
+          "phonetic": "ˌreprɪˈzentətɪv",
+          "meaning": "代表，代理人；adj. 典型的，有代表性的",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "informative 是信息量大的。"
+    },
+    {
+      "id": "suffix-011",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-cy",
+      "meaning": "性质，状态",
+      "examples": [
+        {
+          "word": "efficiency",
+          "phonetic": "ɪˈfɪʃnsi",
+          "meaning": "效率；功效，效能",
+          "pos": "n."
+        },
+        {
+          "word": "frequency",
+          "phonetic": "ˈfriːkwənsi",
+          "meaning": "频繁；频率，次数",
+          "pos": "n."
+        },
+        {
+          "word": "literacy",
+          "phonetic": "ˈlɪtərəsi",
+          "meaning": "有文化；有教养；有读写能力",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "literacy 是读写能力。"
+    },
+    {
+      "id": "suffix-012",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-dom",
+      "meaning": "领域，状态",
+      "examples": [
+        {
+          "word": "freedom",
+          "phonetic": "",
+          "meaning": "含有 -dom，常与“领域，状态”相关",
+          "pos": ""
+        },
+        {
+          "word": "kingdom",
+          "phonetic": "ˈkɪŋdəm",
+          "meaning": "王国",
+          "pos": "n."
+        },
+        {
+          "word": "wisdom",
+          "phonetic": "",
+          "meaning": "智慧，学问",
+          "pos": "n."
+        },
+        {
+          "word": "random",
+          "phonetic": "ˈrændəm",
+          "meaning": "任意的，随机的，随意的；n. 随机，随意",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "freedom 是自由状态。"
+    },
+    {
+      "id": "suffix-013",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ed",
+      "meaning": "已经……的，具有……的",
+      "examples": [
+        {
+          "word": "developed",
+          "phonetic": "",
+          "meaning": "含有 -ed，常与“已经……的，具有……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "skilled",
+          "phonetic": "",
+          "meaning": "含有 -ed，常与“已经……的，具有……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "limited",
+          "phonetic": "ˈlɪmɪtɪd",
+          "meaning": "有限的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "常用于过去分词形容词。"
+    },
+    {
+      "id": "suffix-014",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ee",
+      "meaning": "被……的人",
+      "examples": [
+        {
+          "word": "employee",
+          "phonetic": "ɪmˈplɔɪiː",
+          "meaning": "职员，雇员",
+          "pos": "n."
+        },
+        {
+          "word": "trainee",
+          "phonetic": "",
+          "meaning": "含有 -ee，常与“被……的人”相关",
+          "pos": ""
+        },
+        {
+          "word": "refugee",
+          "phonetic": "",
+          "meaning": "含有 -ee，常与“被……的人”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "employee 是被雇佣的人。"
+    },
+    {
+      "id": "suffix-015",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-eer",
+      "meaning": "从事……的人",
+      "examples": [
+        {
+          "word": "engineer",
+          "phonetic": "ˌendʒɪˈnɪə(r)",
+          "meaning": "工程师",
+          "pos": "n."
+        },
+        {
+          "word": "volunteer",
+          "phonetic": "",
+          "meaning": "志愿者;自愿做",
+          "pos": "n/v."
+        },
+        {
+          "word": "pioneer",
+          "phonetic": "",
+          "meaning": "先驱，开创者；a~of 的先驱",
+          "pos": "n."
+        },
+        {
+          "word": "veer",
+          "phonetic": "vɪə(r)",
+          "meaning": "改变方向或路线",
+          "pos": "vi."
+        }
+      ],
+      "memoryTip": "volunteer 是志愿者。"
+    },
+    {
+      "id": "suffix-016",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-en",
+      "meaning": "使变成",
+      "examples": [
+        {
+          "word": "widen",
+          "phonetic": "",
+          "meaning": "含有 -en，常与“使变成”相关",
+          "pos": ""
+        },
+        {
+          "word": "strengthen",
+          "phonetic": "ˈstreŋθn",
+          "meaning": "加强，巩固",
+          "pos": "vt."
+        },
+        {
+          "word": "shorten",
+          "phonetic": "",
+          "meaning": "含有 -en，常与“使变成”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "动词后缀，表示使……。"
+    },
+    {
+      "id": "suffix-017",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-en",
+      "meaning": "由……制成的",
+      "examples": [
+        {
+          "word": "wooden",
+          "phonetic": "",
+          "meaning": "木制的；呆板的",
+          "pos": "adj"
+        },
+        {
+          "word": "golden",
+          "phonetic": "",
+          "meaning": "含有 -en，常与“由……制成的”相关",
+          "pos": ""
+        },
+        {
+          "word": "woolen",
+          "phonetic": "",
+          "meaning": "含有 -en，常与“由……制成的”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "形容词后缀，表示材质或特性。"
+    },
+    {
+      "id": "suffix-018",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-er/-or",
+      "meaning": "人，工具，比较级",
+      "examples": [
+        {
+          "word": "teacher",
+          "phonetic": "",
+          "meaning": "含有 -er/-or，常与“人，工具，比较级”相关",
+          "pos": ""
+        },
+        {
+          "word": "operator",
+          "phonetic": "ˈɒpəreɪtə(r)",
+          "meaning": "接线员",
+          "pos": "n."
+        },
+        {
+          "word": "greater",
+          "phonetic": "",
+          "meaning": "含有 -er/-or，常与“人，工具，比较级”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "teacher 是教的人。"
+    },
+    {
+      "id": "suffix-019",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ery",
+      "meaning": "场所，行为，集合",
+      "examples": [
+        {
+          "word": "bakery",
+          "phonetic": "",
+          "meaning": "面包店",
+          "pos": "n."
+        },
+        {
+          "word": "machinery",
+          "phonetic": "məˈʃiːnəri",
+          "meaning": "机械；机构",
+          "pos": "n."
+        },
+        {
+          "word": "bravery",
+          "phonetic": "ˈbreɪvəri",
+          "meaning": "勇敢；勇气",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "bakery 是烘焙场所。"
+    },
+    {
+      "id": "suffix-020",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-esque",
+      "meaning": "……风格的",
+      "examples": [
+        {
+          "word": "picturesque",
+          "phonetic": "ˌpɪktʃəˈresk",
+          "meaning": "美丽如画的；（语言）生动的",
+          "pos": "adj."
+        },
+        {
+          "word": "Kafkaesque",
+          "phonetic": "",
+          "meaning": "含有 -esque，常与“……风格的”相关",
+          "pos": ""
+        },
+        {
+          "word": "Romanesque",
+          "phonetic": "",
+          "meaning": "含有 -esque，常与“……风格的”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "picturesque 是如画的。"
+    },
+    {
+      "id": "suffix-021",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ess",
+      "meaning": "女性",
+      "examples": [
+        {
+          "word": "actress",
+          "phonetic": "",
+          "meaning": "含有 -ess，常与“女性”相关",
+          "pos": ""
+        },
+        {
+          "word": "hostess",
+          "phonetic": "",
+          "meaning": "女主人",
+          "pos": "n/v."
+        },
+        {
+          "word": "goddess",
+          "phonetic": "",
+          "meaning": "含有 -ess，常与“女性”相关",
+          "pos": ""
+        },
+        {
+          "word": "guess",
+          "phonetic": "ɡes",
+          "meaning": "猜测",
+          "pos": "n./v."
+        }
+      ],
+      "memoryTip": "现代英语中使用减少，但阅读会见到。"
+    },
+    {
+      "id": "suffix-022",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-est",
+      "meaning": "最高级",
+      "examples": [
+        {
+          "word": "largest",
+          "phonetic": "",
+          "meaning": "含有 -est，常与“最高级”相关",
+          "pos": ""
+        },
+        {
+          "word": "fastest",
+          "phonetic": "",
+          "meaning": "含有 -est，常与“最高级”相关",
+          "pos": ""
+        },
+        {
+          "word": "strongest",
+          "phonetic": "",
+          "meaning": "含有 -est，常与“最高级”相关",
+          "pos": ""
+        },
+        {
+          "word": "nest",
+          "phonetic": "nest",
+          "meaning": "巢 v. 筑巢",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "形容词副词最高级。"
+    },
+    {
+      "id": "suffix-023",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ful",
+      "meaning": "充满……的",
+      "examples": [
+        {
+          "word": "useful",
+          "phonetic": "",
+          "meaning": "含有 -ful，常与“充满……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "meaningful",
+          "phonetic": "ˈmiːnɪŋfl",
+          "meaning": "有目的的；有意义的",
+          "pos": "adj."
+        },
+        {
+          "word": "harmful",
+          "phonetic": "ˈhɑːmfl",
+          "meaning": "有害的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "harmful 是有害的。"
+    },
+    {
+      "id": "suffix-024",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-fy/-ify",
+      "meaning": "使……化",
+      "examples": [
+        {
+          "word": "simplify",
+          "phonetic": "",
+          "meaning": "简化精简.simply adv.仅仅 simplicityn.简单",
+          "pos": "v."
+        },
+        {
+          "word": "classify",
+          "phonetic": "",
+          "meaning": "分类. classification n. ~as把分类",
+          "pos": "v."
+        },
+        {
+          "word": "beautify",
+          "phonetic": "",
+          "meaning": "含有 -fy/-ify，常与“使……化”相关",
+          "pos": ""
+        },
+        {
+          "word": "edify",
+          "phonetic": "ˈedɪfaɪ",
+          "meaning": "熏陶；启发",
+          "pos": "v."
+        }
+      ],
+      "memoryTip": "simplify 是使简单。"
+    },
+    {
+      "id": "suffix-025",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-hood",
+      "meaning": "身份，时期，状态",
+      "examples": [
+        {
+          "word": "childhood",
+          "phonetic": "ˈtʃaɪldhʊd",
+          "meaning": "幼年时代，童年",
+          "pos": "n."
+        },
+        {
+          "word": "neighborhood",
+          "phonetic": "",
+          "meaning": "含有 -hood，常与“身份，时期，状态”相关",
+          "pos": ""
+        },
+        {
+          "word": "likelihood",
+          "phonetic": "ˈlaɪklihʊd",
+          "meaning": "可能；可能性",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "childhood 是童年。"
+    },
+    {
+      "id": "suffix-026",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ial",
+      "meaning": "与……有关的",
+      "examples": [
+        {
+          "word": "industrial",
+          "phonetic": "ɪnˈdʌstriəl",
+          "meaning": "工业的，产业的",
+          "pos": "adj."
+        },
+        {
+          "word": "financial",
+          "phonetic": "faɪˈnænʃl",
+          "meaning": "财政的，金融的",
+          "pos": "adj."
+        },
+        {
+          "word": "social",
+          "phonetic": "",
+          "meaning": "含有 -ial，常与“与……有关的”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "financial 是金融的。"
+    },
+    {
+      "id": "suffix-027",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ian",
+      "meaning": "……的人，……的",
+      "examples": [
+        {
+          "word": "historian",
+          "phonetic": "",
+          "meaning": "含有 -ian，常与“……的人，……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "technician",
+          "phonetic": "",
+          "meaning": "含有 -ian，常与“……的人，……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "urbanian",
+          "phonetic": "",
+          "meaning": "含有 -ian，常与“……的人，……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "agrarian",
+          "phonetic": "əˈɡreəriən",
+          "meaning": "土地的；耕地的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "historian 是历史学家。"
+    },
+    {
+      "id": "suffix-028",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ic",
+      "meaning": "……的",
+      "examples": [
+        {
+          "word": "economic",
+          "phonetic": "ˌiːkəˈnɒmɪk",
+          "meaning": "经济的，经济上的，经济学的；n. [pl.]经济学；经济状况",
+          "pos": "adj."
+        },
+        {
+          "word": "basic",
+          "phonetic": "",
+          "meaning": "base v.以…为基础. basement 地下室",
+          "pos": "n."
+        },
+        {
+          "word": "academic",
+          "phonetic": "ˌækəˈdemɪk",
+          "meaning": "学院的；学术的；不切实际的；n. 学者，大学教师",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "academic 是学术的。"
+    },
+    {
+      "id": "suffix-029",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ical",
+      "meaning": "……的，具有……性质的",
+      "examples": [
+        {
+          "word": "political",
+          "phonetic": "pəˈlɪtɪkl",
+          "meaning": "政治的，党派的",
+          "pos": "adj."
+        },
+        {
+          "word": "practical",
+          "phonetic": "ˈpræktɪkl",
+          "meaning": "实际的，实用的；实践的，应用的",
+          "pos": "adj."
+        },
+        {
+          "word": "biological",
+          "phonetic": "ˌbaɪəˈlɒdʒɪkl",
+          "meaning": "生物的，生物学的，生物学上的，有关生物学的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "biological 是生物的。"
+    },
+    {
+      "id": "suffix-030",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ics",
+      "meaning": "学科，体系",
+      "examples": [
+        {
+          "word": "economics",
+          "phonetic": "",
+          "meaning": ".经济学economy经济 economic的",
+          "pos": "n."
+        },
+        {
+          "word": "physics",
+          "phonetic": "ˈfɪzɪks",
+          "meaning": "物理学",
+          "pos": "n."
+        },
+        {
+          "word": "statistics",
+          "phonetic": "stəˈtɪstɪks",
+          "meaning": "统计资料，统计学",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "economics 是经济学。"
+    },
+    {
+      "id": "suffix-031",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ile",
+      "meaning": "能够……的，属于……的",
+      "examples": [
+        {
+          "word": "mobile",
+          "phonetic": "ˈməʊbaɪl",
+          "meaning": "移动的",
+          "pos": "adj."
+        },
+        {
+          "word": "fertile",
+          "phonetic": "",
+          "meaning": "肥沃，富饶",
+          "pos": "adj."
+        },
+        {
+          "word": "fragile",
+          "phonetic": "ˈfrædʒaɪl",
+          "meaning": "脆弱的；虚弱的；易碎的，易损的；易受伤害的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "fragile 是易碎的。"
+    },
+    {
+      "id": "suffix-032",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ing",
+      "meaning": "正在……的；行为",
+      "examples": [
+        {
+          "word": "developing",
+          "phonetic": "",
+          "meaning": "含有 -ing，常与“正在……的；行为”相关",
+          "pos": ""
+        },
+        {
+          "word": "learning",
+          "phonetic": "",
+          "meaning": "含有 -ing，常与“正在……的；行为”相关",
+          "pos": ""
+        },
+        {
+          "word": "housing",
+          "phonetic": "",
+          "meaning": "含有 -ing，常与“正在……的；行为”相关",
+          "pos": ""
+        },
+        {
+          "word": "wing",
+          "phonetic": "wɪŋ",
+          "meaning": "辅楼，侧楼",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "housing 可表示住房。"
+    },
+    {
+      "id": "suffix-033",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ion",
+      "meaning": "行为，状态，结果",
+      "examples": [
+        {
+          "word": "action",
+          "phonetic": "ˈækʃn",
+          "meaning": "行为；动作",
+          "pos": "n."
+        },
+        {
+          "word": "vision",
+          "phonetic": "",
+          "meaning": "视觉/力.visual视觉的.visibleadj.看得见的",
+          "pos": "n."
+        },
+        {
+          "word": "region",
+          "phonetic": "ˈriːdʒən",
+          "meaning": "地区；范围",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "action 是行为。"
+    },
+    {
+      "id": "suffix-034",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ish",
+      "meaning": "有点……的，类似……的",
+      "examples": [
+        {
+          "word": "selfish",
+          "phonetic": "ˈselfɪʃ",
+          "meaning": "自私的",
+          "pos": "adj."
+        },
+        {
+          "word": "childish",
+          "phonetic": "ˈtʃaɪldɪʃ",
+          "meaning": "幼稚的，不成熟的",
+          "pos": "adj."
+        },
+        {
+          "word": "British",
+          "phonetic": "",
+          "meaning": "含有 -ish，常与“有点……的，类似……的”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "childish 是孩子气的。"
+    },
+    {
+      "id": "suffix-035",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ism",
+      "meaning": "主义，制度，现象",
+      "examples": [
+        {
+          "word": "capitalism",
+          "phonetic": "",
+          "meaning": "含有 -ism，常与“主义，制度，现象”相关",
+          "pos": ""
+        },
+        {
+          "word": "tourism",
+          "phonetic": "",
+          "meaning": "含有 -ism，常与“主义，制度，现象”相关",
+          "pos": ""
+        },
+        {
+          "word": "optimism",
+          "phonetic": "",
+          "meaning": "含有 -ism，常与“主义，制度，现象”相关",
+          "pos": ""
+        },
+        {
+          "word": "egoism",
+          "phonetic": "ˈeɡəʊɪzəm",
+          "meaning": "利己主义",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "tourism 是旅游业。"
+    },
+    {
+      "id": "suffix-036",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ist",
+      "meaning": "从事……的人，支持者",
+      "examples": [
+        {
+          "word": "scientist",
+          "phonetic": "",
+          "meaning": "含有 -ist，常与“从事……的人，支持者”相关",
+          "pos": ""
+        },
+        {
+          "word": "artist",
+          "phonetic": "ˈɑːtɪst",
+          "meaning": "艺术家，画家",
+          "pos": "n."
+        },
+        {
+          "word": "environmentalist",
+          "phonetic": "",
+          "meaning": "含有 -ist，常与“从事……的人，支持者”相关",
+          "pos": ""
+        },
+        {
+          "word": "gist",
+          "phonetic": "dʒɪst",
+          "meaning": "主旨",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "environmentalist 是环保人士。"
+    },
+    {
+      "id": "suffix-037",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ity/-ty",
+      "meaning": "性质，状态",
+      "examples": [
+        {
+          "word": "quality",
+          "phonetic": "ˈkwɒləti",
+          "meaning": "品质",
+          "pos": "n."
+        },
+        {
+          "word": "diversity",
+          "phonetic": "daɪˈvɜːsəti",
+          "meaning": "多样，千变万化",
+          "pos": "n."
+        },
+        {
+          "word": "ability",
+          "phonetic": "əˈbɪləti",
+          "meaning": "能力",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "抽象名词高频后缀。"
+    },
+    {
+      "id": "suffix-038",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ive",
+      "meaning": "有……性质的",
+      "examples": [
+        {
+          "word": "effective",
+          "phonetic": "ɪˈfektɪv",
+          "meaning": "有效的",
+          "pos": "adj."
+        },
+        {
+          "word": "creative",
+          "phonetic": "kriˈeɪtɪv",
+          "meaning": "创造性的，有创造力的",
+          "pos": "adj."
+        },
+        {
+          "word": "sensitive",
+          "phonetic": "ˈsensətɪv",
+          "meaning": "敏感的，灵敏的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "sensitive 是敏感的。"
+    },
+    {
+      "id": "suffix-039",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ize/-ise",
+      "meaning": "使……化",
+      "examples": [
+        {
+          "word": "modernize",
+          "phonetic": "",
+          "meaning": "含有 -ize/-ise，常与“使……化”相关",
+          "pos": ""
+        },
+        {
+          "word": "organise",
+          "phonetic": "",
+          "meaning": "含有 -ize/-ise，常与“使……化”相关",
+          "pos": ""
+        },
+        {
+          "word": "standardize",
+          "phonetic": "",
+          "meaning": "含有 -ize/-ise，常与“使……化”相关",
+          "pos": ""
+        },
+        {
+          "word": "noise",
+          "phonetic": "nɔɪz",
+          "meaning": "噪音",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "standardize 是标准化。"
+    },
+    {
+      "id": "suffix-040",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-less",
+      "meaning": "没有……的",
+      "examples": [
+        {
+          "word": "careless",
+          "phonetic": "",
+          "meaning": "含有 -less，常与“没有……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "homeless",
+          "phonetic": "",
+          "meaning": "含有 -less，常与“没有……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "endless",
+          "phonetic": "",
+          "meaning": "含有 -less，常与“没有……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "fearless",
+          "phonetic": "ˈfɪələs",
+          "meaning": "勇敢的，无畏的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "homeless 是无家可归的。"
+    },
+    {
+      "id": "suffix-041",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-like",
+      "meaning": "像……的",
+      "examples": [
+        {
+          "word": "childlike",
+          "phonetic": "",
+          "meaning": "含有 -like，常与“像……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "businesslike",
+          "phonetic": "",
+          "meaning": "含有 -like，常与“像……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "lifelike",
+          "phonetic": "",
+          "meaning": "含有 -like，常与“像……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "worm-like",
+          "phonetic": "ˈwɜːm laɪk",
+          "meaning": "蠕虫状",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "lifelike 是逼真的。"
+    },
+    {
+      "id": "suffix-042",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-logy/-ology",
+      "meaning": "学科，研究",
+      "examples": [
+        {
+          "word": "biology",
+          "phonetic": "",
+          "meaning": "生物学.biological生物/学的",
+          "pos": "n."
+        },
+        {
+          "word": "technology",
+          "phonetic": "tekˈnɒlədʒi",
+          "meaning": "技术",
+          "pos": "n."
+        },
+        {
+          "word": "psychology",
+          "phonetic": "saɪˈkɒlədʒi",
+          "meaning": "心理学",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "psychology 是心理学。"
+    },
+    {
+      "id": "suffix-043",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ly",
+      "meaning": "……地；具有……性质",
+      "examples": [
+        {
+          "word": "quickly",
+          "phonetic": "",
+          "meaning": "含有 -ly，常与“……地；具有……性质”相关",
+          "pos": ""
+        },
+        {
+          "word": "friendly",
+          "phonetic": "",
+          "meaning": "含有 -ly，常与“……地；具有……性质”相关",
+          "pos": ""
+        },
+        {
+          "word": "daily",
+          "phonetic": "",
+          "meaning": "含有 -ly，常与“……地；具有……性质”相关",
+          "pos": ""
+        }
+      ],
+      "memoryTip": "friendly 是形容词，不只是副词。"
+    },
+    {
+      "id": "suffix-044",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ment",
+      "meaning": "行为，结果，状态",
+      "examples": [
+        {
+          "word": "development",
+          "phonetic": "",
+          "meaning": "含有 -ment，常与“行为，结果，状态”相关",
+          "pos": ""
+        },
+        {
+          "word": "government",
+          "phonetic": "",
+          "meaning": "政府/政体/统治",
+          "pos": "n."
+        },
+        {
+          "word": "movement",
+          "phonetic": "ˈmuːvmənt",
+          "meaning": "（尤指交响曲的）乐章",
+          "pos": "n."
+        },
+        {
+          "word": "cement",
+          "phonetic": "sɪˈment",
+          "meaning": "水泥",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "development 是发展。"
+    },
+    {
+      "id": "suffix-045",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ness",
+      "meaning": "性质，状态",
+      "examples": [
+        {
+          "word": "awareness",
+          "phonetic": "əˈweənəs",
+          "meaning": "察觉，意识",
+          "pos": "n."
+        },
+        {
+          "word": "happiness",
+          "phonetic": "",
+          "meaning": "含有 -ness，常与“性质，状态”相关",
+          "pos": ""
+        },
+        {
+          "word": "effectiveness",
+          "phonetic": "",
+          "meaning": "含有 -ness，常与“性质，状态”相关",
+          "pos": ""
+        },
+        {
+          "word": "fitness",
+          "phonetic": "ˈfɪtnəs",
+          "meaning": "健身",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "awareness 是意识。"
+    },
+    {
+      "id": "suffix-046",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ous/-ious",
+      "meaning": "充满……的",
+      "examples": [
+        {
+          "word": "various",
+          "phonetic": "ˈveəriəs",
+          "meaning": "各种各样的；不同的；多方面的",
+          "pos": "adj."
+        },
+        {
+          "word": "dangerous",
+          "phonetic": "",
+          "meaning": "含有 -ous/-ious，常与“充满……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "curious",
+          "phonetic": "",
+          "meaning": "含有 -ous/-ious，常与“充满……的”相关",
+          "pos": ""
+        },
+        {
+          "word": "joyous",
+          "phonetic": "ˈdʒɔɪəs",
+          "meaning": "快乐的，高兴的",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "dangerous 是危险的。"
+    },
+    {
+      "id": "suffix-047",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ship",
+      "meaning": "身份，关系，技能",
+      "examples": [
+        {
+          "word": "leadership",
+          "phonetic": "ˈliːdəʃɪp",
+          "meaning": "领导能力",
+          "pos": "n."
+        },
+        {
+          "word": "relationship",
+          "phonetic": "rɪˈleɪʃnʃɪp",
+          "meaning": "关系",
+          "pos": "n."
+        },
+        {
+          "word": "scholarship",
+          "phonetic": "ˈskɒləʃɪp",
+          "meaning": "奖学金；学问，学识",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "leadership 是领导力。"
+    },
+    {
+      "id": "suffix-048",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-some",
+      "meaning": "有……倾向的",
+      "examples": [
+        {
+          "word": "troublesome",
+          "phonetic": "ˈtrʌblsəm",
+          "meaning": "麻烦的",
+          "pos": "adj."
+        },
+        {
+          "word": "tiresome",
+          "phonetic": "",
+          "meaning": "含有 -some，常与“有……倾向的”相关",
+          "pos": ""
+        },
+        {
+          "word": "awesome",
+          "phonetic": "ˈɔːsəm",
+          "meaning": "棒极了的（常用于口语）",
+          "pos": "adj."
+        }
+      ],
+      "memoryTip": "troublesome 是麻烦的。"
+    },
+    {
+      "id": "suffix-049",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ure",
+      "meaning": "行为，结果",
+      "examples": [
+        {
+          "word": "failure",
+          "phonetic": "ˈfeɪljə(r)",
+          "meaning": "失败，不及格；失败者；故障，失灵；未能",
+          "pos": "n."
+        },
+        {
+          "word": "pressure",
+          "phonetic": "ˈpreʃə(r)",
+          "meaning": "压力",
+          "pos": "n."
+        },
+        {
+          "word": "exposure",
+          "phonetic": "ɪkˈspəʊʒə(r)",
+          "meaning": "暴露，曝光",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "exposure 是暴露。"
+    },
+    {
+      "id": "suffix-050",
+      "type": "suffix",
+      "typeLabel": "后缀",
+      "morpheme": "-ward/-wards",
+      "meaning": "方向",
+      "examples": [
+        {
+          "word": "forward",
+          "phonetic": "",
+          "meaning": "含有 -ward/-wards，常与“方向”相关",
+          "pos": ""
+        },
+        {
+          "word": "backward",
+          "phonetic": "ˈbækwəd",
+          "meaning": "落后的；进步缓慢的",
+          "pos": "adj."
+        },
+        {
+          "word": "towards",
+          "phonetic": "",
+          "meaning": "含有 -ward/-wards，常与“方向”相关",
+          "pos": ""
+        },
+        {
+          "word": "ward",
+          "phonetic": "wɔːd",
+          "meaning": "病房",
+          "pos": "n."
+        }
+      ],
+      "memoryTip": "forward 是向前。"
+    }
+  ]
+}

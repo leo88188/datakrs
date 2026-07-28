@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#f8fafc">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="雅思词根词缀">
+  <title>雅思词根词缀 - 克睿斯</title>
+  <meta name="description" content="100个英文词根、50个高频前缀、50个高频后缀记忆工具。">
+  <link rel="stylesheet" href="/assets/english/css/english.css">
+</head>
+<body class="vocab-standalone-body">
+  <div class="roots-page">
+    <header class="topbar vocab-topbar">
+      <a class="brand" href="/english.html" aria-label="返回雅思100句">
+        <span class="brand-mark">K</span>
+        <span>
+          <strong>雅思词根词缀</strong>
+          <small>词根 · 前缀 · 后缀</small>
+        </span>
+      </a>
+      <a class="back-button" href="/english.html">返回 100 句</a>
+    </header>
+
+    <main class="roots-page-main">
+      <section class="roots-hero">
+        <span>200 Cards</span>
+        <h1>用构词法记住一批词，而不是孤立背单词。</h1>
+        <p id="rootsSummary">词根词缀数据加载中...</p>
+      </section>
+
+      <section class="roots-toolbar">
+        <div class="segmented roots-filter" role="tablist" aria-label="词根词缀分类">
+          <button class="active" type="button" data-roots-filter="all">全部</button>
+          <button type="button" data-roots-filter="root">词根</button>
+          <button type="button" data-roots-filter="prefix">前缀</button>
+          <button type="button" data-roots-filter="suffix">后缀</button>
+        </div>
+        <div class="vocab-search">
+          <input id="rootsSearchInput" type="search" placeholder="搜索 act / trans / -tion / 中文含义 / 例词">
+        </div>
+        <div class="roots-progress">
+          <span id="rootsProgressText">0 / 200 已掌握</span>
+          <button id="rootsShowDue" type="button">只看未掌握</button>
+        </div>
+      </section>
+
+      <section id="rootsCards" class="roots-cards"></section>
+    </main>
+  </div>
+
+  <script src="/assets/english/js/roots-page.js" defer></script>
+</body>
+</html>

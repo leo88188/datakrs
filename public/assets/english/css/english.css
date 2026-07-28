@@ -49,7 +49,20 @@ button {
   background: #f8fafc;
 }
 
+.roots-page {
+  width: min(100vw, 760px);
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0 auto;
+  background: #f8fafc;
+}
+
 .vocab-page .topbar {
+  position: sticky;
+  top: 0;
+}
+
+.roots-page .topbar {
   position: sticky;
   top: 0;
 }
@@ -102,6 +115,189 @@ button {
 
 .standalone-vocab-section {
   margin-top: 12px;
+}
+
+.roots-page-main {
+  padding: 14px 14px max(28px, env(safe-area-inset-bottom));
+}
+
+.roots-hero {
+  padding: 18px 14px;
+  border-radius: 16px;
+  color: #172033;
+  background: linear-gradient(135deg, #fff7ed, #ecfeff);
+  border: 1px solid #fed7aa;
+}
+
+.roots-hero span {
+  display: inline-flex;
+  border-radius: 999px;
+  padding: 4px 9px;
+  color: #b45309;
+  background: #ffedd5;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.roots-hero h1 {
+  margin: 10px 0 0;
+  color: #0f172a;
+  font-size: 23px;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+.roots-hero p {
+  margin: 8px 0 0;
+  color: #475569;
+  font-size: 14px;
+}
+
+.roots-toolbar {
+  margin-top: 12px;
+  border: 1px solid #dfe7ef;
+  border-radius: 16px;
+  padding: 12px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, .05);
+}
+
+.roots-filter {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.roots-filter button {
+  flex: 1;
+  min-width: 62px;
+}
+
+.roots-progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 12px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.roots-progress button,
+.roots-master-button {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 8px 11px;
+  color: #172033;
+  background: #eef3f8;
+  font-size: 13px;
+}
+
+.roots-cards {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.roots-result-heading {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.roots-card {
+  border: 1px solid #dfe7ef;
+  border-radius: 16px;
+  padding: 14px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, .05);
+}
+
+.roots-card.mastered {
+  border-color: #bbf7d0;
+  background: #f0fdf4;
+}
+
+.roots-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.roots-card-head span {
+  display: inline-flex;
+  border-radius: 999px;
+  padding: 4px 8px;
+  color: #0f766e;
+  background: #ccfbf1;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.roots-card.mastered .roots-master-button {
+  color: #166534;
+  background: #bbf7d0;
+}
+
+.roots-card h2 {
+  margin: 10px 0 0;
+  color: #0f172a;
+  font-size: 25px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.roots-meaning {
+  margin: 8px 0 0;
+  color: #172033;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.roots-tip {
+  margin: 7px 0 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.roots-examples {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.roots-example {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  padding: 10px;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.roots-example strong {
+  display: inline-block;
+  color: #0f172a;
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+.roots-example em {
+  display: inline-block;
+  margin-left: 6px;
+  color: #64748b;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.roots-example p {
+  margin: 5px 0 0;
+  color: #334155;
+  font-size: 14px;
+}
+
+.roots-example small {
+  color: #64748b;
 }
 
 .topbar {
