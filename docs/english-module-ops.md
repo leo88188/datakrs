@@ -107,14 +107,14 @@ Production smoke test:
 
 ## Current Product State
 
-- Latest deployed commit: `496bd80` Add classic sentence practice module.
+- Latest deployed commit: `e6419bd` Make IELTS sentence practice the default flow.
 - Reading module: 230 original IELTS-style articles, 16 keywords per article, Chinese paragraph translations, Band 5/6/7/8-9 filters, topic filters, answer explanations.
 - Skills hub: lightweight four-skill practice workflow.
   - Listening links to 100 sentences and vocabulary audio practice.
   - Speaking has prompt cards, timer, and local browser recording.
   - Reading links to the reading article library.
   - Writing has timed prompts, local draft autosave, word count, and checklist.
-- Classic sentences module: 590 sentence cards, including 192 IELTS complex-sentence cards with grammar notes, categories, tone filters, search, random card, browser speech synthesis, local favorites and read progress.
+- Classic sentences module: defaults to IELTS complex-sentence training, with 878 sentence cards total, 480 IELTS complex-sentence cards across business, finance, fiscal, technology, city and social topics, grammar-pattern filters, topic filters, search, random card, browser speech synthesis, local favorites and read progress.
 
 ## Next Improvements
 
