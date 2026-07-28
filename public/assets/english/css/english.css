@@ -35,6 +35,69 @@ button {
   background: #f8fafc;
 }
 
+.vocab-page {
+  width: min(100vw, 760px);
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0 auto;
+  background: #f8fafc;
+}
+
+.vocab-page .topbar {
+  position: sticky;
+  top: 0;
+}
+
+.back-button {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 8px 11px;
+  color: #fff;
+  background: #172033;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.vocab-page-main {
+  padding: 14px 14px max(28px, env(safe-area-inset-bottom));
+}
+
+.vocab-hero {
+  padding: 18px 14px;
+  border-radius: 16px;
+  color: #172033;
+  background: linear-gradient(135deg, #eff6ff, #ecfeff);
+  border: 1px solid #dbeafe;
+}
+
+.vocab-hero span {
+  display: inline-flex;
+  border-radius: 999px;
+  padding: 4px 9px;
+  color: #0f766e;
+  background: #ccfbf1;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.vocab-hero h1 {
+  margin: 10px 0 0;
+  color: #0f172a;
+  font-size: 24px;
+  line-height: 1.28;
+  letter-spacing: 0;
+}
+
+.vocab-hero p {
+  margin: 8px 0 0;
+  color: #475569;
+  font-size: 14px;
+}
+
+.standalone-vocab-section {
+  margin-top: 12px;
+}
+
 .topbar {
   height: 58px;
   display: flex;

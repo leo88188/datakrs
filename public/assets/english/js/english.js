@@ -148,6 +148,22 @@
     showToast.timer = window.setTimeout(() => toast.classList.remove("show"), 2200);
   }
 
+  function scrollStudyPanelTo(selector) {
+    const panel = document.querySelector(".study-panel");
+    const target = selector ? document.querySelector(selector) : null;
+    if (!panel) return;
+
+    if (!target) {
+      panel.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+
+    const panelRect = panel.getBoundingClientRect();
+    const targetRect = target.getBoundingClientRect();
+    const top = panel.scrollTop + targetRect.top - panelRect.top - 10;
+    panel.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+  }
+
   function refreshVoices() {
     if (!("speechSynthesis" in window)) return;
     state.voices = window.speechSynthesis.getVoices() || [];
@@ -503,14 +519,18 @@
       button.addEventListener("click", () => {
         document.querySelectorAll("[data-panel-trigger]").forEach((item) => item.classList.remove("active"));
         button.classList.add("active");
+        if (button.dataset.panelTrigger === "learn") {
+          scrollStudyPanelTo(null);
+        }
         if (button.dataset.panelTrigger === "words") {
-          document.querySelector(".word-section").scrollIntoView({ behavior: "smooth", block: "start" });
+          scrollStudyPanelTo(".word-section");
         }
         if (button.dataset.panelTrigger === "jing") {
-          document.querySelector(".vocab-jing-section").scrollIntoView({ behavior: "smooth", block: "start" });
+          window.location.href = "/english-vocab.html";
+          return;
         }
         if (button.dataset.panelTrigger === "reading") {
-          document.querySelector(".reading-section").scrollIntoView({ behavior: "smooth", block: "start" });
+          scrollStudyPanelTo(".reading-section");
         }
         if (button.dataset.panelTrigger === "video") {
           document.querySelector(".media-panel").classList.add("active-mobile");

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#f8fafc">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="雅思词汇真经">
+  <title>雅思词汇真经 - 克睿斯</title>
+  <meta name="description" content="雅思词汇真经词卡、音频、检索与英文发音练习。">
+  <link rel="stylesheet" href="/assets/english/css/english.css">
+</head>
+<body>
+  <div class="vocab-page">
+    <header class="topbar vocab-topbar">
+      <a class="brand" href="/english.html" aria-label="返回雅思100句">
+        <span class="brand-mark">K</span>
+        <span>
+          <strong>雅思词汇真经</strong>
+          <small>词卡 · 音频 · 检索</small>
+        </span>
+      </a>
+      <a class="back-button" href="/english.html">返回 100 句</a>
+    </header>
+
+    <main class="vocab-page-main">
+      <section class="vocab-hero">
+        <span>56 Lists</span>
+        <h1>按主题背词，听音频，随时查。</h1>
+        <p id="standaloneVocabSummary">词汇真经数据加载中...</p>
+      </section>
+
+      <section class="vocab-jing-section standalone-vocab-section">
+        <div class="vocab-jing-player">
+          <label for="standaloneVocabTrackSelect">词汇真经音频</label>
+          <select id="standaloneVocabTrackSelect"></select>
+          <audio id="standaloneVocabAudio" controls preload="none" referrerpolicy="strict-origin-when-cross-origin"></audio>
+        </div>
+
+        <div class="vocab-search">
+          <input id="standaloneVocabSearchInput" type="search" placeholder="搜索单词 / 中文释义 / 主题">
+        </div>
+
+        <div id="standaloneVocabListButtons" class="vocab-list-buttons"></div>
+        <div id="standaloneVocabWords" class="vocab-jing-words"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/assets/english/js/vocab-page.js" defer></script>
+</body>
+</html>
