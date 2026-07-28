@@ -543,13 +543,28 @@
 
   function filteredSentences() {
     const query = state.query.trim().toLowerCase();
-    return collectionItems().filter((item) => {
+    const results = collectionItems().filter((item) => {
       if (state.pattern !== "all" && item.pattern !== state.pattern) return false;
       if (state.category !== "all" && item.category !== state.category) return false;
       if (state.tone !== "all" && item.tone !== state.tone) return false;
       if (!query) return true;
       return [item.english, item.chinese, item.author, item.category, item.tone, item.kind, item.pattern, item.grammar, item.note].join(" ").toLowerCase().includes(query);
     });
+    if (!query) return results;
+    return results.sort((a, b) => queryScore(b, query) - queryScore(a, query));
+  }
+
+  function queryScore(item, query) {
+    const category = String(item.category || "").toLowerCase();
+    const pattern = String(item.pattern || "").toLowerCase();
+    const kind = String(item.kind || "").toLowerCase();
+    const text = [item.english, item.chinese, item.note].join(" ").toLowerCase();
+    if (category === query) return 100;
+    if (category.includes(query)) return 80;
+    if (pattern === query || pattern.includes(query)) return 60;
+    if (kind.includes(query)) return 45;
+    if (text.includes(query)) return 20;
+    return 0;
   }
 
   function activeSentence() {
