@@ -5,6 +5,8 @@
     sentences: [],
     activeId: "",
     category: "all",
+    collection: "ielts",
+    pattern: "all",
     tone: "all",
     query: "",
     read: new Set(),
@@ -213,72 +215,84 @@
 
   const ieltsComplexFrames = [
     {
+      label: "让步",
       grammar: "让步状语从句 + whether 引导宾语从句",
       tone: "深刻",
       english: (item) => `Although ${item.subject} is often praised for ${item.benefit}, its real value depends on whether it helps ${item.people} make wiser choices rather than merely faster ones.`,
       chinese: (item) => `虽然${item.subjectCn}常因${item.benefitCn}而受到称赞，但它真正的价值取决于它是否帮助${item.peopleCn}做出更明智的选择，而不只是更快的选择。`,
     },
     {
+      label: "定语从句",
       grammar: "非限制性定语从句 + 因果表达",
       tone: "深刻",
       english: (item) => `${capitalise(item.subject)}, which increasingly shapes decisions in ${item.setting}, should be judged not only by its efficiency but also by the kind of behaviour it encourages.`,
       chinese: (item) => `${item.subjectCn}正在越来越多地影响${item.settingCn}的决策，因此不应只按效率评价它，也应看它鼓励了什么样的行为。`,
     },
     {
+      label: "分词结构",
       grammar: "分词结构 + 转折",
       tone: "坚定",
       english: (item) => `Seen from a long-term perspective, ${item.subject} is less a simple solution than a tool whose benefits depend on discipline, fairness and public trust.`,
       chinese: (item) => `从长期角度看，${item.subjectCn}与其说是简单解决方案，不如说是一种工具，其好处取决于纪律、公平和公众信任。`,
     },
     {
+      label: "条件句",
       grammar: "条件句 + rather than 对比",
       tone: "坚定",
       english: (item) => `If ${item.subject} is introduced without clear rules, it may solve visible problems while quietly creating deeper ones related to ${item.problem}.`,
       chinese: (item) => `如果${item.subjectCn}在缺乏清晰规则的情况下被引入，它可能解决表面问题，却悄悄制造与${item.problemCn}有关的更深层问题。`,
     },
     {
+      label: "强调句",
       grammar: "It is not...but... 强调句型",
       tone: "深刻",
       english: (item) => `It is not the existence of ${item.subject} itself, but the way people design and use it, that determines whether it becomes a source of progress or pressure.`,
       chinese: (item) => `决定${item.subjectCn}成为进步来源还是压力来源的，并不是它本身的存在，而是人们设计和使用它的方式。`,
     },
     {
+      label: "对比句",
       grammar: "while 对比句 + 抽象名词",
       tone: "温暖",
       english: (item) => `While ${item.subject} can expand what ${item.people} are able to do, it should not replace the patience, judgment and responsibility that meaningful improvement requires.`,
       chinese: (item) => `虽然${item.subjectCn}能够扩展${item.peopleCn}能做的事，但它不应取代有意义的改进所需要的耐心、判断力和责任感。`,
     },
     {
+      label: "比较结构",
       grammar: "the more..., the more... 比较结构",
       tone: "坚定",
       english: (item) => `The more deeply ${item.subject} enters ${item.setting}, the more important it becomes to ask who benefits, who is left out and what trade-offs are being ignored.`,
       chinese: (item) => `${item.subjectCn}越深入${item.settingCn}，我们就越需要追问谁受益、谁被排除在外，以及哪些取舍被忽视了。`,
     },
     {
+      label: "名词性从句",
       grammar: "名词性从句 + 让步转折",
       tone: "深刻",
       english: (item) => `What makes ${item.subject} difficult to evaluate is that its advantages are usually immediate, whereas its hidden costs may take years to become obvious.`,
       chinese: (item) => `${item.subjectCn}难以评价的地方在于，它的好处通常立刻可见，而隐藏成本可能需要多年才变得明显。`,
     },
     {
+      label: "伴随状语",
       grammar: "伴随状语 + 结果表达",
       tone: "坚定",
       english: (item) => `By making ${item.benefit} possible, ${item.subject} can improve daily life, provided that society remains alert to ${item.problem}.`,
       chinese: (item) => `${item.subjectCn}通过让${item.benefitCn}成为可能，可以改善日常生活，前提是社会始终警惕${item.problemCn}。`,
     },
     {
+      label: "插入语",
       grammar: "插入语 + 平衡观点",
       tone: "安静",
       english: (item) => `${capitalise(item.subject)}, however useful it may appear, should be treated as part of a broader system rather than as a substitute for careful human judgment.`,
       chinese: (item) => `${item.subjectCn}无论看起来多么有用，都应被视为更大系统的一部分，而不是细致人为判断的替代品。`,
     },
     {
+      label: "观点句",
       grammar: "定语从句 + 可迁移观点句",
       tone: "深刻",
       english: (item) => `A society that adopts ${item.subject} wisely is one that measures success by resilience, inclusion and long-term value, not by speed alone.`,
       chinese: (item) => `一个明智采用${item.subjectCn}的社会，会用韧性、包容和长期价值衡量成功，而不只用速度衡量。`,
     },
     {
+      label: "倒装句",
       grammar: "倒装语气 + 写作结论句",
       tone: "坚定",
       english: (item) => `Only when ${item.subject} is guided by clear aims and ethical limits can it become a force that improves life without narrowing human choice.`,
@@ -403,6 +417,8 @@
           category: theme.category,
           tone: frame.tone,
           kind: "雅思复杂句",
+          pattern: frame.label,
+          grammar: frame.grammar,
           note: `句型：${frame.grammar}。用途：适合写作 Task 2 和口语 Part 3，用来讨论${theme.category.replace("雅思", "")}话题的利弊、条件、影响或结论。`,
         });
       });
@@ -439,6 +455,10 @@
     try {
       const saved = JSON.parse(localStorage.getItem(storageKey) || "{}");
       state.activeId = saved.activeId || "";
+      state.collection = saved.collection || "ielts";
+      state.category = saved.category || "all";
+      state.pattern = saved.pattern || "all";
+      state.tone = saved.tone || "all";
       state.read = new Set(saved.read || []);
       state.favorite = new Set(saved.favorite || []);
     } catch (error) {
@@ -452,27 +472,59 @@
       storageKey,
       JSON.stringify({
         activeId: state.activeId,
+        collection: state.collection,
+        category: state.category,
+        pattern: state.pattern,
+        tone: state.tone,
         read: Array.from(state.read),
         favorite: Array.from(state.favorite),
       })
     );
   }
 
+  function collectionItems() {
+    if (state.collection === "ielts") return state.sentences.filter((item) => item.kind === "雅思复杂句");
+    if (state.collection === "classic") return state.sentences.filter((item) => item.kind !== "雅思复杂句");
+    return state.sentences;
+  }
+
+  function modeSummary(mode) {
+    const count = state.sentences.filter((item) => {
+      if (mode === "ielts") return item.kind === "雅思复杂句";
+      if (mode === "classic") return item.kind !== "雅思复杂句";
+      return true;
+    }).length;
+    const labels = {
+      ielts: ["雅思复杂句", "写作 Task 2 / 口语 Part 3"],
+      classic: ["金句素材", "哲理、幽默、名言短句"],
+      all: ["全部句库", "综合刷读与收藏"],
+    };
+    return { count, title: labels[mode][0], desc: labels[mode][1] };
+  }
+
   function categories() {
-    return ["all", ...Array.from(new Set(state.sentences.map((item) => item.category)))];
+    let items = collectionItems();
+    if (state.pattern !== "all") items = items.filter((item) => item.pattern === state.pattern);
+    return ["all", ...Array.from(new Set(items.map((item) => item.category)))];
+  }
+
+  function patterns() {
+    const items = collectionItems().filter((item) => item.kind === "雅思复杂句");
+    return ["all", ...Array.from(new Set(items.map((item) => item.pattern).filter(Boolean)))];
   }
 
   function tones() {
-    return ["all", ...Array.from(new Set(state.sentences.map((item) => item.tone)))];
+    return ["all", ...Array.from(new Set(collectionItems().map((item) => item.tone)))];
   }
 
   function filteredSentences() {
     const query = state.query.trim().toLowerCase();
-    return state.sentences.filter((item) => {
+    return collectionItems().filter((item) => {
+      if (state.pattern !== "all" && item.pattern !== state.pattern) return false;
       if (state.category !== "all" && item.category !== state.category) return false;
       if (state.tone !== "all" && item.tone !== state.tone) return false;
       if (!query) return true;
-      return [item.english, item.chinese, item.author, item.category, item.tone, item.kind, item.note].join(" ").toLowerCase().includes(query);
+      return [item.english, item.chinese, item.author, item.category, item.tone, item.kind, item.pattern, item.grammar, item.note].join(" ").toLowerCase().includes(query);
     });
   }
 
@@ -483,6 +535,21 @@
   function renderTabs(container, values, active, attr, allLabel) {
     container.innerHTML = values
       .map((value) => `<button class="vocab-chapter-tab${value === active ? " active" : ""}" type="button" data-${attr}="${esc(value)}">${esc(value === "all" ? allLabel : value)}</button>`)
+      .join("");
+  }
+
+  function renderModes() {
+    els.modes.innerHTML = ["ielts", "classic", "all"]
+      .map((mode) => {
+        const summary = modeSummary(mode);
+        return `
+          <button class="sentence-mode-card${state.collection === mode ? " active" : ""}" type="button" data-sentence-mode="${esc(mode)}">
+            <strong>${esc(summary.title)}</strong>
+            <span>${esc(summary.count)} 句</span>
+            <small>${esc(summary.desc)}</small>
+          </button>
+        `;
+      })
       .join("");
   }
 
@@ -534,6 +601,8 @@
   }
 
   function render() {
+    renderModes();
+    renderTabs(els.patterns, patterns(), state.pattern, "sentence-pattern", "全部句型");
     renderTabs(els.categories, categories(), state.category, "sentence-category", "全部主题");
     renderTabs(els.tones, tones(), state.tone, "sentence-tone", "全部语气");
     renderList();
@@ -561,6 +630,22 @@
     els.clear.addEventListener("click", () => {
       state.query = "";
       els.search.value = "";
+      render();
+    });
+    els.modes.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-sentence-mode]");
+      if (!button) return;
+      state.collection = button.dataset.sentenceMode;
+      state.category = "all";
+      state.pattern = "all";
+      state.tone = "all";
+      render();
+    });
+    els.patterns.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-sentence-pattern]");
+      if (!button) return;
+      state.pattern = button.dataset.sentencePattern;
+      state.category = "all";
       render();
     });
     els.categories.addEventListener("click", (event) => {
@@ -618,6 +703,8 @@
   function init() {
     els.search = $("classicSentenceSearch");
     els.clear = $("classicSentenceClear");
+    els.modes = $("classicSentenceModes");
+    els.patterns = $("classicSentencePatterns");
     els.categories = $("classicSentenceCategories");
     els.tones = $("classicSentenceTones");
     els.card = $("classicSentenceCard");
@@ -626,8 +713,9 @@
     els.random = $("classicSentenceRandom");
     state.sentences = buildSentences();
     loadProgress();
-    if (!state.activeId || !state.sentences.some((item) => item.id === state.activeId)) {
-      state.activeId = state.sentences[0] && state.sentences[0].id;
+    if (!state.activeId || !filteredSentences().some((item) => item.id === state.activeId)) {
+      const items = filteredSentences();
+      state.activeId = items[0] && items[0].id;
     }
     refreshVoices();
     if ("speechSynthesis" in window) window.speechSynthesis.onvoiceschanged = refreshVoices;

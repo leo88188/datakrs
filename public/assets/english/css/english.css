@@ -2082,11 +2082,56 @@ button {
 }
 
 .sentence-search {
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .sentence-tabs {
   margin-top: 9px;
+}
+
+.sentence-mode-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.sentence-mode-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 3px 8px;
+  min-height: 66px;
+  border: 1px solid #dfe7ef;
+  border-radius: 12px;
+  padding: 10px;
+  color: #172033;
+  background: #f8fafc;
+  text-align: left;
+}
+
+.sentence-mode-card strong {
+  color: #0f172a;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.sentence-mode-card span {
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: #0f766e;
+  background: #ccfbf1;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.sentence-mode-card small {
+  grid-column: 1 / -1;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.sentence-mode-card.active {
+  border-color: #93c5fd;
+  background: #eff6ff;
 }
 
 .classic-sentence-card {

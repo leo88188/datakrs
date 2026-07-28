@@ -7,10 +7,10 @@
   <meta name="theme-color" content="#f8fafc">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="经典句子">
-  <title>经典英文句子 - 克睿斯</title>
-  <meta name="description" content="哲理、有趣、名言与原创英文金句卡片。">
-  <link rel="stylesheet" href="/assets/english/css/english.css?v=sentences-20260728">
+  <meta name="apple-mobile-web-app-title" content="雅思句子">
+  <title>雅思句子训练 - 克睿斯</title>
+  <meta name="description" content="雅思写作与口语可复用复杂句、观点句和表达素材。">
+  <link rel="stylesheet" href="/assets/english/css/english.css?v=sentences-tool-20260728">
 </head>
 <body class="vocab-standalone-body">
   <div class="sentence-page">
@@ -18,8 +18,8 @@
       <a class="brand" href="/english.html" aria-label="返回雅思100句">
         <span class="brand-mark">K</span>
         <span>
-          <strong>经典句子</strong>
-          <small>哲理 · 有趣 · 名言</small>
+          <strong>雅思句子</strong>
+          <small>写作 · 口语 · 复杂句</small>
         </span>
       </a>
       <a class="back-button" href="/english.html">返回 100 句</a>
@@ -27,10 +27,12 @@
 
     <main class="sentence-page-main">
       <section class="sentence-controls">
+        <div id="classicSentenceModes" class="sentence-mode-grid" aria-label="训练模式"></div>
         <div class="vocab-search sentence-search">
-          <input id="classicSentenceSearch" type="search" placeholder="搜索英文 / 中文 / 作者 / 主题">
+          <input id="classicSentenceSearch" type="search" placeholder="搜索英文 / 中文 / 话题 / 句型">
           <button id="classicSentenceClear" type="button">清空</button>
         </div>
+        <div id="classicSentencePatterns" class="vocab-chapter-tabs sentence-tabs"></div>
         <div id="classicSentenceCategories" class="vocab-chapter-tabs sentence-tabs"></div>
         <div id="classicSentenceTones" class="vocab-chapter-tabs sentence-tabs"></div>
       </section>
@@ -49,6 +51,6 @@
     </main>
   </div>
 
-  <script src="/assets/english/js/sentences-page.js?v=sentences-ielts-20260728" defer></script>
+  <script src="/assets/english/js/sentences-page.js?v=sentences-tool-20260728" defer></script>
 </body>
 </html>
