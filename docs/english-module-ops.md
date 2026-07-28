@@ -107,7 +107,7 @@ Production smoke test:
 
 ## Current Product State
 
-- Latest deployed commit: `f99b91c` Add sentence grammar combination notes.
+- Latest deployed commit: `663a15a` Add speech button feedback.
 - Reading module: 230 original IELTS-style articles, 16 keywords per article, Chinese paragraph translations, Band 5/6/7/8-9 filters, topic filters, answer explanations.
 - Skills hub: lightweight four-skill practice workflow.
   - Listening links to 100 sentences and vocabulary audio practice.
