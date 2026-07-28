@@ -107,6 +107,7 @@ Production smoke test:
 
 ## Current Product State
 
+- Latest deployed commit: `496bd80` Add classic sentence practice module.
 - Reading module: 230 original IELTS-style articles, 16 keywords per article, Chinese paragraph translations, Band 5/6/7/8-9 filters, topic filters, answer explanations.
 - Skills hub: lightweight four-skill practice workflow.
   - Listening links to 100 sentences and vocabulary audio practice.
