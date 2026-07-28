@@ -4,6 +4,7 @@
   const state = {
     data: null,
     activeList: 1,
+    activeChapter: "",
     query: "",
     voices: [],
   };
@@ -86,10 +87,32 @@
     return state.data.lists.find((item) => item.list === state.activeList) || state.data.lists[0];
   }
 
+  function chapterKey(list) {
+    return String(list.chapter || list.chapterName || "0");
+  }
+
+  function chapters() {
+    const map = new Map();
+    state.data.lists.forEach((list) => {
+      const key = chapterKey(list);
+      if (!map.has(key)) {
+        map.set(key, {
+          key,
+          chapter: list.chapter,
+          chapterName: list.chapterName || "词汇",
+          lists: [],
+        });
+      }
+      map.get(key).lists.push(list);
+    });
+    return Array.from(map.values());
+  }
+
   function setActiveList(list) {
     const model = state.data && state.data.lists.find((item) => item.list === list);
     if (!model) return;
     state.activeList = model.list;
+    state.activeChapter = chapterKey(model);
     state.query = "";
     els.search.value = "";
     render();
@@ -101,6 +124,9 @@
     const data = state.data;
     const currentList = activeList();
     const query = state.query.trim().toLowerCase();
+    const chapterItems = chapters();
+    if (!state.activeChapter) state.activeChapter = chapterKey(currentList);
+    const activeChapter = chapterItems.find((item) => item.key === state.activeChapter) || chapterItems[0];
 
     els.summary.textContent = `${data.meta.listCount} 个 List，${data.meta.wordCount} 个词条，按主题分组学习。`;
     els.listStat.textContent = `L${two(currentList.list)}`;
@@ -109,6 +135,7 @@
     els.chapter.textContent = currentList.chapterName || "当前 List";
     els.title.textContent = `List ${two(currentList.list)}`;
     els.range.textContent = `${currentList.entries.length} 个词条，来自 Chapter ${currentList.chapter || "-"}`;
+    els.pickerTitle.textContent = activeChapter.chapterName;
 
     if (!els.trackSelect.options.length) {
       els.trackSelect.innerHTML = data.audioTracks
@@ -120,14 +147,25 @@
       els.trackSelect.value = data.audioTracks[0].url;
     }
 
-    if (!els.listSelect.options.length) {
-      els.listSelect.innerHTML = data.lists
-        .map((item) => `<option value="${item.list}">List ${two(item.list)} · ${esc(item.chapterName || "词汇")}</option>`)
-        .join("");
-    }
-    els.listSelect.value = String(currentList.list);
     els.prev.disabled = currentList.list <= 1;
     els.next.disabled = currentList.list >= data.meta.listCount;
+    els.chapterTabs.innerHTML = chapterItems
+      .map((chapter) => {
+        const active = chapter.key === activeChapter.key ? " active" : "";
+        return `<button class="vocab-chapter-tab${active}" type="button" data-chapter-key="${esc(chapter.key)}">${esc(chapter.chapterName)}</button>`;
+      })
+      .join("");
+    els.listGrid.innerHTML = activeChapter.lists
+      .map((list) => {
+        const active = list.list === currentList.list ? " active" : "";
+        return `
+          <button class="vocab-grid-list${active}" type="button" data-vocab-list="${list.list}">
+            <strong>L${two(list.list)}</strong>
+            <span>${list.entries.length} 词</span>
+          </button>
+        `;
+      })
+      .join("");
 
     const words = query
       ? data.words.filter((item) => {
@@ -174,16 +212,31 @@
   }
 
   function bindEvents() {
-    els.listSelect.addEventListener("change", () => {
-      setActiveList(Number(els.listSelect.value));
-    });
-
     els.prev.addEventListener("click", () => {
       setActiveList(Math.max(1, state.activeList - 1));
     });
 
     els.next.addEventListener("click", () => {
       setActiveList(Math.min(state.data.meta.listCount, state.activeList + 1));
+    });
+
+    els.chapterTabs.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-chapter-key]");
+      if (!button) return;
+      state.activeChapter = button.dataset.chapterKey;
+      const chapter = chapters().find((item) => item.key === state.activeChapter);
+      if (chapter && !chapter.lists.some((list) => list.list === state.activeList)) {
+        state.activeList = chapter.lists[0].list;
+      }
+      state.query = "";
+      els.search.value = "";
+      render();
+    });
+
+    els.listGrid.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-vocab-list]");
+      if (!button) return;
+      setActiveList(Number(button.dataset.vocabList));
     });
 
     els.search.addEventListener("input", () => {
@@ -221,7 +274,9 @@
     els.range = $("standaloneVocabRange");
     els.prev = $("standaloneVocabPrev");
     els.next = $("standaloneVocabNext");
-    els.listSelect = $("standaloneVocabListSelect");
+    els.pickerTitle = $("standaloneVocabPickerTitle");
+    els.chapterTabs = $("standaloneVocabChapterTabs");
+    els.listGrid = $("standaloneVocabListGrid");
     els.trackSelect = $("standaloneVocabTrackSelect");
     els.audio = $("standaloneVocabAudio");
     els.search = $("standaloneVocabSearchInput");
