@@ -2166,23 +2166,23 @@ button {
   display: inline;
   margin: 0 1px;
   border: 0;
-  border-radius: 6px;
-  padding: 0 3px 2px;
-  color: #1d4ed8;
-  background: #dbeafe;
+  border-bottom: 3px solid #f97316;
+  border-radius: 5px 5px 3px 3px;
+  padding: 0 3px 1px;
+  color: #0f172a;
+  background: linear-gradient(180deg, transparent 42%, #ffedd5 42%);
   font: inherit;
   font-weight: inherit;
   line-height: inherit;
   text-align: inherit;
-  text-decoration: underline;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 4px;
+  text-decoration: none;
   touch-action: manipulation;
 }
 
 .sentence-inline-word:active {
+  border-bottom-color: #0f766e;
   color: #0f766e;
-  background: #ccfbf1;
+  background: linear-gradient(180deg, transparent 38%, #ccfbf1 38%);
 }
 
 .sentence-word-popover {
