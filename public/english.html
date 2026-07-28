@@ -26,6 +26,7 @@
         <button class="ghost-button active" data-panel-trigger="learn">学习</button>
         <button class="ghost-button" data-panel-trigger="words">词库</button>
         <button class="ghost-button" data-panel-trigger="jing">真经</button>
+        <button class="ghost-button" data-panel-trigger="reading">阅读</button>
         <button class="ghost-button" data-panel-trigger="video">视频</button>
       </nav>
     </header>
@@ -136,6 +137,24 @@
 
             <div id="vocabListButtons" class="vocab-list-buttons"></div>
             <div id="vocabJingWords" class="vocab-jing-words"></div>
+          </section>
+
+          <section class="reading-section" id="readingSection" data-panel="reading">
+            <div class="section-heading">
+              <div>
+                <h2>雅思阅读短语训练</h2>
+                <p id="readingSummary">阅读短语数据加载中...</p>
+              </div>
+            </div>
+
+            <div class="reading-source-note" id="readingSourceNote"></div>
+
+            <div class="vocab-search">
+              <input id="readingSearchInput" type="search" placeholder="搜索阅读短语 / 中文释义">
+            </div>
+
+            <div id="readingDayButtons" class="vocab-list-buttons"></div>
+            <div id="readingPhraseCards" class="reading-phrase-cards"></div>
           </section>
         </article>
       </section>

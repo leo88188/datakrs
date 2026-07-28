@@ -87,9 +87,16 @@ button {
 .top-actions {
   display: flex;
   gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.top-actions::-webkit-scrollbar {
+  display: none;
 }
 
 .ghost-button {
+  flex: 0 0 auto;
   min-width: 46px;
   padding: 8px 10px;
   border-radius: 999px;
@@ -349,6 +356,7 @@ button {
 .player-bar,
 .note-block,
 .word-section,
+.reading-section,
 .video-card,
 .stats-card,
 .checklist-card {
@@ -451,7 +459,8 @@ button {
   padding: 14px;
 }
 
-.vocab-jing-section {
+.vocab-jing-section,
+.reading-section {
   margin-top: 14px;
   border: 1px solid #dfe7ef;
   border-radius: 16px;
@@ -525,6 +534,33 @@ button {
   margin-top: 12px;
 }
 
+.reading-source-note {
+  display: grid;
+  gap: 4px;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #dbeafe;
+  color: #334155;
+  background: #eff6ff;
+  font-size: 13px;
+}
+
+.reading-source-note strong {
+  color: #1d4ed8;
+  font-size: 14px;
+}
+
+.reading-source-note span {
+  color: #475569;
+}
+
+.reading-phrase-cards {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
 .vocab-result-heading,
 .vocab-more {
   color: #64748b;
@@ -539,6 +575,41 @@ button {
   padding: 12px;
   border-radius: 12px;
   background: #f8fafc;
+}
+
+.reading-phrase-card {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr) 44px;
+  gap: 10px;
+  align-items: start;
+  padding: 12px;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.reading-phrase-id {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  color: #0f766e;
+  background: #ccfbf1;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.reading-phrase-card strong {
+  display: block;
+  color: #0f172a;
+  font-size: 17px;
+  line-height: 1.35;
+}
+
+.reading-phrase-card p {
+  margin: 6px 0 0;
+  color: #334155;
+  font-size: 15px;
 }
 
 .vocab-jing-card strong {

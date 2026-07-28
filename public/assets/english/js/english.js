@@ -4,12 +4,15 @@
   const state = {
     data: null,
     vocabData: null,
+    readingData: null,
     sentences: [],
     days: [],
     activeId: 1,
     activeDay: 1,
     activeVocabList: 1,
+    activeReadingDay: 1,
     vocabQuery: "",
+    readingQuery: "",
     query: "",
     wordFilter: "all",
     done: new Set(),
@@ -58,6 +61,21 @@
   function activeVocabList() {
     if (!state.vocabData) return null;
     return state.vocabData.lists.find((item) => item.list === state.activeVocabList) || state.vocabData.lists[0];
+  }
+
+  function readingGroups() {
+    if (!state.readingData) return [];
+    const size = 20;
+    const phrases = state.readingData.phrases || [];
+    return Array.from({ length: Math.ceil(phrases.length / size) }, (_, index) => {
+      const start = index * size;
+      return {
+        day: index + 1,
+        start: start + 1,
+        end: Math.min(start + size, phrases.length),
+        phrases: phrases.slice(start, start + size),
+      };
+    });
   }
 
   function loadProgress() {
@@ -189,7 +207,7 @@
     const data = state.vocabData;
     const currentList = activeVocabList();
     const query = state.vocabQuery.trim().toLowerCase();
-    els.vocabJingSummary.textContent = `${data.meta.listCount} 个 List，${data.meta.wordCount} 个词条；PDF 已转为可检索词卡。`;
+    els.vocabJingSummary.textContent = `${data.meta.listCount} 个 List，${data.meta.wordCount} 个词条；已整理为可检索词卡。`;
 
     els.vocabTrackSelect.innerHTML = data.audioTracks
       .map((track) => `<option value="${esc(track.url)}">${esc(track.title)}</option>`)
@@ -243,6 +261,58 @@
         )
         .join("")}
       ${words.length > 160 ? '<div class="vocab-more">结果较多，建议继续输入关键词缩小范围。</div>' : ""}
+    `;
+  }
+
+  function renderReading() {
+    if (!state.readingData) {
+      els.readingSummary.textContent = "阅读短语数据加载失败，请刷新重试。";
+      els.readingSourceNote.textContent = "";
+      return;
+    }
+
+    const data = state.readingData;
+    const groups = readingGroups();
+    const currentGroup = groups.find((item) => item.day === state.activeReadingDay) || groups[0];
+    const query = state.readingQuery.trim().toLowerCase();
+
+    els.readingSummary.textContent = `${data.meta.phraseCount} 条高频短语，按 5 组学习，每组 20 条；支持检索和英文朗读。`;
+    els.readingSourceNote.innerHTML = `
+      <strong>${esc(data.readingBook.title)}</strong>
+      <span>${esc(data.readingBook.pageCount || 0)} 页本地资料已记录；网页不加载原文件，也不展示页面图片。</span>
+    `;
+
+    els.readingDayButtons.innerHTML = groups
+      .map((group) => {
+        const active = group.day === state.activeReadingDay ? " active" : "";
+        return `<button class="vocab-list-button${active}" type="button" data-reading-day="${group.day}">R${two(group.day)} ${group.start}-${group.end}</button>`;
+      })
+      .join("");
+
+    const phrases = query
+      ? data.phrases.filter((item) => {
+          return item.phrase.toLowerCase().includes(query) || item.meaning.includes(state.readingQuery.trim());
+        })
+      : currentGroup.phrases;
+
+    const heading = query ? `搜索结果 ${phrases.length} 条` : `第 ${currentGroup.day} 组 · ${currentGroup.start}-${currentGroup.end}`;
+
+    els.readingPhraseCards.innerHTML = `
+      <div class="vocab-result-heading">${esc(heading)}</div>
+      ${phrases
+        .map(
+          (item) => `
+            <article class="reading-phrase-card">
+              <span class="reading-phrase-id">${two(item.id)}</span>
+              <div>
+                <strong>${esc(item.phrase)}</strong>
+                <p>${esc(item.meaning)}</p>
+              </div>
+              <button class="word-speak reading-speak" type="button" data-term="${esc(item.phrase)}" aria-label="播放 ${esc(item.phrase)} 发音" title="播放发音"><span>play</span></button>
+            </article>
+          `
+        )
+        .join("")}
     `;
   }
 
@@ -439,6 +509,9 @@
         if (button.dataset.panelTrigger === "jing") {
           document.querySelector(".vocab-jing-section").scrollIntoView({ behavior: "smooth", block: "start" });
         }
+        if (button.dataset.panelTrigger === "reading") {
+          document.querySelector(".reading-section").scrollIntoView({ behavior: "smooth", block: "start" });
+        }
         if (button.dataset.panelTrigger === "video") {
           document.querySelector(".media-panel").classList.add("active-mobile");
           document.querySelector(".media-panel").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -489,6 +562,28 @@
     els.vocabTrackSelect.addEventListener("change", () => {
       els.vocabJingAudio.src = els.vocabTrackSelect.value;
       els.vocabJingAudio.play().catch(() => {});
+    });
+
+    els.readingDayButtons.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-reading-day]");
+      if (!button) return;
+      state.activeReadingDay = Number(button.dataset.readingDay);
+      state.readingQuery = "";
+      els.readingSearchInput.value = "";
+      renderReading();
+    });
+
+    els.readingSearchInput.addEventListener("input", () => {
+      state.readingQuery = els.readingSearchInput.value;
+      renderReading();
+    });
+
+    els.readingPhraseCards.addEventListener("click", (event) => {
+      const button = event.target.closest(".word-speak");
+      if (!button) return;
+      event.preventDefault();
+      event.stopPropagation();
+      speakTerm(button.dataset.term, button);
     });
 
     els.sentenceAudio.addEventListener("ended", () => {
@@ -547,6 +642,11 @@
       "vocabSearchInput",
       "vocabListButtons",
       "vocabJingWords",
+      "readingSummary",
+      "readingSourceNote",
+      "readingSearchInput",
+      "readingDayButtons",
+      "readingPhraseCards",
       "progressPercent",
       "progressBar",
       "videoTitle",
@@ -580,6 +680,16 @@
         })
         .catch(() => {
           els.vocabJingSummary.textContent = "词汇真经数据暂时不可用。";
+        });
+      fetch("/assets/english/data/reading-phrases.json", { cache: "no-cache" })
+        .then((res) => (res.ok ? res.json() : Promise.reject(new Error(`HTTP ${res.status}`))))
+        .then((data) => {
+          state.readingData = data;
+          renderReading();
+        })
+        .catch(() => {
+          els.readingSummary.textContent = "阅读短语数据暂时不可用。";
+          els.readingSourceNote.textContent = "";
         });
       if (!state.sentences.some((item) => item.id === state.activeId)) state.activeId = 1;
       state.activeDay = activeSentence().day;

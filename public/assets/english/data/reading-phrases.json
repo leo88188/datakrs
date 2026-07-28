@@ -1,0 +1,515 @@
+{
+  "meta": {
+    "title": "雅思阅读高频短语",
+    "phraseCount": 100,
+    "source": "雅思阅读百大高频短语结构化抽取"
+  },
+  "phrases": [
+    {
+      "id": 1,
+      "phrase": "abide by(=be faithful to ; obey)",
+      "meaning": "忠于；遵守。"
+    },
+    {
+      "id": 2,
+      "phrase": "be absent from….",
+      "meaning": "缺席，不在"
+    },
+    {
+      "id": 3,
+      "phrase": "absence or mind(=being absent-minded)",
+      "meaning": "心不在焉"
+    },
+    {
+      "id": 4,
+      "phrase": "absorb(=take up the attention of)",
+      "meaning": "吸引…的注意力(被动语态):be absorbed in 全神贯注于…近:be engrossed in ; be lost in ; be rapt in ;be concentrated on ; be focused on ; be centered on"
+    },
+    {
+      "id": 5,
+      "phrase": "(be) abundant in(be rich in; be well supplied with)",
+      "meaning": "富于,富有"
+    },
+    {
+      "id": 6,
+      "phrase": "access(to) (",
+      "meaning": "不可数名词) 能接近,进入,了解"
+    },
+    {
+      "id": 7,
+      "phrase": "by accident(=by chance, accidentally)",
+      "meaning": "偶然地,意外. Without accident(=safely) 安全地,"
+    },
+    {
+      "id": 8,
+      "phrase": "of one’s own accord(=without being asked; willingly; freely)",
+      "meaning": "自愿地 ,主动地"
+    },
+    {
+      "id": 9,
+      "phrase": "in accord with",
+      "meaning": "与…一致 . out of one’s accord with 同….不一致"
+    },
+    {
+      "id": 10,
+      "phrase": "with one accord (=with everybody agreeing)",
+      "meaning": "一致地"
+    },
+    {
+      "id": 11,
+      "phrase": "in accordance with (=in agreement with)",
+      "meaning": "依照,根据"
+    },
+    {
+      "id": 12,
+      "phrase": "on one’s own account 1)",
+      "meaning": "为了某人的缘故, 为了某人自己的利益 2)(=at one’s own risk) 自行负责 3)(=by oneself)依靠自己 on account 赊账; on account of 因为; on no account 不论什么原因也不;of …account 有…..重要性."
+    },
+    {
+      "id": 13,
+      "phrase": "take…into account(=consider)",
+      "meaning": "把...考虑进去"
+    },
+    {
+      "id": 14,
+      "phrase": "give sb. an account of",
+      "meaning": "说明, 解释 (理由)"
+    },
+    {
+      "id": 15,
+      "phrase": "account for (=give an explanation or reason for)",
+      "meaning": "解释, 说明."
+    },
+    {
+      "id": 16,
+      "phrase": "on account of (=because of)",
+      "meaning": "由于,因为."
+    },
+    {
+      "id": 17,
+      "phrase": "on no account(=in no case, for no reason)",
+      "meaning": "绝不要,无论如何不要(放句首时句子要倒装)"
+    },
+    {
+      "id": 18,
+      "phrase": "accuse…of…(=charge…with; blame sb. for sth. ; blame sth. on sb. ; complain about)",
+      "meaning": "指控,控告"
+    },
+    {
+      "id": 19,
+      "phrase": "be accustomed to (=be in the habit of, be used to)",
+      "meaning": "习惯于"
+    },
+    {
+      "id": 20,
+      "phrase": "be acquainted with(=to have knowledge of)",
+      "meaning": "了解; (=to have met socially) 熟悉"
+    },
+    {
+      "id": 21,
+      "phrase": "act on",
+      "meaning": "奉行,按照…行动; act as 扮演; act for 代理"
+    },
+    {
+      "id": 22,
+      "phrase": "adapt oneself to(=adjust oneself to)",
+      "meaning": "使自己适应于"
+    },
+    {
+      "id": 23,
+      "phrase": "adapt…(for) (=make sth. Suitable for a new need)",
+      "meaning": "改编, 改写(以适应新的需要)"
+    },
+    {
+      "id": 24,
+      "phrase": "in addition (=besides)",
+      "meaning": "此外, 又, 加之"
+    },
+    {
+      "id": 25,
+      "phrase": "in addition to(=as well as, besides, other than)",
+      "meaning": "除… 外"
+    },
+    {
+      "id": 26,
+      "phrase": "adhere to (=abide by, conform to, comply with, cling to, insist on, persist in, observe, opinion, belief )",
+      "meaning": "粘附; 坚持, 遵循"
+    },
+    {
+      "id": 27,
+      "phrase": "adjacent(=next to, close to)",
+      "meaning": "毗邻的, 临近的"
+    },
+    {
+      "id": 28,
+      "phrase": "adjust..(to) (=change slightly)",
+      "meaning": "调节; 适应;"
+    },
+    {
+      "id": 29,
+      "phrase": "admit of (=be capable of, leave room for) …",
+      "meaning": "的可能， 留有…的余地."
+    },
+    {
+      "id": 30,
+      "phrase": "in advance (before in time)",
+      "meaning": "预告, 事先."
+    },
+    {
+      "id": 31,
+      "phrase": "to advantage",
+      "meaning": "有利的,使优点更加突出地."
+    },
+    {
+      "id": 32,
+      "phrase": "have an advantage over",
+      "meaning": "胜过. have the advantage of 由于…处于有利条件 have the advantage of sb.知道某人所不知道的事"
+    },
+    {
+      "id": 33,
+      "phrase": "take advantage of (=make the best of, utilize, make use of, profit from, harness)",
+      "meaning": "利用."
+    },
+    {
+      "id": 34,
+      "phrase": "agree with",
+      "meaning": "赞同(某人意见) agree to 同意"
+    },
+    {
+      "id": 35,
+      "phrase": "in agreement (with)",
+      "meaning": "同意, 一致"
+    },
+    {
+      "id": 36,
+      "phrase": "ahead of",
+      "meaning": "在…之前, 超过…;……………. ahead of time 提前."
+    },
+    {
+      "id": 37,
+      "phrase": "in the air 1)",
+      "meaning": "不肯定, 不具体. 2)在谣传中."
+    },
+    {
+      "id": 38,
+      "phrase": "above all (=especially, most important of all)",
+      "meaning": "尤其是, 最重要的."
+    },
+    {
+      "id": 39,
+      "phrase": "in all (=counting everyone or everything, altogether)",
+      "meaning": "总共, 总计"
+    },
+    {
+      "id": 40,
+      "phrase": "after all",
+      "meaning": "毕竟,到底; (not) at all 一点也不; all at once(=suddenly)突然; once and for all 只此一次; above all 最重要的; first of all 首先; all in all 大体上说; be all in 累极了; all but 几乎."
+    },
+    {
+      "id": 41,
+      "phrase": "allow for (=take into consideration, take into account)",
+      "meaning": "考虑到, 估计到."
+    },
+    {
+      "id": 42,
+      "phrase": "amount to (=to be equal to)",
+      "meaning": "总计, 等于."
+    },
+    {
+      "id": 43,
+      "phrase": "answer for (undertake responsibility for, be liable for, take charge for)",
+      "meaning": "对…负责."
+    },
+    {
+      "id": 44,
+      "phrase": "answer to (=conform to)",
+      "meaning": "适合,符合."
+    },
+    {
+      "id": 45,
+      "phrase": "be anxious about",
+      "meaning": "为…焦急不安; 或 anxious for"
+    },
+    {
+      "id": 46,
+      "phrase": "apologize to sb. for sth.",
+      "meaning": "为…向…道歉"
+    },
+    {
+      "id": 47,
+      "phrase": "appeal to sb. for sth.",
+      "meaning": "为某事向某人呼吁. appeal to sb. 对某人有吸引力"
+    },
+    {
+      "id": 48,
+      "phrase": "apply to sb. for sth.",
+      "meaning": "为…向…申请 ; apply for 申请; apply to 适用."
+    },
+    {
+      "id": 49,
+      "phrase": "apply to",
+      "meaning": "与…有关;适用"
+    },
+    {
+      "id": 50,
+      "phrase": "approve of (=consent to, be in favor of, favor, agree to, consider good, right)",
+      "meaning": "赞成, approve vt. 批准"
+    },
+    {
+      "id": 51,
+      "phrase": "arise from(=be caused by)",
+      "meaning": "由…引起."
+    },
+    {
+      "id": 52,
+      "phrase": "arrange for sb./sth. to do sth.",
+      "meaning": "安排…做…"
+    },
+    {
+      "id": 53,
+      "phrase": "arrive on",
+      "meaning": "到达; arrive at 到达某地(小地方);得出,作出; arrive in 到达某地(大地方);"
+    },
+    {
+      "id": 54,
+      "phrase": "be ashamed of (=feel shame, guilt or sorrow because of sth. done)",
+      "meaning": "以…为羞耻"
+    },
+    {
+      "id": 55,
+      "phrase": "assure sb. of sth. (=try to cause to believe or trust in sth.)",
+      "meaning": "向…保证, 使…确信."
+    },
+    {
+      "id": 56,
+      "phrase": "attach(to) (=to fix, fasten; join)",
+      "meaning": "缚, 系 ,结"
+    },
+    {
+      "id": 57,
+      "phrase": "make an attempt at doing sth. (to do sth.)",
+      "meaning": "试图做…"
+    },
+    {
+      "id": 58,
+      "phrase": "attend to (=give one’s attention, care and thought)",
+      "meaning": "注意,照顾;attend on(upon)(=wait upon, serve, look after) 侍候,照料"
+    },
+    {
+      "id": 59,
+      "phrase": "attitude to/ toward …",
+      "meaning": "对…的态度.看法"
+    },
+    {
+      "id": 60,
+      "phrase": "attribute…to…(=to believe sth. to be the result of…)",
+      "meaning": "把..归因于.., 认为..是..的结果"
+    },
+    {
+      "id": 61,
+      "phrase": "on the average (=on average, on an average)",
+      "meaning": "平均"
+    },
+    {
+      "id": 62,
+      "phrase": "(be) aware of (=be conscious of , having knowledge or consciousness)",
+      "meaning": "意识到,知道."
+    },
+    {
+      "id": 63,
+      "phrase": "at the back of (=behind)",
+      "meaning": "在…后面"
+    },
+    {
+      "id": 64,
+      "phrase": "in the back of",
+      "meaning": "在…后部(里面); on the back of 在…后部(外面); be on one’s back(=be ill in bed) 卧病不起."
+    },
+    {
+      "id": 65,
+      "phrase": "at one’s back(=supporting or favoring sb.)",
+      "meaning": "支持,维护; have sb. at one’s back 有…支持, 有…作后台"
+    },
+    {
+      "id": 66,
+      "phrase": "turn one’s back on sb. (=turn away from sb. in an impolite way)",
+      "meaning": "不理睬(某人),背弃,抛弃"
+    },
+    {
+      "id": 67,
+      "phrase": "behind one’s back",
+      "meaning": "背着某人(说坏话)"
+    },
+    {
+      "id": 68,
+      "phrase": "be based on / upon",
+      "meaning": "基于"
+    },
+    {
+      "id": 69,
+      "phrase": "on the basis of",
+      "meaning": "根据…, 在…基础上"
+    },
+    {
+      "id": 70,
+      "phrase": "beat…at",
+      "meaning": "在…运动项目上打赢"
+    },
+    {
+      "id": 71,
+      "phrase": "begin with",
+      "meaning": "以…开始. to begin with (=first of all) 首先, 第一(经常用于开始语)"
+    },
+    {
+      "id": 72,
+      "phrase": "on behalf of (=as the representative of)",
+      "meaning": "以…名义"
+    },
+    {
+      "id": 73,
+      "phrase": "believe in(=have faith or trust in; consider sth./sb. to be true)",
+      "meaning": "相信,依赖,信仰."
+    },
+    {
+      "id": 74,
+      "phrase": "benefit (from)",
+      "meaning": "受益,得到好处."
+    },
+    {
+      "id": 75,
+      "phrase": "for the benefit of",
+      "meaning": "为了…的利益(好处)"
+    },
+    {
+      "id": 76,
+      "phrase": "for the better",
+      "meaning": "好转"
+    },
+    {
+      "id": 77,
+      "phrase": "get the better of (=defeat sb.)",
+      "meaning": "打败, 胜过."
+    },
+    {
+      "id": 78,
+      "phrase": "by birth",
+      "meaning": "在出生上,论出身,按血统 at birth 在出生时; give birth to 出生"
+    },
+    {
+      "id": 79,
+      "phrase": "blame sb. for sth.",
+      "meaning": "因…责备某人 . blame sth. on sb. 把…推在某人身上"
+    },
+    {
+      "id": 80,
+      "phrase": "in blossom",
+      "meaning": "开花(指树木) be in blossom 开花(强调状态) come into blossom 开花(强调动作)"
+    },
+    {
+      "id": 81,
+      "phrase": "on board",
+      "meaning": "到船上, 在船上, 上火车或飞机"
+    },
+    {
+      "id": 82,
+      "phrase": "boast of (or about)",
+      "meaning": "吹嘘"
+    },
+    {
+      "id": 83,
+      "phrase": "out of breath",
+      "meaning": "喘不过气来"
+    },
+    {
+      "id": 84,
+      "phrase": "in brief(=in as few words as possible)",
+      "meaning": "简言之"
+    },
+    {
+      "id": 85,
+      "phrase": "in bulk",
+      "meaning": "成批地,不散装的"
+    },
+    {
+      "id": 86,
+      "phrase": "take the floor",
+      "meaning": "起立发言"
+    },
+    {
+      "id": 87,
+      "phrase": "on business",
+      "meaning": "出差办事."
+    },
+    {
+      "id": 88,
+      "phrase": "be busy with sth.",
+      "meaning": "于某事。 be busy doing sth. 忙于做某事"
+    },
+    {
+      "id": 89,
+      "phrase": "last but one",
+      "meaning": "倒数第二."
+    },
+    {
+      "id": 90,
+      "phrase": "but for (=without)",
+      "meaning": "要不是. 表示假设"
+    },
+    {
+      "id": 91,
+      "phrase": "buy sth. for…money",
+      "meaning": "用多少钱买"
+    },
+    {
+      "id": 92,
+      "phrase": "be capable of",
+      "meaning": "能够, 有能力 be capable of being +过去分词:是能够被…的"
+    },
+    {
+      "id": 93,
+      "phrase": "in any case(=for love or money, at any rate, at any price, at any cost, whatever happens; anyhow)",
+      "meaning": "无论如何"
+    },
+    {
+      "id": 94,
+      "phrase": "in case (=for fear that)",
+      "meaning": "万一;"
+    },
+    {
+      "id": 95,
+      "phrase": "in case of (=in the event of)",
+      "meaning": "如果发生…万一 in the case of 至于…, 就…而言"
+    },
+    {
+      "id": 96,
+      "phrase": "in no case",
+      "meaning": "在任何情况下都不(放句首倒装句)"
+    },
+    {
+      "id": 97,
+      "phrase": "be cautious of",
+      "meaning": "谨防"
+    },
+    {
+      "id": 98,
+      "phrase": "center one’s attention on(=focus one’s attention on)",
+      "meaning": "把某人的注意力集中在…上"
+    },
+    {
+      "id": 99,
+      "phrase": "be certain of (=be sure of)",
+      "meaning": "有把握, 一定."
+    },
+    {
+      "id": 100,
+      "phrase": "for certain of (=for sure )",
+      "meaning": "肯定地,有把握地"
+    }
+  ],
+  "readingBook": {
+    "title": "雅思阅读真经5",
+    "pageCount": 416,
+    "status": "local_reference_only",
+    "strategy": "仅作为本地学习资料记录；H5 不加载原文件、不展示页面图片，只使用已整理出的结构化学习内容。"
+  }
+}

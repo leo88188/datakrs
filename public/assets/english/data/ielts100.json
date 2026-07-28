@@ -2,7 +2,6 @@
   "meta": {
     "title": "100句学完7000雅思单词",
     "version": "1.0.0",
-    "sourcePdf": "100个句子记完7000个雅思单词.pdf",
     "sentenceCount": 100,
     "wordEntryCount": 5622,
     "coreWordEntryCount": 804,

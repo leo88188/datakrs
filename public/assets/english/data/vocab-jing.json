@@ -50452,10 +50452,5 @@
       "url": "https://engilish.oss-cn-guangzhou.aliyuncs.com/assets/vocab-audio/vocab-jing-22.mp3",
       "bytes": 6010130
     }
-  ],
-  "reading": {
-    "title": "雅思阅读真经 5",
-    "status": "scan_pdf_pending_ocr",
-    "note": "该 PDF 为扫描版，暂不在 H5 直接展示。后续可用 OCR 拆成 Passage 训练。"
-  }
+  ]
 }
