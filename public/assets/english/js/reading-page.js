@@ -275,9 +275,12 @@
           <h1>${esc(article.title)}</h1>
           <p>${esc(article.summary)}</p>
         </div>
-        <button class="reading-complete-button${completed ? " active" : ""}" type="button" data-complete-article="${esc(article.id)}">
-          ${completed ? "已读完" : "标记读完"}
-        </button>
+        <div class="reading-article-actions">
+          <button class="reading-list-jump" type="button" data-scroll-reading-list>文章目录</button>
+          <button class="reading-complete-button${completed ? " active" : ""}" type="button" data-complete-article="${esc(article.id)}">
+            ${completed ? "已读完" : "标记读完"}
+          </button>
+        </div>
       </div>
 
       <section class="reading-passage">
@@ -369,6 +372,14 @@
     });
   }
 
+  function scrollToElement(element) {
+    if (!element) return;
+    const behavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+    window.requestAnimationFrame(() => {
+      element.scrollIntoView({ behavior, block: "start" });
+    });
+  }
+
   function bindEvents() {
     els.search.addEventListener("input", () => {
       state.query = els.search.value;
@@ -400,7 +411,7 @@
       if (!button) return;
       state.activeId = button.dataset.articleId;
       render();
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      scrollToElement(els.article);
     });
 
     document.querySelectorAll("[data-font-size]").forEach((button) => {
@@ -411,6 +422,12 @@
     });
 
     els.article.addEventListener("click", (event) => {
+      const listButton = event.target.closest("[data-scroll-reading-list]");
+      if (listButton) {
+        scrollToElement(document.querySelector(".reading-workbench"));
+        return;
+      }
+
       const speakButton = event.target.closest("[data-speak]");
       if (speakButton) {
         event.preventDefault();

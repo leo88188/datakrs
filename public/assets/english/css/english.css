@@ -1341,6 +1341,7 @@ button {
   padding: 12px;
   background: #fff;
   box-shadow: 0 10px 30px rgba(15, 23, 42, .05);
+  scroll-margin-top: 74px;
 }
 
 .reading-control-row {
@@ -1388,6 +1389,20 @@ button {
   display: grid;
   gap: 8px;
   margin-top: 10px;
+  max-height: min(46vh, 430px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 2px;
+  scrollbar-width: thin;
+}
+
+.reading-article-list::-webkit-scrollbar {
+  width: 7px;
+}
+
+.reading-article-list::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: #cbd5e1;
 }
 
 .reading-article-chip {
@@ -1461,6 +1476,12 @@ button {
   gap: 10px;
 }
 
+.reading-article-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .reading-tags {
   display: flex;
   gap: 6px;
@@ -1490,6 +1511,7 @@ button {
   font-size: 14px;
 }
 
+.reading-list-jump,
 .reading-complete-button,
 .reading-answer-toggle {
   min-height: 38px;
@@ -1499,6 +1521,11 @@ button {
   background: #eef3f8;
   font-size: 13px;
   font-weight: 800;
+}
+
+.reading-list-jump {
+  color: #1d4ed8;
+  background: #dbeafe;
 }
 
 .reading-complete-button.active {
