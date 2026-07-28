@@ -114,7 +114,7 @@ Production smoke test:
   - Speaking has prompt cards, timer, and local browser recording.
   - Reading links to the reading article library.
   - Writing has timed prompts, local draft autosave, word count, and checklist.
-- Classic sentences module: defaults to IELTS complex-sentence training, with 878 sentence cards total, 480 IELTS complex-sentence cards across business, finance, fiscal, technology, city and social topics, grammar-pattern filters, topic filters, search, random card, browser speech synthesis, local favorites and read progress.
+- Classic sentences module: defaults to IELTS complex-sentence training, with 1,358 sentence cards total, 720 IELTS complex-sentence cards across 60 topics and 638 quote/golden-expression cards, grammar-pattern filters, topic filters, search, random card, browser speech synthesis, local favorites and read progress.
 
 ## Next Improvements
 

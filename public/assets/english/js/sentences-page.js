@@ -194,6 +194,104 @@
     ["价值", "Value begins where usefulness meets care.", "价值始于有用与用心相遇的地方。", "深刻"],
   ];
 
+  const goldenThemes = [
+    { category: "自律", noun: "discipline", nounCn: "自律", pressure: "fatigue", pressureCn: "疲惫", result: "a quiet form of freedom", resultCn: "一种安静的自由" },
+    { category: "专注", noun: "attention", nounCn: "专注", pressure: "constant distraction", pressureCn: "持续分心", result: "the beginning of real influence", resultCn: "真正影响力的开始" },
+    { category: "判断", noun: "judgment", nounCn: "判断力", pressure: "uncertainty", pressureCn: "不确定性", result: "a practical kind of wisdom", resultCn: "一种实用的智慧" },
+    { category: "耐心", noun: "patience", nounCn: "耐心", pressure: "slow progress", pressureCn: "缓慢进展", result: "the courage to let things mature", resultCn: "让事情成熟的勇气" },
+    { category: "责任", noun: "responsibility", nounCn: "责任", pressure: "convenient excuses", pressureCn: "方便的借口", result: "character made visible", resultCn: "被看见的人格" },
+    { category: "沟通", noun: "communication", nounCn: "沟通", pressure: "misunderstanding", pressureCn: "误解", result: "a bridge between separate minds", resultCn: "分离心智之间的桥" },
+    { category: "合作", noun: "cooperation", nounCn: "合作", pressure: "competing interests", pressureCn: "利益竞争", result: "strength that no single person owns", resultCn: "无人能单独拥有的力量" },
+    { category: "好奇", noun: "curiosity", nounCn: "好奇心", pressure: "easy answers", pressureCn: "简单答案", result: "the habit of keeping the world open", resultCn: "让世界保持开放的习惯" },
+    { category: "独立", noun: "independence", nounCn: "独立", pressure: "social approval", pressureCn: "社会认可", result: "the ability to choose without noise", resultCn: "不被噪音干扰地选择的能力" },
+    { category: "同理心", noun: "empathy", nounCn: "同理心", pressure: "quick judgment", pressureCn: "快速评判", result: "intelligence with a human face", resultCn: "带有人性面孔的智慧" },
+    { category: "韧性", noun: "resilience", nounCn: "韧性", pressure: "repeated disappointment", pressureCn: "反复失望", result: "hope that has learned structure", resultCn: "学会结构的希望" },
+    { category: "表达", noun: "expression", nounCn: "表达", pressure: "vague feelings", pressureCn: "模糊感受", result: "thought made available to others", resultCn: "能被他人理解的思想" },
+    { category: "选择", noun: "choice", nounCn: "选择", pressure: "too many possibilities", pressureCn: "过多可能性", result: "the shape of a future self", resultCn: "未来自我的形状" },
+    { category: "信任", noun: "trust", nounCn: "信任", pressure: "hidden motives", pressureCn: "隐藏动机", result: "social capital in its simplest form", resultCn: "最简单形式的社会资本" },
+    { category: "创造", noun: "creativity", nounCn: "创造力", pressure: "standard answers", pressureCn: "标准答案", result: "a disciplined form of surprise", resultCn: "一种有纪律的惊喜" },
+    { category: "清醒", noun: "clarity", nounCn: "清醒", pressure: "emotional noise", pressureCn: "情绪噪音", result: "the first condition of useful action", resultCn: "有效行动的第一条件" },
+    { category: "勇气", noun: "courage", nounCn: "勇气", pressure: "possible failure", pressureCn: "可能失败", result: "fear that has accepted a direction", resultCn: "接受了方向的恐惧" },
+    { category: "谦逊", noun: "humility", nounCn: "谦逊", pressure: "early success", pressureCn: "早期成功", result: "room left for further learning", resultCn: "为继续学习留下的空间" },
+    { category: "宽容", noun: "tolerance", nounCn: "宽容", pressure: "differences in belief", pressureCn: "信念差异", result: "peace without forced agreement", resultCn: "不强求一致的和平" },
+    { category: "长期主义", noun: "long-term thinking", nounCn: "长期思维", pressure: "instant reward", pressureCn: "即时回报", result: "a promise made to a future life", resultCn: "给未来生活的承诺" },
+  ];
+
+  const goldenFrames = [
+    {
+      tone: "深刻",
+      english: (item) => `When ${item.noun} is tested by ${item.pressure}, it becomes more than a quality; it becomes ${item.result}.`,
+      chinese: (item) => `当${item.nounCn}经受${item.pressureCn}考验时，它就不只是品质，而成为${item.resultCn}。`,
+      note: (item) => `句型可迁移到口语 Part 3：When ${item.noun} is tested by..., it becomes...，适合表达抽象品质的价值。`,
+    },
+    {
+      tone: "坚定",
+      english: (item) => `A person who understands ${item.noun} does not simply avoid difficulty; they learn how to move through it without losing direction.`,
+      chinese: (item) => `真正理解${item.nounCn}的人，不只是回避困难，而是学会在困难中不失去方向。`,
+      note: () => "人物类观点句，可用于 education、work、success、personal development 等话题。",
+    },
+    {
+      tone: "温暖",
+      english: (item) => `${capitalise(item.noun)} matters because it turns ordinary moments into evidence that people can still choose better responses.`,
+      chinese: (item) => `${item.nounCn}之所以重要，是因为它把普通时刻变成人们仍能选择更好回应的证据。`,
+      note: () => "because 引导解释，适合把抽象名词落到具体行为。",
+    },
+    {
+      tone: "深刻",
+      english: (item) => `Without ${item.noun}, progress may look impressive from the outside while remaining fragile at its centre.`,
+      chinese: (item) => `没有${item.nounCn}，进步也许外表令人印象深刻，核心却仍然脆弱。`,
+      note: () => "without 开头制造条件感，适合写作中指出隐藏问题。",
+    },
+    {
+      tone: "安静",
+      english: (item) => `${capitalise(item.noun)} is often quiet, but it changes the atmosphere in which decisions are made.`,
+      chinese: (item) => `${item.nounCn}常常很安静，却会改变决策发生的氛围。`,
+      note: () => "简洁观点句，适合口语中自然表达抽象概念。",
+    },
+    {
+      tone: "坚定",
+      english: (item) => `The value of ${item.noun} is not that it removes pressure, but that it gives pressure a more useful shape.`,
+      chinese: (item) => `${item.nounCn}的价值不在于消除压力，而在于让压力呈现出更有用的形状。`,
+      note: () => "not...but... 结构，可用于写作中做概念辨析。",
+    },
+    {
+      tone: "有趣",
+      english: (item) => `${capitalise(item.noun)} is what remains when good intentions have to survive real schedules, real people and real mistakes.`,
+      chinese: (item) => `当好意必须经受真实日程、真实的人和真实错误时，留下来的就是${item.nounCn}。`,
+      note: () => "带一点幽默和现实感，适合口语扩展回答。",
+    },
+    {
+      tone: "深刻",
+      english: (item) => `If ${item.noun} is treated as a habit rather than a mood, it becomes easier to practise on days when motivation is absent.`,
+      chinese: (item) => `如果把${item.nounCn}看作习惯而不是心情，那么在没有动力的日子里也更容易练习它。`,
+      note: () => "if 条件句 + rather than 对比，适合 habit、motivation、self-improvement 话题。",
+    },
+    {
+      tone: "温暖",
+      english: (item) => `People do not need perfect lives to practise ${item.noun}; they need small situations in which better choices are still possible.`,
+      chinese: (item) => `人们不需要完美生活来练习${item.nounCn}；他们需要的是仍能做出更好选择的小场景。`,
+      note: () => "适合口语中把抽象概念讲得具体、温和。",
+    },
+    {
+      tone: "坚定",
+      english: (item) => `The more a society rewards speed, the more it should protect ${item.noun}, because not every important decision improves when it is rushed.`,
+      chinese: (item) => `一个社会越奖励速度，就越应该保护${item.nounCn}，因为并非每个重要决定都会因仓促而变好。`,
+      note: () => "the more..., the more... 结构，适合 society、technology、work pressure 等话题。",
+    },
+    {
+      tone: "深刻",
+      english: (item) => `What makes ${item.noun} powerful is that it changes not only what people do, but also what they notice.`,
+      chinese: (item) => `${item.nounCn}之所以有力量，是因为它改变的不只是人们做什么，也改变人们注意到什么。`,
+      note: () => "what makes...is that... 名词性从句，适合高分表达。",
+    },
+    {
+      tone: "安静",
+      english: (item) => `In a noisy world, ${item.noun} is less about being impressive than about being reliable when it matters.`,
+      chinese: (item) => `在喧闹的世界里，${item.nounCn}与其说是令人印象深刻，不如说是在关键时刻可靠。`,
+      note: () => "less about...than about... 适合做观点转折。",
+    },
+  ];
+
   const ieltsThemes = [
     { category: "科技", subject: "digital technology", subjectCn: "数字技术", benefit: "making information easier to reach", benefitCn: "让信息更容易获取", people: "ordinary users", peopleCn: "普通用户", problem: "privacy and attention", problemCn: "隐私和注意力", setting: "schools, offices and public services", settingCn: "学校、办公室和公共服务中" },
     { category: "教育", subject: "modern education", subjectCn: "现代教育", benefit: "opening more flexible paths to knowledge", benefitCn: "打开更灵活的知识路径", people: "students", peopleCn: "学生", problem: "exam pressure and shallow learning", problemCn: "考试压力和浅层学习", setting: "classrooms and online courses", settingCn: "课堂和线上课程中" },
@@ -235,6 +333,26 @@
     { category: "社会媒体", subject: "online public opinion", subjectCn: "线上公共舆论", benefit: "making social problems visible more quickly", benefitCn: "更快地让社会问题被看见", people: "citizens and policymakers", peopleCn: "公民和政策制定者", problem: "emotional reactions and incomplete evidence", problemCn: "情绪化反应和证据不完整", setting: "comment sections, livestreams and public campaigns", settingCn: "评论区、直播和公共行动中" },
     { category: "城市更新", subject: "urban renewal", subjectCn: "城市更新", benefit: "reviving old districts and improving public safety", benefitCn: "复兴旧城区并改善公共安全", people: "long-term residents and new businesses", peopleCn: "长期居民和新企业", problem: "gentrification and the loss of local memory", problemCn: "绅士化和本地记忆流失", setting: "old neighbourhoods, commercial streets and transport corridors", settingCn: "老社区、商业街和交通走廊中" },
     { category: "科技监管", subject: "technology regulation", subjectCn: "科技监管", benefit: "setting boundaries before innovation creates irreversible harm", benefitCn: "在创新造成不可逆伤害之前设定边界", people: "innovators, users and regulators", peopleCn: "创新者、用户和监管者", problem: "slow legislation and fast-moving business models", problemCn: "立法缓慢和快速变化的商业模式", setting: "AI systems, fintech products and data-driven services", settingCn: "人工智能系统、金融科技产品和数据驱动服务中" },
+    { category: "气候适应", subject: "climate adaptation", subjectCn: "气候适应", benefit: "helping communities prepare for risks that can no longer be ignored", benefitCn: "帮助社区为无法再忽视的风险做准备", people: "coastal residents and local authorities", peopleCn: "沿海居民和地方政府", problem: "high costs and unequal protection", problemCn: "高成本和保护不均", setting: "flood defences, heat plans and emergency systems", settingCn: "防洪工程、高温预案和应急系统中" },
+    { category: "能源转型", subject: "the energy transition", subjectCn: "能源转型", benefit: "reducing dependence on fossil fuels while creating new industries", benefitCn: "减少对化石燃料的依赖并创造新产业", people: "workers, consumers and energy companies", peopleCn: "劳动者、消费者和能源企业", problem: "price volatility and regional job losses", problemCn: "价格波动和地区性岗位流失", setting: "power grids, factories and household consumption", settingCn: "电网、工厂和家庭消费中" },
+    { category: "水资源", subject: "water resource management", subjectCn: "水资源管理", benefit: "protecting a basic resource that economic growth depends on", benefitCn: "保护经济增长所依赖的基本资源", people: "farmers, households and industries", peopleCn: "农民、家庭和工业部门", problem: "waste, pollution and regional scarcity", problemCn: "浪费、污染和地区性短缺", setting: "agriculture, urban planning and industrial production", settingCn: "农业、城市规划和工业生产中" },
+    { category: "农业", subject: "modern agriculture", subjectCn: "现代农业", benefit: "raising food output with fewer resources", benefitCn: "用更少资源提高粮食产出", people: "farmers and consumers", peopleCn: "农民和消费者", problem: "soil damage and dependence on technology", problemCn: "土壤损害和技术依赖", setting: "farms, food markets and rural communities", settingCn: "农场、食品市场和农村社区中" },
+    { category: "食品安全", subject: "food safety", subjectCn: "食品安全", benefit: "protecting public confidence in what people eat every day", benefitCn: "保护公众对日常饮食的信心", people: "families and food producers", peopleCn: "家庭和食品生产者", problem: "weak inspection and profit-driven shortcuts", problemCn: "监管薄弱和逐利捷径", setting: "restaurants, supermarkets and supply chains", settingCn: "餐馆、超市和供应链中" },
+    { category: "犯罪预防", subject: "crime prevention", subjectCn: "犯罪预防", benefit: "addressing social risks before punishment becomes necessary", benefitCn: "在惩罚变得必要之前处理社会风险", people: "young people and neighbourhoods", peopleCn: "年轻人和社区", problem: "poverty, exclusion and mistrust of authorities", problemCn: "贫困、排斥和对权威的不信任", setting: "schools, streets and community programmes", settingCn: "学校、街区和社区项目中" },
+    { category: "法律执行", subject: "law enforcement", subjectCn: "法律执行", benefit: "protecting order when rules are applied fairly", benefitCn: "在规则被公平适用时保护秩序", people: "citizens and police officers", peopleCn: "公民和警务人员", problem: "abuse of power and unequal treatment", problemCn: "权力滥用和不平等对待", setting: "courts, patrols and public security systems", settingCn: "法院、巡逻和公共安全系统中" },
+    { category: "移民", subject: "migration", subjectCn: "移民", benefit: "bringing labour, ideas and cultural exchange to host societies", benefitCn: "为接收社会带来劳动力、观念和文化交流", people: "migrants and local residents", peopleCn: "移民和本地居民", problem: "integration pressure and political tension", problemCn: "融入压力和政治紧张", setting: "labour markets, schools and neighbourhoods", settingCn: "劳动力市场、学校和社区中" },
+    { category: "性别平等", subject: "gender equality", subjectCn: "性别平等", benefit: "allowing ability to matter more than outdated expectations", benefitCn: "让能力比过时期待更重要", people: "women, men and employers", peopleCn: "女性、男性和雇主", problem: "hidden bias and unequal care responsibilities", problemCn: "隐性偏见和照护责任不均", setting: "workplaces, homes and public institutions", settingCn: "工作场所、家庭和公共机构中" },
+    { category: "无障碍", subject: "disability inclusion", subjectCn: "残障包容", benefit: "making public life available to more people", benefitCn: "让更多人能够参与公共生活", people: "disabled people and service providers", peopleCn: "残障人士和服务提供者", problem: "poor design and limited social awareness", problemCn: "设计不足和社会意识有限", setting: "transport, schools, websites and workplaces", settingCn: "交通、学校、网站和工作场所中" },
+    { category: "艺术资助", subject: "arts funding", subjectCn: "艺术资助", benefit: "preserving creativity that markets may undervalue", benefitCn: "保护市场可能低估的创造力", people: "artists, audiences and young learners", peopleCn: "艺术家、观众和年轻学习者", problem: "budget pressure and unclear public value", problemCn: "预算压力和公共价值不清", setting: "museums, theatres and community arts programmes", settingCn: "博物馆、剧院和社区艺术项目中" },
+    { category: "体育", subject: "sport participation", subjectCn: "体育参与", benefit: "strengthening health, discipline and social connection", benefitCn: "增强健康、纪律和社会连接", people: "children and adults", peopleCn: "儿童和成年人", problem: "commercial pressure and unequal facilities", problemCn: "商业压力和设施不均", setting: "schools, clubs and public sports grounds", settingCn: "学校、俱乐部和公共运动场中" },
+    { category: "语言保护", subject: "language preservation", subjectCn: "语言保护", benefit: "keeping cultural memory alive across generations", benefitCn: "让文化记忆在代际之间延续", people: "minority communities and students", peopleCn: "少数群体和学生", problem: "dominant media and declining daily use", problemCn: "主流媒体和日常使用下降", setting: "homes, schools and digital archives", settingCn: "家庭、学校和数字档案中" },
+    { category: "心理健康", subject: "mental health support", subjectCn: "心理健康支持", benefit: "helping people deal with pressure before it becomes a crisis", benefitCn: "帮助人们在压力变成危机前应对它", people: "students, employees and families", peopleCn: "学生、员工和家庭", problem: "stigma and limited access to care", problemCn: "污名化和照护可及性不足", setting: "schools, workplaces and primary care systems", settingCn: "学校、工作场所和基层医疗系统中" },
+    { category: "儿童成长", subject: "early childhood development", subjectCn: "儿童早期发展", benefit: "building the foundation for later learning and wellbeing", benefitCn: "为之后的学习和幸福打下基础", people: "children and parents", peopleCn: "儿童和父母", problem: "unequal childcare and screen dependence", problemCn: "托育不均和屏幕依赖", setting: "families, nurseries and community health services", settingCn: "家庭、托育机构和社区健康服务中" },
+    { category: "高等教育", subject: "higher education", subjectCn: "高等教育", benefit: "developing specialised knowledge and independent thinking", benefitCn: "发展专业知识和独立思考", people: "university students and employers", peopleCn: "大学生和雇主", problem: "rising fees and uncertain job outcomes", problemCn: "学费上涨和就业结果不确定", setting: "universities, research centres and labour markets", settingCn: "大学、研究中心和劳动力市场中" },
+    { category: "在线学习", subject: "online learning", subjectCn: "在线学习", benefit: "making education less limited by place and schedule", benefitCn: "让教育不再过度受地点和时间限制", people: "learners and teachers", peopleCn: "学习者和教师", problem: "low engagement and uneven digital access", problemCn: "参与度低和数字接入不均", setting: "homes, training platforms and hybrid classrooms", settingCn: "家庭、培训平台和混合课堂中" },
+    { category: "乡村发展", subject: "rural development", subjectCn: "乡村发展", benefit: "reducing the gap between urban opportunity and rural potential", benefitCn: "缩小城市机会和乡村潜力之间的差距", people: "rural families and local entrepreneurs", peopleCn: "农村家庭和本地创业者", problem: "youth migration and weak infrastructure", problemCn: "青年外流和基础设施薄弱", setting: "villages, farms and county-level industries", settingCn: "村庄、农场和县域产业中" },
+    { category: "国际援助", subject: "international aid", subjectCn: "国际援助", benefit: "supporting communities when local resources are overwhelmed", benefitCn: "在本地资源不堪重负时支持社区", people: "donors and recipient countries", peopleCn: "捐助方和受援国", problem: "dependency and weak accountability", problemCn: "依赖性和问责不足", setting: "health projects, disaster relief and education programmes", settingCn: "健康项目、灾害救援和教育项目中" },
+    { category: "灾害应对", subject: "disaster preparedness", subjectCn: "灾害准备", benefit: "saving lives by turning risk into planned action", benefitCn: "通过把风险转化为计划行动来拯救生命", people: "families, schools and emergency teams", peopleCn: "家庭、学校和应急团队", problem: "complacency and poor coordination", problemCn: "麻痹大意和协调不足", setting: "warning systems, shelters and public drills", settingCn: "预警系统、避难所和公共演练中" },
   ];
 
   const ieltsComplexFrames = [
@@ -431,6 +549,22 @@
         note: "短句结构清楚，适合朗读、默写或改写成自己的表达。",
       });
     });
+    goldenThemes.forEach((theme, themeIndex) => {
+      goldenFrames.forEach((frame, frameIndex) => {
+        cards.push({
+          id: `g${String(themeIndex + 1).padStart(2, "0")}-${String(frameIndex + 1).padStart(2, "0")}`,
+          english: frame.english(theme),
+          chinese: frame.chinese(theme),
+          author: "Datakrs Original",
+          category: theme.category,
+          tone: frame.tone,
+          kind: "表达金句",
+          pattern: "观点表达",
+          grammar: "抽象名词观点句",
+          note: frame.note(theme),
+        });
+      });
+    });
     ieltsThemes.forEach((theme, themeIndex) => {
       ieltsComplexFrames.forEach((frame, frameIndex) => {
         cards.push({
@@ -568,7 +702,8 @@
   }
 
   function activeSentence() {
-    return state.sentences.find((item) => item.id === state.activeId) || filteredSentences()[0] || state.sentences[0];
+    const items = filteredSentences();
+    return items.find((item) => item.id === state.activeId) || items[0] || null;
   }
 
   function renderTabs(container, values, active, attr, allLabel) {
@@ -595,6 +730,7 @@
   function renderList() {
     const items = filteredSentences();
     if (items.length && !items.some((item) => item.id === state.activeId)) state.activeId = items[0].id;
+    if (!items.length) state.activeId = "";
     els.count.textContent = `${items.length} 句`;
     els.list.innerHTML = items
       .map(
@@ -612,7 +748,10 @@
 
   function renderCard() {
     const item = activeSentence();
-    if (!item) return;
+    if (!item) {
+      els.card.innerHTML = '<div class="loading-state">没有匹配句子，换一个主题或清空搜索。</div>';
+      return;
+    }
     const items = filteredSentences();
     const index = Math.max(0, items.findIndex((entry) => entry.id === item.id));
     const hasPrev = index > 0;
@@ -678,6 +817,8 @@
       state.category = "all";
       state.pattern = "all";
       state.tone = "all";
+      state.query = "";
+      els.search.value = "";
       render();
     });
     els.patterns.addEventListener("click", (event) => {
