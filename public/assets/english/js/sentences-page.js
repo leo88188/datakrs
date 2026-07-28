@@ -252,25 +252,25 @@
       tone: "深刻",
       english: (item) => `When ${item.noun} is tested by ${item.pressure}, it becomes more than a quality; it becomes ${item.result}.`,
       chinese: (item) => `当${item.nounCn}经受${item.pressureCn}考验时，它就不只是品质，而成为${item.resultCn}。`,
-      note: (item) => `句型可迁移到口语 Part 3：When ${item.noun} is tested by..., it becomes...，适合表达抽象品质的价值。`,
+      note: (item) => `组合：When ${item.noun} is tested by... + it becomes...，把抽象品质写成“经过考验后的结果”。`,
     },
     {
       tone: "坚定",
       english: (item) => `A person who understands ${item.noun} does not simply avoid difficulty; they learn how to move through it without losing direction.`,
       chinese: (item) => `真正理解${item.nounCn}的人，不只是回避困难，而是学会在困难中不失去方向。`,
-      note: () => "人物类观点句，可用于 education、work、success、personal development 等话题。",
+      note: () => "组合：A person who... + does not simply...; they...，先定义一类人，再补充这个人的行动方式。",
     },
     {
       tone: "温暖",
       english: (item) => `${capitalise(item.noun)} matters because it turns ordinary moments into evidence that people can still choose better responses.`,
       chinese: (item) => `${item.nounCn}之所以重要，是因为它把普通时刻变成人们仍能选择更好回应的证据。`,
-      note: () => "because 引导解释，适合把抽象名词落到具体行为。",
+      note: () => "组合：抽象名词 + matters because...，先说重要，再解释它如何落到具体行为。",
     },
     {
       tone: "深刻",
       english: (item) => `Without ${item.noun}, progress may look impressive from the outside while remaining fragile at its centre.`,
       chinese: (item) => `没有${item.nounCn}，进步也许外表令人印象深刻，核心却仍然脆弱。`,
-      note: () => "without 开头制造条件感，适合写作中指出隐藏问题。",
+      note: () => "组合：Without... + may look... while remaining...，先给缺失条件，再指出表面和内部的反差。",
     },
     {
       tone: "安静",
@@ -282,43 +282,43 @@
       tone: "坚定",
       english: (item) => `The value of ${item.noun} is not that it removes pressure, but that it gives pressure a more useful shape.`,
       chinese: (item) => `${item.nounCn}的价值不在于消除压力，而在于让压力呈现出更有用的形状。`,
-      note: () => "not...but... 结构，可用于写作中做概念辨析。",
+      note: () => "组合：not that... but that...，不是 A，而是 B，用来做概念辨析。",
     },
     {
       tone: "有趣",
       english: (item) => `${capitalise(item.noun)} is what remains when good intentions have to survive real schedules, real people and real mistakes.`,
       chinese: (item) => `当好意必须经受真实日程、真实的人和真实错误时，留下来的就是${item.nounCn}。`,
-      note: () => "带一点幽默和现实感，适合口语扩展回答。",
+      note: () => "组合：what remains when...，先说留下来的东西，再列出它经受的真实场景。",
     },
     {
       tone: "深刻",
       english: (item) => `If ${item.noun} is treated as a habit rather than a mood, it becomes easier to practise on days when motivation is absent.`,
       chinese: (item) => `如果把${item.nounCn}看作习惯而不是心情，那么在没有动力的日子里也更容易练习它。`,
-      note: () => "if 条件句 + rather than 对比，适合 habit、motivation、self-improvement 话题。",
+      note: () => "组合：If... is treated as... rather than...，把一个概念从情绪改写成习惯或方法。",
     },
     {
       tone: "温暖",
       english: (item) => `People do not need perfect lives to practise ${item.noun}; they need small situations in which better choices are still possible.`,
       chinese: (item) => `人们不需要完美生活来练习${item.nounCn}；他们需要的是仍能做出更好选择的小场景。`,
-      note: () => "适合口语中把抽象概念讲得具体、温和。",
+      note: () => "组合：People do not need...; they need...，先否定过高要求，再给出更实际的条件。",
     },
     {
       tone: "坚定",
       english: (item) => `The more a society rewards speed, the more it should protect ${item.noun}, because not every important decision improves when it is rushed.`,
       chinese: (item) => `一个社会越奖励速度，就越应该保护${item.nounCn}，因为并非每个重要决定都会因仓促而变好。`,
-      note: () => "the more..., the more... 结构，适合 society、technology、work pressure 等话题。",
+      note: () => "组合：The more..., the more... because...，先表达程度递进，再补一个原因。",
     },
     {
       tone: "深刻",
       english: (item) => `What makes ${item.noun} powerful is that it changes not only what people do, but also what they notice.`,
       chinese: (item) => `${item.nounCn}之所以有力量，是因为它改变的不只是人们做什么，也改变人们注意到什么。`,
-      note: () => "what makes...is that... 名词性从句，适合高分表达。",
+      note: () => "组合：What makes... powerful is that...，先提出力量来源，再说明改变了什么。",
     },
     {
       tone: "安静",
       english: (item) => `In a noisy world, ${item.noun} is less about being impressive than about being reliable when it matters.`,
       chinese: (item) => `在喧闹的世界里，${item.nounCn}与其说是令人印象深刻，不如说是在关键时刻可靠。`,
-      note: () => "less about...than about... 适合做观点转折。",
+      note: () => "组合：less about... than about...，不是重点 A，而是重点 B，用来做观点转折。",
     },
   ];
 
@@ -508,7 +508,7 @@
     aims: ["目标；目的", "复数形式，可用于政策、项目和技术应用。"],
     accumulation: ["积累；沉淀", "可以用于 learning、wealth、experience、environmental damage 等抽象过程。"],
     adaptation: ["适应；适应措施", "气候、技术、职场变化话题中常用，强调主动调整而不是被动承受。"],
-    adaptability: ["适应力", "口语 Part 3 可用来评价个人或组织面对变化的能力。"],
+    adaptability: ["适应力", "用来评价个人或组织面对变化时的调整能力。"],
     administration: ["行政；管理；公共管理部门", "public administration 指公共管理。"],
     advertising: ["广告；推广", "数字营销、消费、媒体话题中常见，注意与 manipulation、privacy 连用。"],
     affordability: ["可负担性", "住房、教育、医疗等话题高频词，表达普通人是否承担得起。"],
@@ -768,7 +768,7 @@
   };
 
   Object.assign(sentenceWordNotes, {
-    abstract: ["抽象的", "abstract concept 指抽象概念，写作和口语 Part 3 高频。"],
+    abstract: ["抽象的", "abstract concept 指抽象概念，常用于讨论品质、制度、社会问题。"],
     adaptation: ["适应；适应措施", "climate adaptation 和 workplace adaptation 都常见。"],
     adequate: ["足够的；适当的", "adequate funding / adequate support 表示足够的资金或支持。"],
     administrative: ["行政的；管理的", "administrative work 指行政工作，常见于自动化话题。"],
@@ -1602,6 +1602,85 @@
     yourself: "jərˈself",
   });
 
+  const grammarCombos = {
+    "让步": {
+      combo: "Although... + depends on whether... + rather than...",
+      explain: "先承认一个好处，再说真正价值取决于什么，最后用 rather than 排除低级结果。",
+      template: "Although A is praised for B, its real value depends on whether C rather than D.",
+    },
+    "定语从句": {
+      combo: "主语 + which... + should be judged not only by... but also by...",
+      explain: "which 补充说明主语影响哪里，后半句用 not only...but also... 给出评价标准。",
+      template: "A, which shapes B, should be judged not only by C but also by D.",
+    },
+    "分词结构": {
+      combo: "Seen from... + less... than... + whose...",
+      explain: "Seen from... 先给观察角度，less...than... 做判断，whose 补充这个工具的条件。",
+      template: "Seen from a long-term perspective, A is less B than C whose value depends on D.",
+    },
+    "条件句": {
+      combo: "If... without... + may... while...",
+      explain: "If 提出条件，without 点出缺失，while 表示表面解决与深层问题同时存在。",
+      template: "If A is introduced without B, it may solve C while creating D.",
+    },
+    "强调句": {
+      combo: "It is not... but... that determines whether...",
+      explain: "用强调句把重点从事物本身转到使用方式，再用 whether 引出两种结果。",
+      template: "It is not A, but B, that determines whether C becomes D or E.",
+    },
+    "对比句": {
+      combo: "While... can... + should not replace...",
+      explain: "While 承认能力或好处，后面提醒不能替代人的判断、责任或耐心。",
+      template: "While A can expand B, it should not replace C.",
+    },
+    "比较结构": {
+      combo: "The more... the more... + who/what questions",
+      explain: "用 the more...the more... 表示程度越深，追问就越重要，适合结尾升维。",
+      template: "The more deeply A enters B, the more important it becomes to ask C.",
+    },
+    "名词性从句": {
+      combo: "What makes... difficult is that... whereas...",
+      explain: "What makes...is that... 解释难点，whereas 对比眼前好处和长期成本。",
+      template: "What makes A difficult to evaluate is that B, whereas C.",
+    },
+    "伴随状语": {
+      combo: "By doing... + can... + provided that...",
+      explain: "By doing... 说明通过什么方式实现结果，provided that 表示前提条件。",
+      template: "By making A possible, B can improve C, provided that D.",
+    },
+    "插入语": {
+      combo: "主语 + however... + should be treated as... rather than...",
+      explain: "however useful it may appear 是插入让步，rather than 用来纠正误解。",
+      template: "A, however useful it may appear, should be treated as B rather than C.",
+    },
+    "观点句": {
+      combo: "A society that... is one that... not by... alone",
+      explain: "A society that... 定义一种社会，one that... 继续解释评价标准。",
+      template: "A society that does A wisely is one that measures success by B, not by C alone.",
+    },
+    "倒装句": {
+      combo: "Only when... can...",
+      explain: "Only when 放句首要倒装，把条件放到最前面，语气更像结论句。",
+      template: "Only when A is guided by B can it become C.",
+    },
+  };
+
+  function renderGrammarCombo(item) {
+    const guide = grammarCombos[item.pattern];
+    if (!guide) return "";
+    return `
+      <section class="sentence-grammar-combo">
+        <div class="sentence-grammar-head">
+          <span>句型组合</span>
+          <strong>${esc(item.pattern || item.grammar || "")}</strong>
+        </div>
+        <p>${esc(guide.combo)}</p>
+        <small>${esc(guide.explain)}</small>
+        <code>${esc(guide.template)}</code>
+      </section>
+    `;
+  }
+
   function normaliseWord(value) {
     const lower = String(value || "").toLowerCase().replace(/^'+|'+$/g, "");
     const irregular = {
@@ -1802,7 +1881,7 @@
           kind: "雅思复杂句",
           pattern: frame.label,
           grammar: frame.grammar,
-          note: `句型：${frame.grammar}。用途：适合写作 Task 2 和口语 Part 3，用来讨论${theme.category.replace("雅思", "")}话题的利弊、条件、影响或结论。`,
+          note: `语法：${frame.grammar}。先看主干，再看从句、插入语或对比结构分别补充了什么信息。`,
         });
       });
     });
@@ -1878,7 +1957,7 @@
       return true;
     }).length;
     const labels = {
-      ielts: ["雅思复杂句", "写作 Task 2 / 口语 Part 3"],
+      ielts: ["雅思复杂句", "句型组合 / 语法拆解"],
       classic: ["金句素材", "哲理、幽默、名言短句"],
       all: ["全部句库", "综合刷读与收藏"],
     };
@@ -1991,6 +2070,7 @@
       <h1>${renderAnnotatedSentence(item.english)}</h1>
       <p class="classic-card-translation">${esc(item.chinese)}</p>
       <div class="classic-card-source">${esc(item.author)}</div>
+      ${renderGrammarCombo(item)}
       <p class="classic-card-note">${esc(item.note)}</p>
       <div class="classic-card-actions">
         <button type="button" data-speak-current>朗读</button>

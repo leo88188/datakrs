@@ -2278,6 +2278,60 @@ button {
   font-size: 14px;
 }
 
+.sentence-grammar-combo {
+  display: grid;
+  gap: 7px;
+  margin-top: 12px;
+  border: 1px solid #fed7aa;
+  border-radius: 12px;
+  padding: 11px;
+  background: #fff7ed;
+}
+
+.sentence-grammar-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+}
+
+.sentence-grammar-head span {
+  color: #9a3412;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.sentence-grammar-head strong {
+  color: #172033;
+  font-size: 14px;
+}
+
+.sentence-grammar-combo p {
+  margin: 0;
+  color: #0f172a;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.sentence-grammar-combo small {
+  color: #475569;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.sentence-grammar-combo code {
+  display: block;
+  white-space: normal;
+  border-radius: 9px;
+  padding: 8px;
+  color: #7c2d12;
+  background: #ffedd5;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
 .classic-card-note {
   margin: 10px 0 0;
   border-radius: 12px;
