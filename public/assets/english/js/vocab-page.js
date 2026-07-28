@@ -149,10 +149,11 @@
       : `${currentList.chapterName || "词汇"} · List ${currentList.list} · ${words.length} 词`;
 
     els.resultTitle.textContent = heading;
-    els.visibleCount.textContent = query ? `${Math.min(words.length, 120)} / ${words.length}` : String(words.length);
+    const displayLimit = query ? 120 : 30;
+    els.visibleCount.textContent = query ? `${Math.min(words.length, displayLimit)} / ${words.length}` : `${Math.min(words.length, displayLimit)} / ${words.length}`;
     els.words.innerHTML = `
       ${words
-        .slice(0, query ? 120 : 80)
+        .slice(0, displayLimit)
         .map((word, index) => ({ ...word, displayIndex: index + 1 }))
         .map(
           (word) => `
@@ -168,7 +169,7 @@
           `
         )
         .join("")}
-      ${words.length > (query ? 120 : 80) ? '<div class="vocab-more">结果较多，建议继续输入关键词缩小范围。</div>' : ""}
+      ${words.length > displayLimit ? '<div class="vocab-more">当前只显示前 30 条，使用搜索或切换 List 可以更快定位。</div>' : ""}
     `;
   }
 

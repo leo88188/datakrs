@@ -10,7 +10,7 @@
   <meta name="apple-mobile-web-app-title" content="雅思词汇真经">
   <title>雅思词汇真经 - 克睿斯</title>
   <meta name="description" content="雅思词汇真经词卡、音频、检索与英文发音练习。">
-  <link rel="stylesheet" href="/assets/english/css/english.css">
+  <link rel="stylesheet" href="/assets/english/css/english.css?v=899ca5d2">
 </head>
 <body class="vocab-standalone-body">
   <div class="vocab-page">
@@ -28,7 +28,7 @@
     <main class="vocab-page-main">
       <section class="vocab-hero">
         <span>56 Lists</span>
-        <h1>按主题背词，听音频，随时查。</h1>
+        <h1>雅思词汇真经</h1>
         <p id="standaloneVocabSummary">词汇真经数据加载中...</p>
         <div class="vocab-hero-stats">
           <strong id="standaloneVocabListStat">L01</strong>
@@ -58,11 +58,14 @@
           <button id="standaloneVocabClearSearch" type="button">清空</button>
         </div>
 
-        <div class="vocab-jing-player standalone-vocab-player">
-          <label for="standaloneVocabTrackSelect">词汇真经音频</label>
-          <select id="standaloneVocabTrackSelect"></select>
-          <audio id="standaloneVocabAudio" controls preload="none" referrerpolicy="strict-origin-when-cross-origin"></audio>
-        </div>
+        <details class="vocab-audio-details">
+          <summary>音频跟读</summary>
+          <div class="vocab-jing-player standalone-vocab-player">
+            <label for="standaloneVocabTrackSelect">词汇真经音频</label>
+            <select id="standaloneVocabTrackSelect"></select>
+            <audio id="standaloneVocabAudio" controls preload="none" referrerpolicy="strict-origin-when-cross-origin"></audio>
+          </div>
+        </details>
       </section>
 
       <section class="vocab-results-panel">
@@ -78,6 +81,6 @@
     </main>
   </div>
 
-  <script src="/assets/english/js/vocab-page.js" defer></script>
+  <script src="/assets/english/js/vocab-page.js?v=899ca5d2" defer></script>
 </body>
 </html>

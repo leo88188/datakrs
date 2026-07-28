@@ -78,12 +78,12 @@ button {
 }
 
 .vocab-page-main {
-  padding: 12px 12px max(28px, env(safe-area-inset-bottom));
+  padding: 10px 10px max(24px, env(safe-area-inset-bottom));
 }
 
 .vocab-hero {
-  padding: 16px 14px;
-  border-radius: 16px;
+  padding: 12px;
+  border-radius: 14px;
   color: #172033;
   background: linear-gradient(135deg, #eff6ff, #ecfeff);
   border: 1px solid #dbeafe;
@@ -92,7 +92,7 @@ button {
 .vocab-hero span {
   display: inline-flex;
   border-radius: 999px;
-  padding: 4px 9px;
+  padding: 3px 8px;
   color: #0f766e;
   background: #ccfbf1;
   font-size: 12px;
@@ -100,9 +100,9 @@ button {
 }
 
 .vocab-hero h1 {
-  margin: 10px 0 0;
+  margin: 8px 0 0;
   color: #0f172a;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.28;
   letter-spacing: 0;
 }
@@ -116,15 +116,15 @@ button {
 .vocab-hero-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  margin-top: 12px;
+  gap: 6px;
+  margin-top: 10px;
 }
 
 .vocab-hero-stats strong {
   display: grid;
   place-items: center;
-  min-height: 36px;
-  border-radius: 12px;
+  min-height: 32px;
+  border-radius: 10px;
   color: #172033;
   background: rgba(255, 255, 255, .72);
   font-size: 13px;
@@ -132,17 +132,17 @@ button {
 
 .vocab-workbench,
 .vocab-results-panel {
-  margin-top: 12px;
+  margin-top: 10px;
   border: 1px solid #dfe7ef;
-  border-radius: 16px;
-  padding: 12px;
+  border-radius: 14px;
+  padding: 10px;
   background: #fff;
   box-shadow: 0 10px 30px rgba(15, 23, 42, .05);
 }
 
 .vocab-current {
-  padding: 12px;
-  border-radius: 14px;
+  padding: 10px;
+  border-radius: 12px;
   background: #f8fafc;
 }
 
@@ -156,7 +156,7 @@ button {
 .vocab-results-head h2 {
   margin: 3px 0 0;
   color: #0f172a;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.25;
 }
 
@@ -169,16 +169,16 @@ button {
 .vocab-list-picker {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
-  gap: 8px;
+  gap: 6px;
   align-items: end;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .vocab-list-picker button,
 .vocab-search button {
-  min-height: 42px;
-  border-radius: 12px;
-  padding: 8px 10px;
+  min-height: 38px;
+  border-radius: 10px;
+  padding: 7px 9px;
   color: #172033;
   background: #eef3f8;
   font-size: 13px;
@@ -201,18 +201,30 @@ button {
 .vocab-list-picker select {
   width: 100%;
   min-width: 0;
-  min-height: 42px;
+  min-height: 38px;
   border: 1px solid #d5e0ea;
-  border-radius: 12px;
-  padding: 8px 10px;
+  border-radius: 10px;
+  padding: 7px 9px;
   color: #172033;
   background: #f8fafc;
   font-size: 14px;
 }
 
-.standalone-vocab-player {
-  padding-top: 10px;
+.vocab-audio-details {
+  margin-top: 10px;
   border-top: 1px solid #edf2f7;
+  padding-top: 8px;
+}
+
+.vocab-audio-details summary {
+  cursor: pointer;
+  color: #172033;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.standalone-vocab-player {
+  margin-top: 8px;
 }
 
 .vocab-results-head {
@@ -863,10 +875,10 @@ button {
 .vocab-jing-player select,
 .vocab-search input {
   width: 100%;
-  min-height: 42px;
+  min-height: 38px;
   border: 1px solid #d5e0ea;
-  border-radius: 12px;
-  padding: 9px 11px;
+  border-radius: 10px;
+  padding: 8px 10px;
   color: #172033;
   background: #f8fafc;
   font-size: 15px;
@@ -878,7 +890,7 @@ button {
 }
 
 .vocab-search {
-  margin-top: 12px;
+  margin-top: 10px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 8px;
@@ -952,17 +964,17 @@ button {
 
 .vocab-jing-card {
   display: grid;
-  grid-template-columns: 34px minmax(0, 1fr) 44px;
-  gap: 9px 10px;
+  grid-template-columns: 30px minmax(0, 1fr) 40px;
+  gap: 8px;
   align-items: start;
-  padding: 12px;
-  border-radius: 12px;
+  padding: 10px;
+  border-radius: 11px;
   background: #f8fafc;
 }
 
 .vocab-card-index {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   display: grid;
   place-items: center;
   border-radius: 9px;
@@ -1010,7 +1022,7 @@ button {
 .vocab-jing-card strong {
   display: block;
   color: #0f172a;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.25;
 }
 
@@ -1025,7 +1037,7 @@ button {
   grid-column: 2 / -1;
   margin: 0;
   color: #334155;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .section-heading {
