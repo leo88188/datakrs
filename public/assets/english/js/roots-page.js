@@ -117,7 +117,10 @@
 
   function updateSummary(items) {
     const meta = state.data.meta;
-    els.summary.textContent = `${meta.rootCount} 个词根，${meta.prefixCount} 个前缀，${meta.suffixCount} 个后缀；共 ${meta.totalCount} 张记忆卡。`;
+    const phoneticCount = state.data.items.reduce((total, item) => {
+      return total + item.examples.filter((example) => example.phonetic).length;
+    }, 0);
+    els.summary.textContent = `词根 ${meta.rootCount} · 前缀 ${meta.prefixCount} · 后缀 ${meta.suffixCount} · 音标 ${phoneticCount}`;
     els.progress.textContent = `${state.mastered.size} / ${meta.totalCount} 已掌握`;
     els.showDue.textContent = state.onlyDue ? "查看全部" : "只看未掌握";
     els.cards.dataset.count = String(items.length);
@@ -150,7 +153,7 @@
                         <button class="word-speak roots-speak" type="button" data-term="${esc(example.word)}" aria-label="播放 ${esc(example.word)} 发音" title="播放发音"><span>play</span></button>
                         <div>
                           <strong>${esc(example.word)}</strong>
-                          <em>${example.phonetic ? `/${esc(example.phonetic)}/` : "音标待补"}</em>
+                          ${example.phonetic ? `<em>/${esc(example.phonetic)}/</em>` : ""}
                           <p>${example.pos ? `<small>${esc(example.pos)}</small> ` : ""}${esc(example.meaning)}</p>
                         </div>
                       </div>

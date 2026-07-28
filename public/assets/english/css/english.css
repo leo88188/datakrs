@@ -245,43 +245,10 @@ button {
 }
 
 .roots-page-main {
-  padding: 14px 14px max(28px, env(safe-area-inset-bottom));
-}
-
-.roots-hero {
-  padding: 18px 14px;
-  border-radius: 16px;
-  color: #172033;
-  background: linear-gradient(135deg, #fff7ed, #ecfeff);
-  border: 1px solid #fed7aa;
-}
-
-.roots-hero span {
-  display: inline-flex;
-  border-radius: 999px;
-  padding: 4px 9px;
-  color: #b45309;
-  background: #ffedd5;
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.roots-hero h1 {
-  margin: 10px 0 0;
-  color: #0f172a;
-  font-size: 23px;
-  line-height: 1.3;
-  letter-spacing: 0;
-}
-
-.roots-hero p {
-  margin: 8px 0 0;
-  color: #475569;
-  font-size: 14px;
+  padding: 10px 10px max(28px, env(safe-area-inset-bottom));
 }
 
 .roots-toolbar {
-  margin-top: 12px;
   border: 1px solid #dfe7ef;
   border-radius: 16px;
   padding: 12px;
@@ -300,13 +267,19 @@ button {
 }
 
 .roots-progress {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   justify-content: space-between;
   gap: 10px;
   margin-top: 12px;
   color: #64748b;
   font-size: 13px;
+}
+
+.roots-progress small {
+  grid-column: 1 / -1;
+  color: #94a3b8;
+  font-size: 12px;
 }
 
 .roots-progress button,
