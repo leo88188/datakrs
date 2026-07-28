@@ -1898,19 +1898,49 @@
     return state.voices.find((voice) => /^en[-_](US|GB)/i.test(voice.lang)) || state.voices.find((voice) => /^en/i.test(voice.lang)) || null;
   }
 
+  function showSpeechToast(message) {
+    let toast = document.querySelector(".sentence-speech-toast");
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.className = "sentence-speech-toast";
+      document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    toast.classList.add("show");
+    clearTimeout(showSpeechToast.timer);
+    showSpeechToast.timer = setTimeout(() => toast.classList.remove("show"), 2600);
+  }
+
+  function resetSpeechButton(button) {
+    if (!button) return;
+    button.classList.remove("playing");
+    if (button.dataset.originalLabel) button.textContent = button.dataset.originalLabel;
+  }
+
   function speak(text, button) {
-    if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return;
+    if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) {
+      showSpeechToast("当前浏览器不支持系统朗读。");
+      return false;
+    }
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US";
     utterance.rate = text.split(/\s+/).length > 12 ? 0.86 : 0.78;
     const voice = pickVoice();
     if (voice) utterance.voice = voice;
-    if (button) button.classList.add("playing");
-    utterance.onend = () => button && button.classList.remove("playing");
-    utterance.onerror = () => button && button.classList.remove("playing");
+    if (button) {
+      if (!button.dataset.originalLabel) button.dataset.originalLabel = button.textContent.trim() || "朗读";
+      button.classList.add("playing");
+      button.textContent = "朗读中...";
+    }
+    utterance.onend = () => resetSpeechButton(button);
+    utterance.onerror = () => {
+      resetSpeechButton(button);
+      showSpeechToast("朗读被浏览器中断，请再点一次试试。");
+    };
     window.speechSynthesis.resume();
     window.speechSynthesis.speak(utterance);
+    return true;
   }
 
   function loadProgress() {
