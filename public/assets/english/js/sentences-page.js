@@ -192,6 +192,100 @@
     ["价值", "Value begins where usefulness meets care.", "价值始于有用与用心相遇的地方。", "深刻"],
   ];
 
+  const ieltsThemes = [
+    { category: "雅思科技", subject: "digital technology", subjectCn: "数字技术", benefit: "making information easier to reach", benefitCn: "让信息更容易获取", people: "ordinary users", peopleCn: "普通用户", problem: "privacy and attention", problemCn: "隐私和注意力", setting: "schools, offices and public services", settingCn: "学校、办公室和公共服务中" },
+    { category: "雅思教育", subject: "modern education", subjectCn: "现代教育", benefit: "opening more flexible paths to knowledge", benefitCn: "打开更灵活的知识路径", people: "students", peopleCn: "学生", problem: "exam pressure and shallow learning", problemCn: "考试压力和浅层学习", setting: "classrooms and online courses", settingCn: "课堂和线上课程中" },
+    { category: "雅思环境", subject: "environmental protection", subjectCn: "环境保护", benefit: "turning public concern into practical habits", benefitCn: "把公众关切转化为实际习惯", people: "communities", peopleCn: "社区", problem: "short-term convenience", problemCn: "短期便利", setting: "homes, factories and city planning", settingCn: "家庭、工厂和城市规划中" },
+    { category: "雅思城市", subject: "urban development", subjectCn: "城市发展", benefit: "bringing people closer to jobs and services", benefitCn: "让人们更接近工作和服务", people: "city residents", peopleCn: "城市居民", problem: "crowding and unequal access", problemCn: "拥挤和机会不均", setting: "transport, housing and public spaces", settingCn: "交通、住房和公共空间中" },
+    { category: "雅思健康", subject: "public health", subjectCn: "公共健康", benefit: "preventing problems before they become expensive", benefitCn: "在问题变昂贵之前预防它们", people: "families", peopleCn: "家庭", problem: "misinformation and unhealthy routines", problemCn: "错误信息和不健康习惯", setting: "clinics, workplaces and daily life", settingCn: "诊所、工作场所和日常生活中" },
+    { category: "雅思工作", subject: "the changing workplace", subjectCn: "不断变化的职场", benefit: "allowing people to work with greater flexibility", benefitCn: "让人们以更灵活的方式工作", people: "employees", peopleCn: "员工", problem: "burnout and unstable expectations", problemCn: "职业倦怠和不稳定期待", setting: "teams, platforms and remote meetings", settingCn: "团队、平台和远程会议中" },
+    { category: "雅思媒体", subject: "social media", subjectCn: "社交媒体", benefit: "giving individuals a public voice", benefitCn: "给个体公共表达的声音", people: "young people", peopleCn: "年轻人", problem: "comparison and unreliable information", problemCn: "攀比和不可靠信息", setting: "news feeds, short videos and online discussions", settingCn: "信息流、短视频和线上讨论中" },
+    { category: "雅思全球化", subject: "globalisation", subjectCn: "全球化", benefit: "connecting markets, ideas and cultures", benefitCn: "连接市场、观念和文化", people: "local businesses", peopleCn: "本地企业", problem: "cultural sameness and economic dependence", problemCn: "文化趋同和经济依赖", setting: "trade, travel and digital services", settingCn: "贸易、旅行和数字服务中" },
+    { category: "雅思文化", subject: "cultural heritage", subjectCn: "文化遗产", benefit: "helping people understand where they come from", benefitCn: "帮助人们理解自己的来处", people: "younger generations", peopleCn: "年轻一代", problem: "commercialisation and neglect", problemCn: "商业化和忽视", setting: "museums, festivals and family stories", settingCn: "博物馆、节日和家庭故事中" },
+    { category: "雅思政府", subject: "government policy", subjectCn: "政府政策", benefit: "coordinating resources that individuals cannot manage alone", benefitCn: "协调个人无法独自管理的资源", people: "citizens", peopleCn: "公民", problem: "bureaucracy and weak accountability", problemCn: "官僚主义和问责不足", setting: "taxation, welfare and public infrastructure", settingCn: "税收、福利和公共基础设施中" },
+    { category: "雅思交通", subject: "public transport", subjectCn: "公共交通", benefit: "reducing the cost and stress of daily movement", benefitCn: "降低日常出行的成本和压力", people: "commuters", peopleCn: "通勤者", problem: "delays and poor last-mile connections", problemCn: "延误和最后一公里连接不足", setting: "metros, buses and shared mobility systems", settingCn: "地铁、公交和共享出行系统中" },
+    { category: "雅思老龄化", subject: "population ageing", subjectCn: "人口老龄化", benefit: "encouraging societies to value experience and long-term care", benefitCn: "促使社会重视经验和长期照护", people: "older adults", peopleCn: "老年人", problem: "loneliness and pressure on services", problemCn: "孤独和公共服务压力", setting: "families, hospitals and community centres", settingCn: "家庭、医院和社区中心中" },
+    { category: "雅思旅游", subject: "international tourism", subjectCn: "国际旅游", benefit: "creating income and cultural curiosity", benefitCn: "创造收入和文化好奇心", people: "host communities", peopleCn: "接待地社区", problem: "overcrowding and fragile local identity", problemCn: "过度拥挤和脆弱的本地身份", setting: "historic districts, hotels and transport hubs", settingCn: "历史街区、酒店和交通枢纽中" },
+    { category: "雅思消费", subject: "consumer culture", subjectCn: "消费文化", benefit: "offering people more choice and convenience", benefitCn: "给人们更多选择和便利", people: "customers", peopleCn: "消费者", problem: "waste and emotional spending", problemCn: "浪费和情绪性消费", setting: "shopping platforms, advertisements and everyday routines", settingCn: "购物平台、广告和日常习惯中" },
+    { category: "雅思科学", subject: "scientific research", subjectCn: "科学研究", benefit: "turning uncertainty into testable knowledge", benefitCn: "把不确定性转化为可检验的知识", people: "researchers and the public", peopleCn: "研究者和公众", problem: "funding pressure and ethical risk", problemCn: "资金压力和伦理风险", setting: "laboratories, universities and public debates", settingCn: "实验室、大学和公共讨论中" },
+    { category: "雅思家庭", subject: "family life", subjectCn: "家庭生活", benefit: "giving people emotional security and practical support", benefitCn: "给人们情感安全和实际支持", people: "parents and children", peopleCn: "父母和孩子", problem: "time pressure and changing values", problemCn: "时间压力和价值观变化", setting: "homes, schools and working schedules", settingCn: "家庭、学校和工作安排中" },
+  ];
+
+  const ieltsComplexFrames = [
+    {
+      grammar: "让步状语从句 + whether 引导宾语从句",
+      tone: "深刻",
+      english: (item) => `Although ${item.subject} is often praised for ${item.benefit}, its real value depends on whether it helps ${item.people} make wiser choices rather than merely faster ones.`,
+      chinese: (item) => `虽然${item.subjectCn}常因${item.benefitCn}而受到称赞，但它真正的价值取决于它是否帮助${item.peopleCn}做出更明智的选择，而不只是更快的选择。`,
+    },
+    {
+      grammar: "非限制性定语从句 + 因果表达",
+      tone: "深刻",
+      english: (item) => `${capitalise(item.subject)}, which increasingly shapes decisions in ${item.setting}, should be judged not only by its efficiency but also by the kind of behaviour it encourages.`,
+      chinese: (item) => `${item.subjectCn}正在越来越多地影响${item.settingCn}的决策，因此不应只按效率评价它，也应看它鼓励了什么样的行为。`,
+    },
+    {
+      grammar: "分词结构 + 转折",
+      tone: "坚定",
+      english: (item) => `Seen from a long-term perspective, ${item.subject} is less a simple solution than a tool whose benefits depend on discipline, fairness and public trust.`,
+      chinese: (item) => `从长期角度看，${item.subjectCn}与其说是简单解决方案，不如说是一种工具，其好处取决于纪律、公平和公众信任。`,
+    },
+    {
+      grammar: "条件句 + rather than 对比",
+      tone: "坚定",
+      english: (item) => `If ${item.subject} is introduced without clear rules, it may solve visible problems while quietly creating deeper ones related to ${item.problem}.`,
+      chinese: (item) => `如果${item.subjectCn}在缺乏清晰规则的情况下被引入，它可能解决表面问题，却悄悄制造与${item.problemCn}有关的更深层问题。`,
+    },
+    {
+      grammar: "It is not...but... 强调句型",
+      tone: "深刻",
+      english: (item) => `It is not the existence of ${item.subject} itself, but the way people design and use it, that determines whether it becomes a source of progress or pressure.`,
+      chinese: (item) => `决定${item.subjectCn}成为进步来源还是压力来源的，并不是它本身的存在，而是人们设计和使用它的方式。`,
+    },
+    {
+      grammar: "while 对比句 + 抽象名词",
+      tone: "温暖",
+      english: (item) => `While ${item.subject} can expand what ${item.people} are able to do, it should not replace the patience, judgment and responsibility that meaningful improvement requires.`,
+      chinese: (item) => `虽然${item.subjectCn}能够扩展${item.peopleCn}能做的事，但它不应取代有意义的改进所需要的耐心、判断力和责任感。`,
+    },
+    {
+      grammar: "the more..., the more... 比较结构",
+      tone: "坚定",
+      english: (item) => `The more deeply ${item.subject} enters ${item.setting}, the more important it becomes to ask who benefits, who is left out and what trade-offs are being ignored.`,
+      chinese: (item) => `${item.subjectCn}越深入${item.settingCn}，我们就越需要追问谁受益、谁被排除在外，以及哪些取舍被忽视了。`,
+    },
+    {
+      grammar: "名词性从句 + 让步转折",
+      tone: "深刻",
+      english: (item) => `What makes ${item.subject} difficult to evaluate is that its advantages are usually immediate, whereas its hidden costs may take years to become obvious.`,
+      chinese: (item) => `${item.subjectCn}难以评价的地方在于，它的好处通常立刻可见，而隐藏成本可能需要多年才变得明显。`,
+    },
+    {
+      grammar: "伴随状语 + 结果表达",
+      tone: "坚定",
+      english: (item) => `By making ${item.benefit} possible, ${item.subject} can improve daily life, provided that society remains alert to ${item.problem}.`,
+      chinese: (item) => `${item.subjectCn}通过让${item.benefitCn}成为可能，可以改善日常生活，前提是社会始终警惕${item.problemCn}。`,
+    },
+    {
+      grammar: "插入语 + 平衡观点",
+      tone: "安静",
+      english: (item) => `${capitalise(item.subject)}, however useful it may appear, should be treated as part of a broader system rather than as a substitute for careful human judgment.`,
+      chinese: (item) => `${item.subjectCn}无论看起来多么有用，都应被视为更大系统的一部分，而不是细致人为判断的替代品。`,
+    },
+    {
+      grammar: "定语从句 + 可迁移观点句",
+      tone: "深刻",
+      english: (item) => `A society that adopts ${item.subject} wisely is one that measures success by resilience, inclusion and long-term value, not by speed alone.`,
+      chinese: (item) => `一个明智采用${item.subjectCn}的社会，会用韧性、包容和长期价值衡量成功，而不只用速度衡量。`,
+    },
+    {
+      grammar: "倒装语气 + 写作结论句",
+      tone: "坚定",
+      english: (item) => `Only when ${item.subject} is guided by clear aims and ethical limits can it become a force that improves life without narrowing human choice.`,
+      chinese: (item) => `只有当${item.subjectCn}受到清晰目标和伦理边界的引导时，它才能成为改善生活而不压缩人类选择的力量。`,
+    },
+  ];
+
   function $(id) {
     return document.getElementById(id);
   }
@@ -203,6 +297,11 @@
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
+  }
+
+  function capitalise(value) {
+    const text = String(value || "");
+    return text ? text.charAt(0).toUpperCase() + text.slice(1) : "";
   }
 
   function buildSentences() {
@@ -292,6 +391,20 @@
         tone,
         kind: "原创金句",
         note: "短句结构清楚，适合朗读、默写或改写成自己的表达。",
+      });
+    });
+    ieltsThemes.forEach((theme, themeIndex) => {
+      ieltsComplexFrames.forEach((frame, frameIndex) => {
+        cards.push({
+          id: `ielts-${String(themeIndex + 1).padStart(2, "0")}-${String(frameIndex + 1).padStart(2, "0")}`,
+          english: frame.english(theme),
+          chinese: frame.chinese(theme),
+          author: "IELTS Expression",
+          category: theme.category,
+          tone: frame.tone,
+          kind: "雅思复杂句",
+          note: `句型：${frame.grammar}。用途：适合写作 Task 2 和口语 Part 3，用来讨论${theme.category.replace("雅思", "")}话题的利弊、条件、影响或结论。`,
+        });
       });
     });
     return cards;
