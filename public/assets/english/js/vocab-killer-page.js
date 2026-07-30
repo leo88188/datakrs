@@ -108,7 +108,7 @@
             <span class="core-word-alpha">${esc(word.alpha)}</span>
             <div>
               <h3>${esc(word.term)}</h3>
-              <p>${word.phonetic ? `/${esc(word.phonetic)}/` : "音标待补"}${word.pos ? ` · ${esc(word.pos)}` : ""}</p>
+              <p>${word.phonetic ? `/${esc(word.phonetic)}/` : ""}${word.phonetic && word.pos ? " · " : ""}${word.pos ? esc(word.pos) : ""}</p>
             </div>
             <button class="word-speak core-word-speak" type="button" data-speak="${esc(word.term)}" aria-label="播放 ${esc(word.term)} 发音"><span>play</span></button>
           </div>
@@ -118,7 +118,7 @@
           <details class="core-word-example" open>
             <summary>例句</summary>
             <p>${esc(word.sentence)}</p>
-            ${word.translation ? `<small>中文：${esc(word.translation)}</small>` : ""}
+            ${word.translation ? `<small>${esc(word.translation)}</small>` : ""}
           </details>
           <div class="core-word-actions">
             <button type="button" data-known="${word.id}" class="${known ? "active" : ""}">认识</button>
@@ -194,7 +194,7 @@
     bindEvents();
     refreshVoices();
     if ("speechSynthesis" in window) window.speechSynthesis.onvoiceschanged = refreshVoices;
-    fetch("/assets/english/data/vocab-killer.json?v=vocab-killer-natural-20260730")
+    fetch("/assets/english/data/vocab-killer.json?v=vocab-killer-phonetic-20260730")
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();

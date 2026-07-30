@@ -158,7 +158,7 @@
                   <span class="core-word-alpha">${esc(word.alpha)}</span>
                   <div>
                     <h3>${esc(word.term)}</h3>
-                    <p>${word.phonetic ? `/${esc(word.phonetic)}/` : "音标待补"}${word.pos ? ` · ${esc(word.pos)}` : ""}</p>
+                    <p>${word.phonetic ? `/${esc(word.phonetic)}/` : ""}${word.phonetic && word.pos ? " · " : ""}${word.pos ? esc(word.pos) : ""}</p>
                   </div>
                   <button class="word-speak core-word-speak" type="button" data-speak="${esc(word.term)}" aria-label="播放 ${esc(word.term)} 发音"><span>play</span></button>
                 </div>

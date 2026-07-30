@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TARGET = ROOT / "public/assets/english/data/vocab-killer.json"
+DATA_DIR = ROOT / "public/assets/english/data"
 
 
 MANUAL = [
@@ -144,6 +145,85 @@ MANUAL_TRANSLATIONS = {
     "cut down": "家庭可以减少不必要的浪费。",
     "advocate": "一些专家主张采用更严格的标准。",
     "back": "最近的研究支持这项提议。",
+}
+
+MANUAL_PHONETICS = {
+    "however": "haʊˈevə(r)",
+    "nevertheless": "ˌnevəðəˈles",
+    "conversely": "ˈkɒnvɜːsli",
+    "despite": "dɪˈspaɪt",
+    "whereas": "ˌweərˈæz",
+    "contrary": "ˈkɒntrəri",
+    "therefore": "ˈðeəfɔː(r)",
+    "furthermore": "ˌfɜːðəˈmɔː(r)",
+    "moreover": "mɔːrˈəʊvə(r)",
+    "additionally": "əˈdɪʃənəli",
+    "likewise": "ˈlaɪkwaɪz",
+    "unless": "ənˈles",
+    "insofar as": "ˌɪnsəʊˈfɑːr æz",
+    "attribute to": "əˈtrɪbjuːt tuː",
+    "hinder": "ˈhɪndə(r)",
+    "persist": "pəˈsɪst",
+    "modify": "ˈmɒdɪfaɪ",
+    "indicate": "ˈɪndɪkeɪt",
+    "demonstrate": "ˈdemənstreɪt",
+    "assume": "əˈsjuːm",
+    "confirm": "kənˈfɜːm",
+    "underestimate": "ˌʌndərˈestɪmeɪt",
+    "significant": "sɪɡˈnɪfɪkənt",
+    "substantial": "səbˈstænʃl",
+    "marginal": "ˈmɑːdʒɪnl",
+    "inevitable": "ɪnˈevɪtəbl",
+    "feasible": "ˈfiːzəbl",
+    "adequate": "ˈædɪkwət",
+    "insufficient": "ˌɪnsəˈfɪʃnt",
+    "prevalent": "ˈprevələnt",
+    "predominant": "prɪˈdɒmɪnənt",
+    "phenomenon": "fəˈnɒmɪnən",
+    "tendency": "ˈtendənsi",
+    "factor": "ˈfæktə(r)",
+    "obstacle": "ˈɒbstəkl",
+    "constraint": "kənˈstreɪnt",
+    "consequence": "ˈkɒnsɪkwəns",
+    "perspective": "pəˈspektɪv",
+    "motivation": "ˌməʊtɪˈveɪʃn",
+    "deficiency": "dɪˈfɪʃnsi",
+    "vital": "ˈvaɪtl",
+    "crucial": "ˈkruːʃl",
+    "transform": "trænsˈfɔːm",
+    "cut down": "kʌt daʊn",
+    "advocate": "ˈædvəkeɪt",
+    "although": "ɔːlˈðəʊ",
+    "nonetheless": "ˌnʌnðəˈles",
+    "accordingly": "əˈkɔːdɪŋli",
+    "specifically": "spəˈsɪfɪkli",
+    "appropriate": "əˈprəʊpriət",
+    "arbitrary": "ˈɑːbɪtrəri",
+    "beneficial": "ˌbenɪˈfɪʃl",
+    "consistent": "kənˈsɪstənt",
+    "conventional": "kənˈvenʃənl",
+    "critical": "ˈkrɪtɪkl",
+    "desirable": "dɪˈzaɪərəbl",
+    "detrimental": "ˌdetrɪˈmentl",
+    "distinct": "dɪˈstɪŋkt",
+    "dominant": "ˈdɒmɪnənt",
+    "efficient": "ɪˈfɪʃnt",
+    "effective": "ɪˈfektɪv",
+    "equivalent": "ɪˈkwɪvələnt",
+    "essential": "ɪˈsenʃl",
+    "excessive": "ɪkˈsesɪv",
+    "fundamental": "ˌfʌndəˈmentl",
+    "gradual": "ˈɡrædʒuəl",
+    "implicit": "ɪmˈplɪsɪt",
+    "inadequate": "ɪnˈædɪkwət",
+    "logical": "ˈlɒdʒɪkl",
+    "productive": "prəˈdʌktɪv",
+    "profound": "prəˈfaʊnd",
+    "relevant": "ˈreləvənt",
+    "reliable": "rɪˈlaɪəbl",
+    "strategic": "strəˈtiːdʒɪk",
+    "underlying": "ˌʌndəˈlaɪɪŋ",
+    "vulnerable": "ˈvʌlnərəbl",
 }
 
 CATEGORY_RULES = [
@@ -527,6 +607,24 @@ def alpha(term: str) -> str:
     return match.group(0).upper() if match else "#"
 
 
+def load_phonetics() -> dict[str, str]:
+    phonetics: dict[str, str] = {}
+    ielts100_path = DATA_DIR / "ielts100.json"
+    core_path = DATA_DIR / "core-vocab.json"
+    if ielts100_path.exists():
+        data = json.loads(ielts100_path.read_text(encoding="utf-8"))
+        for sentence in data.get("sentences", []):
+            for word in sentence.get("words", []):
+                if word.get("term") and word.get("phonetic"):
+                    phonetics.setdefault(word["term"].lower(), clean(word["phonetic"]))
+    if core_path.exists():
+        data = json.loads(core_path.read_text(encoding="utf-8"))
+        for word in data.get("words", []):
+            if word.get("term") and word.get("phonetic"):
+                phonetics.setdefault(word["term"].lower(), clean(word["phonetic"]))
+    return phonetics
+
+
 def parse_lines(text: str, category: str) -> list[dict]:
     items = []
     for line in text.strip().splitlines():
@@ -777,6 +875,7 @@ def independent_candidates() -> list[dict]:
 def main() -> None:
     entries = []
     seen = set()
+    phonetics = load_phonetics()
     for term, pos, definition, category, subcategory, sentence, tactic in MANUAL:
         key = term.lower()
         seen.add(key)
@@ -786,7 +885,7 @@ def main() -> None:
                 "term": term,
                 "alpha": alpha(term),
                 "pos": pos,
-                "phonetic": "",
+                "phonetic": phonetics.get(term.lower(), MANUAL_PHONETICS.get(term.lower(), "")),
                 "definition": definition,
                 "category": category,
                 "subcategory": subcategory,
@@ -813,7 +912,7 @@ def main() -> None:
                 "term": item["term"],
                 "alpha": alpha(item["term"]),
                 "pos": item["pos"],
-                "phonetic": "",
+                "phonetic": phonetics.get(item["term"].lower(), MANUAL_PHONETICS.get(item["term"].lower(), "")),
                 "definition": item["definition"],
                 "category": item["category"],
                 "subcategory": item["subcategory"],
