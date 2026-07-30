@@ -561,6 +561,10 @@
           window.location.href = "/english-core-vocab.html";
           return;
         }
+        if (button.dataset.panelTrigger === "killer") {
+          window.location.href = "/english-vocab-killer.html";
+          return;
+        }
         if (button.dataset.panelTrigger === "roots") {
           window.location.href = "/english-roots.html";
           return;
