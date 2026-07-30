@@ -87,7 +87,7 @@
         if (state.active === "全部不熟" && !state.unsure.has(id)) return false;
       }
       if (!query) return true;
-      return [word.term, word.definition, word.category, word.subcategory, word.sentence, word.translation, word.tactic].some((value) => String(value || "").toLowerCase().includes(query) || String(value || "").includes(state.query.trim()));
+      return [word.term, word.definition, word.category, word.subcategory, word.sentence, word.translation].some((value) => String(value || "").toLowerCase().includes(query) || String(value || "").includes(state.query.trim()));
     });
   }
   function renderChips() {
@@ -114,7 +114,6 @@
           </div>
           <p class="core-word-definition">${esc(word.definition)}</p>
           <div class="core-word-tags"><span>${esc(word.category)}</span><span>${esc(word.subcategory)}</span><span>${esc(word.priority)}</span></div>
-          <p class="killer-tactic">${esc(word.tactic)}</p>
           <details class="core-word-example" open>
             <summary>例句</summary>
             <p>${esc(word.sentence)}</p>
@@ -201,7 +200,7 @@
     bindEvents();
     refreshVoices();
     if ("speechSynthesis" in window) window.speechSynthesis.onvoiceschanged = refreshVoices;
-    fetch("/assets/english/data/vocab-killer.json?v=vocab-killer-quality-20260730")
+    fetch("/assets/english/data/vocab-killer.json?v=vocab-killer-no-tactic-20260730")
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();
