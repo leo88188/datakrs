@@ -200,7 +200,7 @@
     bindEvents();
     refreshVoices();
     if ("speechSynthesis" in window) window.speechSynthesis.onvoiceschanged = refreshVoices;
-    fetch("/assets/english/data/vocab-killer.json?v=vocab-killer-no-tactic-20260730")
+    fetch("/assets/english/data/vocab-killer.json?v=vocab-killer-expanded-20260730")
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();

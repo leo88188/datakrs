@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "雅思单词必杀技",
-    "wordCount": 411,
+    "wordCount": 450,
     "source": "独立整理：学术词表思路 + 雅思写作评分关注点 + 常见话题词",
     "version": "2026-07-30"
   },
@@ -12,29 +12,29 @@
     },
     {
       "name": "核心动词",
-      "count": 100
+      "count": 115
     },
     {
       "name": "评价形容词",
-      "count": 59
+      "count": 74
     },
     {
       "name": "抽象名词",
-      "count": 63
+      "count": 78
     },
     {
       "name": "同义替换词组",
-      "count": 67
+      "count": 66
     },
     {
       "name": "话题场景词",
-      "count": 75
+      "count": 70
     }
   ],
   "alphas": [
     {
       "letter": "A",
-      "count": 41
+      "count": 51
     },
     {
       "letter": "B",
@@ -42,15 +42,15 @@
     },
     {
       "letter": "C",
-      "count": 55
+      "count": 60
     },
     {
       "letter": "D",
-      "count": 27
+      "count": 29
     },
     {
       "letter": "E",
-      "count": 35
+      "count": 41
     },
     {
       "letter": "F",
@@ -66,7 +66,7 @@
     },
     {
       "letter": "I",
-      "count": 41
+      "count": 45
     },
     {
       "letter": "J",
@@ -82,7 +82,7 @@
     },
     {
       "letter": "M",
-      "count": 14
+      "count": 17
     },
     {
       "letter": "N",
@@ -94,7 +94,7 @@
     },
     {
       "letter": "P",
-      "count": 37
+      "count": 38
     },
     {
       "letter": "Q",
@@ -106,7 +106,7 @@
     },
     {
       "letter": "S",
-      "count": 26
+      "count": 28
     },
     {
       "letter": "T",
@@ -114,15 +114,15 @@
     },
     {
       "letter": "U",
-      "count": 6
+      "count": 7
     },
     {
       "letter": "V",
-      "count": 6
+      "count": 9
     },
     {
       "letter": "W",
-      "count": 4
+      "count": 6
     }
   ],
   "words": [
@@ -1013,21 +1013,6 @@
     },
     {
       "id": 60,
-      "term": "alter",
-      "alpha": "A",
-      "pos": "v.",
-      "phonetic": "ˈɔːltə(r)",
-      "definition": "改变，调整",
-      "category": "同义替换词组",
-      "subcategory": "change",
-      "sentence": "New rules may alter consumer behaviour.",
-      "translation": "新规则可能会改变消费者行为。",
-      "tactic": "change = alter = modify = transform",
-      "source": "手工必备",
-      "priority": "最高"
-    },
-    {
-      "id": 61,
       "term": "transform",
       "alpha": "T",
       "pos": "v.",
@@ -1042,7 +1027,7 @@
       "priority": "最高"
     },
     {
-      "id": 62,
+      "id": 61,
       "term": "cut down",
       "alpha": "C",
       "pos": "v.",
@@ -1057,7 +1042,7 @@
       "priority": "最高"
     },
     {
-      "id": 63,
+      "id": 62,
       "term": "advocate",
       "alpha": "A",
       "pos": "v./n.",
@@ -1072,7 +1057,7 @@
       "priority": "最高"
     },
     {
-      "id": 64,
+      "id": 63,
       "term": "back",
       "alpha": "B",
       "pos": "v.",
@@ -1087,7 +1072,7 @@
       "priority": "最高"
     },
     {
-      "id": 65,
+      "id": 64,
       "term": "key",
       "alpha": "K",
       "pos": "synonym",
@@ -1102,7 +1087,7 @@
       "priority": "高"
     },
     {
-      "id": 66,
+      "id": 65,
       "term": "curb",
       "alpha": "C",
       "pos": "synonym",
@@ -1117,7 +1102,7 @@
       "priority": "高"
     },
     {
-      "id": 67,
+      "id": 66,
       "term": "grow",
       "alpha": "G",
       "pos": "synonym",
@@ -1132,7 +1117,7 @@
       "priority": "高"
     },
     {
-      "id": 68,
+      "id": 67,
       "term": "rise",
       "alpha": "R",
       "pos": "synonym",
@@ -1147,7 +1132,7 @@
       "priority": "高"
     },
     {
-      "id": 69,
+      "id": 68,
       "term": "show",
       "alpha": "S",
       "pos": "synonym",
@@ -1162,7 +1147,7 @@
       "priority": "高"
     },
     {
-      "id": 70,
+      "id": 69,
       "term": "soar",
       "alpha": "S",
       "pos": "synonym",
@@ -1177,7 +1162,7 @@
       "priority": "高"
     },
     {
-      "id": 71,
+      "id": 70,
       "term": "adapt",
       "alpha": "A",
       "pos": "synonym",
@@ -1192,7 +1177,7 @@
       "priority": "高"
     },
     {
-      "id": 72,
+      "id": 71,
       "term": "imply",
       "alpha": "I",
       "pos": "synonym",
@@ -1207,7 +1192,7 @@
       "priority": "高"
     },
     {
-      "id": 73,
+      "id": 72,
       "term": "issue",
       "alpha": "I",
       "pos": "synonym",
@@ -1222,7 +1207,7 @@
       "priority": "高"
     },
     {
-      "id": 74,
+      "id": 73,
       "term": "shift",
       "alpha": "S",
       "pos": "synonym",
@@ -1237,7 +1222,7 @@
       "priority": "高"
     },
     {
-      "id": 75,
+      "id": 74,
       "term": "adjust",
       "alpha": "A",
       "pos": "synonym",
@@ -1252,7 +1237,7 @@
       "priority": "高"
     },
     {
-      "id": 76,
+      "id": 75,
       "term": "change",
       "alpha": "C",
       "pos": "synonym",
@@ -1267,7 +1252,7 @@
       "priority": "高"
     },
     {
-      "id": 77,
+      "id": 76,
       "term": "effect",
       "alpha": "E",
       "pos": "synonym",
@@ -1282,7 +1267,7 @@
       "priority": "高"
     },
     {
-      "id": 78,
+      "id": 77,
       "term": "expand",
       "alpha": "E",
       "pos": "synonym",
@@ -1297,7 +1282,7 @@
       "priority": "高"
     },
     {
-      "id": 79,
+      "id": 78,
       "term": "impact",
       "alpha": "I",
       "pos": "synonym",
@@ -1312,7 +1297,7 @@
       "priority": "高"
     },
     {
-      "id": 80,
+      "id": 79,
       "term": "lessen",
       "alpha": "L",
       "pos": "synonym",
@@ -1327,7 +1312,7 @@
       "priority": "高"
     },
     {
-      "id": 81,
+      "id": 80,
       "term": "method",
       "alpha": "M",
       "pos": "synonym",
@@ -1342,7 +1327,7 @@
       "priority": "高"
     },
     {
-      "id": 82,
+      "id": 81,
       "term": "oppose",
       "alpha": "O",
       "pos": "synonym",
@@ -1357,7 +1342,7 @@
       "priority": "高"
     },
     {
-      "id": 83,
+      "id": 82,
       "term": "reduce",
       "alpha": "R",
       "pos": "synonym",
@@ -1372,7 +1357,7 @@
       "priority": "高"
     },
     {
-      "id": 84,
+      "id": 83,
       "term": "refute",
       "alpha": "R",
       "pos": "synonym",
@@ -1387,7 +1372,7 @@
       "priority": "高"
     },
     {
-      "id": 85,
+      "id": 84,
       "term": "reject",
       "alpha": "R",
       "pos": "synonym",
@@ -1402,7 +1387,7 @@
       "priority": "高"
     },
     {
-      "id": 86,
+      "id": 85,
       "term": "result",
       "alpha": "R",
       "pos": "synonym",
@@ -1417,7 +1402,7 @@
       "priority": "高"
     },
     {
-      "id": 87,
+      "id": 86,
       "term": "revise",
       "alpha": "R",
       "pos": "synonym",
@@ -1432,7 +1417,7 @@
       "priority": "高"
     },
     {
-      "id": 88,
+      "id": 87,
       "term": "uphold",
       "alpha": "U",
       "pos": "synonym",
@@ -1447,7 +1432,7 @@
       "priority": "高"
     },
     {
-      "id": 89,
+      "id": 88,
       "term": "barrier",
       "alpha": "B",
       "pos": "synonym",
@@ -1462,7 +1447,7 @@
       "priority": "高"
     },
     {
-      "id": 90,
+      "id": 89,
       "term": "central",
       "alpha": "C",
       "pos": "synonym",
@@ -1477,7 +1462,7 @@
       "priority": "高"
     },
     {
-      "id": 91,
+      "id": 90,
       "term": "decline",
       "alpha": "D",
       "pos": "synonym",
@@ -1492,7 +1477,7 @@
       "priority": "高"
     },
     {
-      "id": 92,
+      "id": 91,
       "term": "dispute",
       "alpha": "D",
       "pos": "synonym",
@@ -1507,7 +1492,7 @@
       "priority": "高"
     },
     {
-      "id": 93,
+      "id": 92,
       "term": "endorse",
       "alpha": "E",
       "pos": "synonym",
@@ -1522,7 +1507,7 @@
       "priority": "高"
     },
     {
-      "id": 94,
+      "id": 93,
       "term": "justify",
       "alpha": "J",
       "pos": "synonym",
@@ -1537,7 +1522,7 @@
       "priority": "高"
     },
     {
-      "id": 95,
+      "id": 94,
       "term": "measure",
       "alpha": "M",
       "pos": "synonym",
@@ -1552,7 +1537,7 @@
       "priority": "高"
     },
     {
-      "id": 96,
+      "id": 95,
       "term": "outcome",
       "alpha": "O",
       "pos": "synonym",
@@ -1567,7 +1552,7 @@
       "priority": "高"
     },
     {
-      "id": 97,
+      "id": 96,
       "term": "problem",
       "alpha": "P",
       "pos": "synonym",
@@ -1582,7 +1567,7 @@
       "priority": "高"
     },
     {
-      "id": 98,
+      "id": 97,
       "term": "suggest",
       "alpha": "S",
       "pos": "synonym",
@@ -1597,7 +1582,7 @@
       "priority": "高"
     },
     {
-      "id": 99,
+      "id": 98,
       "term": "support",
       "alpha": "S",
       "pos": "synonym",
@@ -1612,7 +1597,7 @@
       "priority": "高"
     },
     {
-      "id": 100,
+      "id": 99,
       "term": "approach",
       "alpha": "A",
       "pos": "synonym",
@@ -1627,7 +1612,7 @@
       "priority": "高"
     },
     {
-      "id": 101,
+      "id": 100,
       "term": "decrease",
       "alpha": "D",
       "pos": "synonym",
@@ -1642,7 +1627,7 @@
       "priority": "高"
     },
     {
-      "id": 102,
+      "id": 101,
       "term": "escalate",
       "alpha": "E",
       "pos": "synonym",
@@ -1657,7 +1642,7 @@
       "priority": "高"
     },
     {
-      "id": 103,
+      "id": 102,
       "term": "increase",
       "alpha": "I",
       "pos": "synonym",
@@ -1672,7 +1657,7 @@
       "priority": "高"
     },
     {
-      "id": 104,
+      "id": 103,
       "term": "minimise",
       "alpha": "M",
       "pos": "synonym",
@@ -1687,7 +1672,7 @@
       "priority": "高"
     },
     {
-      "id": 105,
+      "id": 104,
       "term": "question",
       "alpha": "Q",
       "pos": "synonym",
@@ -1702,7 +1687,7 @@
       "priority": "高"
     },
     {
-      "id": 106,
+      "id": 105,
       "term": "solution",
       "alpha": "S",
       "pos": "synonym",
@@ -1717,7 +1702,7 @@
       "priority": "高"
     },
     {
-      "id": 107,
+      "id": 106,
       "term": "strategy",
       "alpha": "S",
       "pos": "synonym",
@@ -1732,7 +1717,7 @@
       "priority": "高"
     },
     {
-      "id": 108,
+      "id": 107,
       "term": "challenge",
       "alpha": "C",
       "pos": "synonym",
@@ -1747,7 +1732,7 @@
       "priority": "高"
     },
     {
-      "id": 109,
+      "id": 108,
       "term": "criticise",
       "alpha": "C",
       "pos": "synonym",
@@ -1762,7 +1747,7 @@
       "priority": "高"
     },
     {
-      "id": 110,
+      "id": 109,
       "term": "essential",
       "alpha": "E",
       "pos": "synonym",
@@ -1777,7 +1762,7 @@
       "priority": "高"
     },
     {
-      "id": 111,
+      "id": 110,
       "term": "framework",
       "alpha": "F",
       "pos": "synonym",
@@ -1792,7 +1777,7 @@
       "priority": "高"
     },
     {
-      "id": 112,
+      "id": 111,
       "term": "important",
       "alpha": "I",
       "pos": "synonym",
@@ -1807,7 +1792,7 @@
       "priority": "高"
     },
     {
-      "id": 113,
+      "id": 112,
       "term": "influence",
       "alpha": "I",
       "pos": "synonym",
@@ -1822,7 +1807,7 @@
       "priority": "高"
     },
     {
-      "id": 114,
+      "id": 113,
       "term": "intensify",
       "alpha": "I",
       "pos": "synonym",
@@ -1837,7 +1822,7 @@
       "priority": "高"
     },
     {
-      "id": 115,
+      "id": 114,
       "term": "mechanism",
       "alpha": "M",
       "pos": "synonym",
@@ -1852,7 +1837,7 @@
       "priority": "高"
     },
     {
-      "id": 116,
+      "id": 115,
       "term": "procedure",
       "alpha": "P",
       "pos": "synonym",
@@ -1867,7 +1852,7 @@
       "priority": "高"
     },
     {
-      "id": 117,
+      "id": 116,
       "term": "reinforce",
       "alpha": "R",
       "pos": "synonym",
@@ -1882,7 +1867,7 @@
       "priority": "高"
     },
     {
-      "id": 118,
+      "id": 117,
       "term": "undermine",
       "alpha": "U",
       "pos": "synonym",
@@ -1897,7 +1882,7 @@
       "priority": "高"
     },
     {
-      "id": 119,
+      "id": 118,
       "term": "accumulate",
       "alpha": "A",
       "pos": "synonym",
@@ -1912,7 +1897,7 @@
       "priority": "高"
     },
     {
-      "id": 120,
+      "id": 119,
       "term": "difficulty",
       "alpha": "D",
       "pos": "synonym",
@@ -1927,7 +1912,7 @@
       "priority": "高"
     },
     {
-      "id": 121,
+      "id": 120,
       "term": "illustrate",
       "alpha": "I",
       "pos": "synonym",
@@ -1942,7 +1927,7 @@
       "priority": "高"
     },
     {
-      "id": 122,
+      "id": 121,
       "term": "fundamental",
       "alpha": "F",
       "pos": "synonym",
@@ -1957,7 +1942,7 @@
       "priority": "高"
     },
     {
-      "id": 123,
+      "id": 122,
       "term": "implication",
       "alpha": "I",
       "pos": "synonym",
@@ -1972,7 +1957,7 @@
       "priority": "高"
     },
     {
-      "id": 124,
+      "id": 123,
       "term": "repercussion",
       "alpha": "R",
       "pos": "synonym",
@@ -1987,7 +1972,7 @@
       "priority": "高"
     },
     {
-      "id": 125,
+      "id": 124,
       "term": "role",
       "alpha": "R",
       "pos": "n.",
@@ -2002,7 +1987,7 @@
       "priority": "高"
     },
     {
-      "id": 126,
+      "id": 125,
       "term": "trend",
       "alpha": "T",
       "pos": "n.",
@@ -2017,7 +2002,7 @@
       "priority": "高"
     },
     {
-      "id": 127,
+      "id": 126,
       "term": "access",
       "alpha": "A",
       "pos": "n.",
@@ -2032,7 +2017,7 @@
       "priority": "高"
     },
     {
-      "id": 128,
+      "id": 127,
       "term": "debate",
       "alpha": "D",
       "pos": "n.",
@@ -2047,7 +2032,7 @@
       "priority": "高"
     },
     {
-      "id": 129,
+      "id": 128,
       "term": "demand",
       "alpha": "D",
       "pos": "n.",
@@ -2062,7 +2047,7 @@
       "priority": "高"
     },
     {
-      "id": 130,
+      "id": 129,
       "term": "labour",
       "alpha": "L",
       "pos": "n.",
@@ -2077,7 +2062,7 @@
       "priority": "高"
     },
     {
-      "id": 131,
+      "id": 130,
       "term": "policy",
       "alpha": "P",
       "pos": "n.",
@@ -2092,7 +2077,7 @@
       "priority": "高"
     },
     {
-      "id": 132,
+      "id": 131,
       "term": "sector",
       "alpha": "S",
       "pos": "n.",
@@ -2107,7 +2092,7 @@
       "priority": "高"
     },
     {
-      "id": 133,
+      "id": 132,
       "term": "concept",
       "alpha": "C",
       "pos": "n.",
@@ -2122,7 +2107,7 @@
       "priority": "高"
     },
     {
-      "id": 134,
+      "id": 133,
       "term": "context",
       "alpha": "C",
       "pos": "n.",
@@ -2137,7 +2122,7 @@
       "priority": "高"
     },
     {
-      "id": 135,
+      "id": 134,
       "term": "feature",
       "alpha": "F",
       "pos": "n.",
@@ -2152,7 +2137,7 @@
       "priority": "高"
     },
     {
-      "id": 136,
+      "id": 135,
       "term": "insight",
       "alpha": "I",
       "pos": "n.",
@@ -2167,7 +2152,7 @@
       "priority": "高"
     },
     {
-      "id": 137,
+      "id": 136,
       "term": "pattern",
       "alpha": "P",
       "pos": "n.",
@@ -2182,7 +2167,37 @@
       "priority": "高"
     },
     {
+      "id": 137,
+      "term": "revenue",
+      "alpha": "R",
+      "pos": "n.",
+      "phonetic": "ˈrevənjuː",
+      "definition": "收入，收益",
+      "category": "抽象名词",
+      "subcategory": "商业",
+      "sentence": "Tourism revenue can support local services.",
+      "translation": "旅游收入可以支持本地服务。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
       "id": 138,
+      "term": "welfare",
+      "alpha": "W",
+      "pos": "n.",
+      "phonetic": "ˈwelfeə(r)",
+      "definition": "福利，福祉",
+      "category": "抽象名词",
+      "subcategory": "社会",
+      "sentence": "Child welfare should be a central concern in education policy.",
+      "translation": "儿童福祉应该是教育政策的核心关注点。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 139,
       "term": "accuracy",
       "alpha": "A",
       "pos": "n.",
@@ -2197,7 +2212,7 @@
       "priority": "高"
     },
     {
-      "id": 139,
+      "id": 140,
       "term": "analysis",
       "alpha": "A",
       "pos": "n.",
@@ -2212,7 +2227,22 @@
       "priority": "高"
     },
     {
-      "id": 140,
+      "id": 141,
+      "term": "autonomy",
+      "alpha": "A",
+      "pos": "n.",
+      "phonetic": "ɔːˈtɒnəmi",
+      "definition": "自主权，自主性",
+      "category": "抽象名词",
+      "subcategory": "社会",
+      "sentence": "Greater autonomy can improve teachers' professional judgement.",
+      "translation": "更大的自主权可以提升教师的专业判断。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 142,
       "term": "capacity",
       "alpha": "C",
       "pos": "n.",
@@ -2227,7 +2257,7 @@
       "priority": "高"
     },
     {
-      "id": 141,
+      "id": 143,
       "term": "category",
       "alpha": "C",
       "pos": "n.",
@@ -2242,7 +2272,7 @@
       "priority": "高"
     },
     {
-      "id": 142,
+      "id": 144,
       "term": "cohesion",
       "alpha": "C",
       "pos": "n.",
@@ -2257,7 +2287,7 @@
       "priority": "高"
     },
     {
-      "id": 143,
+      "id": 145,
       "term": "emphasis",
       "alpha": "E",
       "pos": "n.",
@@ -2272,7 +2302,7 @@
       "priority": "高"
     },
     {
-      "id": 144,
+      "id": 146,
       "term": "evidence",
       "alpha": "E",
       "pos": "n.",
@@ -2287,7 +2317,7 @@
       "priority": "高"
     },
     {
-      "id": 145,
+      "id": 147,
       "term": "exposure",
       "alpha": "E",
       "pos": "n.",
@@ -2302,7 +2332,7 @@
       "priority": "高"
     },
     {
-      "id": 146,
+      "id": 148,
       "term": "function",
       "alpha": "F",
       "pos": "n.",
@@ -2317,7 +2347,7 @@
       "priority": "高"
     },
     {
-      "id": 147,
+      "id": 149,
       "term": "priority",
       "alpha": "P",
       "pos": "n.",
@@ -2332,7 +2362,7 @@
       "priority": "高"
     },
     {
-      "id": 148,
+      "id": 150,
       "term": "resource",
       "alpha": "R",
       "pos": "n.",
@@ -2347,7 +2377,7 @@
       "priority": "高"
     },
     {
-      "id": 149,
+      "id": 151,
       "term": "response",
       "alpha": "R",
       "pos": "n.",
@@ -2362,7 +2392,7 @@
       "priority": "高"
     },
     {
-      "id": 150,
+      "id": 152,
       "term": "advantage",
       "alpha": "A",
       "pos": "n.",
@@ -2377,7 +2407,7 @@
       "priority": "高"
     },
     {
-      "id": 151,
+      "id": 153,
       "term": "authority",
       "alpha": "A",
       "pos": "n.",
@@ -2392,7 +2422,22 @@
       "priority": "高"
     },
     {
-      "id": 152,
+      "id": 154,
+      "term": "awareness",
+      "alpha": "A",
+      "pos": "n.",
+      "phonetic": "əˈweənəs",
+      "definition": "意识，认识",
+      "category": "抽象名词",
+      "subcategory": "心理",
+      "sentence": "Public awareness of mental health has improved in recent years.",
+      "translation": "近年来，公众对心理健康的认识有所提高。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 155,
       "term": "coherence",
       "alpha": "C",
       "pos": "n.",
@@ -2407,7 +2452,7 @@
       "priority": "高"
     },
     {
-      "id": 153,
+      "id": 156,
       "term": "community",
       "alpha": "C",
       "pos": "n.",
@@ -2422,7 +2467,7 @@
       "priority": "高"
     },
     {
-      "id": 154,
+      "id": 157,
       "term": "component",
       "alpha": "C",
       "pos": "n.",
@@ -2437,7 +2482,7 @@
       "priority": "高"
     },
     {
-      "id": 155,
+      "id": 158,
       "term": "criterion",
       "alpha": "C",
       "pos": "n.",
@@ -2452,7 +2497,7 @@
       "priority": "高"
     },
     {
-      "id": 156,
+      "id": 159,
       "term": "dimension",
       "alpha": "D",
       "pos": "n.",
@@ -2467,7 +2512,22 @@
       "priority": "高"
     },
     {
-      "id": 157,
+      "id": 160,
+      "term": "disparity",
+      "alpha": "D",
+      "pos": "n.",
+      "phonetic": "dɪˈspærəti",
+      "definition": "差距，不平等",
+      "category": "抽象名词",
+      "subcategory": "社会",
+      "sentence": "There is a clear disparity between urban and rural healthcare.",
+      "translation": "城乡医疗服务之间存在明显差距。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 161,
       "term": "diversity",
       "alpha": "D",
       "pos": "n.",
@@ -2482,7 +2542,7 @@
       "priority": "高"
     },
     {
-      "id": 158,
+      "id": 162,
       "term": "expansion",
       "alpha": "E",
       "pos": "n.",
@@ -2497,7 +2557,7 @@
       "priority": "高"
     },
     {
-      "id": 159,
+      "id": 163,
       "term": "incentive",
       "alpha": "I",
       "pos": "n.",
@@ -2512,7 +2572,7 @@
       "priority": "高"
     },
     {
-      "id": 160,
+      "id": 164,
       "term": "objective",
       "alpha": "O",
       "pos": "n.",
@@ -2527,7 +2587,7 @@
       "priority": "高"
     },
     {
-      "id": 161,
+      "id": 165,
       "term": "reduction",
       "alpha": "R",
       "pos": "n.",
@@ -2542,7 +2602,7 @@
       "priority": "高"
     },
     {
-      "id": 162,
+      "id": 166,
       "term": "structure",
       "alpha": "S",
       "pos": "n.",
@@ -2557,7 +2617,7 @@
       "priority": "高"
     },
     {
-      "id": 163,
+      "id": 167,
       "term": "variation",
       "alpha": "V",
       "pos": "n.",
@@ -2572,7 +2632,7 @@
       "priority": "高"
     },
     {
-      "id": 164,
+      "id": 168,
       "term": "assessment",
       "alpha": "A",
       "pos": "n.",
@@ -2587,7 +2647,7 @@
       "priority": "高"
     },
     {
-      "id": 165,
+      "id": 169,
       "term": "assumption",
       "alpha": "A",
       "pos": "n.",
@@ -2602,7 +2662,7 @@
       "priority": "高"
     },
     {
-      "id": 166,
+      "id": 170,
       "term": "comparison",
       "alpha": "C",
       "pos": "n.",
@@ -2617,7 +2677,22 @@
       "priority": "高"
     },
     {
-      "id": 167,
+      "id": 171,
+      "term": "evaluation",
+      "alpha": "E",
+      "pos": "n.",
+      "phonetic": "ɪˌvæljuˈeɪʃn",
+      "definition": "评估，评价",
+      "category": "抽象名词",
+      "subcategory": "证据",
+      "sentence": "A fair evaluation should include both cost and social impact.",
+      "translation": "公平的评估应同时包括成本和社会影响。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 172,
       "term": "inequality",
       "alpha": "I",
       "pos": "n.",
@@ -2632,7 +2707,22 @@
       "priority": "高"
     },
     {
-      "id": 168,
+      "id": 173,
+      "term": "innovation",
+      "alpha": "I",
+      "pos": "n.",
+      "phonetic": "ˌɪnəˈveɪʃn",
+      "definition": "创新",
+      "category": "抽象名词",
+      "subcategory": "科技",
+      "sentence": "Innovation often depends on both investment and skilled workers.",
+      "translation": "创新通常既依赖投资，也依赖熟练工人。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 174,
       "term": "investment",
       "alpha": "I",
       "pos": "n.",
@@ -2647,7 +2737,7 @@
       "priority": "高"
     },
     {
-      "id": 169,
+      "id": 175,
       "term": "limitation",
       "alpha": "L",
       "pos": "n.",
@@ -2662,7 +2752,22 @@
       "priority": "高"
     },
     {
-      "id": 170,
+      "id": 176,
+      "term": "prevalence",
+      "alpha": "P",
+      "pos": "n.",
+      "phonetic": "ˈprevələns",
+      "definition": "普遍，流行",
+      "category": "抽象名词",
+      "subcategory": "社会",
+      "sentence": "The prevalence of online fraud has raised public concern.",
+      "translation": "网络诈骗的普遍存在引发了公众担忧。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 177,
       "term": "proportion",
       "alpha": "P",
       "pos": "n.",
@@ -2677,7 +2782,22 @@
       "priority": "高"
     },
     {
-      "id": 171,
+      "id": 178,
+      "term": "regulation",
+      "alpha": "R",
+      "pos": "n.",
+      "phonetic": "ˌreɡjuˈleɪʃn",
+      "definition": "监管，规定",
+      "category": "抽象名词",
+      "subcategory": "政府",
+      "sentence": "Clear regulation can reduce risks in the financial sector.",
+      "translation": "清晰的监管可以降低金融领域的风险。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 179,
       "term": "alternative",
       "alpha": "A",
       "pos": "n.",
@@ -2692,7 +2812,7 @@
       "priority": "高"
     },
     {
-      "id": 172,
+      "id": 180,
       "term": "consumption",
       "alpha": "C",
       "pos": "n.",
@@ -2707,7 +2827,22 @@
       "priority": "高"
     },
     {
-      "id": 173,
+      "id": 181,
+      "term": "expenditure",
+      "alpha": "E",
+      "pos": "n.",
+      "phonetic": "ɪkˈspendɪtʃə(r)",
+      "definition": "支出，花费",
+      "category": "抽象名词",
+      "subcategory": "金融",
+      "sentence": "Household expenditure on energy has increased sharply.",
+      "translation": "家庭能源支出大幅增加。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 182,
       "term": "interaction",
       "alpha": "I",
       "pos": "n.",
@@ -2722,7 +2857,7 @@
       "priority": "高"
     },
     {
-      "id": 174,
+      "id": 183,
       "term": "restriction",
       "alpha": "R",
       "pos": "n.",
@@ -2737,7 +2872,37 @@
       "priority": "高"
     },
     {
-      "id": 175,
+      "id": 184,
+      "term": "intervention",
+      "alpha": "I",
+      "pos": "n.",
+      "phonetic": "ˌɪntəˈvenʃn",
+      "definition": "干预，介入",
+      "category": "抽象名词",
+      "subcategory": "方法",
+      "sentence": "Early intervention can prevent small problems from becoming serious.",
+      "translation": "早期干预可以防止小问题变得严重。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 185,
+      "term": "productivity",
+      "alpha": "P",
+      "pos": "n.",
+      "phonetic": "ˌprɒdʌkˈtɪvəti",
+      "definition": "生产率",
+      "category": "抽象名词",
+      "subcategory": "工作",
+      "sentence": "Long working hours do not always lead to higher productivity.",
+      "translation": "工作时间长并不总是带来更高的生产率。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 186,
       "term": "contradiction",
       "alpha": "C",
       "pos": "n.",
@@ -2752,7 +2917,7 @@
       "priority": "高"
     },
     {
-      "id": 176,
+      "id": 187,
       "term": "justification",
       "alpha": "J",
       "pos": "n.",
@@ -2767,7 +2932,37 @@
       "priority": "高"
     },
     {
-      "id": 177,
+      "id": 188,
+      "term": "vulnerability",
+      "alpha": "V",
+      "pos": "n.",
+      "phonetic": "ˌvʌlnərəˈbɪləti",
+      "definition": "脆弱性，易受伤害",
+      "category": "抽象名词",
+      "subcategory": "社会",
+      "sentence": "Economic vulnerability can limit a family's choices.",
+      "translation": "经济脆弱性会限制一个家庭的选择。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 189,
+      "term": "accountability",
+      "alpha": "A",
+      "pos": "n.",
+      "phonetic": "əˌkaʊntəˈbɪləti",
+      "definition": "问责，责任制",
+      "category": "抽象名词",
+      "subcategory": "政府",
+      "sentence": "Public accountability helps prevent the misuse of power.",
+      "translation": "公共问责有助于防止权力滥用。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 190,
       "term": "infrastructure",
       "alpha": "I",
       "pos": "n.",
@@ -2782,7 +2977,7 @@
       "priority": "高"
     },
     {
-      "id": 178,
+      "id": 191,
       "term": "interpretation",
       "alpha": "I",
       "pos": "n.",
@@ -2797,7 +2992,22 @@
       "priority": "高"
     },
     {
-      "id": 179,
+      "id": 192,
+      "term": "sustainability",
+      "alpha": "S",
+      "pos": "n.",
+      "phonetic": "səˌsteɪnəˈbɪləti",
+      "definition": "可持续性",
+      "category": "抽象名词",
+      "subcategory": "环境",
+      "sentence": "Sustainability should be considered before large projects are approved.",
+      "translation": "大型项目获批前应考虑可持续性。",
+      "tactic": "适合搭建论证：原因、影响、问题、方法、趋势和结果。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 193,
       "term": "link",
       "alpha": "L",
       "pos": "v.",
@@ -2812,7 +3022,7 @@
       "priority": "高"
     },
     {
-      "id": 180,
+      "id": 194,
       "term": "rely",
       "alpha": "R",
       "pos": "v.",
@@ -2827,7 +3037,7 @@
       "priority": "高"
     },
     {
-      "id": 181,
+      "id": 195,
       "term": "vary",
       "alpha": "V",
       "pos": "v.",
@@ -2842,7 +3052,7 @@
       "priority": "高"
     },
     {
-      "id": 182,
+      "id": 196,
       "term": "occur",
       "alpha": "O",
       "pos": "v.",
@@ -2857,7 +3067,7 @@
       "priority": "高"
     },
     {
-      "id": 183,
+      "id": 197,
       "term": "affect",
       "alpha": "A",
       "pos": "v.",
@@ -2872,7 +3082,7 @@
       "priority": "高"
     },
     {
-      "id": 184,
+      "id": 198,
       "term": "assess",
       "alpha": "A",
       "pos": "v.",
@@ -2887,7 +3097,37 @@
       "priority": "高"
     },
     {
-      "id": 185,
+      "id": 199,
+      "term": "attain",
+      "alpha": "A",
+      "pos": "v.",
+      "phonetic": "əˈteɪn",
+      "definition": "达到，获得",
+      "category": "核心动词",
+      "subcategory": "结果",
+      "sentence": "Many students struggle to attain a high level of academic writing.",
+      "translation": "许多学生很难达到较高的学术写作水平。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 200,
+      "term": "compel",
+      "alpha": "C",
+      "pos": "v.",
+      "phonetic": "kəmˈpel",
+      "definition": "迫使，强迫",
+      "category": "核心动词",
+      "subcategory": "因果",
+      "sentence": "Rising costs may compel families to delay major purchases.",
+      "translation": "成本上升可能迫使家庭推迟大额消费。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 201,
       "term": "create",
       "alpha": "C",
       "pos": "v.",
@@ -2902,7 +3142,7 @@
       "priority": "高"
     },
     {
-      "id": 186,
+      "id": 202,
       "term": "define",
       "alpha": "D",
       "pos": "v.",
@@ -2917,7 +3157,7 @@
       "priority": "高"
     },
     {
-      "id": 187,
+      "id": 203,
       "term": "derive",
       "alpha": "D",
       "pos": "v.",
@@ -2932,7 +3172,7 @@
       "priority": "高"
     },
     {
-      "id": 188,
+      "id": 204,
       "term": "design",
       "alpha": "D",
       "pos": "v.",
@@ -2947,7 +3187,7 @@
       "priority": "高"
     },
     {
-      "id": 189,
+      "id": 205,
       "term": "enable",
       "alpha": "E",
       "pos": "v.",
@@ -2962,7 +3202,7 @@
       "priority": "高"
     },
     {
-      "id": 190,
+      "id": 206,
       "term": "ensure",
       "alpha": "E",
       "pos": "v.",
@@ -2977,7 +3217,7 @@
       "priority": "高"
     },
     {
-      "id": 191,
+      "id": 207,
       "term": "evolve",
       "alpha": "E",
       "pos": "v.",
@@ -2992,7 +3232,7 @@
       "priority": "高"
     },
     {
-      "id": 192,
+      "id": 208,
       "term": "exceed",
       "alpha": "E",
       "pos": "v.",
@@ -3007,7 +3247,7 @@
       "priority": "高"
     },
     {
-      "id": 193,
+      "id": 209,
       "term": "expose",
       "alpha": "E",
       "pos": "v.",
@@ -3022,7 +3262,7 @@
       "priority": "高"
     },
     {
-      "id": 194,
+      "id": 210,
       "term": "impose",
       "alpha": "I",
       "pos": "v.",
@@ -3037,7 +3277,7 @@
       "priority": "高"
     },
     {
-      "id": 195,
+      "id": 211,
       "term": "obtain",
       "alpha": "O",
       "pos": "v.",
@@ -3052,7 +3292,7 @@
       "priority": "高"
     },
     {
-      "id": 196,
+      "id": 212,
       "term": "occupy",
       "alpha": "O",
       "pos": "v.",
@@ -3067,7 +3307,7 @@
       "priority": "高"
     },
     {
-      "id": 197,
+      "id": 213,
       "term": "remove",
       "alpha": "R",
       "pos": "v.",
@@ -3082,7 +3322,7 @@
       "priority": "高"
     },
     {
-      "id": 198,
+      "id": 214,
       "term": "retain",
       "alpha": "R",
       "pos": "v.",
@@ -3097,7 +3337,7 @@
       "priority": "高"
     },
     {
-      "id": 199,
+      "id": 215,
       "term": "submit",
       "alpha": "S",
       "pos": "v.",
@@ -3112,7 +3352,7 @@
       "priority": "高"
     },
     {
-      "id": 200,
+      "id": 216,
       "term": "target",
       "alpha": "T",
       "pos": "v.",
@@ -3127,7 +3367,22 @@
       "priority": "高"
     },
     {
-      "id": 201,
+      "id": 217,
+      "term": "verify",
+      "alpha": "V",
+      "pos": "v.",
+      "phonetic": "ˈverɪfaɪ",
+      "definition": "核实，验证",
+      "category": "核心动词",
+      "subcategory": "证据",
+      "sentence": "Researchers must verify the data before drawing conclusions.",
+      "translation": "研究人员在得出结论前必须核实数据。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 218,
       "term": "achieve",
       "alpha": "A",
       "pos": "v.",
@@ -3142,7 +3397,7 @@
       "priority": "高"
     },
     {
-      "id": 202,
+      "id": 219,
       "term": "acquire",
       "alpha": "A",
       "pos": "v.",
@@ -3157,7 +3412,22 @@
       "priority": "高"
     },
     {
-      "id": 203,
+      "id": 220,
+      "term": "address",
+      "alpha": "A",
+      "pos": "v.",
+      "phonetic": "əˈdres",
+      "definition": "处理，解决",
+      "category": "核心动词",
+      "subcategory": "问题",
+      "sentence": "The new law aims to address unfair treatment in the workplace.",
+      "translation": "这项新法律旨在解决职场中的不公平待遇。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 221,
       "term": "analyse",
       "alpha": "A",
       "pos": "v.",
@@ -3172,7 +3442,7 @@
       "priority": "高"
     },
     {
-      "id": 204,
+      "id": 222,
       "term": "benefit",
       "alpha": "B",
       "pos": "v.",
@@ -3187,7 +3457,7 @@
       "priority": "高"
     },
     {
-      "id": 205,
+      "id": 223,
       "term": "clarify",
       "alpha": "C",
       "pos": "v.",
@@ -3202,7 +3472,7 @@
       "priority": "高"
     },
     {
-      "id": 206,
+      "id": 224,
       "term": "compare",
       "alpha": "C",
       "pos": "v.",
@@ -3217,7 +3487,7 @@
       "priority": "高"
     },
     {
-      "id": 207,
+      "id": 225,
       "term": "conduct",
       "alpha": "C",
       "pos": "v.",
@@ -3232,7 +3502,7 @@
       "priority": "高"
     },
     {
-      "id": 208,
+      "id": 226,
       "term": "consume",
       "alpha": "C",
       "pos": "v.",
@@ -3247,7 +3517,7 @@
       "priority": "高"
     },
     {
-      "id": 209,
+      "id": 227,
       "term": "develop",
       "alpha": "D",
       "pos": "v.",
@@ -3262,7 +3532,7 @@
       "priority": "高"
     },
     {
-      "id": 210,
+      "id": 228,
       "term": "enforce",
       "alpha": "E",
       "pos": "v.",
@@ -3277,7 +3547,7 @@
       "priority": "高"
     },
     {
-      "id": 211,
+      "id": 229,
       "term": "exclude",
       "alpha": "E",
       "pos": "v.",
@@ -3292,7 +3562,22 @@
       "priority": "高"
     },
     {
-      "id": 212,
+      "id": 230,
+      "term": "exploit",
+      "alpha": "E",
+      "pos": "v.",
+      "phonetic": "ɪkˈsplɔɪt",
+      "definition": "利用；剥削",
+      "category": "核心动词",
+      "subcategory": "商业",
+      "sentence": "Some companies exploit consumer data without clear permission.",
+      "translation": "一些公司在没有明确许可的情况下利用消费者数据。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 231,
       "term": "inhibit",
       "alpha": "I",
       "pos": "v.",
@@ -3307,7 +3592,7 @@
       "priority": "高"
     },
     {
-      "id": 213,
+      "id": 232,
       "term": "involve",
       "alpha": "I",
       "pos": "v.",
@@ -3322,7 +3607,22 @@
       "priority": "高"
     },
     {
-      "id": 214,
+      "id": 233,
+      "term": "monitor",
+      "alpha": "M",
+      "pos": "v.",
+      "phonetic": "ˈmɒnɪtə(r)",
+      "definition": "监测，监督",
+      "category": "核心动词",
+      "subcategory": "证据",
+      "sentence": "Hospitals need to monitor patient safety more closely.",
+      "translation": "医院需要更密切地监测患者安全。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 234,
       "term": "predict",
       "alpha": "P",
       "pos": "v.",
@@ -3337,7 +3637,7 @@
       "priority": "高"
     },
     {
-      "id": 215,
+      "id": 235,
       "term": "prevent",
       "alpha": "P",
       "pos": "v.",
@@ -3352,7 +3652,7 @@
       "priority": "高"
     },
     {
-      "id": 216,
+      "id": 236,
       "term": "proceed",
       "alpha": "P",
       "pos": "v.",
@@ -3367,7 +3667,7 @@
       "priority": "高"
     },
     {
-      "id": 217,
+      "id": 237,
       "term": "propose",
       "alpha": "P",
       "pos": "v.",
@@ -3382,7 +3682,7 @@
       "priority": "高"
     },
     {
-      "id": 218,
+      "id": 238,
       "term": "recover",
       "alpha": "R",
       "pos": "v.",
@@ -3397,7 +3697,7 @@
       "priority": "高"
     },
     {
-      "id": 219,
+      "id": 239,
       "term": "resolve",
       "alpha": "R",
       "pos": "v.",
@@ -3412,7 +3712,7 @@
       "priority": "高"
     },
     {
-      "id": 220,
+      "id": 240,
       "term": "respond",
       "alpha": "R",
       "pos": "v.",
@@ -3427,7 +3727,7 @@
       "priority": "高"
     },
     {
-      "id": 221,
+      "id": 241,
       "term": "restore",
       "alpha": "R",
       "pos": "v.",
@@ -3442,7 +3742,7 @@
       "priority": "高"
     },
     {
-      "id": 222,
+      "id": 242,
       "term": "sustain",
       "alpha": "S",
       "pos": "v.",
@@ -3457,7 +3757,22 @@
       "priority": "高"
     },
     {
-      "id": 223,
+      "id": 243,
+      "term": "undergo",
+      "alpha": "U",
+      "pos": "v.",
+      "phonetic": "ˌʌndəˈɡəʊ",
+      "definition": "经历，经受",
+      "category": "核心动词",
+      "subcategory": "变化",
+      "sentence": "Many cities undergo rapid change after new transport systems are built.",
+      "translation": "新的交通系统建成后，许多城市会经历快速变化。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 244,
       "term": "allocate",
       "alpha": "A",
       "pos": "v.",
@@ -3472,7 +3787,7 @@
       "priority": "高"
     },
     {
-      "id": 224,
+      "id": 245,
       "term": "classify",
       "alpha": "C",
       "pos": "v.",
@@ -3487,7 +3802,7 @@
       "priority": "高"
     },
     {
-      "id": 225,
+      "id": 246,
       "term": "contrast",
       "alpha": "C",
       "pos": "v.",
@@ -3502,7 +3817,7 @@
       "priority": "高"
     },
     {
-      "id": 226,
+      "id": 247,
       "term": "convince",
       "alpha": "C",
       "pos": "v.",
@@ -3517,7 +3832,7 @@
       "priority": "高"
     },
     {
-      "id": 227,
+      "id": 248,
       "term": "estimate",
       "alpha": "E",
       "pos": "v.",
@@ -3532,7 +3847,7 @@
       "priority": "高"
     },
     {
-      "id": 228,
+      "id": 249,
       "term": "evaluate",
       "alpha": "E",
       "pos": "v.",
@@ -3547,7 +3862,7 @@
       "priority": "高"
     },
     {
-      "id": 229,
+      "id": 250,
       "term": "generate",
       "alpha": "G",
       "pos": "v.",
@@ -3562,7 +3877,7 @@
       "priority": "高"
     },
     {
-      "id": 230,
+      "id": 251,
       "term": "identify",
       "alpha": "I",
       "pos": "v.",
@@ -3577,7 +3892,7 @@
       "priority": "高"
     },
     {
-      "id": 231,
+      "id": 252,
       "term": "initiate",
       "alpha": "I",
       "pos": "v.",
@@ -3592,7 +3907,7 @@
       "priority": "高"
     },
     {
-      "id": 232,
+      "id": 253,
       "term": "maximise",
       "alpha": "M",
       "pos": "v.",
@@ -3607,7 +3922,22 @@
       "priority": "高"
     },
     {
-      "id": 233,
+      "id": 254,
+      "term": "mitigate",
+      "alpha": "M",
+      "pos": "v.",
+      "phonetic": "ˈmɪtɪɡeɪt",
+      "definition": "缓解，减轻",
+      "category": "核心动词",
+      "subcategory": "因果",
+      "sentence": "Planting trees can help mitigate the effects of urban heat.",
+      "translation": "种树可以帮助缓解城市高温带来的影响。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 255,
       "term": "perceive",
       "alpha": "P",
       "pos": "v.",
@@ -3622,7 +3952,7 @@
       "priority": "高"
     },
     {
-      "id": 234,
+      "id": 256,
       "term": "preserve",
       "alpha": "P",
       "pos": "v.",
@@ -3637,7 +3967,7 @@
       "priority": "高"
     },
     {
-      "id": 235,
+      "id": 257,
       "term": "prohibit",
       "alpha": "P",
       "pos": "v.",
@@ -3652,7 +3982,7 @@
       "priority": "高"
     },
     {
-      "id": 236,
+      "id": 258,
       "term": "purchase",
       "alpha": "P",
       "pos": "v.",
@@ -3667,7 +3997,7 @@
       "priority": "高"
     },
     {
-      "id": 237,
+      "id": 259,
       "term": "regulate",
       "alpha": "R",
       "pos": "v.",
@@ -3682,7 +4012,7 @@
       "priority": "高"
     },
     {
-      "id": 238,
+      "id": 260,
       "term": "transfer",
       "alpha": "T",
       "pos": "v.",
@@ -3697,7 +4027,37 @@
       "priority": "高"
     },
     {
-      "id": 239,
+      "id": 261,
+      "term": "alleviate",
+      "alpha": "A",
+      "pos": "v.",
+      "phonetic": "əˈliːvieɪt",
+      "definition": "缓解，减轻",
+      "category": "核心动词",
+      "subcategory": "问题",
+      "sentence": "Better public transport can alleviate traffic pressure in city centres.",
+      "translation": "更好的公共交通可以缓解市中心的交通压力。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 262,
+      "term": "constrain",
+      "alpha": "C",
+      "pos": "v.",
+      "phonetic": "kənˈstreɪn",
+      "definition": "限制，约束",
+      "category": "核心动词",
+      "subcategory": "限制",
+      "sentence": "A lack of funding can constrain scientific research.",
+      "translation": "资金不足可能会限制科学研究。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 263,
       "term": "cooperate",
       "alpha": "C",
       "pos": "v.",
@@ -3712,7 +4072,22 @@
       "priority": "高"
     },
     {
-      "id": 240,
+      "id": 264,
+      "term": "cultivate",
+      "alpha": "C",
+      "pos": "v.",
+      "phonetic": "ˈkʌltɪveɪt",
+      "definition": "培养，培育",
+      "category": "核心动词",
+      "subcategory": "教育",
+      "sentence": "Schools should cultivate curiosity rather than only reward test scores.",
+      "translation": "学校应该培养好奇心，而不只是奖励考试分数。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 265,
       "term": "determine",
       "alpha": "D",
       "pos": "v.",
@@ -3727,7 +4102,7 @@
       "priority": "高"
     },
     {
-      "id": 241,
+      "id": 266,
       "term": "eliminate",
       "alpha": "E",
       "pos": "v.",
@@ -3742,7 +4117,7 @@
       "priority": "高"
     },
     {
-      "id": 242,
+      "id": 267,
       "term": "emphasise",
       "alpha": "E",
       "pos": "v.",
@@ -3757,7 +4132,7 @@
       "priority": "高"
     },
     {
-      "id": 243,
+      "id": 268,
       "term": "encounter",
       "alpha": "E",
       "pos": "v.",
@@ -3772,7 +4147,7 @@
       "priority": "高"
     },
     {
-      "id": 244,
+      "id": 269,
       "term": "establish",
       "alpha": "E",
       "pos": "v.",
@@ -3787,7 +4162,7 @@
       "priority": "高"
     },
     {
-      "id": 245,
+      "id": 270,
       "term": "integrate",
       "alpha": "I",
       "pos": "v.",
@@ -3802,7 +4177,7 @@
       "priority": "高"
     },
     {
-      "id": 246,
+      "id": 271,
       "term": "interpret",
       "alpha": "I",
       "pos": "v.",
@@ -3817,7 +4192,7 @@
       "priority": "高"
     },
     {
-      "id": 247,
+      "id": 272,
       "term": "recognise",
       "alpha": "R",
       "pos": "v.",
@@ -3832,7 +4207,7 @@
       "priority": "高"
     },
     {
-      "id": 248,
+      "id": 273,
       "term": "recommend",
       "alpha": "R",
       "pos": "v.",
@@ -3847,7 +4222,7 @@
       "priority": "高"
     },
     {
-      "id": 249,
+      "id": 274,
       "term": "stimulate",
       "alpha": "S",
       "pos": "v.",
@@ -3862,7 +4237,22 @@
       "priority": "高"
     },
     {
-      "id": 250,
+      "id": 275,
+      "term": "accelerate",
+      "alpha": "A",
+      "pos": "v.",
+      "phonetic": "əkˈseləreɪt",
+      "definition": "加速，促进",
+      "category": "核心动词",
+      "subcategory": "变化",
+      "sentence": "Digital payment systems can accelerate business transactions.",
+      "translation": "数字支付系统可以加快商业交易。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 276,
       "term": "compensate",
       "alpha": "C",
       "pos": "v.",
@@ -3877,7 +4267,7 @@
       "priority": "高"
     },
     {
-      "id": 251,
+      "id": 277,
       "term": "complement",
       "alpha": "C",
       "pos": "v.",
@@ -3892,7 +4282,7 @@
       "priority": "高"
     },
     {
-      "id": 252,
+      "id": 278,
       "term": "complicate",
       "alpha": "C",
       "pos": "v.",
@@ -3907,7 +4297,7 @@
       "priority": "高"
     },
     {
-      "id": 253,
+      "id": 279,
       "term": "constitute",
       "alpha": "C",
       "pos": "v.",
@@ -3922,7 +4312,7 @@
       "priority": "高"
     },
     {
-      "id": 254,
+      "id": 280,
       "term": "coordinate",
       "alpha": "C",
       "pos": "v.",
@@ -3937,7 +4327,7 @@
       "priority": "高"
     },
     {
-      "id": 255,
+      "id": 281,
       "term": "distribute",
       "alpha": "D",
       "pos": "v.",
@@ -3952,7 +4342,22 @@
       "priority": "高"
     },
     {
-      "id": 256,
+      "id": 282,
+      "term": "exacerbate",
+      "alpha": "E",
+      "pos": "v.",
+      "phonetic": "ɪɡˈzæsəbeɪt",
+      "definition": "使恶化，加剧",
+      "category": "核心动词",
+      "subcategory": "因果",
+      "sentence": "Poor housing can exacerbate existing health problems.",
+      "translation": "住房条件差可能会加重已有的健康问题。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 283,
       "term": "prioritise",
       "alpha": "P",
       "pos": "v.",
@@ -3967,7 +4372,7 @@
       "priority": "高"
     },
     {
-      "id": 257,
+      "id": 284,
       "term": "substitute",
       "alpha": "S",
       "pos": "v.",
@@ -3982,7 +4387,37 @@
       "priority": "高"
     },
     {
-      "id": 258,
+      "id": 285,
+      "term": "acknowledge",
+      "alpha": "A",
+      "pos": "v.",
+      "phonetic": "əkˈnɒlɪdʒ",
+      "definition": "承认，认可",
+      "category": "核心动词",
+      "subcategory": "观点",
+      "sentence": "Policymakers should acknowledge the pressure on low-income families.",
+      "translation": "政策制定者应该承认低收入家庭面临的压力。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 286,
+      "term": "deteriorate",
+      "alpha": "D",
+      "pos": "v.",
+      "phonetic": "dɪˈtɪəriəreɪt",
+      "definition": "恶化，变差",
+      "category": "核心动词",
+      "subcategory": "变化",
+      "sentence": "Air quality may deteriorate during periods of heavy traffic.",
+      "translation": "交通繁忙时期，空气质量可能会恶化。",
+      "tactic": "阅读里先认同义替换；写作里优先替换 help / make / show / change。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 287,
       "term": "incorporate",
       "alpha": "I",
       "pos": "v.",
@@ -3997,7 +4432,7 @@
       "priority": "高"
     },
     {
-      "id": 259,
+      "id": 288,
       "term": "participate",
       "alpha": "P",
       "pos": "v.",
@@ -4012,7 +4447,7 @@
       "priority": "高"
     },
     {
-      "id": 260,
+      "id": 289,
       "term": "differentiate",
       "alpha": "D",
       "pos": "v.",
@@ -4027,7 +4462,7 @@
       "priority": "高"
     },
     {
-      "id": 261,
+      "id": 290,
       "term": "minor",
       "alpha": "M",
       "pos": "adj.",
@@ -4042,7 +4477,7 @@
       "priority": "高"
     },
     {
-      "id": 262,
+      "id": 291,
       "term": "rigid",
       "alpha": "R",
       "pos": "adj.",
@@ -4057,7 +4492,7 @@
       "priority": "高"
     },
     {
-      "id": 263,
+      "id": 292,
       "term": "valid",
       "alpha": "V",
       "pos": "adj.",
@@ -4072,7 +4507,22 @@
       "priority": "高"
     },
     {
-      "id": 264,
+      "id": 293,
+      "term": "mature",
+      "alpha": "M",
+      "pos": "adj.",
+      "phonetic": "məˈtʃʊə(r)",
+      "definition": "成熟的",
+      "category": "评价形容词",
+      "subcategory": "判断",
+      "sentence": "A mature market usually has stable rules and informed consumers.",
+      "translation": "成熟的市场通常有稳定的规则和理性的消费者。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 294,
       "term": "random",
       "alpha": "R",
       "pos": "adj.",
@@ -4087,7 +4537,22 @@
       "priority": "高"
     },
     {
-      "id": 265,
+      "id": 295,
+      "term": "scarce",
+      "alpha": "S",
+      "pos": "adj.",
+      "phonetic": "skeəs",
+      "definition": "稀缺的，不足的",
+      "category": "评价形容词",
+      "subcategory": "程度",
+      "sentence": "Water may become scarce in areas affected by drought.",
+      "translation": "受干旱影响的地区，水可能会变得稀缺。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 296,
       "term": "severe",
       "alpha": "S",
       "pos": "adj.",
@@ -4102,7 +4567,7 @@
       "priority": "高"
     },
     {
-      "id": 266,
+      "id": 297,
       "term": "stable",
       "alpha": "S",
       "pos": "adj.",
@@ -4117,7 +4582,37 @@
       "priority": "高"
     },
     {
-      "id": 267,
+      "id": 298,
+      "term": "viable",
+      "alpha": "V",
+      "pos": "adj.",
+      "phonetic": "ˈvaɪəbl",
+      "definition": "可行的，能成功的",
+      "category": "评价形容词",
+      "subcategory": "判断",
+      "sentence": "Remote work is not a viable option for every occupation.",
+      "translation": "远程办公并不是每种职业都可行的选择。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 299,
+      "term": "adverse",
+      "alpha": "A",
+      "pos": "adj.",
+      "phonetic": "ədˈvɜːs",
+      "definition": "不利的，有害的",
+      "category": "评价形容词",
+      "subcategory": "评价",
+      "sentence": "Noise pollution can have adverse effects on children's learning.",
+      "translation": "噪音污染可能对儿童学习产生不利影响。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 300,
       "term": "complex",
       "alpha": "C",
       "pos": "adj.",
@@ -4132,7 +4627,22 @@
       "priority": "高"
     },
     {
-      "id": 268,
+      "id": 301,
+      "term": "ethical",
+      "alpha": "E",
+      "pos": "adj.",
+      "phonetic": "ˈeθɪkl",
+      "definition": "伦理的，道德的",
+      "category": "评价形容词",
+      "subcategory": "评价",
+      "sentence": "The use of personal data raises ethical concerns.",
+      "translation": "个人数据的使用引发伦理方面的担忧。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 302,
       "term": "evident",
       "alpha": "E",
       "pos": "adj.",
@@ -4147,7 +4657,7 @@
       "priority": "高"
     },
     {
-      "id": 269,
+      "id": 303,
       "term": "gradual",
       "alpha": "G",
       "pos": "adj.",
@@ -4162,7 +4672,7 @@
       "priority": "高"
     },
     {
-      "id": 270,
+      "id": 304,
       "term": "initial",
       "alpha": "I",
       "pos": "adj.",
@@ -4177,7 +4687,7 @@
       "priority": "高"
     },
     {
-      "id": 271,
+      "id": 305,
       "term": "logical",
       "alpha": "L",
       "pos": "adj.",
@@ -4192,7 +4702,7 @@
       "priority": "高"
     },
     {
-      "id": 272,
+      "id": 306,
       "term": "neutral",
       "alpha": "N",
       "pos": "adj.",
@@ -4207,7 +4717,7 @@
       "priority": "高"
     },
     {
-      "id": 273,
+      "id": 307,
       "term": "obvious",
       "alpha": "O",
       "pos": "adj.",
@@ -4222,7 +4732,7 @@
       "priority": "高"
     },
     {
-      "id": 274,
+      "id": 308,
       "term": "overall",
       "alpha": "O",
       "pos": "adj.",
@@ -4237,7 +4747,7 @@
       "priority": "高"
     },
     {
-      "id": 275,
+      "id": 309,
       "term": "primary",
       "alpha": "P",
       "pos": "adj.",
@@ -4252,7 +4762,7 @@
       "priority": "高"
     },
     {
-      "id": 276,
+      "id": 310,
       "term": "accurate",
       "alpha": "A",
       "pos": "adj.",
@@ -4267,7 +4777,7 @@
       "priority": "高"
     },
     {
-      "id": 277,
+      "id": 311,
       "term": "apparent",
       "alpha": "A",
       "pos": "adj.",
@@ -4282,7 +4792,22 @@
       "priority": "高"
     },
     {
-      "id": 278,
+      "id": 312,
+      "term": "coherent",
+      "alpha": "C",
+      "pos": "adj.",
+      "phonetic": "kəʊˈhɪərənt",
+      "definition": "连贯的，条理清楚的",
+      "category": "评价形容词",
+      "subcategory": "逻辑",
+      "sentence": "A coherent argument needs clear reasons and relevant evidence.",
+      "translation": "连贯的论证需要清晰的理由和相关证据。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 313,
       "term": "critical",
       "alpha": "C",
       "pos": "adj.",
@@ -4297,7 +4822,7 @@
       "priority": "高"
     },
     {
-      "id": 279,
+      "id": 314,
       "term": "distinct",
       "alpha": "D",
       "pos": "adj.",
@@ -4312,7 +4837,7 @@
       "priority": "高"
     },
     {
-      "id": 280,
+      "id": 315,
       "term": "dominant",
       "alpha": "D",
       "pos": "adj.",
@@ -4327,7 +4852,7 @@
       "priority": "高"
     },
     {
-      "id": 281,
+      "id": 316,
       "term": "external",
       "alpha": "E",
       "pos": "adj.",
@@ -4342,7 +4867,7 @@
       "priority": "高"
     },
     {
-      "id": 282,
+      "id": 317,
       "term": "flexible",
       "alpha": "F",
       "pos": "adj.",
@@ -4357,7 +4882,7 @@
       "priority": "高"
     },
     {
-      "id": 283,
+      "id": 318,
       "term": "implicit",
       "alpha": "I",
       "pos": "adj.",
@@ -4372,7 +4897,7 @@
       "priority": "高"
     },
     {
-      "id": 284,
+      "id": 319,
       "term": "internal",
       "alpha": "I",
       "pos": "adj.",
@@ -4387,7 +4912,7 @@
       "priority": "高"
     },
     {
-      "id": 285,
+      "id": 320,
       "term": "negative",
       "alpha": "N",
       "pos": "adj.",
@@ -4402,7 +4927,7 @@
       "priority": "高"
     },
     {
-      "id": 286,
+      "id": 321,
       "term": "positive",
       "alpha": "P",
       "pos": "adj.",
@@ -4417,7 +4942,7 @@
       "priority": "高"
     },
     {
-      "id": 287,
+      "id": 322,
       "term": "previous",
       "alpha": "P",
       "pos": "adj.",
@@ -4432,7 +4957,7 @@
       "priority": "高"
     },
     {
-      "id": 288,
+      "id": 323,
       "term": "profound",
       "alpha": "P",
       "pos": "adj.",
@@ -4447,7 +4972,7 @@
       "priority": "高"
     },
     {
-      "id": 289,
+      "id": 324,
       "term": "relevant",
       "alpha": "R",
       "pos": "adj.",
@@ -4462,7 +4987,7 @@
       "priority": "高"
     },
     {
-      "id": 290,
+      "id": 325,
       "term": "reliable",
       "alpha": "R",
       "pos": "adj.",
@@ -4477,7 +5002,7 @@
       "priority": "高"
     },
     {
-      "id": 291,
+      "id": 326,
       "term": "ambiguous",
       "alpha": "A",
       "pos": "adj.",
@@ -4492,7 +5017,7 @@
       "priority": "高"
     },
     {
-      "id": 292,
+      "id": 327,
       "term": "arbitrary",
       "alpha": "A",
       "pos": "adj.",
@@ -4507,7 +5032,7 @@
       "priority": "高"
     },
     {
-      "id": 293,
+      "id": 328,
       "term": "desirable",
       "alpha": "D",
       "pos": "adj.",
@@ -4522,7 +5047,7 @@
       "priority": "高"
     },
     {
-      "id": 294,
+      "id": 329,
       "term": "effective",
       "alpha": "E",
       "pos": "adj.",
@@ -4537,7 +5062,7 @@
       "priority": "高"
     },
     {
-      "id": 295,
+      "id": 330,
       "term": "efficient",
       "alpha": "E",
       "pos": "adj.",
@@ -4552,7 +5077,22 @@
       "priority": "高"
     },
     {
-      "id": 296,
+      "id": 331,
+      "term": "empirical",
+      "alpha": "E",
+      "pos": "adj.",
+      "phonetic": "ɪmˈpɪrɪkl",
+      "definition": "实证的，基于经验的",
+      "category": "评价形容词",
+      "subcategory": "证据",
+      "sentence": "Empirical evidence is stronger than personal opinion.",
+      "translation": "实证证据比个人观点更有说服力。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 332,
       "term": "excessive",
       "alpha": "E",
       "pos": "adj.",
@@ -4567,7 +5107,37 @@
       "priority": "高"
     },
     {
-      "id": 297,
+      "id": 333,
+      "term": "impartial",
+      "alpha": "I",
+      "pos": "adj.",
+      "phonetic": "ɪmˈpɑːʃl",
+      "definition": "公正的，不偏不倚的",
+      "category": "评价形容词",
+      "subcategory": "评价",
+      "sentence": "Judges must remain impartial when handling public disputes.",
+      "translation": "法官在处理公共争议时必须保持公正。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 334,
+      "term": "inclusive",
+      "alpha": "I",
+      "pos": "adj.",
+      "phonetic": "ɪnˈkluːsɪv",
+      "definition": "包容的，兼收并蓄的",
+      "category": "评价形容词",
+      "subcategory": "社会",
+      "sentence": "An inclusive school system gives support to different types of learners.",
+      "translation": "包容性的学校体系会支持不同类型的学习者。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 335,
       "term": "strategic",
       "alpha": "S",
       "pos": "adj.",
@@ -4582,7 +5152,7 @@
       "priority": "高"
     },
     {
-      "id": 298,
+      "id": 336,
       "term": "temporary",
       "alpha": "T",
       "pos": "adj.",
@@ -4597,7 +5167,37 @@
       "priority": "高"
     },
     {
-      "id": 299,
+      "id": 337,
+      "term": "accessible",
+      "alpha": "A",
+      "pos": "adj.",
+      "phonetic": "əkˈsesəbl",
+      "definition": "可进入的，易获得的",
+      "category": "评价形容词",
+      "subcategory": "社会",
+      "sentence": "Public services should be accessible to people with disabilities.",
+      "translation": "公共服务应该方便残障人士使用。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 338,
+      "term": "affordable",
+      "alpha": "A",
+      "pos": "adj.",
+      "phonetic": "əˈfɔːdəbl",
+      "definition": "负担得起的",
+      "category": "评价形容词",
+      "subcategory": "程度",
+      "sentence": "Affordable housing is essential for young workers in large cities.",
+      "translation": "可负担住房对大城市的年轻员工非常重要。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 339,
       "term": "beneficial",
       "alpha": "B",
       "pos": "adj.",
@@ -4612,7 +5212,7 @@
       "priority": "高"
     },
     {
-      "id": 300,
+      "id": 340,
       "term": "consistent",
       "alpha": "C",
       "pos": "adj.",
@@ -4627,7 +5227,7 @@
       "priority": "高"
     },
     {
-      "id": 301,
+      "id": 341,
       "term": "equivalent",
       "alpha": "E",
       "pos": "adj.",
@@ -4642,7 +5242,7 @@
       "priority": "高"
     },
     {
-      "id": 302,
+      "id": 342,
       "term": "inadequate",
       "alpha": "I",
       "pos": "adj.",
@@ -4657,7 +5257,22 @@
       "priority": "高"
     },
     {
-      "id": 303,
+      "id": 343,
+      "term": "innovative",
+      "alpha": "I",
+      "pos": "adj.",
+      "phonetic": "ˈɪnəveɪtɪv",
+      "definition": "创新的",
+      "category": "评价形容词",
+      "subcategory": "评价",
+      "sentence": "Innovative firms are more likely to adapt to market changes.",
+      "translation": "创新型企业更有可能适应市场变化。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 344,
       "term": "productive",
       "alpha": "P",
       "pos": "adj.",
@@ -4672,7 +5287,7 @@
       "priority": "高"
     },
     {
-      "id": 304,
+      "id": 345,
       "term": "underlying",
       "alpha": "U",
       "pos": "adj.",
@@ -4687,7 +5302,7 @@
       "priority": "高"
     },
     {
-      "id": 305,
+      "id": 346,
       "term": "vulnerable",
       "alpha": "V",
       "pos": "adj.",
@@ -4702,7 +5317,22 @@
       "priority": "高"
     },
     {
-      "id": 306,
+      "id": 347,
+      "term": "widespread",
+      "alpha": "W",
+      "pos": "adj.",
+      "phonetic": "ˈwaɪdspred",
+      "definition": "广泛的，普遍的",
+      "category": "评价形容词",
+      "subcategory": "范围",
+      "sentence": "Widespread smartphone use has changed how people receive news.",
+      "translation": "智能手机的广泛使用改变了人们获取新闻的方式。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 348,
       "term": "appropriate",
       "alpha": "A",
       "pos": "adj.",
@@ -4717,7 +5347,7 @@
       "priority": "高"
     },
     {
-      "id": 307,
+      "id": 349,
       "term": "detrimental",
       "alpha": "D",
       "pos": "adj.",
@@ -4732,7 +5362,22 @@
       "priority": "高"
     },
     {
-      "id": 308,
+      "id": 350,
+      "term": "sustainable",
+      "alpha": "S",
+      "pos": "adj.",
+      "phonetic": "səˈsteɪnəbl",
+      "definition": "可持续的",
+      "category": "评价形容词",
+      "subcategory": "评价",
+      "sentence": "A sustainable transport system must be affordable and reliable.",
+      "translation": "可持续的交通系统必须负担得起并且可靠。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 351,
       "term": "considerable",
       "alpha": "C",
       "pos": "adj.",
@@ -4747,7 +5392,7 @@
       "priority": "高"
     },
     {
-      "id": 309,
+      "id": 352,
       "term": "conventional",
       "alpha": "C",
       "pos": "adj.",
@@ -4762,7 +5407,22 @@
       "priority": "高"
     },
     {
-      "id": 310,
+      "id": 353,
+      "term": "comprehensive",
+      "alpha": "C",
+      "pos": "adj.",
+      "phonetic": "ˌkɒmprɪˈhensɪv",
+      "definition": "全面的，综合的",
+      "category": "评价形容词",
+      "subcategory": "范围",
+      "sentence": "A comprehensive plan should include funding, training, and evaluation.",
+      "translation": "全面的计划应包括资金、培训和评估。",
+      "tactic": "用来评价程度、可行性、好坏和重要性，适合写作观点句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 354,
       "term": "crime",
       "alpha": "C",
       "pos": "n.",
@@ -4777,7 +5437,7 @@
       "priority": "高"
     },
     {
-      "id": 311,
+      "id": 355,
       "term": "budget",
       "alpha": "B",
       "pos": "n.",
@@ -4792,7 +5452,7 @@
       "priority": "高"
     },
     {
-      "id": 312,
+      "id": 356,
       "term": "profit",
       "alpha": "P",
       "pos": "n.",
@@ -4807,7 +5467,7 @@
       "priority": "高"
     },
     {
-      "id": 313,
+      "id": 357,
       "term": "suburb",
       "alpha": "S",
       "pos": "n.",
@@ -4822,7 +5482,7 @@
       "priority": "高"
     },
     {
-      "id": 314,
+      "id": 358,
       "term": "culture",
       "alpha": "C",
       "pos": "n.",
@@ -4837,7 +5497,7 @@
       "priority": "高"
     },
     {
-      "id": 315,
+      "id": 359,
       "term": "obesity",
       "alpha": "O",
       "pos": "n.",
@@ -4852,7 +5512,7 @@
       "priority": "高"
     },
     {
-      "id": 316,
+      "id": 360,
       "term": "privacy",
       "alpha": "P",
       "pos": "n.",
@@ -4867,22 +5527,7 @@
       "priority": "高"
     },
     {
-      "id": 317,
-      "term": "revenue",
-      "alpha": "R",
-      "pos": "n.",
-      "phonetic": "",
-      "definition": "收入，收益",
-      "category": "话题场景词",
-      "subcategory": "商业金融",
-      "sentence": "Public debate about revenue often involves cost, fairness, and long-term impact.",
-      "translation": "关于收入，收益的公共讨论，通常会涉及成本、公平和长期影响。",
-      "tactic": "按商业金融场景记中文核心义，再配一个自己的例句。",
-      "source": "独立考试词库",
-      "priority": "高"
-    },
-    {
-      "id": 318,
+      "id": 361,
       "term": "subsidy",
       "alpha": "S",
       "pos": "n.",
@@ -4897,7 +5542,7 @@
       "priority": "高"
     },
     {
-      "id": 319,
+      "id": 362,
       "term": "symptom",
       "alpha": "S",
       "pos": "n.",
@@ -4912,7 +5557,7 @@
       "priority": "高"
     },
     {
-      "id": 320,
+      "id": 363,
       "term": "tourism",
       "alpha": "T",
       "pos": "n.",
@@ -4927,7 +5572,7 @@
       "priority": "高"
     },
     {
-      "id": 321,
+      "id": 364,
       "term": "tuition",
       "alpha": "T",
       "pos": "n.",
@@ -4942,7 +5587,7 @@
       "priority": "高"
     },
     {
-      "id": 322,
+      "id": 365,
       "term": "vehicle",
       "alpha": "V",
       "pos": "n.",
@@ -4957,7 +5602,7 @@
       "priority": "高"
     },
     {
-      "id": 323,
+      "id": 366,
       "term": "audience",
       "alpha": "A",
       "pos": "n.",
@@ -4972,7 +5617,7 @@
       "priority": "高"
     },
     {
-      "id": 324,
+      "id": 367,
       "term": "commuter",
       "alpha": "C",
       "pos": "n.",
@@ -4987,7 +5632,7 @@
       "priority": "高"
     },
     {
-      "id": 325,
+      "id": 368,
       "term": "consumer",
       "alpha": "C",
       "pos": "n.",
@@ -5002,7 +5647,7 @@
       "priority": "高"
     },
     {
-      "id": 326,
+      "id": 369,
       "term": "database",
       "alpha": "D",
       "pos": "n.",
@@ -5017,7 +5662,7 @@
       "priority": "高"
     },
     {
-      "id": 327,
+      "id": 370,
       "term": "emission",
       "alpha": "E",
       "pos": "n.",
@@ -5032,7 +5677,7 @@
       "priority": "高"
     },
     {
-      "id": 328,
+      "id": 371,
       "term": "heritage",
       "alpha": "H",
       "pos": "n.",
@@ -5047,7 +5692,7 @@
       "priority": "高"
     },
     {
-      "id": 329,
+      "id": 372,
       "term": "identity",
       "alpha": "I",
       "pos": "n.",
@@ -5062,7 +5707,7 @@
       "priority": "高"
     },
     {
-      "id": 330,
+      "id": 373,
       "term": "interest",
       "alpha": "I",
       "pos": "n.",
@@ -5077,7 +5722,7 @@
       "priority": "高"
     },
     {
-      "id": 331,
+      "id": 374,
       "term": "literacy",
       "alpha": "L",
       "pos": "n.",
@@ -5092,7 +5737,7 @@
       "priority": "高"
     },
     {
-      "id": 332,
+      "id": 375,
       "term": "minority",
       "alpha": "M",
       "pos": "n.",
@@ -5107,7 +5752,7 @@
       "priority": "高"
     },
     {
-      "id": 333,
+      "id": 376,
       "term": "platform",
       "alpha": "P",
       "pos": "n.",
@@ -5122,7 +5767,7 @@
       "priority": "高"
     },
     {
-      "id": 334,
+      "id": 377,
       "term": "taxation",
       "alpha": "T",
       "pos": "n.",
@@ -5137,7 +5782,7 @@
       "priority": "高"
     },
     {
-      "id": 335,
+      "id": 378,
       "term": "algorithm",
       "alpha": "A",
       "pos": "n.",
@@ -5152,7 +5797,7 @@
       "priority": "高"
     },
     {
-      "id": 336,
+      "id": 379,
       "term": "broadcast",
       "alpha": "B",
       "pos": "n.",
@@ -5167,7 +5812,7 @@
       "priority": "高"
     },
     {
-      "id": 337,
+      "id": 380,
       "term": "diagnosis",
       "alpha": "D",
       "pos": "n.",
@@ -5182,7 +5827,7 @@
       "priority": "高"
     },
     {
-      "id": 338,
+      "id": 381,
       "term": "education",
       "alpha": "E",
       "pos": "n.",
@@ -5197,7 +5842,7 @@
       "priority": "高"
     },
     {
-      "id": 339,
+      "id": 382,
       "term": "inflation",
       "alpha": "I",
       "pos": "n.",
@@ -5212,7 +5857,7 @@
       "priority": "高"
     },
     {
-      "id": 340,
+      "id": 383,
       "term": "itinerary",
       "alpha": "I",
       "pos": "n.",
@@ -5227,7 +5872,7 @@
       "priority": "高"
     },
     {
-      "id": 341,
+      "id": 384,
       "term": "migration",
       "alpha": "M",
       "pos": "n.",
@@ -5242,7 +5887,7 @@
       "priority": "高"
     },
     {
-      "id": 342,
+      "id": 385,
       "term": "nutrition",
       "alpha": "N",
       "pos": "n.",
@@ -5257,7 +5902,7 @@
       "priority": "高"
     },
     {
-      "id": 343,
+      "id": 386,
       "term": "pollution",
       "alpha": "P",
       "pos": "n.",
@@ -5272,7 +5917,7 @@
       "priority": "高"
     },
     {
-      "id": 344,
+      "id": 387,
       "term": "promotion",
       "alpha": "P",
       "pos": "n.",
@@ -5287,7 +5932,7 @@
       "priority": "高"
     },
     {
-      "id": 345,
+      "id": 388,
       "term": "renewable",
       "alpha": "R",
       "pos": "adj.",
@@ -5302,7 +5947,7 @@
       "priority": "高"
     },
     {
-      "id": 346,
+      "id": 389,
       "term": "tradition",
       "alpha": "T",
       "pos": "n.",
@@ -5317,7 +5962,7 @@
       "priority": "高"
     },
     {
-      "id": 347,
+      "id": 390,
       "term": "treatment",
       "alpha": "T",
       "pos": "n.",
@@ -5332,7 +5977,7 @@
       "priority": "高"
     },
     {
-      "id": 348,
+      "id": 391,
       "term": "wellbeing",
       "alpha": "W",
       "pos": "n.",
@@ -5347,7 +5992,7 @@
       "priority": "高"
     },
     {
-      "id": 349,
+      "id": 392,
       "term": "workforce",
       "alpha": "W",
       "pos": "n.",
@@ -5362,7 +6007,7 @@
       "priority": "高"
     },
     {
-      "id": 350,
+      "id": 393,
       "term": "attraction",
       "alpha": "A",
       "pos": "n.",
@@ -5377,7 +6022,7 @@
       "priority": "高"
     },
     {
-      "id": 351,
+      "id": 394,
       "term": "automation",
       "alpha": "A",
       "pos": "n.",
@@ -5392,7 +6037,7 @@
       "priority": "高"
     },
     {
-      "id": 352,
+      "id": 395,
       "term": "censorship",
       "alpha": "C",
       "pos": "n.",
@@ -5407,7 +6052,7 @@
       "priority": "高"
     },
     {
-      "id": 353,
+      "id": 396,
       "term": "congestion",
       "alpha": "C",
       "pos": "n.",
@@ -5422,7 +6067,7 @@
       "priority": "高"
     },
     {
-      "id": 354,
+      "id": 397,
       "term": "curriculum",
       "alpha": "C",
       "pos": "n.",
@@ -5437,7 +6082,7 @@
       "priority": "高"
     },
     {
-      "id": 355,
+      "id": 398,
       "term": "discipline",
       "alpha": "D",
       "pos": "n.",
@@ -5452,7 +6097,7 @@
       "priority": "高"
     },
     {
-      "id": 356,
+      "id": 399,
       "term": "employment",
       "alpha": "E",
       "pos": "n.",
@@ -5467,7 +6112,7 @@
       "priority": "高"
     },
     {
-      "id": 357,
+      "id": 400,
       "term": "government",
       "alpha": "G",
       "pos": "n.",
@@ -5482,7 +6127,7 @@
       "priority": "高"
     },
     {
-      "id": 358,
+      "id": 401,
       "term": "healthcare",
       "alpha": "H",
       "pos": "n.",
@@ -5497,22 +6142,7 @@
       "priority": "高"
     },
     {
-      "id": 359,
-      "term": "innovation",
-      "alpha": "I",
-      "pos": "n.",
-      "phonetic": "ˌɪnəˈveɪʃn",
-      "definition": "创新",
-      "category": "话题场景词",
-      "subcategory": "科技场景",
-      "sentence": "Public debate about innovation often involves cost, fairness, and long-term impact.",
-      "translation": "关于创新的公共讨论，通常会涉及成本、公平和长期影响。",
-      "tactic": "按科技场景场景记中文核心义，再配一个自己的例句。",
-      "source": "独立考试词库",
-      "priority": "高"
-    },
-    {
-      "id": 360,
+      "id": 402,
       "term": "journalism",
       "alpha": "J",
       "pos": "n.",
@@ -5527,7 +6157,7 @@
       "priority": "高"
     },
     {
-      "id": 361,
+      "id": 403,
       "term": "occupation",
       "alpha": "O",
       "pos": "n.",
@@ -5542,7 +6172,7 @@
       "priority": "高"
     },
     {
-      "id": 362,
+      "id": 404,
       "term": "pedestrian",
       "alpha": "P",
       "pos": "n.",
@@ -5557,7 +6187,7 @@
       "priority": "高"
     },
     {
-      "id": 363,
+      "id": 405,
       "term": "punishment",
       "alpha": "P",
       "pos": "n.",
@@ -5572,7 +6202,7 @@
       "priority": "高"
     },
     {
-      "id": 364,
+      "id": 406,
       "term": "redundancy",
       "alpha": "R",
       "pos": "n.",
@@ -5587,22 +6217,7 @@
       "priority": "高"
     },
     {
-      "id": 365,
-      "term": "regulation",
-      "alpha": "R",
-      "pos": "n.",
-      "phonetic": "ˌreɡjuˈleɪʃn",
-      "definition": "法规，监管",
-      "category": "话题场景词",
-      "subcategory": "政府法律",
-      "sentence": "Public debate about regulation often involves cost, fairness, and long-term impact.",
-      "translation": "关于法规，监管的公共讨论，通常会涉及成本、公平和长期影响。",
-      "tactic": "按政府法律场景记中文核心义，再配一个自己的例句。",
-      "source": "独立考试词库",
-      "priority": "高"
-    },
-    {
-      "id": 366,
+      "id": 407,
       "term": "technology",
       "alpha": "T",
       "pos": "n.",
@@ -5617,7 +6232,7 @@
       "priority": "高"
     },
     {
-      "id": 367,
+      "id": 408,
       "term": "advertising",
       "alpha": "A",
       "pos": "n.",
@@ -5632,7 +6247,7 @@
       "priority": "高"
     },
     {
-      "id": 368,
+      "id": 409,
       "term": "citizenship",
       "alpha": "C",
       "pos": "n.",
@@ -5647,7 +6262,7 @@
       "priority": "高"
     },
     {
-      "id": 369,
+      "id": 410,
       "term": "destination",
       "alpha": "D",
       "pos": "n.",
@@ -5662,7 +6277,7 @@
       "priority": "高"
     },
     {
-      "id": 370,
+      "id": 411,
       "term": "environment",
       "alpha": "E",
       "pos": "n.",
@@ -5677,7 +6292,7 @@
       "priority": "高"
     },
     {
-      "id": 371,
+      "id": 412,
       "term": "hospitality",
       "alpha": "H",
       "pos": "n.",
@@ -5692,7 +6307,7 @@
       "priority": "高"
     },
     {
-      "id": 372,
+      "id": 413,
       "term": "legislation",
       "alpha": "L",
       "pos": "n.",
@@ -5707,7 +6322,7 @@
       "priority": "高"
     },
     {
-      "id": 373,
+      "id": 414,
       "term": "scholarship",
       "alpha": "S",
       "pos": "n.",
@@ -5722,7 +6337,7 @@
       "priority": "高"
     },
     {
-      "id": 374,
+      "id": 415,
       "term": "biodiversity",
       "alpha": "B",
       "pos": "n.",
@@ -5737,7 +6352,7 @@
       "priority": "高"
     },
     {
-      "id": 375,
+      "id": 416,
       "term": "conservation",
       "alpha": "C",
       "pos": "n.",
@@ -5752,22 +6367,7 @@
       "priority": "高"
     },
     {
-      "id": 376,
-      "term": "productivity",
-      "alpha": "P",
-      "pos": "n.",
-      "phonetic": "ˌprɒdʌkˈtɪvəti",
-      "definition": "生产率",
-      "category": "话题场景词",
-      "subcategory": "工作场景",
-      "sentence": "Public debate about productivity often involves cost, fairness, and long-term impact.",
-      "translation": "关于生产率的公共讨论，通常会涉及成本、公平和长期影响。",
-      "tactic": "按工作场景场景记中文核心义，再配一个自己的例句。",
-      "source": "独立考试词库",
-      "priority": "高"
-    },
-    {
-      "id": 377,
+      "id": 417,
       "term": "remuneration",
       "alpha": "R",
       "pos": "n.",
@@ -5782,7 +6382,7 @@
       "priority": "高"
     },
     {
-      "id": 378,
+      "id": 418,
       "term": "surveillance",
       "alpha": "S",
       "pos": "n.",
@@ -5797,7 +6397,7 @@
       "priority": "高"
     },
     {
-      "id": 379,
+      "id": 419,
       "term": "urbanisation",
       "alpha": "U",
       "pos": "n.",
@@ -5812,7 +6412,7 @@
       "priority": "高"
     },
     {
-      "id": 380,
+      "id": 420,
       "term": "accommodation",
       "alpha": "A",
       "pos": "n.",
@@ -5827,7 +6427,7 @@
       "priority": "高"
     },
     {
-      "id": 381,
+      "id": 421,
       "term": "globalisation",
       "alpha": "G",
       "pos": "n.",
@@ -5842,7 +6442,7 @@
       "priority": "高"
     },
     {
-      "id": 382,
+      "id": 422,
       "term": "qualification",
       "alpha": "Q",
       "pos": "n.",
@@ -5857,7 +6457,7 @@
       "priority": "高"
     },
     {
-      "id": 383,
+      "id": 423,
       "term": "misinformation",
       "alpha": "M",
       "pos": "n.",
@@ -5872,22 +6472,7 @@
       "priority": "高"
     },
     {
-      "id": 384,
-      "term": "sustainability",
-      "alpha": "S",
-      "pos": "n.",
-      "phonetic": "",
-      "definition": "可持续性",
-      "category": "话题场景词",
-      "subcategory": "环境场景",
-      "sentence": "Public debate about sustainability often involves cost, fairness, and long-term impact.",
-      "translation": "关于可持续性的公共讨论，通常会涉及成本、公平和长期影响。",
-      "tactic": "按环境场景场景记中文核心义，再配一个自己的例句。",
-      "source": "独立考试词库",
-      "priority": "高"
-    },
-    {
-      "id": 385,
+      "id": 424,
       "term": "besides",
       "alpha": "B",
       "pos": "adv.",
@@ -5902,7 +6487,7 @@
       "priority": "高"
     },
     {
-      "id": 386,
+      "id": 425,
       "term": "lead to",
       "alpha": "L",
       "pos": "v.",
@@ -5917,7 +6502,7 @@
       "priority": "高"
     },
     {
-      "id": 387,
+      "id": 426,
       "term": "although",
       "alpha": "A",
       "pos": "conj.",
@@ -5932,7 +6517,7 @@
       "priority": "高"
     },
     {
-      "id": 388,
+      "id": 427,
       "term": "owing to",
       "alpha": "O",
       "pos": "prep.",
@@ -5947,7 +6532,7 @@
       "priority": "高"
     },
     {
-      "id": 389,
+      "id": 428,
       "term": "result in",
       "alpha": "R",
       "pos": "v.",
@@ -5962,7 +6547,7 @@
       "priority": "高"
     },
     {
-      "id": 390,
+      "id": 429,
       "term": "similarly",
       "alpha": "S",
       "pos": "adv.",
@@ -5977,7 +6562,7 @@
       "priority": "高"
     },
     {
-      "id": 391,
+      "id": 430,
       "term": "as long as",
       "alpha": "A",
       "pos": "conj.",
@@ -5992,7 +6577,7 @@
       "priority": "高"
     },
     {
-      "id": 392,
+      "id": 431,
       "term": "because of",
       "alpha": "B",
       "pos": "prep.",
@@ -6007,7 +6592,7 @@
       "priority": "高"
     },
     {
-      "id": 393,
+      "id": 432,
       "term": "accordingly",
       "alpha": "A",
       "pos": "adv.",
@@ -6022,7 +6607,7 @@
       "priority": "高"
     },
     {
-      "id": 394,
+      "id": 433,
       "term": "as a result",
       "alpha": "A",
       "pos": "adv.",
@@ -6037,7 +6622,7 @@
       "priority": "高"
     },
     {
-      "id": 395,
+      "id": 434,
       "term": "by contrast",
       "alpha": "B",
       "pos": "adv.",
@@ -6052,7 +6637,7 @@
       "priority": "高"
     },
     {
-      "id": 396,
+      "id": 435,
       "term": "even though",
       "alpha": "E",
       "pos": "conj.",
@@ -6067,7 +6652,7 @@
       "priority": "高"
     },
     {
-      "id": 397,
+      "id": 436,
       "term": "for example",
       "alpha": "F",
       "pos": "adv.",
@@ -6082,7 +6667,7 @@
       "priority": "高"
     },
     {
-      "id": 398,
+      "id": 437,
       "term": "in addition",
       "alpha": "I",
       "pos": "adv.",
@@ -6097,7 +6682,7 @@
       "priority": "高"
     },
     {
-      "id": 399,
+      "id": 438,
       "term": "in contrast",
       "alpha": "I",
       "pos": "adv.",
@@ -6112,7 +6697,7 @@
       "priority": "高"
     },
     {
-      "id": 400,
+      "id": 439,
       "term": "in terms of",
       "alpha": "I",
       "pos": "prep.",
@@ -6127,7 +6712,7 @@
       "priority": "高"
     },
     {
-      "id": 401,
+      "id": 440,
       "term": "nonetheless",
       "alpha": "N",
       "pos": "adv.",
@@ -6142,7 +6727,7 @@
       "priority": "高"
     },
     {
-      "id": 402,
+      "id": 441,
       "term": "for instance",
       "alpha": "F",
       "pos": "adv.",
@@ -6157,7 +6742,7 @@
       "priority": "高"
     },
     {
-      "id": 403,
+      "id": 442,
       "term": "give rise to",
       "alpha": "G",
       "pos": "v.",
@@ -6172,7 +6757,7 @@
       "priority": "高"
     },
     {
-      "id": 404,
+      "id": 443,
       "term": "specifically",
       "alpha": "S",
       "pos": "adv.",
@@ -6187,7 +6772,7 @@
       "priority": "高"
     },
     {
-      "id": 405,
+      "id": 444,
       "term": "in particular",
       "alpha": "I",
       "pos": "adv.",
@@ -6202,7 +6787,7 @@
       "priority": "高"
     },
     {
-      "id": 406,
+      "id": 445,
       "term": "provided that",
       "alpha": "P",
       "pos": "conj.",
@@ -6217,7 +6802,7 @@
       "priority": "高"
     },
     {
-      "id": 407,
+      "id": 446,
       "term": "with regard to",
       "alpha": "W",
       "pos": "prep.",
@@ -6232,7 +6817,7 @@
       "priority": "高"
     },
     {
-      "id": 408,
+      "id": 447,
       "term": "on the contrary",
       "alpha": "O",
       "pos": "adv.",
@@ -6247,7 +6832,7 @@
       "priority": "高"
     },
     {
-      "id": 409,
+      "id": 448,
       "term": "as a consequence",
       "alpha": "A",
       "pos": "adv.",
@@ -6262,7 +6847,7 @@
       "priority": "高"
     },
     {
-      "id": 410,
+      "id": 449,
       "term": "not only but also",
       "alpha": "N",
       "pos": "conj.",
@@ -6277,7 +6862,7 @@
       "priority": "高"
     },
     {
-      "id": 411,
+      "id": 450,
       "term": "on the other hand",
       "alpha": "O",
       "pos": "adv.",

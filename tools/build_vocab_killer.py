@@ -420,6 +420,51 @@ EXAMPLE_OVERRIDES = {
     "detrimental": ("Air pollution is detrimental to children's lung development.", "空气污染对儿童肺部发育有害。"),
     "considerable": ("The project requires considerable time and money.", "这个项目需要大量时间和资金。"),
     "conventional": ("Conventional teaching methods may not suit every student.", "传统教学方法不一定适合每个学生。"),
+    "mitigate": ("Planting trees can help mitigate the effects of urban heat.", "种树可以帮助缓解城市高温带来的影响。"),
+    "exacerbate": ("Poor housing can exacerbate existing health problems.", "住房条件差可能会加重已有的健康问题。"),
+    "attain": ("Many students struggle to attain a high level of academic writing.", "许多学生很难达到较高的学术写作水平。"),
+    "undergo": ("Many cities undergo rapid change after new transport systems are built.", "新的交通系统建成后，许多城市会经历快速变化。"),
+    "monitor": ("Hospitals need to monitor patient safety more closely.", "医院需要更密切地监测患者安全。"),
+    "compel": ("Rising costs may compel families to delay major purchases.", "成本上升可能迫使家庭推迟大额消费。"),
+    "exploit": ("Some companies exploit consumer data without clear permission.", "一些公司在没有明确许可的情况下利用消费者数据。"),
+    "cultivate": ("Schools should cultivate curiosity rather than only reward test scores.", "学校应该培养好奇心，而不只是奖励考试分数。"),
+    "verify": ("Researchers must verify the data before drawing conclusions.", "研究人员在得出结论前必须核实数据。"),
+    "acknowledge": ("Policymakers should acknowledge the pressure on low-income families.", "政策制定者应该承认低收入家庭面临的压力。"),
+    "address": ("The new law aims to address unfair treatment in the workplace.", "这项新法律旨在解决职场中的不公平待遇。"),
+    "alleviate": ("Better public transport can alleviate traffic pressure in city centres.", "更好的公共交通可以缓解市中心的交通压力。"),
+    "accelerate": ("Digital payment systems can accelerate business transactions.", "数字支付系统可以加快商业交易。"),
+    "constrain": ("A lack of funding can constrain scientific research.", "资金不足可能会限制科学研究。"),
+    "deteriorate": ("Air quality may deteriorate during periods of heavy traffic.", "交通繁忙时期，空气质量可能会恶化。"),
+    "prevalence": ("The prevalence of online fraud has raised public concern.", "网络诈骗的普遍存在引发了公众担忧。"),
+    "vulnerability": ("Economic vulnerability can limit a family's choices.", "经济脆弱性会限制一个家庭的选择。"),
+    "sustainability": ("Sustainability should be considered before large projects are approved.", "大型项目获批前应考虑可持续性。"),
+    "regulation": ("Clear regulation can reduce risks in the financial sector.", "清晰的监管可以降低金融领域的风险。"),
+    "innovation": ("Innovation often depends on both investment and skilled workers.", "创新通常既依赖投资，也依赖熟练工人。"),
+    "accountability": ("Public accountability helps prevent the misuse of power.", "公共问责有助于防止权力滥用。"),
+    "autonomy": ("Greater autonomy can improve teachers' professional judgement.", "更大的自主权可以提升教师的专业判断。"),
+    "productivity": ("Long working hours do not always lead to higher productivity.", "工作时间长并不总是带来更高的生产率。"),
+    "expenditure": ("Household expenditure on energy has increased sharply.", "家庭能源支出大幅增加。"),
+    "revenue": ("Tourism revenue can support local services.", "旅游收入可以支持本地服务。"),
+    "welfare": ("Child welfare should be a central concern in education policy.", "儿童福祉应该是教育政策的核心关注点。"),
+    "disparity": ("There is a clear disparity between urban and rural healthcare.", "城乡医疗服务之间存在明显差距。"),
+    "intervention": ("Early intervention can prevent small problems from becoming serious.", "早期干预可以防止小问题变得严重。"),
+    "evaluation": ("A fair evaluation should include both cost and social impact.", "公平的评估应同时包括成本和社会影响。"),
+    "awareness": ("Public awareness of mental health has improved in recent years.", "近年来，公众对心理健康的认识有所提高。"),
+    "comprehensive": ("A comprehensive plan should include funding, training, and evaluation.", "全面的计划应包括资金、培训和评估。"),
+    "sustainable": ("A sustainable transport system must be affordable and reliable.", "可持续的交通系统必须负担得起并且可靠。"),
+    "viable": ("Remote work is not a viable option for every occupation.", "远程办公并不是每种职业都可行的选择。"),
+    "accessible": ("Public services should be accessible to people with disabilities.", "公共服务应该方便残障人士使用。"),
+    "affordable": ("Affordable housing is essential for young workers in large cities.", "可负担住房对大城市的年轻员工非常重要。"),
+    "adverse": ("Noise pollution can have adverse effects on children's learning.", "噪音污染可能对儿童学习产生不利影响。"),
+    "coherent": ("A coherent argument needs clear reasons and relevant evidence.", "连贯的论证需要清晰的理由和相关证据。"),
+    "empirical": ("Empirical evidence is stronger than personal opinion.", "实证证据比个人观点更有说服力。"),
+    "ethical": ("The use of personal data raises ethical concerns.", "个人数据的使用引发伦理方面的担忧。"),
+    "impartial": ("Judges must remain impartial when handling public disputes.", "法官在处理公共争议时必须保持公正。"),
+    "inclusive": ("An inclusive school system gives support to different types of learners.", "包容性的学校体系会支持不同类型的学习者。"),
+    "innovative": ("Innovative firms are more likely to adapt to market changes.", "创新型企业更有可能适应市场变化。"),
+    "mature": ("A mature market usually has stable rules and informed consumers.", "成熟的市场通常有稳定的规则和理性的消费者。"),
+    "scarce": ("Water may become scarce in areas affected by drought.", "受干旱影响的地区，水可能会变得稀缺。"),
+    "widespread": ("Widespread smartphone use has changed how people receive news.", "智能手机的广泛使用改变了人们获取新闻的方式。"),
 }
 
 MANUAL_PHONETICS = {
@@ -499,6 +544,51 @@ MANUAL_PHONETICS = {
     "strategic": "strəˈtiːdʒɪk",
     "underlying": "ˌʌndəˈlaɪɪŋ",
     "vulnerable": "ˈvʌlnərəbl",
+    "mitigate": "ˈmɪtɪɡeɪt",
+    "exacerbate": "ɪɡˈzæsəbeɪt",
+    "attain": "əˈteɪn",
+    "undergo": "ˌʌndəˈɡəʊ",
+    "monitor": "ˈmɒnɪtə(r)",
+    "compel": "kəmˈpel",
+    "exploit": "ɪkˈsplɔɪt",
+    "cultivate": "ˈkʌltɪveɪt",
+    "verify": "ˈverɪfaɪ",
+    "acknowledge": "əkˈnɒlɪdʒ",
+    "address": "əˈdres",
+    "alleviate": "əˈliːvieɪt",
+    "accelerate": "əkˈseləreɪt",
+    "constrain": "kənˈstreɪn",
+    "deteriorate": "dɪˈtɪəriəreɪt",
+    "prevalence": "ˈprevələns",
+    "vulnerability": "ˌvʌlnərəˈbɪləti",
+    "sustainability": "səˌsteɪnəˈbɪləti",
+    "regulation": "ˌreɡjuˈleɪʃn",
+    "innovation": "ˌɪnəˈveɪʃn",
+    "accountability": "əˌkaʊntəˈbɪləti",
+    "autonomy": "ɔːˈtɒnəmi",
+    "productivity": "ˌprɒdʌkˈtɪvəti",
+    "expenditure": "ɪkˈspendɪtʃə(r)",
+    "revenue": "ˈrevənjuː",
+    "welfare": "ˈwelfeə(r)",
+    "disparity": "dɪˈspærəti",
+    "intervention": "ˌɪntəˈvenʃn",
+    "evaluation": "ɪˌvæljuˈeɪʃn",
+    "awareness": "əˈweənəs",
+    "comprehensive": "ˌkɒmprɪˈhensɪv",
+    "sustainable": "səˈsteɪnəbl",
+    "viable": "ˈvaɪəbl",
+    "accessible": "əkˈsesəbl",
+    "affordable": "əˈfɔːdəbl",
+    "adverse": "ˈædvɜːs",
+    "coherent": "kəʊˈhɪərənt",
+    "empirical": "ɪmˈpɪrɪkl",
+    "ethical": "ˈeθɪkl",
+    "impartial": "ɪmˈpɑːʃl",
+    "inclusive": "ɪnˈkluːsɪv",
+    "innovative": "ˈɪnəvətɪv",
+    "mature": "məˈtʃʊə(r)",
+    "scarce": "skeəs",
+    "widespread": "ˈwaɪdspred",
 }
 
 CATEGORY_RULES = [
@@ -619,6 +709,21 @@ target|v.|针对，以……为目标|方法
 transfer|v.|转移，转让|变化
 undermine|v.|削弱，破坏|因果
 vary|v.|变化，差异|数据
+mitigate|v.|缓解，减轻|因果
+exacerbate|v.|使恶化，加剧|因果
+attain|v.|达到，获得|结果
+undergo|v.|经历，经受|变化
+monitor|v.|监测，监督|证据
+compel|v.|迫使，强迫|因果
+exploit|v.|利用；剥削|商业
+cultivate|v.|培养，培育|教育
+verify|v.|核实，验证|证据
+acknowledge|v.|承认，认可|观点
+address|v.|处理，解决|问题
+alleviate|v.|缓解，减轻|问题
+accelerate|v.|加速，促进|变化
+constrain|v.|限制，约束|限制
+deteriorate|v.|恶化，变差|变化
 """,
     "评价形容词": """
 accurate|adj.|准确的|证据
@@ -672,6 +777,21 @@ temporary|adj.|临时的|过程
 underlying|adj.|潜在的，根本的|原因
 valid|adj.|有效的，有根据的|证据
 vulnerable|adj.|脆弱的，易受伤害的|社会
+comprehensive|adj.|全面的，综合的|范围
+sustainable|adj.|可持续的|评价
+viable|adj.|可行的，能成功的|判断
+accessible|adj.|可进入的，易获得的|社会
+affordable|adj.|负担得起的|程度
+adverse|adj.|不利的，有害的|评价
+coherent|adj.|连贯的，条理清楚的|逻辑
+empirical|adj.|实证的，基于经验的|证据
+ethical|adj.|伦理的，道德的|评价
+impartial|adj.|公正的，不偏不倚的|评价
+inclusive|adj.|包容的，兼收并蓄的|社会
+innovative|adj.|创新的|评价
+mature|adj.|成熟的|判断
+scarce|adj.|稀缺的，不足的|程度
+widespread|adj.|广泛的，普遍的|范围
 """,
     "抽象名词": """
 access|n.|获取机会；入口|学术概念
@@ -738,6 +858,21 @@ strategy|n.|策略|方法
 structure|n.|结构|方法
 trend|n.|趋势|数据
 variation|n.|变化，差异|数据
+prevalence|n.|普遍，流行|社会
+vulnerability|n.|脆弱性，易受伤害|社会
+sustainability|n.|可持续性|环境
+regulation|n.|监管，规定|政府
+innovation|n.|创新|科技
+accountability|n.|问责，责任制|政府
+autonomy|n.|自主权，自主性|社会
+productivity|n.|生产率|工作
+expenditure|n.|支出，花费|金融
+revenue|n.|收入，收益|商业
+welfare|n.|福利，福祉|社会
+disparity|n.|差距，不平等|社会
+intervention|n.|干预，介入|方法
+evaluation|n.|评估，评价|证据
+awareness|n.|意识，认识|心理
 """,
     "逻辑信号词": """
 although|conj.|尽管，虽然|转折
@@ -1026,6 +1161,8 @@ def main() -> None:
     phonetics = load_phonetics()
     for term, pos, definition, category, subcategory, sentence, tactic in MANUAL:
         key = term.lower()
+        if key in seen:
+            continue
         seen.add(key)
         entries.append(
             {
