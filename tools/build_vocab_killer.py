@@ -476,7 +476,7 @@ def parse_lines(text: str, category: str) -> list[dict]:
                 "category": category,
                 "subcategory": subcategory,
                 "sentence": example_for(term, category),
-                "translation": "",
+                "translation": translation_for(term, definition, category),
                 "tactic": tactic_for(category, subcategory),
                 "source": "独立考试词库",
                 "priority": "高",
@@ -487,7 +487,7 @@ def parse_lines(text: str, category: str) -> list[dict]:
 
 def example_for(term: str, category: str) -> str:
     if " " in term:
-        return f"Learners should notice how '{term}' changes the logic of a sentence."
+        return f"We can use '{term}' to express the idea more clearly."
     templates = {
         "核心动词": f"Governments and individuals can {term} the outcome in different ways.",
         "评价形容词": f"This is a {term} issue in academic discussion.",
@@ -495,6 +495,21 @@ def example_for(term: str, category: str) -> str:
         "逻辑信号词": f"{term.capitalize()}, the second idea changes how we understand the first one.",
     }
     return templates.get(category, f"The word '{term}' is useful in IELTS reading and writing.")
+
+
+def translation_for(term: str, definition: str, category: str) -> str:
+    clean_definition = definition.split("；", 1)[0]
+    if category == "逻辑信号词":
+        return f"我们可以用 {term} 表示逻辑关系，核心意思是：{clean_definition}。"
+    if category == "核心动词":
+        return f"{term} 是常见动词，意思是：{clean_definition}。"
+    if category == "评价形容词":
+        return f"{term} 可以用来评价事物，意思是：{clean_definition}。"
+    if category == "抽象名词":
+        return f"{term} 是常见抽象名词，意思是：{clean_definition}。"
+    if category == "同义替换词组":
+        return f"{term} 属于同义替换表达，意思是：{clean_definition}。"
+    return f"{term} 的核心意思是：{clean_definition}。"
 
 
 def tactic_for(category: str, subcategory: str) -> str:
@@ -526,7 +541,7 @@ def independent_candidates() -> list[dict]:
                     "category": "词族变体",
                     "subcategory": family[0],
                     "sentence": f"Use the word family around '{family[0]}' to recognise related meanings in reading.",
-                    "translation": "",
+                    "translation": f"用 {family[0]} 这一组词族，可以在阅读中识别相关词义。",
                     "tactic": "词族一起记：名词、动词、形容词、副词互相转换，阅读和写作都会反复出现。",
                     "source": "独立考试词库",
                     "priority": "高",
@@ -575,7 +590,7 @@ def independent_candidates() -> list[dict]:
                     "category": "高频搭配",
                     "subcategory": noun,
                     "sentence": f"The phrase '{head} {noun}' is common in IELTS essays and reading passages.",
-                    "translation": "",
+                    "translation": f"{head} {noun} 这个搭配在雅思写作和阅读中很常见，意思是：{head_cn}{noun_cn}。",
                     "tactic": "搭配整体记，写作时比单个词更自然，阅读时也更容易定位同义替换。",
                     "source": "独立考试词库",
                     "priority": "中",
@@ -622,7 +637,7 @@ def independent_candidates() -> list[dict]:
                 "category": "高频搭配",
                 "subcategory": "动词搭配",
                 "sentence": f"The phrase '{verb} {obj}' is useful for precise IELTS writing.",
-                "translation": "",
+                "translation": f"{verb} {obj} 这个表达适合写作使用，意思是：{definition}。",
                 "tactic": "动词搭配直接服务写作，优先背整块表达。",
                 "source": "独立考试词库",
                 "priority": "中",
@@ -651,7 +666,7 @@ def independent_candidates() -> list[dict]:
                     "category": "同义替换词组",
                     "subcategory": label,
                     "sentence": f"In IELTS, '{term}' may replace another word in the same meaning group.",
-                    "translation": "",
+                    "translation": f"在雅思里，{term} 可以和同组词互相替换，表达“{label}”。",
                     "tactic": "按中文意思成组记忆，阅读识别替换，写作主动换词。",
                     "source": "独立考试词库",
                     "priority": "高",
@@ -684,7 +699,7 @@ def independent_candidates() -> list[dict]:
                     "category": "高频搭配",
                     "subcategory": "形容词搭配",
                     "sentence": f"The collocation '{head} {noun}' helps express ideas more precisely.",
-                    "translation": "",
+                    "translation": f"{head} {noun} 可以让表达更具体，意思是：{head_cn}{noun_cn}。",
                     "tactic": "形容词 + 抽象名词是写作常用结构，也常在阅读中作为定位块出现。",
                     "source": "独立考试词库",
                     "priority": "中",
@@ -710,7 +725,7 @@ def main() -> None:
                 "category": category,
                 "subcategory": subcategory,
                 "sentence": sentence,
-                "translation": "",
+                "translation": translation_for(term, definition, category),
                 "tactic": tactic,
                 "source": "手工必备",
                 "priority": "最高",

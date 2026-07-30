@@ -131,7 +131,7 @@
   function render() {
     if (!state.data) return;
     const words = filteredWords();
-    els.summary.textContent = `${state.data.meta.wordCount} 个必备词，优先吃透逻辑信号词、核心动词、评价词、抽象名词和同义替换。`;
+    if (els.summary) els.summary.textContent = "";
     els.total.textContent = `${state.data.meta.wordCount} 词`;
     els.known.textContent = `${state.known.size} 已掌握`;
     els.scope.textContent = state.mode === "alpha" ? "按 A-Z" : state.mode === "review" ? "复习" : "按必杀技";
@@ -194,13 +194,15 @@
     bindEvents();
     refreshVoices();
     if ("speechSynthesis" in window) window.speechSynthesis.onvoiceschanged = refreshVoices;
-    fetch("/assets/english/data/vocab-killer.json?v=vocab-killer-20260730")
+    fetch("/assets/english/data/vocab-killer.json?v=vocab-killer-simple-20260730")
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();
       })
       .then((data) => { state.data = data; render(); })
-      .catch(() => { els.summary.textContent = "必备词数据加载失败，请刷新页面重试。"; });
+      .catch(() => {
+        if (els.summary) els.summary.textContent = "必备词数据加载失败，请刷新页面重试。";
+      });
   }
   document.addEventListener("DOMContentLoaded", boot);
 })();
