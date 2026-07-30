@@ -113,7 +113,7 @@ MANUAL_TRANSLATIONS = {
     "maintain": "一些研究者认为，早期干预非常重要。",
     "neglect": "很多公司忽视了员工的长期发展。",
     "modify": "这个方法应该根据年龄较小的学习者进行调整。",
-    "alter": "城市化会改变传统生活方式。",
+    "alter": "新规则可能会改变消费者行为。",
     "reveal": "这项调查显示，想法和实际行为之间存在差距。",
     "indicate": "这些数字表明，情况在稳定下降。",
     "demonstrate": "这个实验证明了细致规划的价值。",
@@ -145,6 +145,132 @@ MANUAL_TRANSLATIONS = {
     "cut down": "家庭可以减少不必要的浪费。",
     "advocate": "一些专家主张采用更严格的标准。",
     "back": "最近的研究支持这项提议。",
+}
+
+EXAMPLE_OVERRIDES = {
+    "key": ("Trust is a key element in any successful reform.", "信任是任何成功改革中的关键因素。"),
+    "curb": ("Stricter rules may curb the overuse of private cars.", "更严格的规则可能会抑制私家车的过度使用。"),
+    "grow": ("Public concern about data privacy continues to grow.", "公众对数据隐私的担忧持续增加。"),
+    "rise": ("Housing prices tend to rise when demand exceeds supply.", "当需求超过供给时，房价往往会上涨。"),
+    "show": ("The results show that small changes can have a large effect.", "结果显示，小变化也可能产生很大影响。"),
+    "soar": ("Energy costs may soar during periods of political instability.", "在政治不稳定时期，能源成本可能会飙升。"),
+    "adapt": ("Schools must adapt their teaching methods to new technology.", "学校必须让教学方法适应新技术。"),
+    "imply": ("These figures imply that the policy has not worked as expected.", "这些数字意味着这项政策并没有达到预期效果。"),
+    "issue": ("Air pollution remains a serious issue in many large cities.", "空气污染在许多大城市仍然是一个严重问题。"),
+    "shift": ("There has been a clear shift from cash payments to mobile payments.", "从现金支付到移动支付的转变已经很明显。"),
+    "adjust": ("Workers may need time to adjust to a four-day working week.", "员工可能需要时间适应每周四天工作制。"),
+    "change": ("Climate change is already affecting food production.", "气候变化已经在影响粮食生产。"),
+    "effect": ("The new tax had little effect on consumer behaviour.", "这项新税对消费者行为影响不大。"),
+    "expand": ("The city plans to expand its public transport network.", "这座城市计划扩大公共交通网络。"),
+    "impact": ("Online learning has had a lasting impact on education.", "在线学习对教育产生了长期影响。"),
+    "lessen": ("Flexible working hours can lessen pressure on parents.", "灵活工作时间可以减轻父母的压力。"),
+    "method": ("This method is simple, but it may not suit every learner.", "这种方法很简单，但不一定适合每个学习者。"),
+    "oppose": ("Some residents oppose the construction of a new airport.", "一些居民反对建设新机场。"),
+    "reduce": ("Better insulation can reduce household energy use.", "更好的隔热材料可以减少家庭能源使用。"),
+    "refute": ("The new evidence helped refute the earlier claim.", "新的证据帮助反驳了早先的说法。"),
+    "reject": ("The committee rejected the proposal because it was too costly.", "委员会拒绝了这个提案，因为成本太高。"),
+    "result": ("The result was a more efficient public service.", "结果是公共服务变得更加高效。"),
+    "revise": ("The government may revise the policy after public consultation.", "政府可能会在公众咨询后修改这项政策。"),
+    "uphold": ("Courts should uphold basic rights even in difficult situations.", "即使在困难情况下，法院也应维护基本权利。"),
+    "barrier": ("High tuition fees can be a barrier to higher education.", "高昂的学费可能成为接受高等教育的障碍。"),
+    "central": ("Public safety is central to urban planning.", "公共安全是城市规划的核心。"),
+    "decline": ("The number of young people entering the industry has declined.", "进入该行业的年轻人数量已经下降。"),
+    "dispute": ("Few scientists dispute the link between smoking and disease.", "很少有科学家质疑吸烟和疾病之间的联系。"),
+    "endorse": ("Many experts endorse the use of renewable energy.", "许多专家支持使用可再生能源。"),
+    "justify": ("A small benefit cannot justify such a high cost.", "一点小好处无法证明如此高的成本是合理的。"),
+    "measure": ("One effective measure is to improve public transport.", "一个有效措施是改善公共交通。"),
+    "outcome": ("The outcome depends on how well the plan is implemented.", "结果取决于这个计划执行得有多好。"),
+    "problem": ("The main problem is not technology itself, but how it is used.", "主要问题不是技术本身，而是技术如何被使用。"),
+    "suggest": ("Recent surveys suggest that people value flexibility at work.", "最近的调查表明，人们重视工作中的灵活性。"),
+    "support": ("The data support the argument for earlier intervention.", "这些数据支持尽早干预的观点。"),
+    "approach": ("A practical approach is to start with small local trials.", "一个实际的方法是先从小规模本地试点开始。"),
+    "decrease": ("Traffic accidents may decrease if speed limits are enforced.", "如果严格执行限速，交通事故可能会减少。"),
+    "escalate": ("A minor disagreement can escalate into a serious conflict.", "小分歧可能升级为严重冲突。"),
+    "increase": ("Remote work can increase job satisfaction for some employees.", "远程办公可以提高一些员工的工作满意度。"),
+    "minimise": ("Good planning can minimise waste during construction.", "良好的规划可以减少施工过程中的浪费。"),
+    "question": ("Some researchers question the reliability of the data.", "一些研究者质疑这些数据的可靠性。"),
+    "solution": ("There is no simple solution to urban congestion.", "城市拥堵没有简单的解决方案。"),
+    "strategy": ("The company needs a long-term strategy for staff training.", "这家公司需要一个长期的员工培训策略。"),
+    "challenge": ("Young people may challenge traditional ideas about work.", "年轻人可能会挑战传统的工作观念。"),
+    "criticise": ("Critics often criticise the policy for ignoring rural areas.", "批评者经常批评这项政策忽视农村地区。"),
+    "essential": ("Clean water is essential for public health.", "清洁用水对公共健康至关重要。"),
+    "although": ("Although online learning is convenient, it cannot fully replace classroom interaction.", "虽然在线学习很方便，但它不能完全取代课堂互动。"),
+    "even though": ("Even though the policy is unpopular, it may be necessary in the short term.", "即使这项政策不受欢迎，它在短期内也可能是必要的。"),
+    "nonetheless": ("The plan is expensive; nonetheless, it may bring long-term benefits.", "这个计划成本很高；尽管如此，它可能带来长期好处。"),
+    "on the contrary": ("Some people think public transport is inconvenient; on the contrary, it can save time in crowded cities.", "有些人认为公共交通不方便；相反，在拥挤城市里它可以节省时间。"),
+    "in contrast": ("In contrast, smaller cities often offer a lower cost of living.", "相比之下，较小的城市通常生活成本更低。"),
+    "by contrast": ("Large companies can invest in training; by contrast, small firms often lack resources.", "大公司可以投资培训；相比之下，小企业往往缺乏资源。"),
+    "on the other hand": ("Higher taxes may reduce consumption; on the other hand, they can fund better public services.", "更高的税可能会减少消费；另一方面，它们也能为更好的公共服务提供资金。"),
+    "as a result": ("Many families moved to the suburbs; as a result, commuting time increased.", "许多家庭搬到了郊区；结果，通勤时间增加了。"),
+    "accordingly": ("The risks are higher than expected; accordingly, the plan should be revised.", "风险比预期更高；因此，这个计划应该修改。"),
+    "because of": ("Because of rising rents, many young people delay moving out.", "由于租金上涨，许多年轻人推迟了独立居住。"),
+    "owing to": ("Owing to better public health, life expectancy has increased.", "由于公共卫生改善，预期寿命提高了。"),
+    "as a consequence": ("The city failed to control pollution; as a consequence, public health suffered.", "这座城市未能控制污染；结果，公共健康受到了影响。"),
+    "lead to": ("A lack of exercise can lead to serious health problems.", "缺乏运动可能导致严重的健康问题。"),
+    "result in": ("Poor communication can result in delays and extra costs.", "沟通不畅可能导致延误和额外成本。"),
+    "give rise to": ("Rapid urban growth can give rise to housing shortages.", "城市快速增长可能引发住房短缺。"),
+    "in addition": ("The course improves grammar; in addition, it builds confidence.", "这门课程能提高语法；此外，它还能增强信心。"),
+    "besides": ("The scheme is costly; besides, it may be difficult to manage.", "这个方案成本很高；而且，它可能很难管理。"),
+    "not only but also": ("The programme not only teaches skills but also improves motivation.", "这个项目不仅教授技能，还能提高积极性。"),
+    "similarly": ("Similarly, rural schools need reliable internet access.", "同样，农村学校也需要可靠的网络接入。"),
+    "in particular": ("Older workers, in particular, may need support when technology changes.", "尤其是年长员工，在技术变化时可能需要支持。"),
+    "specifically": ("The report focuses specifically on air pollution in large cities.", "这份报告专门关注大城市的空气污染。"),
+    "for instance": ("Some jobs, for instance nursing and teaching, require strong communication skills.", "有些工作，例如护理和教学，需要很强的沟通能力。"),
+    "for example": ("Many people save energy at home, for example by using efficient appliances.", "许多人在家节能，例如使用高效电器。"),
+    "provided that": ("Working from home can be effective, provided that employees have a quiet space.", "只要员工有安静的空间，在家办公就可能有效。"),
+    "as long as": ("Children can use tablets as long as screen time is limited.", "只要限制屏幕时间，孩子就可以使用平板电脑。"),
+    "in terms of": ("In terms of cost, public transport is usually cheaper than driving.", "就成本而言，公共交通通常比开车便宜。"),
+    "with regard to": ("With regard to safety, stricter building standards are necessary.", "关于安全，更严格的建筑标准是必要的。"),
+    "role": ("Parents play an important role in shaping children's habits.", "父母在塑造孩子习惯方面发挥重要作用。"),
+    "trend": ("One clear trend is the growing demand for flexible work.", "一个明显趋势是，人们对灵活工作的需求不断增加。"),
+    "access": ("Rural students often have limited access to quality education.", "农村学生往往难以获得优质教育资源。"),
+    "debate": ("The debate over artificial intelligence is likely to continue.", "关于人工智能的争论很可能会继续。"),
+    "demand": ("Demand for public transport increases when fuel prices rise.", "燃油价格上涨时，公共交通需求会增加。"),
+    "labour": ("Many farms depend on seasonal labour during harvest time.", "许多农场在收获季依赖季节性劳动力。"),
+    "policy": ("A clear policy can help schools deal with online bullying.", "明确的政策可以帮助学校处理网络欺凌。"),
+    "sector": ("The healthcare sector needs both technology and trained staff.", "医疗行业既需要技术，也需要训练有素的员工。"),
+    "concept": ("The concept of lifelong learning is becoming more important.", "终身学习这一概念正变得越来越重要。"),
+    "context": ("In this context, cheaper housing is not the only solution.", "在这种背景下，更便宜的住房并不是唯一解决办法。"),
+    "feature": ("A useful feature of online courses is that students can review lessons.", "在线课程的一个有用特点是学生可以回看课程。"),
+    "insight": ("The survey provides insight into why young people change jobs.", "这项调查让我们了解年轻人为什么换工作。"),
+    "pattern": ("The data show a similar pattern in several countries.", "数据显示几个国家都有类似模式。"),
+    "accuracy": ("The accuracy of medical information is especially important online.", "医疗信息的准确性在网上尤其重要。"),
+    "analysis": ("Careful analysis can reveal problems that are not obvious at first.", "仔细分析可以揭示一开始不明显的问题。"),
+    "capacity": ("The hospital does not have enough capacity to treat all patients.", "这家医院没有足够能力治疗所有病人。"),
+    "category": ("Age is not the only category used in the survey.", "年龄并不是这项调查使用的唯一分类。"),
+    "cohesion": ("Good cohesion makes an essay easier to follow.", "良好的衔接能让文章更容易读懂。"),
+    "emphasis": ("The course places more emphasis on practical communication.", "这门课程更强调实际沟通。"),
+    "evidence": ("There is strong evidence that smoking damages health.", "有强有力的证据表明吸烟损害健康。"),
+    "exposure": ("Too much exposure to advertising can influence children's choices.", "过多接触广告会影响孩子的选择。"),
+    "function": ("The main function of public libraries is to provide access to knowledge.", "公共图书馆的主要功能是提供获取知识的机会。"),
+    "priority": ("Reducing air pollution should be a priority for large cities.", "减少空气污染应成为大城市的优先事项。"),
+    "resource": ("Water is a limited resource in many dry regions.", "在许多干旱地区，水是有限资源。"),
+    "response": ("The public response to the new rule was mixed.", "公众对这项新规定的反应并不一致。"),
+    "advantage": ("One advantage of online learning is its flexibility.", "在线学习的一个优势是灵活。"),
+    "authority": ("Local authorities should improve road safety near schools.", "地方政府应改善学校附近的道路安全。"),
+    "coherence": ("Coherence is important because ideas must connect clearly.", "连贯性很重要，因为观点必须清楚连接。"),
+    "community": ("A strong community can support elderly residents.", "强大的社区可以支持老年居民。"),
+    "component": ("Exercise is only one component of a healthy lifestyle.", "运动只是健康生活方式的一个组成部分。"),
+    "criterion": ("Cost should not be the only criterion for choosing a school.", "成本不应是选择学校的唯一标准。"),
+    "dimension": ("The problem has an economic dimension as well as a social one.", "这个问题既有经济层面，也有社会层面。"),
+    "diversity": ("Cultural diversity can make a city more creative.", "文化多样性可以让一座城市更有创造力。"),
+    "expansion": ("The expansion of cities can put pressure on farmland.", "城市扩张会给农田带来压力。"),
+    "incentive": ("Tax benefits can provide an incentive for companies to train workers.", "税收优惠可以激励公司培训员工。"),
+    "objective": ("The main objective is to reduce unnecessary waste.", "主要目标是减少不必要的浪费。"),
+    "reduction": ("A reduction in traffic would improve air quality.", "交通量减少会改善空气质量。"),
+    "structure": ("A clear structure helps readers understand an argument.", "清晰的结构能帮助读者理解论证。"),
+    "variation": ("There is wide variation in education quality between regions.", "不同地区之间的教育质量差异很大。"),
+    "assessment": ("Regular assessment helps teachers understand students' progress.", "定期评估有助于老师了解学生的进步。"),
+    "assumption": ("The plan is based on the assumption that prices will remain stable.", "这个计划基于价格会保持稳定的假设。"),
+    "comparison": ("A comparison of the two cities shows different transport problems.", "比较这两座城市可以看出不同的交通问题。"),
+    "inequality": ("Income inequality can reduce social trust.", "收入不平等会降低社会信任。"),
+    "investment": ("Investment in early education can bring long-term benefits.", "投资早期教育可以带来长期收益。"),
+    "limitation": ("One limitation of the study is its small sample size.", "这项研究的一个局限是样本量较小。"),
+    "proportion": ("A large proportion of young adults still live with their parents.", "很大一部分年轻成年人仍然和父母住在一起。"),
+    "alternative": ("Cycling is a cheap alternative to driving in crowded cities.", "在拥挤城市中，骑自行车是开车的廉价替代方式。"),
+    "consumption": ("High consumption of processed food may harm health.", "大量食用加工食品可能损害健康。"),
+    "interaction": ("Face-to-face interaction is important for young children.", "面对面互动对幼儿很重要。"),
+    "restriction": ("A restriction on plastic bags can reduce waste.", "限制塑料袋使用可以减少垃圾。"),
 }
 
 MANUAL_PHONETICS = {
@@ -632,6 +758,10 @@ def parse_lines(text: str, category: str) -> list[dict]:
         if len(parts) != 4:
             continue
         term, pos, definition, subcategory = parts
+        sentence, translation = EXAMPLE_OVERRIDES.get(
+            term,
+            (example_for(term, category), MANUAL_TRANSLATIONS.get(term, topic_translation_for(term, definition, category))),
+        )
         items.append(
             {
                 "term": term,
@@ -639,8 +769,8 @@ def parse_lines(text: str, category: str) -> list[dict]:
                 "definition": definition,
                 "category": category,
                 "subcategory": subcategory,
-                "sentence": example_for(term, category),
-                "translation": MANUAL_TRANSLATIONS.get(term, translation_for(term, definition, category)),
+                "sentence": sentence,
+                "translation": translation,
                 "tactic": tactic_for(category, subcategory),
                 "source": "独立考试词库",
                 "priority": "高",
@@ -658,7 +788,16 @@ def example_for(term: str, category: str) -> str:
         "抽象名词": f"The {term} should be explained with clear evidence.",
         "逻辑信号词": f"{term.capitalize()}, the second idea changes how we understand the first one.",
     }
-    return templates.get(category, f"The word '{term}' is useful in IELTS reading and writing.")
+    if category == "话题场景词":
+        return f"Public debate about {term} often involves cost, fairness, and long-term impact."
+    return f"Clear evidence can make an argument about {term} more convincing."
+
+
+def topic_translation_for(term: str, definition: str, category: str) -> str:
+    clean_definition = definition.split("；", 1)[0]
+    if category == "话题场景词":
+        return f"关于{clean_definition}的公共讨论，通常会涉及成本、公平和长期影响。"
+    return translation_for(term, definition, category)
 
 
 def translation_for(term: str, definition: str, category: str) -> str:
@@ -695,118 +834,7 @@ def independent_candidates() -> list[dict]:
     for category, raw in RAW_GROUPS.items():
         candidates.extend(parse_lines(raw, category))
     candidates.extend(parse_lines(TOPIC_BANK, "话题场景词"))
-    for family in FAMILY_SUFFIXES:
-        for term in family[:4]:
-            candidates.append(
-                {
-                    "term": term,
-                    "pos": "word family",
-                    "definition": family[4],
-                    "category": "词族变体",
-                    "subcategory": family[0],
-                    "sentence": f"Use the word family around '{family[0]}' to recognise related meanings in reading.",
-                    "translation": f"用 {family[0]} 这一组词族，可以在阅读中识别相关词义。",
-                    "tactic": "词族一起记：名词、动词、形容词、副词互相转换，阅读和写作都会反复出现。",
-                    "source": "独立考试词库",
-                    "priority": "高",
-                }
-            )
-
     expansion_bases = list(candidates)
-    collocation_heads = [
-        ("major", "主要的"),
-        ("serious", "严重的"),
-        ("rapid", "快速的"),
-        ("gradual", "逐渐的"),
-        ("long-term", "长期的"),
-        ("short-term", "短期的"),
-        ("public", "公共的"),
-        ("private", "私人的"),
-        ("social", "社会的"),
-        ("economic", "经济的"),
-        ("environmental", "环境的"),
-        ("technological", "技术的"),
-    ]
-    collocation_nouns = [
-        ("impact", "影响"),
-        ("factor", "因素"),
-        ("change", "变化"),
-        ("trend", "趋势"),
-        ("policy", "政策"),
-        ("approach", "方法"),
-        ("benefit", "好处"),
-        ("challenge", "挑战"),
-        ("solution", "解决方案"),
-        ("evidence", "证据"),
-        ("development", "发展"),
-        ("investment", "投资"),
-        ("resource", "资源"),
-        ("constraint", "限制"),
-        ("outcome", "结果"),
-    ]
-    for head, head_cn in collocation_heads:
-        for noun, noun_cn in collocation_nouns:
-            candidates.append(
-                {
-                    "term": f"{head} {noun}",
-                    "pos": "collocation",
-                    "definition": f"{head_cn}{noun_cn}",
-                    "category": "高频搭配",
-                    "subcategory": noun,
-                    "sentence": f"The phrase '{head} {noun}' is common in IELTS essays and reading passages.",
-                    "translation": f"{head} {noun} 这个搭配在雅思写作和阅读中很常见，意思是：{head_cn}{noun_cn}。",
-                    "tactic": "搭配整体记，写作时比单个词更自然，阅读时也更容易定位同义替换。",
-                    "source": "独立考试词库",
-                    "priority": "中",
-                }
-            )
-    verb_collocations = [
-        ("pose", "a challenge", "构成挑战"),
-        ("address", "a problem", "处理问题"),
-        ("tackle", "an issue", "应对议题"),
-        ("raise", "awareness", "提高意识"),
-        ("gain", "access", "获得机会"),
-        ("provide", "evidence", "提供证据"),
-        ("reach", "a conclusion", "得出结论"),
-        ("draw", "a comparison", "作比较"),
-        ("make", "a distinction", "作区分"),
-        ("take", "measures", "采取措施"),
-        ("play", "a role", "发挥作用"),
-        ("have", "an impact", "产生影响"),
-        ("meet", "demand", "满足需求"),
-        ("reduce", "pressure", "减轻压力"),
-        ("increase", "efficiency", "提高效率"),
-        ("improve", "access", "改善获取机会"),
-        ("protect", "privacy", "保护隐私"),
-        ("restore", "confidence", "恢复信心"),
-        ("maintain", "stability", "维持稳定"),
-        ("promote", "equality", "促进平等"),
-        ("encourage", "participation", "鼓励参与"),
-        ("discourage", "consumption", "抑制消费"),
-        ("limit", "exposure", "限制接触"),
-        ("expand", "capacity", "扩大能力"),
-        ("strengthen", "regulation", "加强监管"),
-        ("weaken", "motivation", "削弱动机"),
-        ("shape", "behaviour", "塑造行为"),
-        ("reflect", "a trend", "反映趋势"),
-        ("represent", "a shift", "代表转变"),
-        ("trigger", "a response", "引发回应"),
-    ]
-    for verb, obj, definition in verb_collocations:
-        candidates.append(
-            {
-                "term": f"{verb} {obj}",
-                "pos": "collocation",
-                "definition": definition,
-                "category": "高频搭配",
-                "subcategory": "动词搭配",
-                "sentence": f"The phrase '{verb} {obj}' is useful for precise IELTS writing.",
-                "translation": f"{verb} {obj} 这个表达适合写作使用，意思是：{definition}。",
-                "tactic": "动词搭配直接服务写作，优先背整块表达。",
-                "source": "独立考试词库",
-                "priority": "中",
-            }
-        )
     synonym_sets = {
         "重要": ["important", "vital", "crucial", "essential", "significant", "fundamental", "central", "key"],
         "改变": ["change", "alter", "modify", "transform", "shift", "adjust", "adapt", "revise"],
@@ -822,6 +850,10 @@ def independent_candidates() -> list[dict]:
     for label, terms in synonym_sets.items():
         chain = " = ".join(terms)
         for term in terms:
+            sentence, translation = EXAMPLE_OVERRIDES.get(
+                term,
+                (f"A clear example can show how '{term}' works in a real argument.", f"一个清晰的例子可以说明 {term} 在真实论证中如何使用。"),
+            )
             candidates.append(
                 {
                     "term": term,
@@ -829,44 +861,11 @@ def independent_candidates() -> list[dict]:
                     "definition": f"{label}；同义替换组：{chain}",
                     "category": "同义替换词组",
                     "subcategory": label,
-                    "sentence": f"In IELTS, '{term}' may replace another word in the same meaning group.",
-                    "translation": f"在雅思里，{term} 可以和同组词互相替换，表达“{label}”。",
+                    "sentence": sentence,
+                    "translation": translation,
                     "tactic": "按中文意思成组记忆，阅读识别替换，写作主动换词。",
                     "source": "独立考试词库",
                     "priority": "高",
-                }
-            )
-    extended_heads = [
-        ("limited", "有限的"), ("sufficient", "充分的"), ("insufficient", "不足的"), ("considerable", "可观的"),
-        ("potential", "潜在的"), ("negative", "负面的"), ("positive", "积极的"), ("direct", "直接的"),
-        ("indirect", "间接的"), ("practical", "实际的"), ("effective", "有效的"), ("efficient", "高效的"),
-        ("reliable", "可靠的"), ("accurate", "准确的"), ("widespread", "广泛的"), ("growing", "不断增长的"),
-        ("declining", "下降的"), ("complex", "复杂的"), ("controversial", "有争议的"), ("essential", "必要的"),
-    ]
-    extended_nouns = [
-        ("access", "获取机会"), ("awareness", "意识"), ("behaviour", "行为"), ("capacity", "能力"),
-        ("choice", "选择"), ("community", "社区"), ("competition", "竞争"), ("concern", "担忧"),
-        ("condition", "条件"), ("cost", "成本"), ("data", "数据"), ("decision", "决定"),
-        ("demand", "需求"), ("education", "教育"), ("employment", "就业"), ("evidence", "证据"),
-        ("experience", "经验"), ("growth", "增长"), ("income", "收入"), ("knowledge", "知识"),
-        ("opportunity", "机会"), ("performance", "表现"), ("population", "人口"), ("pressure", "压力"),
-        ("quality", "质量"), ("risk", "风险"), ("skill", "技能"), ("standard", "标准"),
-        ("support", "支持"), ("technology", "技术"), ("welfare", "福利"), ("workforce", "劳动力"),
-    ]
-    for head, head_cn in extended_heads:
-        for noun, noun_cn in extended_nouns:
-            candidates.append(
-                {
-                    "term": f"{head} {noun}",
-                    "pos": "collocation",
-                    "definition": f"{head_cn}{noun_cn}",
-                    "category": "高频搭配",
-                    "subcategory": "形容词搭配",
-                    "sentence": f"The collocation '{head} {noun}' helps express ideas more precisely.",
-                    "translation": f"{head} {noun} 可以让表达更具体，意思是：{head_cn}{noun_cn}。",
-                    "tactic": "形容词 + 抽象名词是写作常用结构，也常在阅读中作为定位块出现。",
-                    "source": "独立考试词库",
-                    "priority": "中",
                 }
             )
     return expansion_bases + candidates
