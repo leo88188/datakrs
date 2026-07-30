@@ -215,12 +215,19 @@
       state.mode = button.dataset.coreMode;
       state.active = state.mode === "review" ? "全部不熟" : "全部";
       render();
+      els.chips.scrollLeft = 0;
     });
     els.chips.addEventListener("click", (event) => {
       const button = event.target.closest("[data-core-chip]");
       if (!button) return;
       state.active = button.dataset.coreChip;
       render();
+    });
+    document.querySelectorAll("[data-chip-scroll]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const direction = button.dataset.chipScroll === "left" ? -1 : 1;
+        els.chips.scrollBy({ left: direction * Math.max(180, els.chips.clientWidth * 0.8), behavior: "smooth" });
+      });
     });
     els.list.addEventListener("click", (event) => {
       const speakButton = event.target.closest("[data-speak]");

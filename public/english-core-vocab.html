@@ -10,7 +10,7 @@
   <meta name="apple-mobile-web-app-title" content="雅思核心词">
   <title>雅思基础通关核心词 - 克睿斯</title>
   <meta name="description" content="804个雅思基础通关核心词，按A-Z和考试主题分类学习。">
-  <link rel="stylesheet" href="/assets/english/css/english.css?v=core-vocab-20260730">
+  <link rel="stylesheet" href="/assets/english/css/english.css?v=core-vocab-chip-nav-20260730">
 </head>
 <body class="vocab-standalone-body">
   <div class="core-vocab-page">
@@ -47,7 +47,11 @@
           <input id="coreVocabSearch" type="search" placeholder="搜索单词 / 中文 / 例句">
           <button id="coreVocabClear" type="button">清空</button>
         </div>
-        <div id="coreVocabChips" class="core-vocab-chips"></div>
+        <div class="chip-scroll-wrap">
+          <button class="chip-scroll-button" type="button" data-chip-scroll="left" aria-label="向前查看更多分类">‹</button>
+          <div id="coreVocabChips" class="core-vocab-chips"></div>
+          <button class="chip-scroll-button" type="button" data-chip-scroll="right" aria-label="向后查看更多分类">›</button>
+        </div>
       </section>
 
       <section class="core-vocab-results">
@@ -63,6 +67,6 @@
     </main>
   </div>
 
-  <script src="/assets/english/js/core-vocab-page.js?v=core-vocab-hide-missing-phonetic-20260730" defer></script>
+  <script src="/assets/english/js/core-vocab-page.js?v=core-vocab-chip-nav-20260730" defer></script>
 </body>
 </html>
