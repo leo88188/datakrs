@@ -557,6 +557,10 @@
           window.location.href = "/english-vocab.html";
           return;
         }
+        if (button.dataset.panelTrigger === "core") {
+          window.location.href = "/english-core-vocab.html";
+          return;
+        }
         if (button.dataset.panelTrigger === "roots") {
           window.location.href = "/english-roots.html";
           return;
