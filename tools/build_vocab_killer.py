@@ -495,6 +495,46 @@ EXAMPLE_OVERRIDES = {
     "biodiversity loss": ("Biodiversity loss can make ecosystems less stable.", "生物多样性丧失会让生态系统更加不稳定。"),
     "traffic congestion": ("Traffic congestion wastes time and increases air pollution.", "交通拥堵浪费时间并增加空气污染。"),
     "social cohesion": ("Social cohesion is easier to maintain when inequality is low.", "不平等程度较低时，社会凝聚力更容易维持。"),
+    "climate change": ("Climate change can increase the frequency of extreme weather.", "气候变化可能增加极端天气发生的频率。"),
+    "greenhouse gases": ("Greenhouse gases trap heat in the atmosphere.", "温室气体会把热量困在大气中。"),
+    "air pollution": ("Air pollution can damage both public health and the economy.", "空气污染会损害公共健康和经济。"),
+    "water scarcity": ("Water scarcity can lead to conflict between regions.", "水资源短缺可能导致地区之间的冲突。"),
+    "waste management": ("Effective waste management can reduce pressure on landfills.", "有效的废弃物管理可以减轻垃圾填埋场压力。"),
+    "deforestation": ("Deforestation can destroy habitats and accelerate climate change.", "森林砍伐会破坏栖息地并加速气候变化。"),
+    "habitat loss": ("Habitat loss is one of the main causes of species decline.", "栖息地丧失是物种减少的主要原因之一。"),
+    "ecosystem services": ("Forests provide ecosystem services such as water protection.", "森林提供水源保护等生态系统服务。"),
+    "standardised testing": ("Standardised testing may narrow what teachers choose to teach.", "标准化考试可能会缩窄教师选择教授的内容。"),
+    "academic performance": ("Sleep and family support can affect academic performance.", "睡眠和家庭支持会影响学业表现。"),
+    "critical thinking": ("Critical thinking helps students question unreliable information.", "批判性思维帮助学生质疑不可靠的信息。"),
+    "educational attainment": ("Parental income is often linked to educational attainment.", "父母收入通常与受教育程度有关。"),
+    "tuition fees": ("High tuition fees can discourage students from poorer families.", "高昂学费可能让贫困家庭的学生望而却步。"),
+    "distance learning": ("Distance learning can support students in remote areas.", "远程学习可以支持偏远地区的学生。"),
+    "automation": ("Automation may replace some routine jobs but create new roles.", "自动化可能替代一些重复性工作，但也会创造新岗位。"),
+    "algorithmic bias": ("Algorithmic bias can lead to unfair decisions in hiring.", "算法偏见可能导致招聘中的不公平决定。"),
+    "cybersecurity": ("Cybersecurity is essential when companies store customer data.", "当企业存储客户数据时，网络安全至关重要。"),
+    "digital divide": ("The digital divide can make online education less equal.", "数字鸿沟可能使在线教育更加不平等。"),
+    "remote work": ("Remote work can reduce commuting but may weaken team communication.", "远程办公可以减少通勤，但可能削弱团队沟通。"),
+    "job security": ("Job security is a major concern during economic downturns.", "经济低迷时期，就业保障是一个重要担忧。"),
+    "minimum wage": ("A higher minimum wage can improve living standards for low-paid workers.", "更高的最低工资可以改善低收入劳动者的生活水平。"),
+    "unemployment rate": ("The unemployment rate rose after several factories closed.", "几家工厂关闭后，失业率上升。"),
+    "labour shortage": ("A labour shortage can increase pressure on existing staff.", "劳动力短缺会增加现有员工的压力。"),
+    "economic downturn": ("An economic downturn can reduce consumer spending.", "经济低迷会减少消费者支出。"),
+    "inflation rate": ("A high inflation rate reduces household purchasing power.", "高通胀率会削弱家庭购买力。"),
+    "purchasing power": ("Purchasing power falls when wages do not keep pace with prices.", "当工资跟不上物价时，购买力会下降。"),
+    "household income": ("Household income affects access to housing and education.", "家庭收入会影响住房和教育机会。"),
+    "public expenditure": ("Public expenditure on healthcare has increased as the population ages.", "随着人口老龄化，公共医疗支出已经增加。"),
+    "healthcare system": ("A strong healthcare system can respond better to emergencies.", "强大的医疗系统能更好地应对紧急情况。"),
+    "preventive care": ("Preventive care can reduce the need for expensive treatment later.", "预防性护理可以减少之后昂贵治疗的需求。"),
+    "life expectancy": ("Life expectancy has increased in many countries.", "许多国家的预期寿命已经提高。"),
+    "chronic disease": ("Chronic disease can place long-term pressure on families.", "慢性病会给家庭带来长期压力。"),
+    "urban planning": ("Good urban planning can make cities safer and more liveable.", "良好的城市规划可以让城市更安全、更宜居。"),
+    "affordable housing": ("Affordable housing helps essential workers remain in large cities.", "可负担住房帮助关键岗位劳动者留在大城市。"),
+    "public space": ("Public space gives residents places to rest and interact.", "公共空间为居民提供休息和交流的地方。"),
+    "road safety": ("Road safety can be improved through better design and enforcement.", "通过更好的设计和执法可以改善道路安全。"),
+    "crime prevention": ("Crime prevention should combine policing with community support.", "犯罪预防应结合警务和社区支持。"),
+    "social isolation": ("Social isolation can increase the risk of mental health problems.", "社会孤立会增加心理健康问题的风险。"),
+    "migration policy": ("Migration policy should balance labour needs and social integration.", "移民政策应平衡劳动力需求和社会融合。"),
+    "national identity": ("Globalisation can change how people understand national identity.", "全球化会改变人们对国家认同的理解。"),
 }
 
 MANUAL_PHONETICS = {
@@ -935,6 +975,46 @@ environmental degradation|n.|环境退化|环境
 biodiversity loss|n.|生物多样性丧失|环境
 traffic congestion|n.|交通拥堵|城市交通
 social cohesion|n.|社会凝聚力|社会
+climate change|n.|气候变化|环境
+greenhouse gases|n.|温室气体|环境
+air pollution|n.|空气污染|环境
+water scarcity|n.|水资源短缺|环境
+waste management|n.|废弃物管理|环境
+deforestation|n.|森林砍伐|环境
+habitat loss|n.|栖息地丧失|环境
+ecosystem services|n.|生态系统服务|环境
+standardised testing|n.|标准化考试|教育
+academic performance|n.|学业表现|教育
+critical thinking|n.|批判性思维|教育
+educational attainment|n.|受教育程度|教育
+tuition fees|n.|学费|教育
+distance learning|n.|远程学习|教育
+automation|n.|自动化|科技
+algorithmic bias|n.|算法偏见|科技
+cybersecurity|n.|网络安全|科技
+digital divide|n.|数字鸿沟|科技
+remote work|n.|远程办公|工作
+job security|n.|就业保障|工作
+minimum wage|n.|最低工资|工作
+unemployment rate|n.|失业率|工作
+labour shortage|n.|劳动力短缺|工作
+economic downturn|n.|经济低迷|商业
+inflation rate|n.|通胀率|金融
+purchasing power|n.|购买力|金融
+household income|n.|家庭收入|金融
+public expenditure|n.|公共支出|政府
+healthcare system|n.|医疗系统|健康
+preventive care|n.|预防性护理|健康
+life expectancy|n.|预期寿命|健康
+chronic disease|n.|慢性病|健康
+urban planning|n.|城市规划|城市交通
+affordable housing|n.|可负担住房|城市交通
+public space|n.|公共空间|城市交通
+road safety|n.|道路安全|城市交通
+crime prevention|n.|犯罪预防|社会
+social isolation|n.|社会孤立|社会
+migration policy|n.|移民政策|政府
+national identity|n.|国家认同|文化
 """,
     "逻辑信号词": """
 although|conj.|尽管，虽然|转折
