@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "雅思单词必杀技",
-    "wordCount": 450,
+    "wordCount": 480,
     "source": "独立整理：学术词表思路 + 雅思写作评分关注点 + 常见话题词",
     "version": "2026-07-30"
   },
@@ -27,6 +27,10 @@
       "count": 66
     },
     {
+      "name": "常见术语",
+      "count": 30
+    },
+    {
       "name": "话题场景词",
       "count": 70
     }
@@ -34,31 +38,31 @@
   "alphas": [
     {
       "letter": "A",
-      "count": 51
+      "count": 53
     },
     {
       "letter": "B",
-      "count": 10
-    },
-    {
-      "letter": "C",
-      "count": 60
-    },
-    {
-      "letter": "D",
-      "count": 29
-    },
-    {
-      "letter": "E",
-      "count": 41
-    },
-    {
-      "letter": "F",
       "count": 11
     },
     {
+      "letter": "C",
+      "count": 64
+    },
+    {
+      "letter": "D",
+      "count": 31
+    },
+    {
+      "letter": "E",
+      "count": 44
+    },
+    {
+      "letter": "F",
+      "count": 12
+    },
+    {
       "letter": "G",
-      "count": 7
+      "count": 8
     },
     {
       "letter": "H",
@@ -66,7 +70,7 @@
     },
     {
       "letter": "I",
-      "count": 45
+      "count": 46
     },
     {
       "letter": "J",
@@ -78,11 +82,11 @@
     },
     {
       "letter": "L",
-      "count": 9
+      "count": 11
     },
     {
       "letter": "M",
-      "count": 17
+      "count": 18
     },
     {
       "letter": "N",
@@ -94,7 +98,7 @@
     },
     {
       "letter": "P",
-      "count": 38
+      "count": 41
     },
     {
       "letter": "Q",
@@ -102,27 +106,27 @@
     },
     {
       "letter": "R",
-      "count": 35
+      "count": 36
     },
     {
       "letter": "S",
-      "count": 28
+      "count": 32
     },
     {
       "letter": "T",
-      "count": 14
+      "count": 15
     },
     {
       "letter": "U",
-      "count": 7
+      "count": 8
     },
     {
       "letter": "V",
-      "count": 9
+      "count": 10
     },
     {
       "letter": "W",
-      "count": 6
+      "count": 7
     }
   ],
   "words": [
@@ -1973,6 +1977,456 @@
     },
     {
       "id": 124,
+      "term": "data privacy",
+      "alpha": "D",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "数据隐私",
+      "category": "常见术语",
+      "subcategory": "科技",
+      "sentence": "Data privacy has become a major concern in digital services.",
+      "translation": "数据隐私已经成为数字服务中的重要问题。",
+      "tactic": "按科技场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 125,
+      "term": "fossil fuels",
+      "alpha": "F",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "化石燃料",
+      "category": "常见术语",
+      "subcategory": "环境",
+      "sentence": "Many economies still rely heavily on fossil fuels.",
+      "translation": "许多经济体仍然严重依赖化石燃料。",
+      "tactic": "按环境场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 126,
+      "term": "supply chain",
+      "alpha": "S",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "供应链",
+      "category": "常见术语",
+      "subcategory": "商业",
+      "sentence": "A weak supply chain can delay production and raise prices.",
+      "translation": "薄弱的供应链可能延误生产并推高价格。",
+      "tactic": "按商业场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 127,
+      "term": "urban sprawl",
+      "alpha": "U",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "城市无序扩张",
+      "category": "常见术语",
+      "subcategory": "城市交通",
+      "sentence": "Urban sprawl can increase commuting time and land use.",
+      "translation": "城市无序扩张可能增加通勤时间和土地使用。",
+      "tactic": "按城市交通场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 128,
+      "term": "labour market",
+      "alpha": "L",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "劳动力市场",
+      "category": "常见术语",
+      "subcategory": "工作",
+      "sentence": "The labour market is changing as automation spreads.",
+      "translation": "随着自动化扩展，劳动力市场正在变化。",
+      "tactic": "按工作场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 129,
+      "term": "mental health",
+      "alpha": "M",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "心理健康",
+      "category": "常见术语",
+      "subcategory": "健康",
+      "sentence": "Mental health support should be available in schools and workplaces.",
+      "translation": "学校和工作场所都应该提供心理健康支持。",
+      "tactic": "按健康场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 130,
+      "term": "peer pressure",
+      "alpha": "P",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "同伴压力",
+      "category": "常见术语",
+      "subcategory": "教育",
+      "sentence": "Peer pressure can affect teenagers' choices and behaviour.",
+      "translation": "同伴压力会影响青少年的选择和行为。",
+      "tactic": "按教育场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 131,
+      "term": "public health",
+      "alpha": "P",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "公共健康",
+      "category": "常见术语",
+      "subcategory": "健康",
+      "sentence": "Public health campaigns can encourage safer behaviour.",
+      "translation": "公共健康宣传可以鼓励更安全的行为。",
+      "tactic": "按健康场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 132,
+      "term": "economic growth",
+      "alpha": "E",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "经济增长",
+      "category": "常见术语",
+      "subcategory": "商业",
+      "sentence": "Economic growth does not always improve living standards equally.",
+      "translation": "经济增长并不总是平等地改善生活水平。",
+      "tactic": "按商业场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 133,
+      "term": "gender equality",
+      "alpha": "G",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "性别平等",
+      "category": "常见术语",
+      "subcategory": "社会",
+      "sentence": "Gender equality can improve fairness in the labour market.",
+      "translation": "性别平等可以改善劳动力市场中的公平性。",
+      "tactic": "按社会场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 134,
+      "term": "social cohesion",
+      "alpha": "S",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "社会凝聚力",
+      "category": "常见术语",
+      "subcategory": "社会",
+      "sentence": "Social cohesion is easier to maintain when inequality is low.",
+      "translation": "不平等程度较低时，社会凝聚力更容易维持。",
+      "tactic": "按社会场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 135,
+      "term": "social mobility",
+      "alpha": "S",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "社会流动",
+      "category": "常见术语",
+      "subcategory": "社会",
+      "sentence": "Education is often seen as a path to social mobility.",
+      "translation": "教育通常被视为实现社会流动的途径。",
+      "tactic": "按社会场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 136,
+      "term": "carbon footprint",
+      "alpha": "C",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "碳足迹",
+      "category": "常见术语",
+      "subcategory": "环境",
+      "sentence": "Households can reduce their carbon footprint by saving energy.",
+      "translation": "家庭可以通过节约能源来减少碳足迹。",
+      "tactic": "按环境场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 137,
+      "term": "civic engagement",
+      "alpha": "C",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "公民参与",
+      "category": "常见术语",
+      "subcategory": "社会",
+      "sentence": "Civic engagement can make local decisions more responsive.",
+      "translation": "公民参与可以让本地决策更能回应实际需求。",
+      "tactic": "按社会场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 138,
+      "term": "digital literacy",
+      "alpha": "D",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "数字素养",
+      "category": "常见术语",
+      "subcategory": "科技",
+      "sentence": "Digital literacy is essential for modern employment.",
+      "translation": "数字素养对现代就业非常重要。",
+      "tactic": "按科技场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 139,
+      "term": "public transport",
+      "alpha": "P",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "公共交通",
+      "category": "常见术语",
+      "subcategory": "城市交通",
+      "sentence": "Reliable public transport can reduce traffic congestion.",
+      "translation": "可靠的公共交通可以减少交通拥堵。",
+      "tactic": "按城市交通场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 140,
+      "term": "renewable energy",
+      "alpha": "R",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "可再生能源",
+      "category": "常见术语",
+      "subcategory": "环境",
+      "sentence": "Renewable energy can reduce dependence on fossil fuels.",
+      "translation": "可再生能源可以减少对化石燃料的依赖。",
+      "tactic": "按环境场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 141,
+      "term": "ageing population",
+      "alpha": "A",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "人口老龄化",
+      "category": "常见术语",
+      "subcategory": "社会",
+      "sentence": "An ageing population may place pressure on healthcare systems.",
+      "translation": "人口老龄化可能给医疗系统带来压力。",
+      "tactic": "按社会场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 142,
+      "term": "biodiversity loss",
+      "alpha": "B",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "生物多样性丧失",
+      "category": "常见术语",
+      "subcategory": "环境",
+      "sentence": "Biodiversity loss can make ecosystems less stable.",
+      "translation": "生物多样性丧失会让生态系统更加不稳定。",
+      "tactic": "按环境场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 143,
+      "term": "cultural heritage",
+      "alpha": "C",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "文化遗产",
+      "category": "常见术语",
+      "subcategory": "文化",
+      "sentence": "Cultural heritage should be protected during urban development.",
+      "translation": "城市发展过程中应保护文化遗产。",
+      "tactic": "按文化场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 144,
+      "term": "income inequality",
+      "alpha": "I",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "收入不平等",
+      "category": "常见术语",
+      "subcategory": "社会",
+      "sentence": "Income inequality can weaken social trust.",
+      "translation": "收入不平等可能削弱社会信任。",
+      "tactic": "按社会场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 145,
+      "term": "lifelong learning",
+      "alpha": "L",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "终身学习",
+      "category": "常见术语",
+      "subcategory": "教育",
+      "sentence": "Lifelong learning helps workers adapt to economic change.",
+      "translation": "终身学习帮助劳动者适应经济变化。",
+      "tactic": "按教育场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 146,
+      "term": "work-life balance",
+      "alpha": "W",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "工作与生活平衡",
+      "category": "常见术语",
+      "subcategory": "工作",
+      "sentence": "A better work-life balance can improve employee retention.",
+      "translation": "更好的工作与生活平衡可以提高员工留任率。",
+      "tactic": "按工作场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 147,
+      "term": "consumer behaviour",
+      "alpha": "C",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "消费者行为",
+      "category": "常见术语",
+      "subcategory": "商业",
+      "sentence": "Online reviews have changed consumer behaviour.",
+      "translation": "在线评价改变了消费者行为。",
+      "tactic": "按商业场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 148,
+      "term": "traffic congestion",
+      "alpha": "T",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "交通拥堵",
+      "category": "常见术语",
+      "subcategory": "城市交通",
+      "sentence": "Traffic congestion wastes time and increases air pollution.",
+      "translation": "交通拥堵浪费时间并增加空气污染。",
+      "tactic": "按城市交通场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 149,
+      "term": "vocational training",
+      "alpha": "V",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "职业培训",
+      "category": "常见术语",
+      "subcategory": "教育",
+      "sentence": "Vocational training can improve young people's employment prospects.",
+      "translation": "职业培训可以改善年轻人的就业前景。",
+      "tactic": "按教育场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 150,
+      "term": "socioeconomic status",
+      "alpha": "S",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "社会经济地位",
+      "category": "常见术语",
+      "subcategory": "社会",
+      "sentence": "A child's socioeconomic status can influence access to education.",
+      "translation": "孩子的社会经济地位可能影响其接受教育的机会。",
+      "tactic": "按社会场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 151,
+      "term": "artificial intelligence",
+      "alpha": "A",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "人工智能",
+      "category": "常见术语",
+      "subcategory": "科技",
+      "sentence": "Artificial intelligence can automate routine tasks.",
+      "translation": "人工智能可以自动化处理重复性任务。",
+      "tactic": "按科技场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 152,
+      "term": "early childhood education",
+      "alpha": "E",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "幼儿教育",
+      "category": "常见术语",
+      "subcategory": "教育",
+      "sentence": "Early childhood education can shape later academic performance.",
+      "translation": "幼儿教育会影响之后的学业表现。",
+      "tactic": "按教育场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 153,
+      "term": "environmental degradation",
+      "alpha": "E",
+      "pos": "n.",
+      "phonetic": "",
+      "definition": "环境退化",
+      "category": "常见术语",
+      "subcategory": "环境",
+      "sentence": "Environmental degradation can threaten food and water security.",
+      "translation": "环境退化可能威胁粮食和用水安全。",
+      "tactic": "按环境场景记中文核心义，再配一个自己的例句。",
+      "source": "独立考试词库",
+      "priority": "高"
+    },
+    {
+      "id": 154,
       "term": "role",
       "alpha": "R",
       "pos": "n.",
@@ -1987,7 +2441,7 @@
       "priority": "高"
     },
     {
-      "id": 125,
+      "id": 155,
       "term": "trend",
       "alpha": "T",
       "pos": "n.",
@@ -2002,7 +2456,7 @@
       "priority": "高"
     },
     {
-      "id": 126,
+      "id": 156,
       "term": "access",
       "alpha": "A",
       "pos": "n.",
@@ -2017,7 +2471,7 @@
       "priority": "高"
     },
     {
-      "id": 127,
+      "id": 157,
       "term": "debate",
       "alpha": "D",
       "pos": "n.",
@@ -2032,7 +2486,7 @@
       "priority": "高"
     },
     {
-      "id": 128,
+      "id": 158,
       "term": "demand",
       "alpha": "D",
       "pos": "n.",
@@ -2047,7 +2501,7 @@
       "priority": "高"
     },
     {
-      "id": 129,
+      "id": 159,
       "term": "labour",
       "alpha": "L",
       "pos": "n.",
@@ -2062,7 +2516,7 @@
       "priority": "高"
     },
     {
-      "id": 130,
+      "id": 160,
       "term": "policy",
       "alpha": "P",
       "pos": "n.",
@@ -2077,7 +2531,7 @@
       "priority": "高"
     },
     {
-      "id": 131,
+      "id": 161,
       "term": "sector",
       "alpha": "S",
       "pos": "n.",
@@ -2092,7 +2546,7 @@
       "priority": "高"
     },
     {
-      "id": 132,
+      "id": 162,
       "term": "concept",
       "alpha": "C",
       "pos": "n.",
@@ -2107,7 +2561,7 @@
       "priority": "高"
     },
     {
-      "id": 133,
+      "id": 163,
       "term": "context",
       "alpha": "C",
       "pos": "n.",
@@ -2122,7 +2576,7 @@
       "priority": "高"
     },
     {
-      "id": 134,
+      "id": 164,
       "term": "feature",
       "alpha": "F",
       "pos": "n.",
@@ -2137,7 +2591,7 @@
       "priority": "高"
     },
     {
-      "id": 135,
+      "id": 165,
       "term": "insight",
       "alpha": "I",
       "pos": "n.",
@@ -2152,7 +2606,7 @@
       "priority": "高"
     },
     {
-      "id": 136,
+      "id": 166,
       "term": "pattern",
       "alpha": "P",
       "pos": "n.",
@@ -2167,7 +2621,7 @@
       "priority": "高"
     },
     {
-      "id": 137,
+      "id": 167,
       "term": "revenue",
       "alpha": "R",
       "pos": "n.",
@@ -2182,7 +2636,7 @@
       "priority": "高"
     },
     {
-      "id": 138,
+      "id": 168,
       "term": "welfare",
       "alpha": "W",
       "pos": "n.",
@@ -2197,7 +2651,7 @@
       "priority": "高"
     },
     {
-      "id": 139,
+      "id": 169,
       "term": "accuracy",
       "alpha": "A",
       "pos": "n.",
@@ -2212,7 +2666,7 @@
       "priority": "高"
     },
     {
-      "id": 140,
+      "id": 170,
       "term": "analysis",
       "alpha": "A",
       "pos": "n.",
@@ -2227,7 +2681,7 @@
       "priority": "高"
     },
     {
-      "id": 141,
+      "id": 171,
       "term": "autonomy",
       "alpha": "A",
       "pos": "n.",
@@ -2242,7 +2696,7 @@
       "priority": "高"
     },
     {
-      "id": 142,
+      "id": 172,
       "term": "capacity",
       "alpha": "C",
       "pos": "n.",
@@ -2257,7 +2711,7 @@
       "priority": "高"
     },
     {
-      "id": 143,
+      "id": 173,
       "term": "category",
       "alpha": "C",
       "pos": "n.",
@@ -2272,7 +2726,7 @@
       "priority": "高"
     },
     {
-      "id": 144,
+      "id": 174,
       "term": "cohesion",
       "alpha": "C",
       "pos": "n.",
@@ -2287,7 +2741,7 @@
       "priority": "高"
     },
     {
-      "id": 145,
+      "id": 175,
       "term": "emphasis",
       "alpha": "E",
       "pos": "n.",
@@ -2302,7 +2756,7 @@
       "priority": "高"
     },
     {
-      "id": 146,
+      "id": 176,
       "term": "evidence",
       "alpha": "E",
       "pos": "n.",
@@ -2317,7 +2771,7 @@
       "priority": "高"
     },
     {
-      "id": 147,
+      "id": 177,
       "term": "exposure",
       "alpha": "E",
       "pos": "n.",
@@ -2332,7 +2786,7 @@
       "priority": "高"
     },
     {
-      "id": 148,
+      "id": 178,
       "term": "function",
       "alpha": "F",
       "pos": "n.",
@@ -2347,7 +2801,7 @@
       "priority": "高"
     },
     {
-      "id": 149,
+      "id": 179,
       "term": "priority",
       "alpha": "P",
       "pos": "n.",
@@ -2362,7 +2816,7 @@
       "priority": "高"
     },
     {
-      "id": 150,
+      "id": 180,
       "term": "resource",
       "alpha": "R",
       "pos": "n.",
@@ -2377,7 +2831,7 @@
       "priority": "高"
     },
     {
-      "id": 151,
+      "id": 181,
       "term": "response",
       "alpha": "R",
       "pos": "n.",
@@ -2392,7 +2846,7 @@
       "priority": "高"
     },
     {
-      "id": 152,
+      "id": 182,
       "term": "advantage",
       "alpha": "A",
       "pos": "n.",
@@ -2407,7 +2861,7 @@
       "priority": "高"
     },
     {
-      "id": 153,
+      "id": 183,
       "term": "authority",
       "alpha": "A",
       "pos": "n.",
@@ -2422,7 +2876,7 @@
       "priority": "高"
     },
     {
-      "id": 154,
+      "id": 184,
       "term": "awareness",
       "alpha": "A",
       "pos": "n.",
@@ -2437,7 +2891,7 @@
       "priority": "高"
     },
     {
-      "id": 155,
+      "id": 185,
       "term": "coherence",
       "alpha": "C",
       "pos": "n.",
@@ -2452,7 +2906,7 @@
       "priority": "高"
     },
     {
-      "id": 156,
+      "id": 186,
       "term": "community",
       "alpha": "C",
       "pos": "n.",
@@ -2467,7 +2921,7 @@
       "priority": "高"
     },
     {
-      "id": 157,
+      "id": 187,
       "term": "component",
       "alpha": "C",
       "pos": "n.",
@@ -2482,7 +2936,7 @@
       "priority": "高"
     },
     {
-      "id": 158,
+      "id": 188,
       "term": "criterion",
       "alpha": "C",
       "pos": "n.",
@@ -2497,7 +2951,7 @@
       "priority": "高"
     },
     {
-      "id": 159,
+      "id": 189,
       "term": "dimension",
       "alpha": "D",
       "pos": "n.",
@@ -2512,7 +2966,7 @@
       "priority": "高"
     },
     {
-      "id": 160,
+      "id": 190,
       "term": "disparity",
       "alpha": "D",
       "pos": "n.",
@@ -2527,7 +2981,7 @@
       "priority": "高"
     },
     {
-      "id": 161,
+      "id": 191,
       "term": "diversity",
       "alpha": "D",
       "pos": "n.",
@@ -2542,7 +2996,7 @@
       "priority": "高"
     },
     {
-      "id": 162,
+      "id": 192,
       "term": "expansion",
       "alpha": "E",
       "pos": "n.",
@@ -2557,7 +3011,7 @@
       "priority": "高"
     },
     {
-      "id": 163,
+      "id": 193,
       "term": "incentive",
       "alpha": "I",
       "pos": "n.",
@@ -2572,7 +3026,7 @@
       "priority": "高"
     },
     {
-      "id": 164,
+      "id": 194,
       "term": "objective",
       "alpha": "O",
       "pos": "n.",
@@ -2587,7 +3041,7 @@
       "priority": "高"
     },
     {
-      "id": 165,
+      "id": 195,
       "term": "reduction",
       "alpha": "R",
       "pos": "n.",
@@ -2602,7 +3056,7 @@
       "priority": "高"
     },
     {
-      "id": 166,
+      "id": 196,
       "term": "structure",
       "alpha": "S",
       "pos": "n.",
@@ -2617,7 +3071,7 @@
       "priority": "高"
     },
     {
-      "id": 167,
+      "id": 197,
       "term": "variation",
       "alpha": "V",
       "pos": "n.",
@@ -2632,7 +3086,7 @@
       "priority": "高"
     },
     {
-      "id": 168,
+      "id": 198,
       "term": "assessment",
       "alpha": "A",
       "pos": "n.",
@@ -2647,7 +3101,7 @@
       "priority": "高"
     },
     {
-      "id": 169,
+      "id": 199,
       "term": "assumption",
       "alpha": "A",
       "pos": "n.",
@@ -2662,7 +3116,7 @@
       "priority": "高"
     },
     {
-      "id": 170,
+      "id": 200,
       "term": "comparison",
       "alpha": "C",
       "pos": "n.",
@@ -2677,7 +3131,7 @@
       "priority": "高"
     },
     {
-      "id": 171,
+      "id": 201,
       "term": "evaluation",
       "alpha": "E",
       "pos": "n.",
@@ -2692,7 +3146,7 @@
       "priority": "高"
     },
     {
-      "id": 172,
+      "id": 202,
       "term": "inequality",
       "alpha": "I",
       "pos": "n.",
@@ -2707,7 +3161,7 @@
       "priority": "高"
     },
     {
-      "id": 173,
+      "id": 203,
       "term": "innovation",
       "alpha": "I",
       "pos": "n.",
@@ -2722,7 +3176,7 @@
       "priority": "高"
     },
     {
-      "id": 174,
+      "id": 204,
       "term": "investment",
       "alpha": "I",
       "pos": "n.",
@@ -2737,7 +3191,7 @@
       "priority": "高"
     },
     {
-      "id": 175,
+      "id": 205,
       "term": "limitation",
       "alpha": "L",
       "pos": "n.",
@@ -2752,7 +3206,7 @@
       "priority": "高"
     },
     {
-      "id": 176,
+      "id": 206,
       "term": "prevalence",
       "alpha": "P",
       "pos": "n.",
@@ -2767,7 +3221,7 @@
       "priority": "高"
     },
     {
-      "id": 177,
+      "id": 207,
       "term": "proportion",
       "alpha": "P",
       "pos": "n.",
@@ -2782,7 +3236,7 @@
       "priority": "高"
     },
     {
-      "id": 178,
+      "id": 208,
       "term": "regulation",
       "alpha": "R",
       "pos": "n.",
@@ -2797,7 +3251,7 @@
       "priority": "高"
     },
     {
-      "id": 179,
+      "id": 209,
       "term": "alternative",
       "alpha": "A",
       "pos": "n.",
@@ -2812,7 +3266,7 @@
       "priority": "高"
     },
     {
-      "id": 180,
+      "id": 210,
       "term": "consumption",
       "alpha": "C",
       "pos": "n.",
@@ -2827,7 +3281,7 @@
       "priority": "高"
     },
     {
-      "id": 181,
+      "id": 211,
       "term": "expenditure",
       "alpha": "E",
       "pos": "n.",
@@ -2842,7 +3296,7 @@
       "priority": "高"
     },
     {
-      "id": 182,
+      "id": 212,
       "term": "interaction",
       "alpha": "I",
       "pos": "n.",
@@ -2857,7 +3311,7 @@
       "priority": "高"
     },
     {
-      "id": 183,
+      "id": 213,
       "term": "restriction",
       "alpha": "R",
       "pos": "n.",
@@ -2872,7 +3326,7 @@
       "priority": "高"
     },
     {
-      "id": 184,
+      "id": 214,
       "term": "intervention",
       "alpha": "I",
       "pos": "n.",
@@ -2887,7 +3341,7 @@
       "priority": "高"
     },
     {
-      "id": 185,
+      "id": 215,
       "term": "productivity",
       "alpha": "P",
       "pos": "n.",
@@ -2902,7 +3356,7 @@
       "priority": "高"
     },
     {
-      "id": 186,
+      "id": 216,
       "term": "contradiction",
       "alpha": "C",
       "pos": "n.",
@@ -2917,7 +3371,7 @@
       "priority": "高"
     },
     {
-      "id": 187,
+      "id": 217,
       "term": "justification",
       "alpha": "J",
       "pos": "n.",
@@ -2932,7 +3386,7 @@
       "priority": "高"
     },
     {
-      "id": 188,
+      "id": 218,
       "term": "vulnerability",
       "alpha": "V",
       "pos": "n.",
@@ -2947,7 +3401,7 @@
       "priority": "高"
     },
     {
-      "id": 189,
+      "id": 219,
       "term": "accountability",
       "alpha": "A",
       "pos": "n.",
@@ -2962,7 +3416,7 @@
       "priority": "高"
     },
     {
-      "id": 190,
+      "id": 220,
       "term": "infrastructure",
       "alpha": "I",
       "pos": "n.",
@@ -2977,7 +3431,7 @@
       "priority": "高"
     },
     {
-      "id": 191,
+      "id": 221,
       "term": "interpretation",
       "alpha": "I",
       "pos": "n.",
@@ -2992,7 +3446,7 @@
       "priority": "高"
     },
     {
-      "id": 192,
+      "id": 222,
       "term": "sustainability",
       "alpha": "S",
       "pos": "n.",
@@ -3007,7 +3461,7 @@
       "priority": "高"
     },
     {
-      "id": 193,
+      "id": 223,
       "term": "link",
       "alpha": "L",
       "pos": "v.",
@@ -3022,7 +3476,7 @@
       "priority": "高"
     },
     {
-      "id": 194,
+      "id": 224,
       "term": "rely",
       "alpha": "R",
       "pos": "v.",
@@ -3037,7 +3491,7 @@
       "priority": "高"
     },
     {
-      "id": 195,
+      "id": 225,
       "term": "vary",
       "alpha": "V",
       "pos": "v.",
@@ -3052,7 +3506,7 @@
       "priority": "高"
     },
     {
-      "id": 196,
+      "id": 226,
       "term": "occur",
       "alpha": "O",
       "pos": "v.",
@@ -3067,7 +3521,7 @@
       "priority": "高"
     },
     {
-      "id": 197,
+      "id": 227,
       "term": "affect",
       "alpha": "A",
       "pos": "v.",
@@ -3082,7 +3536,7 @@
       "priority": "高"
     },
     {
-      "id": 198,
+      "id": 228,
       "term": "assess",
       "alpha": "A",
       "pos": "v.",
@@ -3097,7 +3551,7 @@
       "priority": "高"
     },
     {
-      "id": 199,
+      "id": 229,
       "term": "attain",
       "alpha": "A",
       "pos": "v.",
@@ -3112,7 +3566,7 @@
       "priority": "高"
     },
     {
-      "id": 200,
+      "id": 230,
       "term": "compel",
       "alpha": "C",
       "pos": "v.",
@@ -3127,7 +3581,7 @@
       "priority": "高"
     },
     {
-      "id": 201,
+      "id": 231,
       "term": "create",
       "alpha": "C",
       "pos": "v.",
@@ -3142,7 +3596,7 @@
       "priority": "高"
     },
     {
-      "id": 202,
+      "id": 232,
       "term": "define",
       "alpha": "D",
       "pos": "v.",
@@ -3157,7 +3611,7 @@
       "priority": "高"
     },
     {
-      "id": 203,
+      "id": 233,
       "term": "derive",
       "alpha": "D",
       "pos": "v.",
@@ -3172,7 +3626,7 @@
       "priority": "高"
     },
     {
-      "id": 204,
+      "id": 234,
       "term": "design",
       "alpha": "D",
       "pos": "v.",
@@ -3187,7 +3641,7 @@
       "priority": "高"
     },
     {
-      "id": 205,
+      "id": 235,
       "term": "enable",
       "alpha": "E",
       "pos": "v.",
@@ -3202,7 +3656,7 @@
       "priority": "高"
     },
     {
-      "id": 206,
+      "id": 236,
       "term": "ensure",
       "alpha": "E",
       "pos": "v.",
@@ -3217,7 +3671,7 @@
       "priority": "高"
     },
     {
-      "id": 207,
+      "id": 237,
       "term": "evolve",
       "alpha": "E",
       "pos": "v.",
@@ -3232,7 +3686,7 @@
       "priority": "高"
     },
     {
-      "id": 208,
+      "id": 238,
       "term": "exceed",
       "alpha": "E",
       "pos": "v.",
@@ -3247,7 +3701,7 @@
       "priority": "高"
     },
     {
-      "id": 209,
+      "id": 239,
       "term": "expose",
       "alpha": "E",
       "pos": "v.",
@@ -3262,7 +3716,7 @@
       "priority": "高"
     },
     {
-      "id": 210,
+      "id": 240,
       "term": "impose",
       "alpha": "I",
       "pos": "v.",
@@ -3277,7 +3731,7 @@
       "priority": "高"
     },
     {
-      "id": 211,
+      "id": 241,
       "term": "obtain",
       "alpha": "O",
       "pos": "v.",
@@ -3292,7 +3746,7 @@
       "priority": "高"
     },
     {
-      "id": 212,
+      "id": 242,
       "term": "occupy",
       "alpha": "O",
       "pos": "v.",
@@ -3307,7 +3761,7 @@
       "priority": "高"
     },
     {
-      "id": 213,
+      "id": 243,
       "term": "remove",
       "alpha": "R",
       "pos": "v.",
@@ -3322,7 +3776,7 @@
       "priority": "高"
     },
     {
-      "id": 214,
+      "id": 244,
       "term": "retain",
       "alpha": "R",
       "pos": "v.",
@@ -3337,7 +3791,7 @@
       "priority": "高"
     },
     {
-      "id": 215,
+      "id": 245,
       "term": "submit",
       "alpha": "S",
       "pos": "v.",
@@ -3352,7 +3806,7 @@
       "priority": "高"
     },
     {
-      "id": 216,
+      "id": 246,
       "term": "target",
       "alpha": "T",
       "pos": "v.",
@@ -3367,7 +3821,7 @@
       "priority": "高"
     },
     {
-      "id": 217,
+      "id": 247,
       "term": "verify",
       "alpha": "V",
       "pos": "v.",
@@ -3382,7 +3836,7 @@
       "priority": "高"
     },
     {
-      "id": 218,
+      "id": 248,
       "term": "achieve",
       "alpha": "A",
       "pos": "v.",
@@ -3397,7 +3851,7 @@
       "priority": "高"
     },
     {
-      "id": 219,
+      "id": 249,
       "term": "acquire",
       "alpha": "A",
       "pos": "v.",
@@ -3412,7 +3866,7 @@
       "priority": "高"
     },
     {
-      "id": 220,
+      "id": 250,
       "term": "address",
       "alpha": "A",
       "pos": "v.",
@@ -3427,7 +3881,7 @@
       "priority": "高"
     },
     {
-      "id": 221,
+      "id": 251,
       "term": "analyse",
       "alpha": "A",
       "pos": "v.",
@@ -3442,7 +3896,7 @@
       "priority": "高"
     },
     {
-      "id": 222,
+      "id": 252,
       "term": "benefit",
       "alpha": "B",
       "pos": "v.",
@@ -3457,7 +3911,7 @@
       "priority": "高"
     },
     {
-      "id": 223,
+      "id": 253,
       "term": "clarify",
       "alpha": "C",
       "pos": "v.",
@@ -3472,7 +3926,7 @@
       "priority": "高"
     },
     {
-      "id": 224,
+      "id": 254,
       "term": "compare",
       "alpha": "C",
       "pos": "v.",
@@ -3487,7 +3941,7 @@
       "priority": "高"
     },
     {
-      "id": 225,
+      "id": 255,
       "term": "conduct",
       "alpha": "C",
       "pos": "v.",
@@ -3502,7 +3956,7 @@
       "priority": "高"
     },
     {
-      "id": 226,
+      "id": 256,
       "term": "consume",
       "alpha": "C",
       "pos": "v.",
@@ -3517,7 +3971,7 @@
       "priority": "高"
     },
     {
-      "id": 227,
+      "id": 257,
       "term": "develop",
       "alpha": "D",
       "pos": "v.",
@@ -3532,7 +3986,7 @@
       "priority": "高"
     },
     {
-      "id": 228,
+      "id": 258,
       "term": "enforce",
       "alpha": "E",
       "pos": "v.",
@@ -3547,7 +4001,7 @@
       "priority": "高"
     },
     {
-      "id": 229,
+      "id": 259,
       "term": "exclude",
       "alpha": "E",
       "pos": "v.",
@@ -3562,7 +4016,7 @@
       "priority": "高"
     },
     {
-      "id": 230,
+      "id": 260,
       "term": "exploit",
       "alpha": "E",
       "pos": "v.",
@@ -3577,7 +4031,7 @@
       "priority": "高"
     },
     {
-      "id": 231,
+      "id": 261,
       "term": "inhibit",
       "alpha": "I",
       "pos": "v.",
@@ -3592,7 +4046,7 @@
       "priority": "高"
     },
     {
-      "id": 232,
+      "id": 262,
       "term": "involve",
       "alpha": "I",
       "pos": "v.",
@@ -3607,7 +4061,7 @@
       "priority": "高"
     },
     {
-      "id": 233,
+      "id": 263,
       "term": "monitor",
       "alpha": "M",
       "pos": "v.",
@@ -3622,7 +4076,7 @@
       "priority": "高"
     },
     {
-      "id": 234,
+      "id": 264,
       "term": "predict",
       "alpha": "P",
       "pos": "v.",
@@ -3637,7 +4091,7 @@
       "priority": "高"
     },
     {
-      "id": 235,
+      "id": 265,
       "term": "prevent",
       "alpha": "P",
       "pos": "v.",
@@ -3652,7 +4106,7 @@
       "priority": "高"
     },
     {
-      "id": 236,
+      "id": 266,
       "term": "proceed",
       "alpha": "P",
       "pos": "v.",
@@ -3667,7 +4121,7 @@
       "priority": "高"
     },
     {
-      "id": 237,
+      "id": 267,
       "term": "propose",
       "alpha": "P",
       "pos": "v.",
@@ -3682,7 +4136,7 @@
       "priority": "高"
     },
     {
-      "id": 238,
+      "id": 268,
       "term": "recover",
       "alpha": "R",
       "pos": "v.",
@@ -3697,7 +4151,7 @@
       "priority": "高"
     },
     {
-      "id": 239,
+      "id": 269,
       "term": "resolve",
       "alpha": "R",
       "pos": "v.",
@@ -3712,7 +4166,7 @@
       "priority": "高"
     },
     {
-      "id": 240,
+      "id": 270,
       "term": "respond",
       "alpha": "R",
       "pos": "v.",
@@ -3727,7 +4181,7 @@
       "priority": "高"
     },
     {
-      "id": 241,
+      "id": 271,
       "term": "restore",
       "alpha": "R",
       "pos": "v.",
@@ -3742,7 +4196,7 @@
       "priority": "高"
     },
     {
-      "id": 242,
+      "id": 272,
       "term": "sustain",
       "alpha": "S",
       "pos": "v.",
@@ -3757,7 +4211,7 @@
       "priority": "高"
     },
     {
-      "id": 243,
+      "id": 273,
       "term": "undergo",
       "alpha": "U",
       "pos": "v.",
@@ -3772,7 +4226,7 @@
       "priority": "高"
     },
     {
-      "id": 244,
+      "id": 274,
       "term": "allocate",
       "alpha": "A",
       "pos": "v.",
@@ -3787,7 +4241,7 @@
       "priority": "高"
     },
     {
-      "id": 245,
+      "id": 275,
       "term": "classify",
       "alpha": "C",
       "pos": "v.",
@@ -3802,7 +4256,7 @@
       "priority": "高"
     },
     {
-      "id": 246,
+      "id": 276,
       "term": "contrast",
       "alpha": "C",
       "pos": "v.",
@@ -3817,7 +4271,7 @@
       "priority": "高"
     },
     {
-      "id": 247,
+      "id": 277,
       "term": "convince",
       "alpha": "C",
       "pos": "v.",
@@ -3832,7 +4286,7 @@
       "priority": "高"
     },
     {
-      "id": 248,
+      "id": 278,
       "term": "estimate",
       "alpha": "E",
       "pos": "v.",
@@ -3847,7 +4301,7 @@
       "priority": "高"
     },
     {
-      "id": 249,
+      "id": 279,
       "term": "evaluate",
       "alpha": "E",
       "pos": "v.",
@@ -3862,7 +4316,7 @@
       "priority": "高"
     },
     {
-      "id": 250,
+      "id": 280,
       "term": "generate",
       "alpha": "G",
       "pos": "v.",
@@ -3877,7 +4331,7 @@
       "priority": "高"
     },
     {
-      "id": 251,
+      "id": 281,
       "term": "identify",
       "alpha": "I",
       "pos": "v.",
@@ -3892,7 +4346,7 @@
       "priority": "高"
     },
     {
-      "id": 252,
+      "id": 282,
       "term": "initiate",
       "alpha": "I",
       "pos": "v.",
@@ -3907,7 +4361,7 @@
       "priority": "高"
     },
     {
-      "id": 253,
+      "id": 283,
       "term": "maximise",
       "alpha": "M",
       "pos": "v.",
@@ -3922,7 +4376,7 @@
       "priority": "高"
     },
     {
-      "id": 254,
+      "id": 284,
       "term": "mitigate",
       "alpha": "M",
       "pos": "v.",
@@ -3937,7 +4391,7 @@
       "priority": "高"
     },
     {
-      "id": 255,
+      "id": 285,
       "term": "perceive",
       "alpha": "P",
       "pos": "v.",
@@ -3952,7 +4406,7 @@
       "priority": "高"
     },
     {
-      "id": 256,
+      "id": 286,
       "term": "preserve",
       "alpha": "P",
       "pos": "v.",
@@ -3967,7 +4421,7 @@
       "priority": "高"
     },
     {
-      "id": 257,
+      "id": 287,
       "term": "prohibit",
       "alpha": "P",
       "pos": "v.",
@@ -3982,7 +4436,7 @@
       "priority": "高"
     },
     {
-      "id": 258,
+      "id": 288,
       "term": "purchase",
       "alpha": "P",
       "pos": "v.",
@@ -3997,7 +4451,7 @@
       "priority": "高"
     },
     {
-      "id": 259,
+      "id": 289,
       "term": "regulate",
       "alpha": "R",
       "pos": "v.",
@@ -4012,7 +4466,7 @@
       "priority": "高"
     },
     {
-      "id": 260,
+      "id": 290,
       "term": "transfer",
       "alpha": "T",
       "pos": "v.",
@@ -4027,7 +4481,7 @@
       "priority": "高"
     },
     {
-      "id": 261,
+      "id": 291,
       "term": "alleviate",
       "alpha": "A",
       "pos": "v.",
@@ -4042,7 +4496,7 @@
       "priority": "高"
     },
     {
-      "id": 262,
+      "id": 292,
       "term": "constrain",
       "alpha": "C",
       "pos": "v.",
@@ -4057,7 +4511,7 @@
       "priority": "高"
     },
     {
-      "id": 263,
+      "id": 293,
       "term": "cooperate",
       "alpha": "C",
       "pos": "v.",
@@ -4072,7 +4526,7 @@
       "priority": "高"
     },
     {
-      "id": 264,
+      "id": 294,
       "term": "cultivate",
       "alpha": "C",
       "pos": "v.",
@@ -4087,7 +4541,7 @@
       "priority": "高"
     },
     {
-      "id": 265,
+      "id": 295,
       "term": "determine",
       "alpha": "D",
       "pos": "v.",
@@ -4102,7 +4556,7 @@
       "priority": "高"
     },
     {
-      "id": 266,
+      "id": 296,
       "term": "eliminate",
       "alpha": "E",
       "pos": "v.",
@@ -4117,7 +4571,7 @@
       "priority": "高"
     },
     {
-      "id": 267,
+      "id": 297,
       "term": "emphasise",
       "alpha": "E",
       "pos": "v.",
@@ -4132,7 +4586,7 @@
       "priority": "高"
     },
     {
-      "id": 268,
+      "id": 298,
       "term": "encounter",
       "alpha": "E",
       "pos": "v.",
@@ -4147,7 +4601,7 @@
       "priority": "高"
     },
     {
-      "id": 269,
+      "id": 299,
       "term": "establish",
       "alpha": "E",
       "pos": "v.",
@@ -4162,7 +4616,7 @@
       "priority": "高"
     },
     {
-      "id": 270,
+      "id": 300,
       "term": "integrate",
       "alpha": "I",
       "pos": "v.",
@@ -4177,7 +4631,7 @@
       "priority": "高"
     },
     {
-      "id": 271,
+      "id": 301,
       "term": "interpret",
       "alpha": "I",
       "pos": "v.",
@@ -4192,7 +4646,7 @@
       "priority": "高"
     },
     {
-      "id": 272,
+      "id": 302,
       "term": "recognise",
       "alpha": "R",
       "pos": "v.",
@@ -4207,7 +4661,7 @@
       "priority": "高"
     },
     {
-      "id": 273,
+      "id": 303,
       "term": "recommend",
       "alpha": "R",
       "pos": "v.",
@@ -4222,7 +4676,7 @@
       "priority": "高"
     },
     {
-      "id": 274,
+      "id": 304,
       "term": "stimulate",
       "alpha": "S",
       "pos": "v.",
@@ -4237,7 +4691,7 @@
       "priority": "高"
     },
     {
-      "id": 275,
+      "id": 305,
       "term": "accelerate",
       "alpha": "A",
       "pos": "v.",
@@ -4252,7 +4706,7 @@
       "priority": "高"
     },
     {
-      "id": 276,
+      "id": 306,
       "term": "compensate",
       "alpha": "C",
       "pos": "v.",
@@ -4267,7 +4721,7 @@
       "priority": "高"
     },
     {
-      "id": 277,
+      "id": 307,
       "term": "complement",
       "alpha": "C",
       "pos": "v.",
@@ -4282,7 +4736,7 @@
       "priority": "高"
     },
     {
-      "id": 278,
+      "id": 308,
       "term": "complicate",
       "alpha": "C",
       "pos": "v.",
@@ -4297,7 +4751,7 @@
       "priority": "高"
     },
     {
-      "id": 279,
+      "id": 309,
       "term": "constitute",
       "alpha": "C",
       "pos": "v.",
@@ -4312,7 +4766,7 @@
       "priority": "高"
     },
     {
-      "id": 280,
+      "id": 310,
       "term": "coordinate",
       "alpha": "C",
       "pos": "v.",
@@ -4327,7 +4781,7 @@
       "priority": "高"
     },
     {
-      "id": 281,
+      "id": 311,
       "term": "distribute",
       "alpha": "D",
       "pos": "v.",
@@ -4342,7 +4796,7 @@
       "priority": "高"
     },
     {
-      "id": 282,
+      "id": 312,
       "term": "exacerbate",
       "alpha": "E",
       "pos": "v.",
@@ -4357,7 +4811,7 @@
       "priority": "高"
     },
     {
-      "id": 283,
+      "id": 313,
       "term": "prioritise",
       "alpha": "P",
       "pos": "v.",
@@ -4372,7 +4826,7 @@
       "priority": "高"
     },
     {
-      "id": 284,
+      "id": 314,
       "term": "substitute",
       "alpha": "S",
       "pos": "v.",
@@ -4387,7 +4841,7 @@
       "priority": "高"
     },
     {
-      "id": 285,
+      "id": 315,
       "term": "acknowledge",
       "alpha": "A",
       "pos": "v.",
@@ -4402,7 +4856,7 @@
       "priority": "高"
     },
     {
-      "id": 286,
+      "id": 316,
       "term": "deteriorate",
       "alpha": "D",
       "pos": "v.",
@@ -4417,7 +4871,7 @@
       "priority": "高"
     },
     {
-      "id": 287,
+      "id": 317,
       "term": "incorporate",
       "alpha": "I",
       "pos": "v.",
@@ -4432,7 +4886,7 @@
       "priority": "高"
     },
     {
-      "id": 288,
+      "id": 318,
       "term": "participate",
       "alpha": "P",
       "pos": "v.",
@@ -4447,7 +4901,7 @@
       "priority": "高"
     },
     {
-      "id": 289,
+      "id": 319,
       "term": "differentiate",
       "alpha": "D",
       "pos": "v.",
@@ -4462,7 +4916,7 @@
       "priority": "高"
     },
     {
-      "id": 290,
+      "id": 320,
       "term": "minor",
       "alpha": "M",
       "pos": "adj.",
@@ -4477,7 +4931,7 @@
       "priority": "高"
     },
     {
-      "id": 291,
+      "id": 321,
       "term": "rigid",
       "alpha": "R",
       "pos": "adj.",
@@ -4492,7 +4946,7 @@
       "priority": "高"
     },
     {
-      "id": 292,
+      "id": 322,
       "term": "valid",
       "alpha": "V",
       "pos": "adj.",
@@ -4507,7 +4961,7 @@
       "priority": "高"
     },
     {
-      "id": 293,
+      "id": 323,
       "term": "mature",
       "alpha": "M",
       "pos": "adj.",
@@ -4522,7 +4976,7 @@
       "priority": "高"
     },
     {
-      "id": 294,
+      "id": 324,
       "term": "random",
       "alpha": "R",
       "pos": "adj.",
@@ -4537,7 +4991,7 @@
       "priority": "高"
     },
     {
-      "id": 295,
+      "id": 325,
       "term": "scarce",
       "alpha": "S",
       "pos": "adj.",
@@ -4552,7 +5006,7 @@
       "priority": "高"
     },
     {
-      "id": 296,
+      "id": 326,
       "term": "severe",
       "alpha": "S",
       "pos": "adj.",
@@ -4567,7 +5021,7 @@
       "priority": "高"
     },
     {
-      "id": 297,
+      "id": 327,
       "term": "stable",
       "alpha": "S",
       "pos": "adj.",
@@ -4582,7 +5036,7 @@
       "priority": "高"
     },
     {
-      "id": 298,
+      "id": 328,
       "term": "viable",
       "alpha": "V",
       "pos": "adj.",
@@ -4597,7 +5051,7 @@
       "priority": "高"
     },
     {
-      "id": 299,
+      "id": 329,
       "term": "adverse",
       "alpha": "A",
       "pos": "adj.",
@@ -4612,7 +5066,7 @@
       "priority": "高"
     },
     {
-      "id": 300,
+      "id": 330,
       "term": "complex",
       "alpha": "C",
       "pos": "adj.",
@@ -4627,7 +5081,7 @@
       "priority": "高"
     },
     {
-      "id": 301,
+      "id": 331,
       "term": "ethical",
       "alpha": "E",
       "pos": "adj.",
@@ -4642,7 +5096,7 @@
       "priority": "高"
     },
     {
-      "id": 302,
+      "id": 332,
       "term": "evident",
       "alpha": "E",
       "pos": "adj.",
@@ -4657,7 +5111,7 @@
       "priority": "高"
     },
     {
-      "id": 303,
+      "id": 333,
       "term": "gradual",
       "alpha": "G",
       "pos": "adj.",
@@ -4672,7 +5126,7 @@
       "priority": "高"
     },
     {
-      "id": 304,
+      "id": 334,
       "term": "initial",
       "alpha": "I",
       "pos": "adj.",
@@ -4687,7 +5141,7 @@
       "priority": "高"
     },
     {
-      "id": 305,
+      "id": 335,
       "term": "logical",
       "alpha": "L",
       "pos": "adj.",
@@ -4702,7 +5156,7 @@
       "priority": "高"
     },
     {
-      "id": 306,
+      "id": 336,
       "term": "neutral",
       "alpha": "N",
       "pos": "adj.",
@@ -4717,7 +5171,7 @@
       "priority": "高"
     },
     {
-      "id": 307,
+      "id": 337,
       "term": "obvious",
       "alpha": "O",
       "pos": "adj.",
@@ -4732,7 +5186,7 @@
       "priority": "高"
     },
     {
-      "id": 308,
+      "id": 338,
       "term": "overall",
       "alpha": "O",
       "pos": "adj.",
@@ -4747,7 +5201,7 @@
       "priority": "高"
     },
     {
-      "id": 309,
+      "id": 339,
       "term": "primary",
       "alpha": "P",
       "pos": "adj.",
@@ -4762,7 +5216,7 @@
       "priority": "高"
     },
     {
-      "id": 310,
+      "id": 340,
       "term": "accurate",
       "alpha": "A",
       "pos": "adj.",
@@ -4777,7 +5231,7 @@
       "priority": "高"
     },
     {
-      "id": 311,
+      "id": 341,
       "term": "apparent",
       "alpha": "A",
       "pos": "adj.",
@@ -4792,7 +5246,7 @@
       "priority": "高"
     },
     {
-      "id": 312,
+      "id": 342,
       "term": "coherent",
       "alpha": "C",
       "pos": "adj.",
@@ -4807,7 +5261,7 @@
       "priority": "高"
     },
     {
-      "id": 313,
+      "id": 343,
       "term": "critical",
       "alpha": "C",
       "pos": "adj.",
@@ -4822,7 +5276,7 @@
       "priority": "高"
     },
     {
-      "id": 314,
+      "id": 344,
       "term": "distinct",
       "alpha": "D",
       "pos": "adj.",
@@ -4837,7 +5291,7 @@
       "priority": "高"
     },
     {
-      "id": 315,
+      "id": 345,
       "term": "dominant",
       "alpha": "D",
       "pos": "adj.",
@@ -4852,7 +5306,7 @@
       "priority": "高"
     },
     {
-      "id": 316,
+      "id": 346,
       "term": "external",
       "alpha": "E",
       "pos": "adj.",
@@ -4867,7 +5321,7 @@
       "priority": "高"
     },
     {
-      "id": 317,
+      "id": 347,
       "term": "flexible",
       "alpha": "F",
       "pos": "adj.",
@@ -4882,7 +5336,7 @@
       "priority": "高"
     },
     {
-      "id": 318,
+      "id": 348,
       "term": "implicit",
       "alpha": "I",
       "pos": "adj.",
@@ -4897,7 +5351,7 @@
       "priority": "高"
     },
     {
-      "id": 319,
+      "id": 349,
       "term": "internal",
       "alpha": "I",
       "pos": "adj.",
@@ -4912,7 +5366,7 @@
       "priority": "高"
     },
     {
-      "id": 320,
+      "id": 350,
       "term": "negative",
       "alpha": "N",
       "pos": "adj.",
@@ -4927,7 +5381,7 @@
       "priority": "高"
     },
     {
-      "id": 321,
+      "id": 351,
       "term": "positive",
       "alpha": "P",
       "pos": "adj.",
@@ -4942,7 +5396,7 @@
       "priority": "高"
     },
     {
-      "id": 322,
+      "id": 352,
       "term": "previous",
       "alpha": "P",
       "pos": "adj.",
@@ -4957,7 +5411,7 @@
       "priority": "高"
     },
     {
-      "id": 323,
+      "id": 353,
       "term": "profound",
       "alpha": "P",
       "pos": "adj.",
@@ -4972,7 +5426,7 @@
       "priority": "高"
     },
     {
-      "id": 324,
+      "id": 354,
       "term": "relevant",
       "alpha": "R",
       "pos": "adj.",
@@ -4987,7 +5441,7 @@
       "priority": "高"
     },
     {
-      "id": 325,
+      "id": 355,
       "term": "reliable",
       "alpha": "R",
       "pos": "adj.",
@@ -5002,7 +5456,7 @@
       "priority": "高"
     },
     {
-      "id": 326,
+      "id": 356,
       "term": "ambiguous",
       "alpha": "A",
       "pos": "adj.",
@@ -5017,7 +5471,7 @@
       "priority": "高"
     },
     {
-      "id": 327,
+      "id": 357,
       "term": "arbitrary",
       "alpha": "A",
       "pos": "adj.",
@@ -5032,7 +5486,7 @@
       "priority": "高"
     },
     {
-      "id": 328,
+      "id": 358,
       "term": "desirable",
       "alpha": "D",
       "pos": "adj.",
@@ -5047,7 +5501,7 @@
       "priority": "高"
     },
     {
-      "id": 329,
+      "id": 359,
       "term": "effective",
       "alpha": "E",
       "pos": "adj.",
@@ -5062,7 +5516,7 @@
       "priority": "高"
     },
     {
-      "id": 330,
+      "id": 360,
       "term": "efficient",
       "alpha": "E",
       "pos": "adj.",
@@ -5077,7 +5531,7 @@
       "priority": "高"
     },
     {
-      "id": 331,
+      "id": 361,
       "term": "empirical",
       "alpha": "E",
       "pos": "adj.",
@@ -5092,7 +5546,7 @@
       "priority": "高"
     },
     {
-      "id": 332,
+      "id": 362,
       "term": "excessive",
       "alpha": "E",
       "pos": "adj.",
@@ -5107,7 +5561,7 @@
       "priority": "高"
     },
     {
-      "id": 333,
+      "id": 363,
       "term": "impartial",
       "alpha": "I",
       "pos": "adj.",
@@ -5122,7 +5576,7 @@
       "priority": "高"
     },
     {
-      "id": 334,
+      "id": 364,
       "term": "inclusive",
       "alpha": "I",
       "pos": "adj.",
@@ -5137,7 +5591,7 @@
       "priority": "高"
     },
     {
-      "id": 335,
+      "id": 365,
       "term": "strategic",
       "alpha": "S",
       "pos": "adj.",
@@ -5152,7 +5606,7 @@
       "priority": "高"
     },
     {
-      "id": 336,
+      "id": 366,
       "term": "temporary",
       "alpha": "T",
       "pos": "adj.",
@@ -5167,7 +5621,7 @@
       "priority": "高"
     },
     {
-      "id": 337,
+      "id": 367,
       "term": "accessible",
       "alpha": "A",
       "pos": "adj.",
@@ -5182,7 +5636,7 @@
       "priority": "高"
     },
     {
-      "id": 338,
+      "id": 368,
       "term": "affordable",
       "alpha": "A",
       "pos": "adj.",
@@ -5197,7 +5651,7 @@
       "priority": "高"
     },
     {
-      "id": 339,
+      "id": 369,
       "term": "beneficial",
       "alpha": "B",
       "pos": "adj.",
@@ -5212,7 +5666,7 @@
       "priority": "高"
     },
     {
-      "id": 340,
+      "id": 370,
       "term": "consistent",
       "alpha": "C",
       "pos": "adj.",
@@ -5227,7 +5681,7 @@
       "priority": "高"
     },
     {
-      "id": 341,
+      "id": 371,
       "term": "equivalent",
       "alpha": "E",
       "pos": "adj.",
@@ -5242,7 +5696,7 @@
       "priority": "高"
     },
     {
-      "id": 342,
+      "id": 372,
       "term": "inadequate",
       "alpha": "I",
       "pos": "adj.",
@@ -5257,7 +5711,7 @@
       "priority": "高"
     },
     {
-      "id": 343,
+      "id": 373,
       "term": "innovative",
       "alpha": "I",
       "pos": "adj.",
@@ -5272,7 +5726,7 @@
       "priority": "高"
     },
     {
-      "id": 344,
+      "id": 374,
       "term": "productive",
       "alpha": "P",
       "pos": "adj.",
@@ -5287,7 +5741,7 @@
       "priority": "高"
     },
     {
-      "id": 345,
+      "id": 375,
       "term": "underlying",
       "alpha": "U",
       "pos": "adj.",
@@ -5302,7 +5756,7 @@
       "priority": "高"
     },
     {
-      "id": 346,
+      "id": 376,
       "term": "vulnerable",
       "alpha": "V",
       "pos": "adj.",
@@ -5317,7 +5771,7 @@
       "priority": "高"
     },
     {
-      "id": 347,
+      "id": 377,
       "term": "widespread",
       "alpha": "W",
       "pos": "adj.",
@@ -5332,7 +5786,7 @@
       "priority": "高"
     },
     {
-      "id": 348,
+      "id": 378,
       "term": "appropriate",
       "alpha": "A",
       "pos": "adj.",
@@ -5347,7 +5801,7 @@
       "priority": "高"
     },
     {
-      "id": 349,
+      "id": 379,
       "term": "detrimental",
       "alpha": "D",
       "pos": "adj.",
@@ -5362,7 +5816,7 @@
       "priority": "高"
     },
     {
-      "id": 350,
+      "id": 380,
       "term": "sustainable",
       "alpha": "S",
       "pos": "adj.",
@@ -5377,7 +5831,7 @@
       "priority": "高"
     },
     {
-      "id": 351,
+      "id": 381,
       "term": "considerable",
       "alpha": "C",
       "pos": "adj.",
@@ -5392,7 +5846,7 @@
       "priority": "高"
     },
     {
-      "id": 352,
+      "id": 382,
       "term": "conventional",
       "alpha": "C",
       "pos": "adj.",
@@ -5407,7 +5861,7 @@
       "priority": "高"
     },
     {
-      "id": 353,
+      "id": 383,
       "term": "comprehensive",
       "alpha": "C",
       "pos": "adj.",
@@ -5422,7 +5876,7 @@
       "priority": "高"
     },
     {
-      "id": 354,
+      "id": 384,
       "term": "crime",
       "alpha": "C",
       "pos": "n.",
@@ -5437,7 +5891,7 @@
       "priority": "高"
     },
     {
-      "id": 355,
+      "id": 385,
       "term": "budget",
       "alpha": "B",
       "pos": "n.",
@@ -5452,7 +5906,7 @@
       "priority": "高"
     },
     {
-      "id": 356,
+      "id": 386,
       "term": "profit",
       "alpha": "P",
       "pos": "n.",
@@ -5467,7 +5921,7 @@
       "priority": "高"
     },
     {
-      "id": 357,
+      "id": 387,
       "term": "suburb",
       "alpha": "S",
       "pos": "n.",
@@ -5482,7 +5936,7 @@
       "priority": "高"
     },
     {
-      "id": 358,
+      "id": 388,
       "term": "culture",
       "alpha": "C",
       "pos": "n.",
@@ -5497,7 +5951,7 @@
       "priority": "高"
     },
     {
-      "id": 359,
+      "id": 389,
       "term": "obesity",
       "alpha": "O",
       "pos": "n.",
@@ -5512,7 +5966,7 @@
       "priority": "高"
     },
     {
-      "id": 360,
+      "id": 390,
       "term": "privacy",
       "alpha": "P",
       "pos": "n.",
@@ -5527,7 +5981,7 @@
       "priority": "高"
     },
     {
-      "id": 361,
+      "id": 391,
       "term": "subsidy",
       "alpha": "S",
       "pos": "n.",
@@ -5542,7 +5996,7 @@
       "priority": "高"
     },
     {
-      "id": 362,
+      "id": 392,
       "term": "symptom",
       "alpha": "S",
       "pos": "n.",
@@ -5557,7 +6011,7 @@
       "priority": "高"
     },
     {
-      "id": 363,
+      "id": 393,
       "term": "tourism",
       "alpha": "T",
       "pos": "n.",
@@ -5572,7 +6026,7 @@
       "priority": "高"
     },
     {
-      "id": 364,
+      "id": 394,
       "term": "tuition",
       "alpha": "T",
       "pos": "n.",
@@ -5587,7 +6041,7 @@
       "priority": "高"
     },
     {
-      "id": 365,
+      "id": 395,
       "term": "vehicle",
       "alpha": "V",
       "pos": "n.",
@@ -5602,7 +6056,7 @@
       "priority": "高"
     },
     {
-      "id": 366,
+      "id": 396,
       "term": "audience",
       "alpha": "A",
       "pos": "n.",
@@ -5617,7 +6071,7 @@
       "priority": "高"
     },
     {
-      "id": 367,
+      "id": 397,
       "term": "commuter",
       "alpha": "C",
       "pos": "n.",
@@ -5632,7 +6086,7 @@
       "priority": "高"
     },
     {
-      "id": 368,
+      "id": 398,
       "term": "consumer",
       "alpha": "C",
       "pos": "n.",
@@ -5647,7 +6101,7 @@
       "priority": "高"
     },
     {
-      "id": 369,
+      "id": 399,
       "term": "database",
       "alpha": "D",
       "pos": "n.",
@@ -5662,7 +6116,7 @@
       "priority": "高"
     },
     {
-      "id": 370,
+      "id": 400,
       "term": "emission",
       "alpha": "E",
       "pos": "n.",
@@ -5677,7 +6131,7 @@
       "priority": "高"
     },
     {
-      "id": 371,
+      "id": 401,
       "term": "heritage",
       "alpha": "H",
       "pos": "n.",
@@ -5692,7 +6146,7 @@
       "priority": "高"
     },
     {
-      "id": 372,
+      "id": 402,
       "term": "identity",
       "alpha": "I",
       "pos": "n.",
@@ -5707,7 +6161,7 @@
       "priority": "高"
     },
     {
-      "id": 373,
+      "id": 403,
       "term": "interest",
       "alpha": "I",
       "pos": "n.",
@@ -5722,7 +6176,7 @@
       "priority": "高"
     },
     {
-      "id": 374,
+      "id": 404,
       "term": "literacy",
       "alpha": "L",
       "pos": "n.",
@@ -5737,7 +6191,7 @@
       "priority": "高"
     },
     {
-      "id": 375,
+      "id": 405,
       "term": "minority",
       "alpha": "M",
       "pos": "n.",
@@ -5752,7 +6206,7 @@
       "priority": "高"
     },
     {
-      "id": 376,
+      "id": 406,
       "term": "platform",
       "alpha": "P",
       "pos": "n.",
@@ -5767,7 +6221,7 @@
       "priority": "高"
     },
     {
-      "id": 377,
+      "id": 407,
       "term": "taxation",
       "alpha": "T",
       "pos": "n.",
@@ -5782,7 +6236,7 @@
       "priority": "高"
     },
     {
-      "id": 378,
+      "id": 408,
       "term": "algorithm",
       "alpha": "A",
       "pos": "n.",
@@ -5797,7 +6251,7 @@
       "priority": "高"
     },
     {
-      "id": 379,
+      "id": 409,
       "term": "broadcast",
       "alpha": "B",
       "pos": "n.",
@@ -5812,7 +6266,7 @@
       "priority": "高"
     },
     {
-      "id": 380,
+      "id": 410,
       "term": "diagnosis",
       "alpha": "D",
       "pos": "n.",
@@ -5827,7 +6281,7 @@
       "priority": "高"
     },
     {
-      "id": 381,
+      "id": 411,
       "term": "education",
       "alpha": "E",
       "pos": "n.",
@@ -5842,7 +6296,7 @@
       "priority": "高"
     },
     {
-      "id": 382,
+      "id": 412,
       "term": "inflation",
       "alpha": "I",
       "pos": "n.",
@@ -5857,7 +6311,7 @@
       "priority": "高"
     },
     {
-      "id": 383,
+      "id": 413,
       "term": "itinerary",
       "alpha": "I",
       "pos": "n.",
@@ -5872,7 +6326,7 @@
       "priority": "高"
     },
     {
-      "id": 384,
+      "id": 414,
       "term": "migration",
       "alpha": "M",
       "pos": "n.",
@@ -5887,7 +6341,7 @@
       "priority": "高"
     },
     {
-      "id": 385,
+      "id": 415,
       "term": "nutrition",
       "alpha": "N",
       "pos": "n.",
@@ -5902,7 +6356,7 @@
       "priority": "高"
     },
     {
-      "id": 386,
+      "id": 416,
       "term": "pollution",
       "alpha": "P",
       "pos": "n.",
@@ -5917,7 +6371,7 @@
       "priority": "高"
     },
     {
-      "id": 387,
+      "id": 417,
       "term": "promotion",
       "alpha": "P",
       "pos": "n.",
@@ -5932,7 +6386,7 @@
       "priority": "高"
     },
     {
-      "id": 388,
+      "id": 418,
       "term": "renewable",
       "alpha": "R",
       "pos": "adj.",
@@ -5947,7 +6401,7 @@
       "priority": "高"
     },
     {
-      "id": 389,
+      "id": 419,
       "term": "tradition",
       "alpha": "T",
       "pos": "n.",
@@ -5962,7 +6416,7 @@
       "priority": "高"
     },
     {
-      "id": 390,
+      "id": 420,
       "term": "treatment",
       "alpha": "T",
       "pos": "n.",
@@ -5977,7 +6431,7 @@
       "priority": "高"
     },
     {
-      "id": 391,
+      "id": 421,
       "term": "wellbeing",
       "alpha": "W",
       "pos": "n.",
@@ -5992,7 +6446,7 @@
       "priority": "高"
     },
     {
-      "id": 392,
+      "id": 422,
       "term": "workforce",
       "alpha": "W",
       "pos": "n.",
@@ -6007,7 +6461,7 @@
       "priority": "高"
     },
     {
-      "id": 393,
+      "id": 423,
       "term": "attraction",
       "alpha": "A",
       "pos": "n.",
@@ -6022,7 +6476,7 @@
       "priority": "高"
     },
     {
-      "id": 394,
+      "id": 424,
       "term": "automation",
       "alpha": "A",
       "pos": "n.",
@@ -6037,7 +6491,7 @@
       "priority": "高"
     },
     {
-      "id": 395,
+      "id": 425,
       "term": "censorship",
       "alpha": "C",
       "pos": "n.",
@@ -6052,7 +6506,7 @@
       "priority": "高"
     },
     {
-      "id": 396,
+      "id": 426,
       "term": "congestion",
       "alpha": "C",
       "pos": "n.",
@@ -6067,7 +6521,7 @@
       "priority": "高"
     },
     {
-      "id": 397,
+      "id": 427,
       "term": "curriculum",
       "alpha": "C",
       "pos": "n.",
@@ -6082,7 +6536,7 @@
       "priority": "高"
     },
     {
-      "id": 398,
+      "id": 428,
       "term": "discipline",
       "alpha": "D",
       "pos": "n.",
@@ -6097,7 +6551,7 @@
       "priority": "高"
     },
     {
-      "id": 399,
+      "id": 429,
       "term": "employment",
       "alpha": "E",
       "pos": "n.",
@@ -6112,7 +6566,7 @@
       "priority": "高"
     },
     {
-      "id": 400,
+      "id": 430,
       "term": "government",
       "alpha": "G",
       "pos": "n.",
@@ -6127,7 +6581,7 @@
       "priority": "高"
     },
     {
-      "id": 401,
+      "id": 431,
       "term": "healthcare",
       "alpha": "H",
       "pos": "n.",
@@ -6142,7 +6596,7 @@
       "priority": "高"
     },
     {
-      "id": 402,
+      "id": 432,
       "term": "journalism",
       "alpha": "J",
       "pos": "n.",
@@ -6157,7 +6611,7 @@
       "priority": "高"
     },
     {
-      "id": 403,
+      "id": 433,
       "term": "occupation",
       "alpha": "O",
       "pos": "n.",
@@ -6172,7 +6626,7 @@
       "priority": "高"
     },
     {
-      "id": 404,
+      "id": 434,
       "term": "pedestrian",
       "alpha": "P",
       "pos": "n.",
@@ -6187,7 +6641,7 @@
       "priority": "高"
     },
     {
-      "id": 405,
+      "id": 435,
       "term": "punishment",
       "alpha": "P",
       "pos": "n.",
@@ -6202,7 +6656,7 @@
       "priority": "高"
     },
     {
-      "id": 406,
+      "id": 436,
       "term": "redundancy",
       "alpha": "R",
       "pos": "n.",
@@ -6217,7 +6671,7 @@
       "priority": "高"
     },
     {
-      "id": 407,
+      "id": 437,
       "term": "technology",
       "alpha": "T",
       "pos": "n.",
@@ -6232,7 +6686,7 @@
       "priority": "高"
     },
     {
-      "id": 408,
+      "id": 438,
       "term": "advertising",
       "alpha": "A",
       "pos": "n.",
@@ -6247,7 +6701,7 @@
       "priority": "高"
     },
     {
-      "id": 409,
+      "id": 439,
       "term": "citizenship",
       "alpha": "C",
       "pos": "n.",
@@ -6262,7 +6716,7 @@
       "priority": "高"
     },
     {
-      "id": 410,
+      "id": 440,
       "term": "destination",
       "alpha": "D",
       "pos": "n.",
@@ -6277,7 +6731,7 @@
       "priority": "高"
     },
     {
-      "id": 411,
+      "id": 441,
       "term": "environment",
       "alpha": "E",
       "pos": "n.",
@@ -6292,7 +6746,7 @@
       "priority": "高"
     },
     {
-      "id": 412,
+      "id": 442,
       "term": "hospitality",
       "alpha": "H",
       "pos": "n.",
@@ -6307,7 +6761,7 @@
       "priority": "高"
     },
     {
-      "id": 413,
+      "id": 443,
       "term": "legislation",
       "alpha": "L",
       "pos": "n.",
@@ -6322,7 +6776,7 @@
       "priority": "高"
     },
     {
-      "id": 414,
+      "id": 444,
       "term": "scholarship",
       "alpha": "S",
       "pos": "n.",
@@ -6337,7 +6791,7 @@
       "priority": "高"
     },
     {
-      "id": 415,
+      "id": 445,
       "term": "biodiversity",
       "alpha": "B",
       "pos": "n.",
@@ -6352,7 +6806,7 @@
       "priority": "高"
     },
     {
-      "id": 416,
+      "id": 446,
       "term": "conservation",
       "alpha": "C",
       "pos": "n.",
@@ -6367,7 +6821,7 @@
       "priority": "高"
     },
     {
-      "id": 417,
+      "id": 447,
       "term": "remuneration",
       "alpha": "R",
       "pos": "n.",
@@ -6382,7 +6836,7 @@
       "priority": "高"
     },
     {
-      "id": 418,
+      "id": 448,
       "term": "surveillance",
       "alpha": "S",
       "pos": "n.",
@@ -6397,7 +6851,7 @@
       "priority": "高"
     },
     {
-      "id": 419,
+      "id": 449,
       "term": "urbanisation",
       "alpha": "U",
       "pos": "n.",
@@ -6412,7 +6866,7 @@
       "priority": "高"
     },
     {
-      "id": 420,
+      "id": 450,
       "term": "accommodation",
       "alpha": "A",
       "pos": "n.",
@@ -6427,7 +6881,7 @@
       "priority": "高"
     },
     {
-      "id": 421,
+      "id": 451,
       "term": "globalisation",
       "alpha": "G",
       "pos": "n.",
@@ -6442,7 +6896,7 @@
       "priority": "高"
     },
     {
-      "id": 422,
+      "id": 452,
       "term": "qualification",
       "alpha": "Q",
       "pos": "n.",
@@ -6457,7 +6911,7 @@
       "priority": "高"
     },
     {
-      "id": 423,
+      "id": 453,
       "term": "misinformation",
       "alpha": "M",
       "pos": "n.",
@@ -6472,7 +6926,7 @@
       "priority": "高"
     },
     {
-      "id": 424,
+      "id": 454,
       "term": "besides",
       "alpha": "B",
       "pos": "adv.",
@@ -6487,7 +6941,7 @@
       "priority": "高"
     },
     {
-      "id": 425,
+      "id": 455,
       "term": "lead to",
       "alpha": "L",
       "pos": "v.",
@@ -6502,7 +6956,7 @@
       "priority": "高"
     },
     {
-      "id": 426,
+      "id": 456,
       "term": "although",
       "alpha": "A",
       "pos": "conj.",
@@ -6517,7 +6971,7 @@
       "priority": "高"
     },
     {
-      "id": 427,
+      "id": 457,
       "term": "owing to",
       "alpha": "O",
       "pos": "prep.",
@@ -6532,7 +6986,7 @@
       "priority": "高"
     },
     {
-      "id": 428,
+      "id": 458,
       "term": "result in",
       "alpha": "R",
       "pos": "v.",
@@ -6547,7 +7001,7 @@
       "priority": "高"
     },
     {
-      "id": 429,
+      "id": 459,
       "term": "similarly",
       "alpha": "S",
       "pos": "adv.",
@@ -6562,7 +7016,7 @@
       "priority": "高"
     },
     {
-      "id": 430,
+      "id": 460,
       "term": "as long as",
       "alpha": "A",
       "pos": "conj.",
@@ -6577,7 +7031,7 @@
       "priority": "高"
     },
     {
-      "id": 431,
+      "id": 461,
       "term": "because of",
       "alpha": "B",
       "pos": "prep.",
@@ -6592,7 +7046,7 @@
       "priority": "高"
     },
     {
-      "id": 432,
+      "id": 462,
       "term": "accordingly",
       "alpha": "A",
       "pos": "adv.",
@@ -6607,7 +7061,7 @@
       "priority": "高"
     },
     {
-      "id": 433,
+      "id": 463,
       "term": "as a result",
       "alpha": "A",
       "pos": "adv.",
@@ -6622,7 +7076,7 @@
       "priority": "高"
     },
     {
-      "id": 434,
+      "id": 464,
       "term": "by contrast",
       "alpha": "B",
       "pos": "adv.",
@@ -6637,7 +7091,7 @@
       "priority": "高"
     },
     {
-      "id": 435,
+      "id": 465,
       "term": "even though",
       "alpha": "E",
       "pos": "conj.",
@@ -6652,7 +7106,7 @@
       "priority": "高"
     },
     {
-      "id": 436,
+      "id": 466,
       "term": "for example",
       "alpha": "F",
       "pos": "adv.",
@@ -6667,7 +7121,7 @@
       "priority": "高"
     },
     {
-      "id": 437,
+      "id": 467,
       "term": "in addition",
       "alpha": "I",
       "pos": "adv.",
@@ -6682,7 +7136,7 @@
       "priority": "高"
     },
     {
-      "id": 438,
+      "id": 468,
       "term": "in contrast",
       "alpha": "I",
       "pos": "adv.",
@@ -6697,7 +7151,7 @@
       "priority": "高"
     },
     {
-      "id": 439,
+      "id": 469,
       "term": "in terms of",
       "alpha": "I",
       "pos": "prep.",
@@ -6712,7 +7166,7 @@
       "priority": "高"
     },
     {
-      "id": 440,
+      "id": 470,
       "term": "nonetheless",
       "alpha": "N",
       "pos": "adv.",
@@ -6727,7 +7181,7 @@
       "priority": "高"
     },
     {
-      "id": 441,
+      "id": 471,
       "term": "for instance",
       "alpha": "F",
       "pos": "adv.",
@@ -6742,7 +7196,7 @@
       "priority": "高"
     },
     {
-      "id": 442,
+      "id": 472,
       "term": "give rise to",
       "alpha": "G",
       "pos": "v.",
@@ -6757,7 +7211,7 @@
       "priority": "高"
     },
     {
-      "id": 443,
+      "id": 473,
       "term": "specifically",
       "alpha": "S",
       "pos": "adv.",
@@ -6772,7 +7226,7 @@
       "priority": "高"
     },
     {
-      "id": 444,
+      "id": 474,
       "term": "in particular",
       "alpha": "I",
       "pos": "adv.",
@@ -6787,7 +7241,7 @@
       "priority": "高"
     },
     {
-      "id": 445,
+      "id": 475,
       "term": "provided that",
       "alpha": "P",
       "pos": "conj.",
@@ -6802,7 +7256,7 @@
       "priority": "高"
     },
     {
-      "id": 446,
+      "id": 476,
       "term": "with regard to",
       "alpha": "W",
       "pos": "prep.",
@@ -6817,7 +7271,7 @@
       "priority": "高"
     },
     {
-      "id": 447,
+      "id": 477,
       "term": "on the contrary",
       "alpha": "O",
       "pos": "adv.",
@@ -6832,7 +7286,7 @@
       "priority": "高"
     },
     {
-      "id": 448,
+      "id": 478,
       "term": "as a consequence",
       "alpha": "A",
       "pos": "adv.",
@@ -6847,7 +7301,7 @@
       "priority": "高"
     },
     {
-      "id": 449,
+      "id": 479,
       "term": "not only but also",
       "alpha": "N",
       "pos": "conj.",
@@ -6862,7 +7316,7 @@
       "priority": "高"
     },
     {
-      "id": 450,
+      "id": 480,
       "term": "on the other hand",
       "alpha": "O",
       "pos": "adv.",

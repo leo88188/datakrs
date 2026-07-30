@@ -465,6 +465,36 @@ EXAMPLE_OVERRIDES = {
     "mature": ("A mature market usually has stable rules and informed consumers.", "成熟的市场通常有稳定的规则和理性的消费者。"),
     "scarce": ("Water may become scarce in areas affected by drought.", "受干旱影响的地区，水可能会变得稀缺。"),
     "widespread": ("Widespread smartphone use has changed how people receive news.", "智能手机的广泛使用改变了人们获取新闻的方式。"),
+    "socioeconomic status": ("A child's socioeconomic status can influence access to education.", "孩子的社会经济地位可能影响其接受教育的机会。"),
+    "peer pressure": ("Peer pressure can affect teenagers' choices and behaviour.", "同伴压力会影响青少年的选择和行为。"),
+    "public transport": ("Reliable public transport can reduce traffic congestion.", "可靠的公共交通可以减少交通拥堵。"),
+    "carbon footprint": ("Households can reduce their carbon footprint by saving energy.", "家庭可以通过节约能源来减少碳足迹。"),
+    "renewable energy": ("Renewable energy can reduce dependence on fossil fuels.", "可再生能源可以减少对化石燃料的依赖。"),
+    "fossil fuels": ("Many economies still rely heavily on fossil fuels.", "许多经济体仍然严重依赖化石燃料。"),
+    "urban sprawl": ("Urban sprawl can increase commuting time and land use.", "城市无序扩张可能增加通勤时间和土地使用。"),
+    "digital literacy": ("Digital literacy is essential for modern employment.", "数字素养对现代就业非常重要。"),
+    "income inequality": ("Income inequality can weaken social trust.", "收入不平等可能削弱社会信任。"),
+    "social mobility": ("Education is often seen as a path to social mobility.", "教育通常被视为实现社会流动的途径。"),
+    "ageing population": ("An ageing population may place pressure on healthcare systems.", "人口老龄化可能给医疗系统带来压力。"),
+    "mental health": ("Mental health support should be available in schools and workplaces.", "学校和工作场所都应该提供心理健康支持。"),
+    "work-life balance": ("A better work-life balance can improve employee retention.", "更好的工作与生活平衡可以提高员工留任率。"),
+    "consumer behaviour": ("Online reviews have changed consumer behaviour.", "在线评价改变了消费者行为。"),
+    "data privacy": ("Data privacy has become a major concern in digital services.", "数据隐私已经成为数字服务中的重要问题。"),
+    "artificial intelligence": ("Artificial intelligence can automate routine tasks.", "人工智能可以自动化处理重复性任务。"),
+    "lifelong learning": ("Lifelong learning helps workers adapt to economic change.", "终身学习帮助劳动者适应经济变化。"),
+    "vocational training": ("Vocational training can improve young people's employment prospects.", "职业培训可以改善年轻人的就业前景。"),
+    "early childhood education": ("Early childhood education can shape later academic performance.", "幼儿教育会影响之后的学业表现。"),
+    "public health": ("Public health campaigns can encourage safer behaviour.", "公共健康宣传可以鼓励更安全的行为。"),
+    "civic engagement": ("Civic engagement can make local decisions more responsive.", "公民参与可以让本地决策更能回应实际需求。"),
+    "cultural heritage": ("Cultural heritage should be protected during urban development.", "城市发展过程中应保护文化遗产。"),
+    "gender equality": ("Gender equality can improve fairness in the labour market.", "性别平等可以改善劳动力市场中的公平性。"),
+    "labour market": ("The labour market is changing as automation spreads.", "随着自动化扩展，劳动力市场正在变化。"),
+    "supply chain": ("A weak supply chain can delay production and raise prices.", "薄弱的供应链可能延误生产并推高价格。"),
+    "economic growth": ("Economic growth does not always improve living standards equally.", "经济增长并不总是平等地改善生活水平。"),
+    "environmental degradation": ("Environmental degradation can threaten food and water security.", "环境退化可能威胁粮食和用水安全。"),
+    "biodiversity loss": ("Biodiversity loss can make ecosystems less stable.", "生物多样性丧失会让生态系统更加不稳定。"),
+    "traffic congestion": ("Traffic congestion wastes time and increases air pollution.", "交通拥堵浪费时间并增加空气污染。"),
+    "social cohesion": ("Social cohesion is easier to maintain when inequality is low.", "不平等程度较低时，社会凝聚力更容易维持。"),
 }
 
 MANUAL_PHONETICS = {
@@ -873,6 +903,38 @@ disparity|n.|差距，不平等|社会
 intervention|n.|干预，介入|方法
 evaluation|n.|评估，评价|证据
 awareness|n.|意识，认识|心理
+""",
+    "常见术语": """
+socioeconomic status|n.|社会经济地位|社会
+peer pressure|n.|同伴压力|教育
+public transport|n.|公共交通|城市交通
+carbon footprint|n.|碳足迹|环境
+renewable energy|n.|可再生能源|环境
+fossil fuels|n.|化石燃料|环境
+urban sprawl|n.|城市无序扩张|城市交通
+digital literacy|n.|数字素养|科技
+income inequality|n.|收入不平等|社会
+social mobility|n.|社会流动|社会
+ageing population|n.|人口老龄化|社会
+mental health|n.|心理健康|健康
+work-life balance|n.|工作与生活平衡|工作
+consumer behaviour|n.|消费者行为|商业
+data privacy|n.|数据隐私|科技
+artificial intelligence|n.|人工智能|科技
+lifelong learning|n.|终身学习|教育
+vocational training|n.|职业培训|教育
+early childhood education|n.|幼儿教育|教育
+public health|n.|公共健康|健康
+civic engagement|n.|公民参与|社会
+cultural heritage|n.|文化遗产|文化
+gender equality|n.|性别平等|社会
+labour market|n.|劳动力市场|工作
+supply chain|n.|供应链|商业
+economic growth|n.|经济增长|商业
+environmental degradation|n.|环境退化|环境
+biodiversity loss|n.|生物多样性丧失|环境
+traffic congestion|n.|交通拥堵|城市交通
+social cohesion|n.|社会凝聚力|社会
 """,
     "逻辑信号词": """
 although|conj.|尽管，虽然|转折
