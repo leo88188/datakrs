@@ -144,7 +144,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "The proposal is attractive; however, its long-term cost remains uncertain.",
-      "translation": "我们可以用 however 表示逻辑关系，核心意思是：然而，不过。",
+      "translation": "这个方案很有吸引力；不过，它的长期成本仍然不确定。",
       "tactic": "看见它，前后观点通常发生转向。",
       "source": "手工必备",
       "priority": "最高"
@@ -159,7 +159,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "The evidence is limited; nevertheless, the trend is worth noting.",
-      "translation": "我们可以用 nevertheless 表示逻辑关系，核心意思是：尽管如此，然而。",
+      "translation": "证据还有限；尽管如此，这个趋势仍然值得注意。",
       "tactic": "比 however 更正式，适合写作让步。",
       "source": "手工必备",
       "priority": "最高"
@@ -174,7 +174,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "Urban residents may benefit; conversely, rural communities may be overlooked.",
-      "translation": "我们可以用 conversely 表示逻辑关系，核心意思是：相反地。",
+      "translation": "城市居民可能会受益；相反，农村社区可能会被忽视。",
       "tactic": "提示对照关系，不是简单继续。",
       "source": "手工必备",
       "priority": "最高"
@@ -189,7 +189,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "Despite rapid growth, the industry still faces labour shortages.",
-      "translation": "我们可以用 despite 表示逻辑关系，核心意思是：尽管，即使。",
+      "translation": "尽管增长很快，这个行业仍然面临劳动力短缺。",
       "tactic": "后面接名词或动名词，不直接接完整句。",
       "source": "手工必备",
       "priority": "最高"
@@ -204,7 +204,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "Some people value stability, whereas others prefer flexibility.",
-      "translation": "我们可以用 whereas 表示逻辑关系，核心意思是：然而，而。",
+      "translation": "有些人重视稳定，而另一些人更喜欢灵活性。",
       "tactic": "连接两个对比事实。",
       "source": "手工必备",
       "priority": "最高"
@@ -219,7 +219,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "Contrary to popular belief, remote work does not always reduce productivity.",
-      "translation": "我们可以用 contrary 表示逻辑关系，核心意思是：相反的。",
+      "translation": "和很多人的看法相反，远程办公并不总是能提高生产率。",
       "tactic": "常用 contrary to... 表示反预期。",
       "source": "手工必备",
       "priority": "最高"
@@ -234,7 +234,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "The policy was poorly explained; consequently, public trust declined.",
-      "translation": "我们可以用 consequently 表示逻辑关系，核心意思是：因此，所以。",
+      "translation": "这项政策解释得不好；因此，公众信任下降了。",
       "tactic": "强调结果，适合段落推理。",
       "source": "手工必备",
       "priority": "最高"
@@ -249,7 +249,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "The evidence is incomplete; hence, further research is required.",
-      "translation": "我们可以用 hence 表示逻辑关系，核心意思是：因此，由此。",
+      "translation": "证据并不完整；因此，还需要进一步研究。",
       "tactic": "正式简洁，写作可替代 therefore。",
       "source": "手工必备",
       "priority": "最高"
@@ -264,7 +264,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "The system reduces manual work and thus improves efficiency.",
-      "translation": "我们可以用 thus 表示逻辑关系，核心意思是：因此，从而。",
+      "translation": "这个系统减少了人工操作，从而提高了效率。",
       "tactic": "常放句中表达结果。",
       "source": "手工必备",
       "priority": "最高"
@@ -279,7 +279,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "The data are inconsistent; therefore, the conclusion should be cautious.",
-      "translation": "我们可以用 therefore 表示逻辑关系，核心意思是：因此，所以。",
+      "translation": "这些数据前后不一致；所以，这个结论应该更谨慎。",
       "tactic": "最常见因果信号词。",
       "source": "手工必备",
       "priority": "最高"
@@ -294,7 +294,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "Poor planning can contribute to traffic congestion.",
-      "translation": "我们可以用 contribute to 表示逻辑关系，核心意思是：促成，导致，有助于。",
+      "translation": "规划不佳可能会导致交通拥堵。",
       "tactic": "既可表示积极贡献，也可表示负面原因。",
       "source": "手工必备",
       "priority": "最高"
@@ -309,7 +309,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "The increase is often attributed to better healthcare.",
-      "translation": "我们可以用 attribute to 表示逻辑关系，核心意思是：把……归因于。",
+      "translation": "这种增长通常被归因于更好的医疗服务。",
       "tactic": "阅读里常和原因定位有关。",
       "source": "手工必备",
       "priority": "最高"
@@ -324,7 +324,7 @@
       "category": "逻辑信号词",
       "subcategory": "递进",
       "sentence": "The plan is affordable; furthermore, it is easy to implement.",
-      "translation": "我们可以用 furthermore 表示逻辑关系，核心意思是：此外，而且。",
+      "translation": "这个计划负担得起；而且，它也容易执行。",
       "tactic": "正式递进，适合补充第二个理由。",
       "source": "手工必备",
       "priority": "最高"
@@ -339,7 +339,7 @@
       "category": "逻辑信号词",
       "subcategory": "递进",
       "sentence": "The approach saves time; moreover, it reduces errors.",
-      "translation": "我们可以用 moreover 表示逻辑关系，核心意思是：此外，而且。",
+      "translation": "这种方法节省时间；此外，它还能减少错误。",
       "tactic": "比 also 更学术。",
       "source": "手工必备",
       "priority": "最高"
@@ -354,7 +354,7 @@
       "category": "逻辑信号词",
       "subcategory": "递进",
       "sentence": "Additionally, the programme supports disadvantaged students.",
-      "translation": "我们可以用 additionally 表示逻辑关系，核心意思是：另外，此外。",
+      "translation": "另外，这个项目也支持弱势学生。",
       "tactic": "适合列举补充。",
       "source": "手工必备",
       "priority": "最高"
@@ -369,7 +369,7 @@
       "category": "逻辑信号词",
       "subcategory": "递进",
       "sentence": "Parents need guidance; likewise, teachers need practical support.",
-      "translation": "我们可以用 likewise 表示逻辑关系，核心意思是：同样地。",
+      "translation": "家长需要指导；同样，老师也需要实际支持。",
       "tactic": "提示相似关系。",
       "source": "手工必备",
       "priority": "最高"
@@ -384,7 +384,7 @@
       "category": "逻辑信号词",
       "subcategory": "限制条件",
       "sentence": "Technology can improve learning, provided that teachers use it carefully.",
-      "translation": "我们可以用 provided 表示逻辑关系，核心意思是：如果，只要。",
+      "translation": "只要老师使用得当，技术就能改善学习。",
       "tactic": "常用 provided that... 表条件。",
       "source": "手工必备",
       "priority": "最高"
@@ -399,7 +399,7 @@
       "category": "逻辑信号词",
       "subcategory": "限制条件",
       "sentence": "The reform will fail unless local needs are considered.",
-      "translation": "我们可以用 unless 表示逻辑关系，核心意思是：除非，如果不。",
+      "translation": "除非考虑本地需求，否则这项改革会失败。",
       "tactic": "条件反向，阅读时容易误解。",
       "source": "手工必备",
       "priority": "最高"
@@ -414,7 +414,7 @@
       "category": "逻辑信号词",
       "subcategory": "限制条件",
       "sentence": "Given the limited budget, the project should focus on essentials.",
-      "translation": "我们可以用 given 表示逻辑关系，核心意思是：考虑到，鉴于。",
+      "translation": "考虑到预算有限，这个项目应该聚焦最基本的部分。",
       "tactic": "常用于引出背景限制。",
       "source": "手工必备",
       "priority": "最高"
@@ -429,7 +429,7 @@
       "category": "逻辑信号词",
       "subcategory": "限制条件",
       "sentence": "The policy is useful insofar as it protects vulnerable groups.",
-      "translation": "我们可以用 insofar as 表示逻辑关系，核心意思是：在……范围内，就……而言。",
+      "translation": "只要这项政策能保护弱势群体，它就是有用的。",
       "tactic": "高级限定表达，注意不是普通因果。",
       "source": "手工必备",
       "priority": "最高"
@@ -444,7 +444,7 @@
       "category": "核心动词",
       "subcategory": "促进/阻碍",
       "sentence": "Digital tools can facilitate communication across departments.",
-      "translation": "facilitate 是常见动词，意思是：促进，使便利。",
+      "translation": "数字工具可以让不同部门之间的沟通更方便。",
       "tactic": "写作替代 help。",
       "source": "手工必备",
       "priority": "最高"
@@ -459,7 +459,7 @@
       "category": "核心动词",
       "subcategory": "促进/阻碍",
       "sentence": "Excessive regulation may hinder innovation.",
-      "translation": "hinder 是常见动词，意思是：阻碍，妨碍。",
+      "translation": "过度监管可能会阻碍创新。",
       "tactic": "阅读常替换 prevent / block。",
       "source": "手工必备",
       "priority": "最高"
@@ -474,7 +474,7 @@
       "category": "核心动词",
       "subcategory": "促进/阻碍",
       "sentence": "Strict rules can restrict individual choice.",
-      "translation": "restrict 是常见动词，意思是：限制，约束。",
+      "translation": "严格的规则可能会限制个人选择。",
       "tactic": "常和 access / freedom 搭配。",
       "source": "手工必备",
       "priority": "最高"
@@ -489,7 +489,7 @@
       "category": "核心动词",
       "subcategory": "促进/阻碍",
       "sentence": "Governments should promote healthier lifestyles.",
-      "translation": "promote 是常见动词，意思是：促进，推广。",
+      "translation": "政府应该推动更健康的生活方式。",
       "tactic": "写作高频正向动词。",
       "source": "手工必备",
       "priority": "最高"
@@ -504,7 +504,7 @@
       "category": "核心动词",
       "subcategory": "变化",
       "sentence": "Automation may diminish the need for routine labour.",
-      "translation": "diminish 是常见动词，意思是：减少，削弱。",
+      "translation": "自动化可能会减少对重复性劳动力的需求。",
       "tactic": "替代 reduce，但更正式。",
       "source": "手工必备",
       "priority": "最高"
@@ -519,7 +519,7 @@
       "category": "核心动词",
       "subcategory": "变化",
       "sentence": "Good design can enhance user experience.",
-      "translation": "enhance 是常见动词，意思是：提高，增强。",
+      "translation": "好的设计可以提升用户体验。",
       "tactic": "替代 improve。",
       "source": "手工必备",
       "priority": "最高"
@@ -534,7 +534,7 @@
       "category": "核心动词",
       "subcategory": "状态",
       "sentence": "Income inequality may persist despite economic growth.",
-      "translation": "persist 是常见动词，意思是：持续存在，坚持。",
+      "translation": "即使经济增长，收入不平等也可能继续存在。",
       "tactic": "表示问题没有消失。",
       "source": "手工必备",
       "priority": "最高"
@@ -549,7 +549,7 @@
       "category": "核心动词",
       "subcategory": "变化",
       "sentence": "New forms of employment have emerged in the digital economy.",
-      "translation": "emerge 是常见动词，意思是：出现，显现。",
+      "translation": "数字经济中出现了新的就业形式。",
       "tactic": "写趋势变化很常用。",
       "source": "手工必备",
       "priority": "最高"
@@ -564,7 +564,7 @@
       "category": "核心动词",
       "subcategory": "观点",
       "sentence": "Some researchers maintain that early intervention is essential.",
-      "translation": "maintain 是常见动词，意思是：维持。",
+      "translation": "一些研究者认为，早期干预非常重要。",
       "tactic": "注意有“主张认为”的意思。",
       "source": "手工必备",
       "priority": "最高"
@@ -579,7 +579,7 @@
       "category": "核心动词",
       "subcategory": "观点",
       "sentence": "Many companies neglect long-term employee development.",
-      "translation": "neglect 是常见动词，意思是：忽视，疏忽。",
+      "translation": "很多公司忽视了员工的长期发展。",
       "tactic": "阅读里常替换 overlook。",
       "source": "手工必备",
       "priority": "最高"
@@ -594,7 +594,7 @@
       "category": "核心动词",
       "subcategory": "变化",
       "sentence": "The method should be modified for younger learners.",
-      "translation": "modify 是常见动词，意思是：修改，调整。",
+      "translation": "这个方法应该根据年龄较小的学习者进行调整。",
       "tactic": "比 change 更精确。",
       "source": "手工必备",
       "priority": "最高"
@@ -609,7 +609,7 @@
       "category": "核心动词",
       "subcategory": "变化",
       "sentence": "Urbanisation can alter traditional lifestyles.",
-      "translation": "alter 是常见动词，意思是：改变，变更。",
+      "translation": "城市化会改变传统生活方式。",
       "tactic": "常用于趋势影响。",
       "source": "手工必备",
       "priority": "最高"
@@ -624,7 +624,7 @@
       "category": "核心动词",
       "subcategory": "证据",
       "sentence": "The survey reveals a gap between intention and behaviour.",
-      "translation": "reveal 是常见动词，意思是：揭示，显示。",
+      "translation": "这项调查显示，想法和实际行为之间存在差距。",
       "tactic": "阅读题干常见同义替换。",
       "source": "手工必备",
       "priority": "最高"
@@ -639,7 +639,7 @@
       "category": "核心动词",
       "subcategory": "证据",
       "sentence": "The figures indicate a steady decline.",
-      "translation": "indicate 是常见动词，意思是：表明，暗示。",
+      "translation": "这些数字表明，情况在稳定下降。",
       "tactic": "比 show 更学术。",
       "source": "手工必备",
       "priority": "最高"
@@ -654,7 +654,7 @@
       "category": "核心动词",
       "subcategory": "证据",
       "sentence": "The experiment demonstrates the value of careful planning.",
-      "translation": "demonstrate 是常见动词，意思是：证明，展示。",
+      "translation": "这个实验证明了细致规划的价值。",
       "tactic": "写作论证高频。",
       "source": "手工必备",
       "priority": "最高"
@@ -669,7 +669,7 @@
       "category": "核心动词",
       "subcategory": "观点",
       "sentence": "Many policies assume that people act rationally.",
-      "translation": "assume 是常见动词，意思是：假设。",
+      "translation": "很多政策都假设人会理性行动。",
       "tactic": "一词多义，要结合语境。",
       "source": "手工必备",
       "priority": "最高"
@@ -684,7 +684,7 @@
       "category": "核心动词",
       "subcategory": "证据",
       "sentence": "The results confirm earlier findings.",
-      "translation": "confirm 是常见动词，意思是：确认，证实。",
+      "translation": "这些结果证实了早先的发现。",
       "tactic": "和 evidence / finding 搭配。",
       "source": "手工必备",
       "priority": "最高"
@@ -699,7 +699,7 @@
       "category": "核心动词",
       "subcategory": "观点",
       "sentence": "People often underestimate the cost of poor communication.",
-      "translation": "underestimate 是常见动词，意思是：低估。",
+      "translation": "人们经常低估沟通不畅带来的成本。",
       "tactic": "适合写问题严重性。",
       "source": "手工必备",
       "priority": "最高"
@@ -714,7 +714,7 @@
       "category": "评价形容词",
       "subcategory": "程度",
       "sentence": "The policy had a significant impact on rural areas.",
-      "translation": "significant 可以用来评价事物，意思是：显著的，重要的。",
+      "translation": "这项政策对农村地区产生了显著影响。",
       "tactic": "替代 important。",
       "source": "手工必备",
       "priority": "最高"
@@ -729,7 +729,7 @@
       "category": "评价形容词",
       "subcategory": "程度",
       "sentence": "The project requires substantial investment.",
-      "translation": "substantial 可以用来评价事物，意思是：大量的，实质性的。",
+      "translation": "这个项目需要大量投资。",
       "tactic": "强调数量或程度较大。",
       "source": "手工必备",
       "priority": "最高"
@@ -744,7 +744,7 @@
       "category": "评价形容词",
       "subcategory": "程度",
       "sentence": "The improvement was only marginal.",
-      "translation": "marginal 可以用来评价事物，意思是：微小的，边缘的。",
+      "translation": "这种改善非常小。",
       "tactic": "表达影响有限。",
       "source": "手工必备",
       "priority": "最高"
@@ -759,7 +759,7 @@
       "category": "评价形容词",
       "subcategory": "判断",
       "sentence": "Some degree of change is inevitable.",
-      "translation": "inevitable 可以用来评价事物，意思是：不可避免的。",
+      "translation": "某种程度的变化是不可避免的。",
       "tactic": "适合趋势判断。",
       "source": "手工必备",
       "priority": "最高"
@@ -774,7 +774,7 @@
       "category": "评价形容词",
       "subcategory": "判断",
       "sentence": "The solution is feasible but expensive.",
-      "translation": "feasible 可以用来评价事物，意思是：可行的。",
+      "translation": "这个解决方案可行，但成本很高。",
       "tactic": "写方案评价常用。",
       "source": "手工必备",
       "priority": "最高"
@@ -789,7 +789,7 @@
       "category": "评价形容词",
       "subcategory": "判断",
       "sentence": "The use of surveillance technology remains controversial.",
-      "translation": "controversial 可以用来评价事物，意思是：有争议的。",
+      "translation": "监控技术的使用仍然有争议。",
       "tactic": "主题引入高频。",
       "source": "手工必备",
       "priority": "最高"
@@ -804,7 +804,7 @@
       "category": "评价形容词",
       "subcategory": "程度",
       "sentence": "Many schools lack adequate funding.",
-      "translation": "adequate 可以用来评价事物，意思是：足够的，适当的。",
+      "translation": "很多学校缺乏足够的资金。",
       "tactic": "常和 insufficient 对照。",
       "source": "手工必备",
       "priority": "最高"
@@ -819,7 +819,7 @@
       "category": "评价形容词",
       "subcategory": "程度",
       "sentence": "Insufficient evidence makes the claim weak.",
-      "translation": "insufficient 可以用来评价事物，意思是：不足的，不充分的。",
+      "translation": "证据不足会让这个说法缺乏说服力。",
       "tactic": "写问题原因很常用。",
       "source": "手工必备",
       "priority": "最高"
@@ -834,7 +834,7 @@
       "category": "评价形容词",
       "subcategory": "范围",
       "sentence": "Online shopping is increasingly prevalent.",
-      "translation": "prevalent 可以用来评价事物，意思是：普遍的，流行的。",
+      "translation": "网上购物越来越普遍。",
       "tactic": "替代 common。",
       "source": "手工必备",
       "priority": "最高"
@@ -849,7 +849,7 @@
       "category": "评价形容词",
       "subcategory": "范围",
       "sentence": "Cars remain the predominant mode of transport.",
-      "translation": "predominant 可以用来评价事物，意思是：主要的，占主导的。",
+      "translation": "汽车仍然是主要的交通方式。",
       "tactic": "强调主导地位。",
       "source": "手工必备",
       "priority": "最高"
@@ -864,7 +864,7 @@
       "category": "抽象名词",
       "subcategory": "学术概念",
       "sentence": "This phenomenon is common in large cities.",
-      "translation": "phenomenon 是常见抽象名词，意思是：现象。",
+      "translation": "这种现象在大城市很常见。",
       "tactic": "写作主题句常用。",
       "source": "手工必备",
       "priority": "最高"
@@ -879,7 +879,7 @@
       "category": "抽象名词",
       "subcategory": "学术概念",
       "sentence": "There is a tendency to rely too heavily on technology.",
-      "translation": "tendency 是常见抽象名词，意思是：趋势，倾向。",
+      "translation": "人们有一种过度依赖技术的倾向。",
       "tactic": "表达行为趋势。",
       "source": "手工必备",
       "priority": "最高"
@@ -894,7 +894,7 @@
       "category": "抽象名词",
       "subcategory": "原因",
       "sentence": "Cost is a major factor in household decisions.",
-      "translation": "factor 是常见抽象名词，意思是：因素。",
+      "translation": "成本是家庭决策中的一个重要因素。",
       "tactic": "原因分析基础词。",
       "source": "手工必备",
       "priority": "最高"
@@ -909,7 +909,7 @@
       "category": "抽象名词",
       "subcategory": "问题",
       "sentence": "Lack of training is a serious obstacle.",
-      "translation": "obstacle 是常见抽象名词，意思是：障碍，阻碍。",
+      "translation": "缺乏培训是一个严重障碍。",
       "tactic": "替代 problem。",
       "source": "手工必备",
       "priority": "最高"
@@ -924,7 +924,7 @@
       "category": "抽象名词",
       "subcategory": "问题",
       "sentence": "Budget constraints can delay reform.",
-      "translation": "constraint 是常见抽象名词，意思是：限制，约束。",
+      "translation": "预算限制可能会推迟改革。",
       "tactic": "常用于资源限制。",
       "source": "手工必备",
       "priority": "最高"
@@ -939,7 +939,7 @@
       "category": "抽象名词",
       "subcategory": "结果",
       "sentence": "One consequence is a loss of public confidence.",
-      "translation": "consequence 是常见抽象名词，意思是：后果，结果。",
+      "translation": "其中一个后果是公众信心下降。",
       "tactic": "因果段落核心词。",
       "source": "手工必备",
       "priority": "最高"
@@ -954,7 +954,7 @@
       "category": "抽象名词",
       "subcategory": "观点",
       "sentence": "From an economic perspective, the plan is risky.",
-      "translation": "perspective 是常见抽象名词，意思是：观点，视角。",
+      "translation": "从经济角度看，这个计划有风险。",
       "tactic": "Part 3 和写作都常用。",
       "source": "手工必备",
       "priority": "最高"
@@ -969,7 +969,7 @@
       "category": "抽象名词",
       "subcategory": "心理",
       "sentence": "Financial rewards may increase motivation.",
-      "translation": "motivation 是常见抽象名词，意思是：动机，积极性。",
+      "translation": "金钱奖励可能会提高积极性。",
       "tactic": "教育/工作高频。",
       "source": "手工必备",
       "priority": "最高"
@@ -984,7 +984,7 @@
       "category": "抽象名词",
       "subcategory": "问题",
       "sentence": "The report identifies several deficiencies.",
-      "translation": "deficiency 是常见抽象名词，意思是：缺陷，不足。",
+      "translation": "这份报告指出了几个不足之处。",
       "tactic": "比 weakness 更正式。",
       "source": "手工必备",
       "priority": "最高"
@@ -999,7 +999,7 @@
       "category": "同义替换词组",
       "subcategory": "important",
       "sentence": "Public trust is vital to effective governance.",
-      "translation": "vital 属于同义替换表达，意思是：至关重要的。",
+      "translation": "公众信任对有效治理至关重要。",
       "tactic": "important = vital = crucial = significant",
       "source": "手工必备",
       "priority": "最高"
@@ -1014,7 +1014,7 @@
       "category": "同义替换词组",
       "subcategory": "important",
       "sentence": "Early diagnosis is crucial.",
-      "translation": "crucial 属于同义替换表达，意思是：关键的，至关重要的。",
+      "translation": "早期诊断非常关键。",
       "tactic": "important = vital = crucial = significant",
       "source": "手工必备",
       "priority": "最高"
@@ -1029,7 +1029,7 @@
       "category": "同义替换词组",
       "subcategory": "change",
       "sentence": "New rules may alter consumer behaviour.",
-      "translation": "alter 属于同义替换表达，意思是：改变，调整。",
+      "translation": "城市化会改变传统生活方式。",
       "tactic": "change = alter = modify = transform",
       "source": "手工必备",
       "priority": "最高"
@@ -1044,7 +1044,7 @@
       "category": "同义替换词组",
       "subcategory": "change",
       "sentence": "Digital platforms have transformed retail.",
-      "translation": "transform 属于同义替换表达，意思是：彻底改变，转型。",
+      "translation": "数字平台已经改变了零售业。",
       "tactic": "change = alter = modify = transform",
       "source": "手工必备",
       "priority": "最高"
@@ -1059,7 +1059,7 @@
       "category": "同义替换词组",
       "subcategory": "reduce",
       "sentence": "Households can cut down on unnecessary waste.",
-      "translation": "cut down 属于同义替换表达，意思是：减少，削减。",
+      "translation": "家庭可以减少不必要的浪费。",
       "tactic": "reduce = diminish = cut down",
       "source": "手工必备",
       "priority": "最高"
@@ -1074,7 +1074,7 @@
       "category": "同义替换词组",
       "subcategory": "support",
       "sentence": "Some experts advocate stricter standards.",
-      "translation": "advocate 属于同义替换表达，意思是：提倡，拥护。",
+      "translation": "一些专家主张采用更严格的标准。",
       "tactic": "support = back = advocate",
       "source": "手工必备",
       "priority": "最高"
@@ -1089,7 +1089,7 @@
       "category": "同义替换词组",
       "subcategory": "support",
       "sentence": "The proposal is backed by recent research.",
-      "translation": "back 属于同义替换表达，意思是：支持。",
+      "translation": "最近的研究支持这项提议。",
       "tactic": "support = back = advocate",
       "source": "手工必备",
       "priority": "最高"
@@ -5739,7 +5739,7 @@
       "category": "话题场景词",
       "subcategory": "政府法律",
       "sentence": "The word 'crime' is useful in IELTS reading and writing.",
-      "translation": "crime 的核心意思是：犯罪。",
+      "translation": "这句话里 crime 的意思是：犯罪。",
       "tactic": "按政府法律场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5754,7 +5754,7 @@
       "category": "话题场景词",
       "subcategory": "商业金融",
       "sentence": "The word 'budget' is useful in IELTS reading and writing.",
-      "translation": "budget 的核心意思是：预算。",
+      "translation": "这句话里 budget 的意思是：预算。",
       "tactic": "按商业金融场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5769,7 +5769,7 @@
       "category": "话题场景词",
       "subcategory": "商业金融",
       "sentence": "The word 'profit' is useful in IELTS reading and writing.",
-      "translation": "profit 的核心意思是：利润。",
+      "translation": "这句话里 profit 的意思是：利润。",
       "tactic": "按商业金融场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5784,7 +5784,7 @@
       "category": "话题场景词",
       "subcategory": "城市交通",
       "sentence": "The word 'suburb' is useful in IELTS reading and writing.",
-      "translation": "suburb 的核心意思是：郊区。",
+      "translation": "这句话里 suburb 的意思是：郊区。",
       "tactic": "按城市交通场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5799,7 +5799,7 @@
       "category": "话题场景词",
       "subcategory": "文化社会",
       "sentence": "The word 'culture' is useful in IELTS reading and writing.",
-      "translation": "culture 的核心意思是：文化。",
+      "translation": "这句话里 culture 的意思是：文化。",
       "tactic": "按文化社会场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5814,7 +5814,7 @@
       "category": "话题场景词",
       "subcategory": "健康场景",
       "sentence": "The word 'obesity' is useful in IELTS reading and writing.",
-      "translation": "obesity 的核心意思是：肥胖。",
+      "translation": "这句话里 obesity 的意思是：肥胖。",
       "tactic": "按健康场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5829,7 +5829,7 @@
       "category": "话题场景词",
       "subcategory": "科技场景",
       "sentence": "The word 'privacy' is useful in IELTS reading and writing.",
-      "translation": "privacy 的核心意思是：隐私。",
+      "translation": "这句话里 privacy 的意思是：隐私。",
       "tactic": "按科技场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5844,7 +5844,7 @@
       "category": "话题场景词",
       "subcategory": "商业金融",
       "sentence": "The word 'revenue' is useful in IELTS reading and writing.",
-      "translation": "revenue 的核心意思是：收入，收益。",
+      "translation": "这句话里 revenue 的意思是：收入，收益。",
       "tactic": "按商业金融场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5859,7 +5859,7 @@
       "category": "话题场景词",
       "subcategory": "商业金融",
       "sentence": "The word 'subsidy' is useful in IELTS reading and writing.",
-      "translation": "subsidy 的核心意思是：补贴。",
+      "translation": "这句话里 subsidy 的意思是：补贴。",
       "tactic": "按商业金融场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5874,7 +5874,7 @@
       "category": "话题场景词",
       "subcategory": "健康场景",
       "sentence": "The word 'symptom' is useful in IELTS reading and writing.",
-      "translation": "symptom 的核心意思是：症状。",
+      "translation": "这句话里 symptom 的意思是：症状。",
       "tactic": "按健康场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5889,7 +5889,7 @@
       "category": "话题场景词",
       "subcategory": "旅游场景",
       "sentence": "The word 'tourism' is useful in IELTS reading and writing.",
-      "translation": "tourism 的核心意思是：旅游业。",
+      "translation": "这句话里 tourism 的意思是：旅游业。",
       "tactic": "按旅游场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5904,7 +5904,7 @@
       "category": "话题场景词",
       "subcategory": "教育场景",
       "sentence": "The word 'tuition' is useful in IELTS reading and writing.",
-      "translation": "tuition 的核心意思是：学费。",
+      "translation": "这句话里 tuition 的意思是：学费。",
       "tactic": "按教育场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5919,7 +5919,7 @@
       "category": "话题场景词",
       "subcategory": "城市交通",
       "sentence": "The word 'vehicle' is useful in IELTS reading and writing.",
-      "translation": "vehicle 的核心意思是：车辆。",
+      "translation": "这句话里 vehicle 的意思是：车辆。",
       "tactic": "按城市交通场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5934,7 +5934,7 @@
       "category": "话题场景词",
       "subcategory": "媒体场景",
       "sentence": "The word 'audience' is useful in IELTS reading and writing.",
-      "translation": "audience 的核心意思是：观众，听众。",
+      "translation": "这句话里 audience 的意思是：观众，听众。",
       "tactic": "按媒体场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5949,7 +5949,7 @@
       "category": "话题场景词",
       "subcategory": "城市交通",
       "sentence": "The word 'commuter' is useful in IELTS reading and writing.",
-      "translation": "commuter 的核心意思是：通勤者。",
+      "translation": "这句话里 commuter 的意思是：通勤者。",
       "tactic": "按城市交通场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5964,7 +5964,7 @@
       "category": "话题场景词",
       "subcategory": "商业金融",
       "sentence": "The word 'consumer' is useful in IELTS reading and writing.",
-      "translation": "consumer 的核心意思是：消费者。",
+      "translation": "这句话里 consumer 的意思是：消费者。",
       "tactic": "按商业金融场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5979,7 +5979,7 @@
       "category": "话题场景词",
       "subcategory": "科技场景",
       "sentence": "The word 'database' is useful in IELTS reading and writing.",
-      "translation": "database 的核心意思是：数据库。",
+      "translation": "这句话里 database 的意思是：数据库。",
       "tactic": "按科技场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -5994,7 +5994,7 @@
       "category": "话题场景词",
       "subcategory": "环境场景",
       "sentence": "The word 'emission' is useful in IELTS reading and writing.",
-      "translation": "emission 的核心意思是：排放。",
+      "translation": "这句话里 emission 的意思是：排放。",
       "tactic": "按环境场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6009,7 +6009,7 @@
       "category": "话题场景词",
       "subcategory": "文化社会",
       "sentence": "The word 'heritage' is useful in IELTS reading and writing.",
-      "translation": "heritage 的核心意思是：遗产。",
+      "translation": "这句话里 heritage 的意思是：遗产。",
       "tactic": "按文化社会场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6024,7 +6024,7 @@
       "category": "话题场景词",
       "subcategory": "文化社会",
       "sentence": "The word 'identity' is useful in IELTS reading and writing.",
-      "translation": "identity 的核心意思是：身份认同。",
+      "translation": "这句话里 identity 的意思是：身份认同。",
       "tactic": "按文化社会场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6039,7 +6039,7 @@
       "category": "话题场景词",
       "subcategory": "商业金融",
       "sentence": "The word 'interest' is useful in IELTS reading and writing.",
-      "translation": "interest 的核心意思是：利息。",
+      "translation": "这句话里 interest 的意思是：利息。",
       "tactic": "按商业金融场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6054,7 +6054,7 @@
       "category": "话题场景词",
       "subcategory": "教育场景",
       "sentence": "The word 'literacy' is useful in IELTS reading and writing.",
-      "translation": "literacy 的核心意思是：读写能力。",
+      "translation": "这句话里 literacy 的意思是：读写能力。",
       "tactic": "按教育场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6069,7 +6069,7 @@
       "category": "话题场景词",
       "subcategory": "文化社会",
       "sentence": "The word 'minority' is useful in IELTS reading and writing.",
-      "translation": "minority 的核心意思是：少数群体。",
+      "translation": "这句话里 minority 的意思是：少数群体。",
       "tactic": "按文化社会场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6084,7 +6084,7 @@
       "category": "话题场景词",
       "subcategory": "媒体场景",
       "sentence": "The word 'platform' is useful in IELTS reading and writing.",
-      "translation": "platform 的核心意思是：平台。",
+      "translation": "这句话里 platform 的意思是：平台。",
       "tactic": "按媒体场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6099,7 +6099,7 @@
       "category": "话题场景词",
       "subcategory": "政府法律",
       "sentence": "The word 'taxation' is useful in IELTS reading and writing.",
-      "translation": "taxation 的核心意思是：税收。",
+      "translation": "这句话里 taxation 的意思是：税收。",
       "tactic": "按政府法律场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6114,7 +6114,7 @@
       "category": "话题场景词",
       "subcategory": "科技场景",
       "sentence": "The word 'algorithm' is useful in IELTS reading and writing.",
-      "translation": "algorithm 的核心意思是：算法。",
+      "translation": "这句话里 algorithm 的意思是：算法。",
       "tactic": "按科技场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6129,7 +6129,7 @@
       "category": "话题场景词",
       "subcategory": "媒体场景",
       "sentence": "The word 'broadcast' is useful in IELTS reading and writing.",
-      "translation": "broadcast 的核心意思是：广播。",
+      "translation": "这句话里 broadcast 的意思是：广播。",
       "tactic": "按媒体场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6144,7 +6144,7 @@
       "category": "话题场景词",
       "subcategory": "健康场景",
       "sentence": "The word 'diagnosis' is useful in IELTS reading and writing.",
-      "translation": "diagnosis 的核心意思是：诊断。",
+      "translation": "这句话里 diagnosis 的意思是：诊断。",
       "tactic": "按健康场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6159,7 +6159,7 @@
       "category": "话题场景词",
       "subcategory": "商业金融",
       "sentence": "The word 'inflation' is useful in IELTS reading and writing.",
-      "translation": "inflation 的核心意思是：通货膨胀。",
+      "translation": "这句话里 inflation 的意思是：通货膨胀。",
       "tactic": "按商业金融场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6174,7 +6174,7 @@
       "category": "话题场景词",
       "subcategory": "旅游场景",
       "sentence": "The word 'itinerary' is useful in IELTS reading and writing.",
-      "translation": "itinerary 的核心意思是：行程。",
+      "translation": "这句话里 itinerary 的意思是：行程。",
       "tactic": "按旅游场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6189,7 +6189,7 @@
       "category": "话题场景词",
       "subcategory": "文化社会",
       "sentence": "The word 'migration' is useful in IELTS reading and writing.",
-      "translation": "migration 的核心意思是：迁移，移民。",
+      "translation": "这句话里 migration 的意思是：迁移，移民。",
       "tactic": "按文化社会场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6204,7 +6204,7 @@
       "category": "话题场景词",
       "subcategory": "健康场景",
       "sentence": "The word 'nutrition' is useful in IELTS reading and writing.",
-      "translation": "nutrition 的核心意思是：营养。",
+      "translation": "这句话里 nutrition 的意思是：营养。",
       "tactic": "按健康场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6219,7 +6219,7 @@
       "category": "话题场景词",
       "subcategory": "工作场景",
       "sentence": "The word 'promotion' is useful in IELTS reading and writing.",
-      "translation": "promotion 的核心意思是：晋升。",
+      "translation": "这句话里 promotion 的意思是：晋升。",
       "tactic": "按工作场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6234,7 +6234,7 @@
       "category": "话题场景词",
       "subcategory": "环境场景",
       "sentence": "The word 'renewable' is useful in IELTS reading and writing.",
-      "translation": "renewable 的核心意思是：可再生的。",
+      "translation": "这句话里 renewable 的意思是：可再生的。",
       "tactic": "按环境场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6249,7 +6249,7 @@
       "category": "话题场景词",
       "subcategory": "文化社会",
       "sentence": "The word 'tradition' is useful in IELTS reading and writing.",
-      "translation": "tradition 的核心意思是：传统。",
+      "translation": "这句话里 tradition 的意思是：传统。",
       "tactic": "按文化社会场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6264,7 +6264,7 @@
       "category": "话题场景词",
       "subcategory": "健康场景",
       "sentence": "The word 'treatment' is useful in IELTS reading and writing.",
-      "translation": "treatment 的核心意思是：治疗。",
+      "translation": "这句话里 treatment 的意思是：治疗。",
       "tactic": "按健康场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6279,7 +6279,7 @@
       "category": "话题场景词",
       "subcategory": "健康场景",
       "sentence": "The word 'wellbeing' is useful in IELTS reading and writing.",
-      "translation": "wellbeing 的核心意思是：健康幸福。",
+      "translation": "这句话里 wellbeing 的意思是：健康幸福。",
       "tactic": "按健康场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6294,7 +6294,7 @@
       "category": "话题场景词",
       "subcategory": "工作场景",
       "sentence": "The word 'workforce' is useful in IELTS reading and writing.",
-      "translation": "workforce 的核心意思是：劳动力。",
+      "translation": "这句话里 workforce 的意思是：劳动力。",
       "tactic": "按工作场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6309,7 +6309,7 @@
       "category": "话题场景词",
       "subcategory": "旅游场景",
       "sentence": "The word 'attraction' is useful in IELTS reading and writing.",
-      "translation": "attraction 的核心意思是：景点。",
+      "translation": "这句话里 attraction 的意思是：景点。",
       "tactic": "按旅游场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6324,7 +6324,7 @@
       "category": "话题场景词",
       "subcategory": "科技场景",
       "sentence": "The word 'automation' is useful in IELTS reading and writing.",
-      "translation": "automation 的核心意思是：自动化。",
+      "translation": "这句话里 automation 的意思是：自动化。",
       "tactic": "按科技场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6339,7 +6339,7 @@
       "category": "话题场景词",
       "subcategory": "媒体场景",
       "sentence": "The word 'censorship' is useful in IELTS reading and writing.",
-      "translation": "censorship 的核心意思是：审查制度。",
+      "translation": "这句话里 censorship 的意思是：审查制度。",
       "tactic": "按媒体场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6354,7 +6354,7 @@
       "category": "话题场景词",
       "subcategory": "城市交通",
       "sentence": "The word 'congestion' is useful in IELTS reading and writing.",
-      "translation": "congestion 的核心意思是：拥堵。",
+      "translation": "这句话里 congestion 的意思是：拥堵。",
       "tactic": "按城市交通场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6369,7 +6369,7 @@
       "category": "话题场景词",
       "subcategory": "教育场景",
       "sentence": "The word 'curriculum' is useful in IELTS reading and writing.",
-      "translation": "curriculum 的核心意思是：课程。",
+      "translation": "这句话里 curriculum 的意思是：课程。",
       "tactic": "按教育场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6384,7 +6384,7 @@
       "category": "话题场景词",
       "subcategory": "教育场景",
       "sentence": "The word 'discipline' is useful in IELTS reading and writing.",
-      "translation": "discipline 的核心意思是：纪律。",
+      "translation": "这句话里 discipline 的意思是：纪律。",
       "tactic": "按教育场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6399,7 +6399,7 @@
       "category": "话题场景词",
       "subcategory": "工作场景",
       "sentence": "The word 'employment' is useful in IELTS reading and writing.",
-      "translation": "employment 的核心意思是：就业。",
+      "translation": "这句话里 employment 的意思是：就业。",
       "tactic": "按工作场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6414,7 +6414,7 @@
       "category": "话题场景词",
       "subcategory": "政府法律",
       "sentence": "The word 'government' is useful in IELTS reading and writing.",
-      "translation": "government 的核心意思是：政府。",
+      "translation": "这句话里 government 的意思是：政府。",
       "tactic": "按政府法律场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6429,7 +6429,7 @@
       "category": "话题场景词",
       "subcategory": "健康场景",
       "sentence": "The word 'healthcare' is useful in IELTS reading and writing.",
-      "translation": "healthcare 的核心意思是：医疗保健。",
+      "translation": "这句话里 healthcare 的意思是：医疗保健。",
       "tactic": "按健康场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6444,7 +6444,7 @@
       "category": "话题场景词",
       "subcategory": "媒体场景",
       "sentence": "The word 'journalism' is useful in IELTS reading and writing.",
-      "translation": "journalism 的核心意思是：新闻业。",
+      "translation": "这句话里 journalism 的意思是：新闻业。",
       "tactic": "按媒体场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6459,7 +6459,7 @@
       "category": "话题场景词",
       "subcategory": "工作场景",
       "sentence": "The word 'occupation' is useful in IELTS reading and writing.",
-      "translation": "occupation 的核心意思是：职业。",
+      "translation": "这句话里 occupation 的意思是：职业。",
       "tactic": "按工作场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6474,7 +6474,7 @@
       "category": "话题场景词",
       "subcategory": "城市交通",
       "sentence": "The word 'pedestrian' is useful in IELTS reading and writing.",
-      "translation": "pedestrian 的核心意思是：行人。",
+      "translation": "这句话里 pedestrian 的意思是：行人。",
       "tactic": "按城市交通场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6489,7 +6489,7 @@
       "category": "话题场景词",
       "subcategory": "政府法律",
       "sentence": "The word 'punishment' is useful in IELTS reading and writing.",
-      "translation": "punishment 的核心意思是：惩罚。",
+      "translation": "这句话里 punishment 的意思是：惩罚。",
       "tactic": "按政府法律场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6504,7 +6504,7 @@
       "category": "话题场景词",
       "subcategory": "工作场景",
       "sentence": "The word 'redundancy' is useful in IELTS reading and writing.",
-      "translation": "redundancy 的核心意思是：裁员。",
+      "translation": "这句话里 redundancy 的意思是：裁员。",
       "tactic": "按工作场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6519,7 +6519,7 @@
       "category": "话题场景词",
       "subcategory": "科技场景",
       "sentence": "The word 'technology' is useful in IELTS reading and writing.",
-      "translation": "technology 的核心意思是：技术。",
+      "translation": "这句话里 technology 的意思是：技术。",
       "tactic": "按科技场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6534,7 +6534,7 @@
       "category": "话题场景词",
       "subcategory": "媒体场景",
       "sentence": "The word 'advertising' is useful in IELTS reading and writing.",
-      "translation": "advertising 的核心意思是：广告。",
+      "translation": "这句话里 advertising 的意思是：广告。",
       "tactic": "按媒体场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6549,7 +6549,7 @@
       "category": "话题场景词",
       "subcategory": "政府法律",
       "sentence": "The word 'citizenship' is useful in IELTS reading and writing.",
-      "translation": "citizenship 的核心意思是：公民身份。",
+      "translation": "这句话里 citizenship 的意思是：公民身份。",
       "tactic": "按政府法律场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6564,7 +6564,7 @@
       "category": "话题场景词",
       "subcategory": "旅游场景",
       "sentence": "The word 'destination' is useful in IELTS reading and writing.",
-      "translation": "destination 的核心意思是：目的地。",
+      "translation": "这句话里 destination 的意思是：目的地。",
       "tactic": "按旅游场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6579,7 +6579,7 @@
       "category": "话题场景词",
       "subcategory": "旅游场景",
       "sentence": "The word 'hospitality' is useful in IELTS reading and writing.",
-      "translation": "hospitality 的核心意思是：款待。",
+      "translation": "这句话里 hospitality 的意思是：款待。",
       "tactic": "按旅游场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6594,7 +6594,7 @@
       "category": "话题场景词",
       "subcategory": "教育场景",
       "sentence": "The word 'scholarship' is useful in IELTS reading and writing.",
-      "translation": "scholarship 的核心意思是：奖学金。",
+      "translation": "这句话里 scholarship 的意思是：奖学金。",
       "tactic": "按教育场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6609,7 +6609,7 @@
       "category": "话题场景词",
       "subcategory": "环境场景",
       "sentence": "The word 'biodiversity' is useful in IELTS reading and writing.",
-      "translation": "biodiversity 的核心意思是：生物多样性。",
+      "translation": "这句话里 biodiversity 的意思是：生物多样性。",
       "tactic": "按环境场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6624,7 +6624,7 @@
       "category": "话题场景词",
       "subcategory": "环境场景",
       "sentence": "The word 'conservation' is useful in IELTS reading and writing.",
-      "translation": "conservation 的核心意思是：保护，保存。",
+      "translation": "这句话里 conservation 的意思是：保护，保存。",
       "tactic": "按环境场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6639,7 +6639,7 @@
       "category": "话题场景词",
       "subcategory": "工作场景",
       "sentence": "The word 'remuneration' is useful in IELTS reading and writing.",
-      "translation": "remuneration 的核心意思是：薪酬。",
+      "translation": "这句话里 remuneration 的意思是：薪酬。",
       "tactic": "按工作场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6654,7 +6654,7 @@
       "category": "话题场景词",
       "subcategory": "科技场景",
       "sentence": "The word 'surveillance' is useful in IELTS reading and writing.",
-      "translation": "surveillance 的核心意思是：监控。",
+      "translation": "这句话里 surveillance 的意思是：监控。",
       "tactic": "按科技场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6669,7 +6669,7 @@
       "category": "话题场景词",
       "subcategory": "城市交通",
       "sentence": "The word 'urbanisation' is useful in IELTS reading and writing.",
-      "translation": "urbanisation 的核心意思是：城市化。",
+      "translation": "这句话里 urbanisation 的意思是：城市化。",
       "tactic": "按城市交通场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6684,7 +6684,7 @@
       "category": "话题场景词",
       "subcategory": "旅游场景",
       "sentence": "The word 'accommodation' is useful in IELTS reading and writing.",
-      "translation": "accommodation 的核心意思是：住宿。",
+      "translation": "这句话里 accommodation 的意思是：住宿。",
       "tactic": "按旅游场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6699,7 +6699,7 @@
       "category": "话题场景词",
       "subcategory": "教育场景",
       "sentence": "The word 'qualification' is useful in IELTS reading and writing.",
-      "translation": "qualification 的核心意思是：资格，学历。",
+      "translation": "这句话里 qualification 的意思是：资格，学历。",
       "tactic": "按教育场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6714,7 +6714,7 @@
       "category": "话题场景词",
       "subcategory": "媒体场景",
       "sentence": "The word 'misinformation' is useful in IELTS reading and writing.",
-      "translation": "misinformation 的核心意思是：错误信息。",
+      "translation": "这句话里 misinformation 的意思是：错误信息。",
       "tactic": "按媒体场景场景记中文核心义，再配一个自己的例句。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6729,7 +6729,7 @@
       "category": "逻辑信号词",
       "subcategory": "递进",
       "sentence": "Besides, the second idea changes how we understand the first one.",
-      "translation": "我们可以用 besides 表示逻辑关系，核心意思是：此外，而且。",
+      "translation": "这句话使用 besides 表示逻辑关系，意思是：此外，而且。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6744,7 +6744,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "We can use 'lead to' to express the idea more clearly.",
-      "translation": "我们可以用 lead to 表示逻辑关系，核心意思是：导致，通向。",
+      "translation": "这句话使用 lead to 表示逻辑关系，意思是：导致，通向。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6759,7 +6759,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "Although, the second idea changes how we understand the first one.",
-      "translation": "我们可以用 although 表示逻辑关系，核心意思是：尽管，虽然。",
+      "translation": "这句话使用 although 表示逻辑关系，意思是：尽管，虽然。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6774,7 +6774,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "We can use 'owing to' to express the idea more clearly.",
-      "translation": "我们可以用 owing to 表示逻辑关系，核心意思是：由于。",
+      "translation": "这句话使用 owing to 表示逻辑关系，意思是：由于。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6789,7 +6789,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "We can use 'result in' to express the idea more clearly.",
-      "translation": "我们可以用 result in 表示逻辑关系，核心意思是：导致。",
+      "translation": "这句话使用 result in 表示逻辑关系，意思是：导致。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6804,7 +6804,7 @@
       "category": "逻辑信号词",
       "subcategory": "递进",
       "sentence": "Similarly, the second idea changes how we understand the first one.",
-      "translation": "我们可以用 similarly 表示逻辑关系，核心意思是：类似地。",
+      "translation": "这句话使用 similarly 表示逻辑关系，意思是：类似地。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6819,7 +6819,7 @@
       "category": "逻辑信号词",
       "subcategory": "限制条件",
       "sentence": "We can use 'as long as' to express the idea more clearly.",
-      "translation": "我们可以用 as long as 表示逻辑关系，核心意思是：只要。",
+      "translation": "这句话使用 as long as 表示逻辑关系，意思是：只要。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6834,7 +6834,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "We can use 'because of' to express the idea more clearly.",
-      "translation": "我们可以用 because of 表示逻辑关系，核心意思是：因为，由于。",
+      "translation": "这句话使用 because of 表示逻辑关系，意思是：因为，由于。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6849,7 +6849,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "Accordingly, the second idea changes how we understand the first one.",
-      "translation": "我们可以用 accordingly 表示逻辑关系，核心意思是：因此，相应地。",
+      "translation": "这句话使用 accordingly 表示逻辑关系，意思是：因此，相应地。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6864,7 +6864,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "We can use 'as a result' to express the idea more clearly.",
-      "translation": "我们可以用 as a result 表示逻辑关系，核心意思是：结果，因此。",
+      "translation": "这句话使用 as a result 表示逻辑关系，意思是：结果，因此。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6879,7 +6879,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "We can use 'by contrast' to express the idea more clearly.",
-      "translation": "我们可以用 by contrast 表示逻辑关系，核心意思是：相比之下。",
+      "translation": "这句话使用 by contrast 表示逻辑关系，意思是：相比之下。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6894,7 +6894,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "We can use 'even though' to express the idea more clearly.",
-      "translation": "我们可以用 even though 表示逻辑关系，核心意思是：即使，尽管。",
+      "translation": "这句话使用 even though 表示逻辑关系，意思是：即使，尽管。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6909,7 +6909,7 @@
       "category": "逻辑信号词",
       "subcategory": "举例",
       "sentence": "We can use 'for example' to express the idea more clearly.",
-      "translation": "我们可以用 for example 表示逻辑关系，核心意思是：例如。",
+      "translation": "这句话使用 for example 表示逻辑关系，意思是：例如。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6924,7 +6924,7 @@
       "category": "逻辑信号词",
       "subcategory": "递进",
       "sentence": "We can use 'in addition' to express the idea more clearly.",
-      "translation": "我们可以用 in addition 表示逻辑关系，核心意思是：此外。",
+      "translation": "这句话使用 in addition 表示逻辑关系，意思是：此外。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6939,7 +6939,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "We can use 'in contrast' to express the idea more clearly.",
-      "translation": "我们可以用 in contrast 表示逻辑关系，核心意思是：相比之下。",
+      "translation": "这句话使用 in contrast 表示逻辑关系，意思是：相比之下。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6954,7 +6954,7 @@
       "category": "逻辑信号词",
       "subcategory": "限定范围",
       "sentence": "We can use 'in terms of' to express the idea more clearly.",
-      "translation": "我们可以用 in terms of 表示逻辑关系，核心意思是：就……而言。",
+      "translation": "这句话使用 in terms of 表示逻辑关系，意思是：就……而言。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6969,7 +6969,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "Nonetheless, the second idea changes how we understand the first one.",
-      "translation": "我们可以用 nonetheless 表示逻辑关系，核心意思是：尽管如此。",
+      "translation": "这句话使用 nonetheless 表示逻辑关系，意思是：尽管如此。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6984,7 +6984,7 @@
       "category": "逻辑信号词",
       "subcategory": "举例",
       "sentence": "We can use 'for instance' to express the idea more clearly.",
-      "translation": "我们可以用 for instance 表示逻辑关系，核心意思是：例如。",
+      "translation": "这句话使用 for instance 表示逻辑关系，意思是：例如。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -6999,7 +6999,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "We can use 'give rise to' to express the idea more clearly.",
-      "translation": "我们可以用 give rise to 表示逻辑关系，核心意思是：引起，导致。",
+      "translation": "这句话使用 give rise to 表示逻辑关系，意思是：引起，导致。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -7014,7 +7014,7 @@
       "category": "逻辑信号词",
       "subcategory": "强调",
       "sentence": "Specifically, the second idea changes how we understand the first one.",
-      "translation": "我们可以用 specifically 表示逻辑关系，核心意思是：具体来说。",
+      "translation": "这句话使用 specifically 表示逻辑关系，意思是：具体来说。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -7029,7 +7029,7 @@
       "category": "逻辑信号词",
       "subcategory": "强调",
       "sentence": "We can use 'in particular' to express the idea more clearly.",
-      "translation": "我们可以用 in particular 表示逻辑关系，核心意思是：尤其，特别是。",
+      "translation": "这句话使用 in particular 表示逻辑关系，意思是：尤其，特别是。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -7044,7 +7044,7 @@
       "category": "逻辑信号词",
       "subcategory": "限制条件",
       "sentence": "We can use 'provided that' to express the idea more clearly.",
-      "translation": "我们可以用 provided that 表示逻辑关系，核心意思是：只要，如果。",
+      "translation": "这句话使用 provided that 表示逻辑关系，意思是：只要，如果。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -7059,7 +7059,7 @@
       "category": "逻辑信号词",
       "subcategory": "限定范围",
       "sentence": "We can use 'with regard to' to express the idea more clearly.",
-      "translation": "我们可以用 with regard to 表示逻辑关系，核心意思是：关于，就……而言。",
+      "translation": "这句话使用 with regard to 表示逻辑关系，意思是：关于，就……而言。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -7074,7 +7074,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "We can use 'on the contrary' to express the idea more clearly.",
-      "translation": "我们可以用 on the contrary 表示逻辑关系，核心意思是：相反。",
+      "translation": "这句话使用 on the contrary 表示逻辑关系，意思是：相反。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -7089,7 +7089,7 @@
       "category": "逻辑信号词",
       "subcategory": "因果",
       "sentence": "We can use 'as a consequence' to express the idea more clearly.",
-      "translation": "我们可以用 as a consequence 表示逻辑关系，核心意思是：结果，因此。",
+      "translation": "这句话使用 as a consequence 表示逻辑关系，意思是：结果，因此。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -7104,7 +7104,7 @@
       "category": "逻辑信号词",
       "subcategory": "递进",
       "sentence": "We can use 'not only but also' to express the idea more clearly.",
-      "translation": "我们可以用 not only but also 表示逻辑关系，核心意思是：不仅……而且……。",
+      "translation": "这句话使用 not only but also 表示逻辑关系，意思是：不仅……而且……。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"
@@ -7119,7 +7119,7 @@
       "category": "逻辑信号词",
       "subcategory": "转折",
       "sentence": "We can use 'on the other hand' to express the idea more clearly.",
-      "translation": "我们可以用 on the other hand 表示逻辑关系，核心意思是：另一方面。",
+      "translation": "这句话使用 on the other hand 表示逻辑关系，意思是：另一方面。",
       "tactic": "先判断它标记的是转折、因果、递进还是限制，再看前后句关系。",
       "source": "独立考试词库",
       "priority": "高"

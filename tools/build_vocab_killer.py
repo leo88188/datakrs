@@ -80,6 +80,72 @@ MANUAL = [
     ("back", "v.", "支持", "同义替换词组", "support", "The proposal is backed by recent research.", "support = back = advocate"),
 ]
 
+MANUAL_TRANSLATIONS = {
+    "however": "这个方案很有吸引力；不过，它的长期成本仍然不确定。",
+    "nevertheless": "证据还有限；尽管如此，这个趋势仍然值得注意。",
+    "conversely": "城市居民可能会受益；相反，农村社区可能会被忽视。",
+    "despite": "尽管增长很快，这个行业仍然面临劳动力短缺。",
+    "whereas": "有些人重视稳定，而另一些人更喜欢灵活性。",
+    "contrary": "和很多人的看法相反，远程办公并不总是能提高生产率。",
+    "consequently": "这项政策解释得不好；因此，公众信任下降了。",
+    "hence": "证据并不完整；因此，还需要进一步研究。",
+    "thus": "这个系统减少了人工操作，从而提高了效率。",
+    "therefore": "这些数据前后不一致；所以，这个结论应该更谨慎。",
+    "contribute to": "规划不佳可能会导致交通拥堵。",
+    "attribute to": "这种增长通常被归因于更好的医疗服务。",
+    "furthermore": "这个计划负担得起；而且，它也容易执行。",
+    "moreover": "这种方法节省时间；此外，它还能减少错误。",
+    "additionally": "另外，这个项目也支持弱势学生。",
+    "likewise": "家长需要指导；同样，老师也需要实际支持。",
+    "provided": "只要老师使用得当，技术就能改善学习。",
+    "unless": "除非考虑本地需求，否则这项改革会失败。",
+    "given": "考虑到预算有限，这个项目应该聚焦最基本的部分。",
+    "insofar as": "只要这项政策能保护弱势群体，它就是有用的。",
+    "facilitate": "数字工具可以让不同部门之间的沟通更方便。",
+    "hinder": "过度监管可能会阻碍创新。",
+    "restrict": "严格的规则可能会限制个人选择。",
+    "promote": "政府应该推动更健康的生活方式。",
+    "diminish": "自动化可能会减少对重复性劳动力的需求。",
+    "enhance": "好的设计可以提升用户体验。",
+    "persist": "即使经济增长，收入不平等也可能继续存在。",
+    "emerge": "数字经济中出现了新的就业形式。",
+    "maintain": "一些研究者认为，早期干预非常重要。",
+    "neglect": "很多公司忽视了员工的长期发展。",
+    "modify": "这个方法应该根据年龄较小的学习者进行调整。",
+    "alter": "城市化会改变传统生活方式。",
+    "reveal": "这项调查显示，想法和实际行为之间存在差距。",
+    "indicate": "这些数字表明，情况在稳定下降。",
+    "demonstrate": "这个实验证明了细致规划的价值。",
+    "assume": "很多政策都假设人会理性行动。",
+    "confirm": "这些结果证实了早先的发现。",
+    "underestimate": "人们经常低估沟通不畅带来的成本。",
+    "significant": "这项政策对农村地区产生了显著影响。",
+    "substantial": "这个项目需要大量投资。",
+    "marginal": "这种改善非常小。",
+    "inevitable": "某种程度的变化是不可避免的。",
+    "feasible": "这个解决方案可行，但成本很高。",
+    "controversial": "监控技术的使用仍然有争议。",
+    "adequate": "很多学校缺乏足够的资金。",
+    "insufficient": "证据不足会让这个说法缺乏说服力。",
+    "prevalent": "网上购物越来越普遍。",
+    "predominant": "汽车仍然是主要的交通方式。",
+    "phenomenon": "这种现象在大城市很常见。",
+    "tendency": "人们有一种过度依赖技术的倾向。",
+    "factor": "成本是家庭决策中的一个重要因素。",
+    "obstacle": "缺乏培训是一个严重障碍。",
+    "constraint": "预算限制可能会推迟改革。",
+    "consequence": "其中一个后果是公众信心下降。",
+    "perspective": "从经济角度看，这个计划有风险。",
+    "motivation": "金钱奖励可能会提高积极性。",
+    "deficiency": "这份报告指出了几个不足之处。",
+    "vital": "公众信任对有效治理至关重要。",
+    "crucial": "早期诊断非常关键。",
+    "transform": "数字平台已经改变了零售业。",
+    "cut down": "家庭可以减少不必要的浪费。",
+    "advocate": "一些专家主张采用更严格的标准。",
+    "back": "最近的研究支持这项提议。",
+}
+
 CATEGORY_RULES = [
     ("逻辑信号词", ["however", "therefore", "whereas", "although", "unless", "thus", "because", "despite", "due", "consequently", "hence", "furthermore", "moreover", "given", "while"]),
     ("核心动词", ["v.", "vi.", "vt."]),
@@ -476,7 +542,7 @@ def parse_lines(text: str, category: str) -> list[dict]:
                 "category": category,
                 "subcategory": subcategory,
                 "sentence": example_for(term, category),
-                "translation": translation_for(term, definition, category),
+                "translation": MANUAL_TRANSLATIONS.get(term, translation_for(term, definition, category)),
                 "tactic": tactic_for(category, subcategory),
                 "source": "独立考试词库",
                 "priority": "高",
@@ -500,7 +566,7 @@ def example_for(term: str, category: str) -> str:
 def translation_for(term: str, definition: str, category: str) -> str:
     clean_definition = definition.split("；", 1)[0]
     if category == "逻辑信号词":
-        return f"我们可以用 {term} 表示逻辑关系，核心意思是：{clean_definition}。"
+        return f"这句话使用 {term} 表示逻辑关系，意思是：{clean_definition}。"
     if category == "核心动词":
         return f"{term} 是常见动词，意思是：{clean_definition}。"
     if category == "评价形容词":
@@ -509,7 +575,7 @@ def translation_for(term: str, definition: str, category: str) -> str:
         return f"{term} 是常见抽象名词，意思是：{clean_definition}。"
     if category == "同义替换词组":
         return f"{term} 属于同义替换表达，意思是：{clean_definition}。"
-    return f"{term} 的核心意思是：{clean_definition}。"
+    return f"这句话里 {term} 的意思是：{clean_definition}。"
 
 
 def tactic_for(category: str, subcategory: str) -> str:
@@ -725,7 +791,7 @@ def main() -> None:
                 "category": category,
                 "subcategory": subcategory,
                 "sentence": sentence,
-                "translation": translation_for(term, definition, category),
+                "translation": MANUAL_TRANSLATIONS.get(term, translation_for(term, definition, category)),
                 "tactic": tactic,
                 "source": "手工必备",
                 "priority": "最高",
