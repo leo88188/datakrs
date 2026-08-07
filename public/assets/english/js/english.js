@@ -577,6 +577,10 @@
           window.location.href = "/english-skills.html";
           return;
         }
+        if (button.dataset.panelTrigger === "assessment") {
+          window.location.href = "/english-assessment.html";
+          return;
+        }
         if (button.dataset.panelTrigger === "sentences") {
           window.location.href = "/english-sentences.html";
           return;
